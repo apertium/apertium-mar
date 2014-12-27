@@ -1,0 +1,23 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+
+LIST N = n ; 
+LIST Obl = obl ; 
+LIST Post = post ; 
+LIST Adj = adj;
+LIST Adv = adv;
+LIST Verb = vblex;
+LIST Stem = stem ; 
+LIST Vaux = vaux ; 
+LIST Vblex = vblex ; 
+LIST Vbser = vbser ;
+LIST Det = det ;
+LIST Conj = cnjcoo;
+LIST ConjAdv = cnjadv;
+LIST Prn = prn;
+
+SECTION
+
+SELECT N ;

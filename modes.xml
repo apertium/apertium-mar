@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="mar-morph">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="mar.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="mar-gener">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="mar.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="mar-tagger">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="mar.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="mar.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="mar-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="mar.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-mar.mar.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

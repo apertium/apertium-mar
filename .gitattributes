@@ -1,0 +1,14 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-mar.mar.acx -text
+/apertium-mar.mar.dix -text
+/apertium-mar.mar.rlx -text
+/apertium-mar.pc.in -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
