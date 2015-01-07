@@ -12,4 +12,5 @@
 /apertium-mar.post-mar.dix -text
 /autogen.sh -text
 /configure.ac -text
+/mar.prob -text svneol=unset#unset
 /modes.xml -text
