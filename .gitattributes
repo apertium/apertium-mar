@@ -9,6 +9,7 @@
 /apertium-mar.mar.dix -text
 /apertium-mar.mar.rlx -text
 /apertium-mar.pc.in -text
+/apertium-mar.post-mar.dix -text
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
