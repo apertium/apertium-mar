@@ -9,7 +9,6 @@
     <sdef n="preadv"  c="Pre-adverb"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="prn"     c="Pronoun . सर्वनाम"/>
-    <sdef n="post"    c="Postposition"/>
     <sdef n="ij"      c="Interjection"/>
 
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -676,12 +675,12 @@
     <e lm="प्राणी"><i>प्राण</i><par n="पक्ष/ी__n_m"/></e>
     <e lm="आज"><i>आज</i><par n="आज__n"/></e>
     <e lm="वातावरण"><i>वातावरण</i><par n="घर__n_nt"/></e>
-    <e lm="काल"><i>काल</i><par n="आज__n"/></e>बाहेर
+    <e lm="काल"><i>काल</i><par n="आज__n"/></e> 
     <e lm="बाहेर"><i>बाहेर</i><par n="आज__n"/></e>
     <e lm="वर्ष"><i>वर्ष</i><par n="वर्ष__n"/></e>
     <e lm="पाणी"><i>पाण</i><par n="पाण/ी__n"/></e>
     <e lm="डोळा"><i>डोळ</i><par n="डोळ/ा__n_m"/></e>
-    <e lm="मुल"><i>मुल</i><par n="घर__n_nt"/></e> चंद्र
+    <e lm="मुल"><i>मुल</i><par n="घर__n_nt"/></e> 
     <e lm="चंद्र"><i>चंद्र</i><par n="मेज__n_m"/></e>
 
     <!-- SECTION: Proper nouns -->
@@ -709,7 +708,7 @@
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
     <e lm="सध्या"><i>सध्या</i><par n="तिथे__adv"/></e>
-    <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>एकत्र
+    <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>
     <e lm="एकत्र"><i>एकत्र</i><par n="तिथे__adv"/></e>
     <e lm="का"><i>का</i><par n="कुठे__adv"/></e>
     <e lm="चटकन"><i>चटकन</i><par n="चटकन__adv"/></e>
@@ -726,6 +725,7 @@
     <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="लपणे"><i>लप</i><par n="शोध/णे__vblex"/></e>   
+
 <!--<e lm="आवडणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
     <e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
     <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
