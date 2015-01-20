@@ -596,7 +596,8 @@
       <e><p><l>तो</l><r>णे<s n="vblex"/><s n="pres"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ते</l><r>णे<s n="vblex"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>तात</l><r>णे<s n="vblex"/><s n="pres"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="fut"/><s n="pres"/><s n="f"/><s n="sp"/></r></p></e>   
+      <e><p><l>णार</l><r>णे<s n="vblex"/><s n="fut"/><s n="pres"/><s n="f"/><s n="sp"/></r></p></e>
+      <e><p><l>ल</l><r>णे<s n="vblex"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     
@@ -728,8 +729,9 @@
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="लपणे"><i>लप</i><par n="शोध/णे__vblex"/></e>   
 
-<!--<e lm="आवडणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
-    <e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
+    <e lm="आवडणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
+    <e lm="आणणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
+<!--<e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
     <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
     <e lm="संपणे"><i>संप</i><par n="विचार/णे__vblex"/></e>
     <e lm="पळणे"><i>पळ</i><par n="शोध/णे__vblex"/></e>
