@@ -432,6 +432,11 @@
       <e><p><l>्यांपुढे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
 
+    <pardef n="सोबत__n_m"> 
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l> ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>चा</l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Proper nouns -->
 
@@ -683,6 +688,9 @@
     <e lm="डोळा"><i>डोळ</i><par n="डोळ/ा__n_m"/></e>
     <e lm="मुल"><i>मुल</i><par n="घर__n_nt"/></e> 
     <e lm="चंद्र"><i>चंद्र</i><par n="मेज__n_m"/></e>
+    <e lm="सोबत"><i>सोबत</i><par n="सोबत__n_m"/></e>
+    <e lm="बाई"><i>बाई</i><par n="काजल__np"/></e>
+    <e lm="नाक"><i>नाक</i><par n="राम__np"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -691,13 +699,18 @@
     <e lm="गिरजा"><i>गिरजा</i><par n="राम__np"/></e>
     <e lm="नूरेंद्र"><i>नूरेंद्र</i><par n="राम__np"/></e>
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
+    
+    
+    
 
     <!-- SECTION: Adjectives -->
 
     <e lm="मोठा"><i>मोठ</i><par n="मोठ/ा__adj"/></e>
     <e lm="छान"><i>छान</i><par n="छान__adj"/></e>
+    <e lm="तीक्ष्ण"><i>तीक्ष्ण</i><par n="छान__adj"/></e>
     <e lm="जुना"><i>जुन</i><par n="मोठ/ा__adj"/></e>
-
+    <e lm="पातळ"><i>पातळ</i><par n="छान__adj"/></e>
+    <e lm="जाड">जाड<i></i><par n="लहान__adj"/></e>
     <e lm="गरम"><i>गरम</i><par n="छान__adj"/></e>
     <e lm="थंड"><i>थंड</i><par n="छान__adj"/></e>
     <e lm="लहान"><i>लहान</i><par n="छान__adj"/></e>
