@@ -591,6 +591,7 @@
       <e>       <p><l>ला</l><r>णे<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ला</l><r>णे<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>ला</l><r>णे<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ून</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e>       <p><l>तो</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -723,6 +724,7 @@
 
     <e lm="मोठा"><i>मोठ</i><par n="मोठ/ा__adj"/></e>
     <e lm="छान"><i>छान</i><par n="छान__adj"/></e>
+    <e lm="अचम्भित"><i>अचम्भित</i><par n="छान__adj"/></e>
     <e lm="तीक्ष्ण"><i>तीक्ष्ण</i><par n="छान__adj"/></e>
     <e lm="जुना"><i>जुन</i><par n="मोठ/ा__adj"/></e>
     <e lm="पातळ"><i>पातळ</i><par n="छान__adj"/></e>
@@ -757,6 +759,7 @@
     <e lm="मोजणे"><i>मोज</i><par n="शोध/णे__vblex"/></e>     
     <e lm="शकणे"><i>शक</i><par n="शोध/णे__vblex"/></e>
     <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>
+    <e lm="बघणे"><i>बघ</i><par n="झोप/णे__vblex"/></e>
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="लपणे"><i>लप</i><par n="शोध/णे__vblex"/></e>   
 
