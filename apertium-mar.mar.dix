@@ -135,6 +135,7 @@
     </pardef>
 
     <pardef n="त/े__prn_nt">
+      <e><p><l>ी</l><r>े<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>े</l><r>े<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>्याला</l><r>े<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>्याला</l><r>े<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -612,7 +613,10 @@
       <e><p><l>ल</l><r>णे<s n="vblex"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
-    
+    <!-- SECTION: Postpostions -->
+    <pardef n="दा__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Numerals -->
 
@@ -632,6 +636,8 @@
     <e lm="किंवा"><i>किंवा</i><par n="आणि__cnjcoo"/></e>
 
     <!-- SECTION: Postpositions -->
+    <e lm="दा"><i>दा</i><par n="दा__post"/></e>
+    <e lm="ली"><i>ली</i><par n="दा__post"/></e>
 
     <!-- SECTION: Pronouns -->
   
@@ -640,7 +646,8 @@
     <e lm="तो"><i>त</i><par n="त/ो__prn"/></e>
     <e lm="ती"><i>त</i><par n="त/ी__prn"/></e>
     <e lm="ते"><i>त</i><par n="त/े__prn"/></e>
-    <e lm="ते"><i>त</i><par n="त/े__prn_nt"/></e> 
+    <e lm="ते"><i>त</i><par n="त/े__prn_nt"/></e>
+    <e lm="हे"><i>ह</i><par n="त/े__prn_nt"/></e> 
     <e lm="तुम्ही"><i>तुम्ह</i><par n="तुम्ह/ी__prn_nt"/></e>
     <e lm="त्याचा"><i>त्या</i><par n="त/ो__prn"/></e>
     <e lm="तिचा"><i>ति</i><par n="त/ी__prn"/></e>
@@ -699,7 +706,7 @@
     <e lm="चेहरा"><i>चेहरा</i><par n="राम__np"/></e>
     <e lm="बाई"><i>बाई</i><par n="काजल__np"/></e>
     <e lm="नाक"><i>नाक</i><par n="राम__np"/></e>
-    <e lm="माह"><i>माह</i><par n="वर्ष__n"/></e>
+    <e lm="महिना"><i>महिन</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="रंग"><i>रंग</i><par n="वर्ष__n"/></e>
     
     <!-- SECTION: Proper nouns -->
@@ -709,8 +716,7 @@
     <e lm="गिरजा"><i>गिरजा</i><par n="राम__np"/></e>
     <e lm="नूरेंद्र"><i>नूरेंद्र</i><par n="राम__np"/></e>
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
-    
-    
+    <e lm="सुमित्रा"><i>सुमित्रा</i><par n="काजल__np"/></e>
     
 
     <!-- SECTION: Adjectives -->
@@ -755,12 +761,14 @@
     <e lm="लपणे"><i>लप</i><par n="शोध/णे__vblex"/></e>   
 
     <e lm="आवडणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
-    <e lm="आणणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
+    <e lm="आणणे"><i>आण</i><par n="आवड/णे__vblex"/></e>
+    <e lm="येणे"><i>ये</i><par n="आवड/णे__vblex"/></e>
 <!--<e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
     <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
     <e lm="संपणे"><i>संप</i><par n="विचार/णे__vblex"/></e>
     <e lm="पळणे"><i>पळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="करणे"><i>कर</i><par n="शोध/णे__vblex"/></e>  -->
+    
 
     <!-- SECTION: Interjections -->
 
