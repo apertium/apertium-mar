@@ -477,7 +477,12 @@
       <e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>्या</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
-
+     
+    <pardef n="गेल/ा__adj">
+       <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+       <e><p><l>्या</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
+    </pardef>
+   
     <pardef n="लहान__adj">
       <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ी</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -488,7 +493,7 @@
     <pardef n="छान__adj">
       <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
     </pardef>
-
+ 
     <!-- SECTION: Adverbs  -->
 
     <pardef n="खूप__preadv">
@@ -516,7 +521,9 @@
       <e><p><l>होता</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>होते</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
+  
 
+ 
     <pardef n="शोध/णे__vblex">
       <e>       <p><l>णे</l><r>णे<s n="vblex"/><s n="tv"/><s n="ger"/></r></p></e>
       <e>       <p><l>ेन</l><r>णे<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
@@ -692,6 +699,7 @@
     <e lm="चेहरा"><i>चेहरा</i><par n="राम__np"/></e>
     <e lm="बाई"><i>बाई</i><par n="काजल__np"/></e>
     <e lm="नाक"><i>नाक</i><par n="राम__np"/></e>
+    <e lm="माह"><i>माह</i><par n="वर्ष__n"/></e>
     <e lm="रंग"><i>रंग</i><par n="वर्ष__n"/></e>
     
     <!-- SECTION: Proper nouns -->
@@ -719,6 +727,7 @@
     <e lm="लहान"><i>लहान</i><par n="छान__adj"/></e>
     <e lm="फार"><i>फार</i><par n="छान__adj"/></e>
     <e lm="आनंदी"><i>आनंदी</i><par n="छान__adj"/></e>
+    <e lm="गेला"><i>गेल</i><par n="गेल/ा__adj"/></e>
 
     <!-- SECTION: Adverbs  -->
 
