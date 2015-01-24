@@ -522,9 +522,13 @@
       <e><p><l>होता</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>होते</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
-  
+    
+    <pardef n="झा__vbser">
+      <e><p><l>ला</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="m"/</r></p></e>
+      <e><p><l>ली</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
+      <e><p><l>ले</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
 
- 
     <pardef n="शोध/णे__vblex">
       <e>       <p><l>णे</l><r>णे<s n="vblex"/><s n="tv"/><s n="ger"/></r></p></e>
       <e>       <p><l>ेन</l><r>णे<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
@@ -639,6 +643,7 @@
     <!-- SECTION: Postpositions -->
     <e lm="दा"><i>दा</i><par n="दा__post"/></e>
     <e lm="ली"><i>ली</i><par n="दा__post"/></e>
+    <e lm="मधे"><i>मधे</i><par n="दा__post"/></e>
 
     <!-- SECTION: Pronouns -->
   
@@ -718,6 +723,7 @@
     <e lm="नूरेंद्र"><i>नूरेंद्र</i><par n="राम__np"/></e>
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
     <e lm="सुमित्रा"><i>सुमित्रा</i><par n="काजल__np"/></e>
+    <e lm="सूट"><i>सूट</i><par n="राम__np"/></e>
     
 
     <!-- SECTION: Adjectives -->
@@ -727,6 +733,7 @@
     <e lm="अचम्भित"><i>अचम्भित</i><par n="छान__adj"/></e>
     <e lm="तीक्ष्ण"><i>तीक्ष्ण</i><par n="छान__adj"/></e>
     <e lm="जुना"><i>जुन</i><par n="मोठ/ा__adj"/></e>
+    <e lm="काळा"><i>काळ</i><par n="मोठ/ा__adj"/></e>
     <e lm="पातळ"><i>पातळ</i><par n="छान__adj"/></e>
     <e lm="साँवलस"><i>साँवलस</i><par n="छान__adj"/></e>
     <e lm="जाड"><i>जाड</i><par n="लहान__adj"/></e>
@@ -754,6 +761,7 @@
     <!-- SECTION: Verbs -->
 
     <e lm="आहे"><i>आहे</i><par n="आहे/__vbser"/></e>
+    <e lm="झा"><i>झा</i><par n="झा__vbser"/></e>
     <e lm="शोधणे"><i>शोध</i><par n="शोध/णे__vblex"/></e>
     <e lm="विचारणे"><i>विचार</i><par n="शोध/णे__vblex"/></e>
     <e lm="मोजणे"><i>मोज</i><par n="शोध/णे__vblex"/></e>     
@@ -774,7 +782,6 @@
     
 
     <!-- SECTION: Interjections -->
-
 
     <e lm="नाही"><i>नाही</i><par n="नाही/__ij"/></e>
 
