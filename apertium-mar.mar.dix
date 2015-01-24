@@ -13,7 +13,8 @@
 
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="vblex"   c="Verb . क्रियापद"/>
-
+    <sdef n="vaux"    c="Auxiliary Verb"/>
+    
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
     <sdef n="m"       c="Masculine · पु:लिंग"/>
@@ -90,7 +91,6 @@
     <pardef n="आणि__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef> 
-    
 
     <!-- SECTION: Pronouns -->
 
@@ -472,7 +472,6 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="gen"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="abl"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>-->
-    </pardef>
 
     <!-- SECTION: Adjectives -->
   
@@ -519,6 +518,10 @@
 
 
     <!-- SECTION: Verbs -->
+    
+    <pardef n="केला__vaux">
+     <e><p><l></l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
 
     <pardef n="आहे/__vbser">
       <e><p><l></l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -643,6 +646,7 @@
     <e lm="पण"><i>पण</i><par n="आणि__cnjcoo"/></e>
     <e lm="कडे"><i>कडे</i><par n="आणि__cnjcoo"/></e>
     <e lm="किंवा"><i>किंवा</i><par n="आणि__cnjcoo"/></e>
+    <e lm="कि"><i>कि</i><par n="आणि__cnjcoo"/></e>
 
     <!-- SECTION: Postpositions -->
     <e lm="दा"><i>दा</i><par n="दा__post"/></e>
@@ -688,7 +692,8 @@
    
     <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
-    <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e> 
+    <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e>
+    <e lm="मन"><i>मन</i><par n="घर__n_nt"/></e>
     <e lm="मांजर"><i>मांजर</i><par n="मांजर__n_f"/></e>
     <e lm="मुलगा"><i>मुल</i><par n="मुल/गा__n_m"/></e>
     <e lm="मुलगी"><i>मुल</i><par n="मुल/गी__n_f"/></e>
@@ -784,6 +789,9 @@
     <e lm="दिसणे"><i>दिस</i><par n="शोध/णे__vblex"/></e>
     <e lm="होणे"><i>हो</i><par n="शोध/णे__vblex"/></e>
     <e lm="घालणे"><i>घाल</i><par n="शोध/णे__vblex"/></e>
+    <e lm="विचारणे"><i>विचार</i><par n="शोध/णे__vblex"/></e>
+    <e lm="खाणे"><i>खा</i><par n="शोध/णे__vblex"/></e>
+
     
 <!--<e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
     <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
