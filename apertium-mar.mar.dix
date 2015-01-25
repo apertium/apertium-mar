@@ -472,6 +472,7 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="gen"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/><s n="abl"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>-->
+      </pardef>
 
     <!-- SECTION: Adjectives -->
   
@@ -531,7 +532,7 @@
     </pardef>
     
     <pardef n="झा__vbser">
-      <e><p><l>ला</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="m"/</r></p></e>
+      <e><p><l>ला</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="m"/></r></p></e>
       <e><p><l>ली</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="f"/></r></p></e>
       <e><p><l>ले</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
