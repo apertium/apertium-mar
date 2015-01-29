@@ -166,6 +166,20 @@
    
     
     <!-- SECTION: Nouns -->
+
+	<pardef n="अंड__n_nt">
+  	  <e><p><l></l>			<r><s n="n"/><s n="nt"><s n="sg"><s n="nom"></r></p></e>
+	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="acc"></r></p></e>
+	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="dat"></r></p></e>
+	  <e><p><l>्यामधून</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="abl"></r></p></e>
+	  <e><p><l>्यामधे</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="loc"></r></p></e>
+
+	  <e><p><l>ी</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="nom"></r></p></e>
+	  <e><p><l>्यांना</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="acc"></r></p></e>
+	  <e><p><l>्यांना</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="dat"></r></p></e>
+	  <e><p><l>्यानमधनं </l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="abl"></r></p></e>
+	  <e><p><l>्यांमधे</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="loc"></r></p></e>	
+	</pardef>
  
     <pardef n="कुत्र/ा__n_m">
 
@@ -707,6 +721,10 @@
 
     <!-- SECTION: Nouns -->
    
+	<e lm="अंगठा"><i>अंगठ</i><par n="कुत्र/ा__n_m"/></e>
+	<e lm="अंड"><i>अंड</i><par n="अंड__n_nt"/></e>	
+	<e lm="अवतार"><i>अवतार</i><par n="हात__n_m"/></e>
+	<e lm="अस्वल"><i>अस्वल</i><par n="घर__n_nt"/></e>
     <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="बाग"><i>बाग</i><par n="बाग__n_f"/></e>
     <e lm="घर"><i>घर</i><par n="घर__n_nt"/></e>
