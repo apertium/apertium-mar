@@ -146,8 +146,8 @@
     </pardef> 
    
     <pardef n="आपल/ा__prn">
-      <e><p><l>ी</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="f"><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>ा</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="m"><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ी</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ा</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>्याला</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>्याला</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef> 
