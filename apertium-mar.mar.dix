@@ -156,7 +156,6 @@
       <e><p><l>ी</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="काय__prn">
       <e><p><l></l><r><s n="prn"/><s n="impers"/><s n="sp"/><s n="itg"/></r></p></e>
     </pardef>
 
@@ -551,7 +550,10 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-
+    <pardef n="पहिल्/यांदा__adv">
+      <e><p><l>यांदा</l><r>यांदा<s n="adv"></r></p></e>
+    </pardef>
+ 
     <!-- SECTION: Verbs -->
     
     <pardef n="केला__vaux">
@@ -678,10 +680,10 @@
     <!-- SECTION: Conjunctions -->
 
     <e lm="आणि"><i>आणि</i><par n="आणि__cnjcoo"/></e>
-    <e lm="पण"><i>पण</i><par n="आणि__cnjcoo"/></e>
     <e lm="कडे"><i>कडे</i><par n="आणि__cnjcoo"/></e>
-    <e lm="किंवा"><i>किंवा</i><par n="आणि__cnjcoo"/></e>
     <e lm="कि"><i>कि</i><par n="आणि__cnjcoo"/></e>
+    <e lm="किंवा"><i>किंवा</i><par n="आणि__cnjcoo"/></e>
+    <e lm="पण"><i>पण</i><par n="आणि__cnjcoo"/></e>
 
     <!-- SECTION: Postpositions -->
     <e lm="कडे"><i>कडे</i><par n="दा__post"/></e>
@@ -782,6 +784,7 @@
     <e lm="गर्जना"><i>गर्जना</i><par n="स्व्यंपाक__np"/></e>
     <e lm="चाह"><i>चाह</i><par n="काजल__np"/></e>
     <e lm="चेटकीण"><i>चेटकीण</i><par n="काजल__np"/></e>
+    <e lm="दहाड"><i>दहाड</i><par n="स्व्यंपाक__np"/></e>
     <e lm="नूरेंद्र"><i>नूरेंद्र</i><par n="राम__np"/></e>
     <e lm="राम"><i>राम</i><par n="राम__np"/></e>
     <e lm="राहुल"><i>राहुल</i><par n="राम__np"/></e>
@@ -815,12 +818,14 @@
     <e lm="आत"><i>आत</i><par n="तिथे__adv"/></e>
     <e lm="एकत्र"><i>एकत्र</i><par n="तिथे__adv"/></e>
     <e lm="का"><i>का</i><par n="कुठे__adv"/></e>
-    <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>
+    <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>जेव्हा
     <e lm="खूप"><i>खूप</i><par n="खूप__preadv"/></e>
     <e lm="काळजीपूर्वक"><i>काळजीपूर्वक</i><par n="चटकन__adv"/></e>
     <e lm="चटकन"><i>चटकन</i><par n="चटकन__adv"/></e>
+    <e lm="जेव्हा"><i>जेव्हा</i><par n="कुठे__adv"/></e>
     <e lm="तिथे"><i>तिथे</i><par n="तिथे__adv"/></e>
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
+    <e lm="पहिल्यांदा"><i>पहिल्</i><par n="पहिल्/यांदा__adv"/></e>
     <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>
     <e lm="लवकर"><i>लवकर</i><par n="खूप__preadv"/></e>
     <e lm="सध्या"><i>सध्या</i><par n="तिथे__adv"/></e>    
@@ -837,12 +842,14 @@
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="घालणे"><i>घाल</i><par n="शोध/णे__vblex"/></e>
     <e lm="झा"><i>झा</i><par n="झा__vbser"/></e>
-    <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>  
+    <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>
+    <e lm="थांबणे"><i>थांब</i><par n="झोप/णे__vblex"/></e>  
     <e lm="दिसणे"><i>दिस</i><par n="शोध/णे__vblex"/></e>
     <e lm="धरणे"><i>धर</i><par n="झोप/णे__vblex"/></e>
     <e lm="पडणे"><i>पड</i><par n="झोप/णे__vblex"/></e>
     <e lm="बघणे"><i>बघ</i><par n="झोप/णे__vblex"/></e>
     <e lm="बनणे"><i>बन</i><par n="झोप/णे__vblex"/></e>
+    <e lm="मारणे"><i>मार</i><par n="झोप/णे__vblex"/></e>
     <e lm="मोजणे"><i>मोज</i><par n="शोध/णे__vblex"/></e>
     <e lm="येणे"><i>ये</i><par n="आवड/णे__vblex"/></e>
     <e lm="रडणे"><i>रड</i><par n="झोप/णे__vblex"/></e>
