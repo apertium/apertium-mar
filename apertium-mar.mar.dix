@@ -574,6 +574,7 @@
     </pardef>
 
     <pardef n="शोध/णे__vblex">
+      <e>       <p><l></l><r>णे<s n="vblex"/><s n="tv"/></r></p></e>
       <e>       <p><l>णे</l><r>णे<s n="vblex"/><s n="tv"/><s n="ger"/></r></p></e>
       <e>       <p><l>ेन</l><r>णे<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ेन</l><r>णे<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
@@ -778,6 +779,7 @@
 
     <!-- SECTION: Proper nouns -->
 
+    <e lm="आश्रू"><i>आश्रू</i><par n="स्व्यंपाक__np"/></e>
     <e lm="कप"><i>कप</i><par n="राम__np"/></e>
     <e lm="काजल"><i>काजल</i><par n="काजल__np"/></e>
     <e lm="गिरजा"><i>गिरजा</i><par n="राम__np"/></e>
@@ -798,6 +800,7 @@
     <e lm="अचम्भित"><i>अचम्भित</i><par n="छान__adj"/></e>
     <e lm="आनंदी"><i>आनंदी</i><par n="छान__adj"/></e>
     <e lm="काळा"><i>काळ</i><par n="मोठ/ा__adj"/></e>
+    <e lm="खोटा"><i>खोट</i><par n="मोठ/ा__adj"/></e>
     <e lm="गरम"><i>गरम</i><par n="छान__adj"/></e>
     <e lm="गेला"><i>गेल</i><par n="गेल/ा__adj"/></e>
     <e lm="छान"><i>छान</i><par n="छान__adj"/></e>
@@ -844,6 +847,7 @@
     <e lm="झा"><i>झा</i><par n="झा__vbser"/></e>
     <e lm="झोपणे"><i>झोप</i><par n="झोप/णे__vblex"/></e>
     <e lm="थांबणे"><i>थांब</i><par n="झोप/णे__vblex"/></e>  
+    <e lm="थांबवणे"><i>थांबव</i><par n="आवड/णे__vblex"/></e>
     <e lm="दिसणे"><i>दिस</i><par n="शोध/णे__vblex"/></e>
     <e lm="धरणे"><i>धर</i><par n="झोप/णे__vblex"/></e>
     <e lm="पडणे"><i>पड</i><par n="झोप/णे__vblex"/></e>
