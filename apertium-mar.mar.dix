@@ -168,17 +168,17 @@
     <!-- SECTION: Nouns -->
 
 	<pardef n="अंड__n_nt">
-  	  <e><p><l></l>			<r><s n="n"/><s n="nt"><s n="sg"><s n="nom"></r></p></e>
-	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="acc"></r></p></e>
-	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="dat"></r></p></e>
-	  <e><p><l>्यामधून</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="abl"></r></p></e>
-	  <e><p><l>्यामधे</l>	<r><s n="n"/><s n="nt"><s n="sg"><s n="loc"></r></p></e>
+  	  <e><p><l></l>			<r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	  <e><p><l>्याला</l>	<r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	  <e><p><l>्यामधून</l>	<r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
+	  <e><p><l>्यामधे</l>	<r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 
-	  <e><p><l>ी</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="nom"></r></p></e>
-	  <e><p><l>्यांना</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="acc"></r></p></e>
-	  <e><p><l>्यांना</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="dat"></r></p></e>
-	  <e><p><l>्यानमधनं </l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="abl"></r></p></e>
-	  <e><p><l>्यांमधे</l>	<r><s n="n"/><s n="nt"><s n="pl"><s n="loc"></r></p></e>	
+	  <e><p><l>ी</l>		<r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	  <e><p><l>्यांना</l>		<r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	  <e><p><l>्यांना</l>		<r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	  <e><p><l>्यानमधनं </l>	<r><s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
+	  <e><p><l>्यांमधे</l>	<r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>	
 	</pardef>
  
     <pardef n="कुत्र/ा__n_m">
@@ -721,10 +721,14 @@
 
     <!-- SECTION: Nouns -->
    
+	<e lm="अवतार"><i>अवतार</i><par n="हात__n_m"/></e>
+	<e lm="अस्वल"><i>अस्वल</i><par n="घर__n_nt"/></e>
     <e lm="आई"><i>आ</i><par n="आ/ई__n_f"/></e>
     <e lm="आज"><i>आज</i><par n="आज__n"/></e>
     <e lm="आवाज"><i>आवाज</i><par n="आवाज__n_m"/></e>
     <e lm="उत्तर"><i>उत्तर</i><par n="घर__n_nt"/></e>
+	<e lm="अंगठा"><i>अंगठ</i><par n="कुत्र/ा__n_m"/></e>
+	<e lm="अंड"><i>अंड</i><par n="अंड__n_nt"/></e>	
     <e lm="काल"><i>काल</i><par n="आज__n"/></e>
     <e lm="कुत्रा"><i>कुत्र</i><par n="कुत्र/ा__n_m"/></e>
     <e lm="खिडकी"><i>खिडक</i><par n="खिडक/ी__n_f"/></e>
