@@ -154,8 +154,6 @@
 
     <pardef n="तुम्ह/ी__prn_nt">
       <e><p><l>ी</l><r>ी<s n="prn"/><s n="pers"/><s n="p2"/><s n="mfn"/><s n="pl"/></r></p></e>
-    </pardef>
-
       <e><p><l></l><r><s n="prn"/><s n="impers"/><s n="sp"/><s n="itg"/></r></p></e>
     </pardef>
 
@@ -551,7 +549,7 @@
     </pardef>
 
     <pardef n="पहिल्/यांदा__adv">
-      <e><p><l>यांदा</l><r>यांदा<s n="adv"></r></p></e>
+      <e><p><l>यांदा</l><r>यांदा<s n="adv"/></r></p></e>
     </pardef>
  
     <!-- SECTION: Verbs -->
@@ -871,7 +869,7 @@
 <!--<e lm="पाहणे"><i>पाह</i><par n="आवड/णे__vblex"/></e> 
     <e lm="खाणे"><i>खा</i><par n="विचार/णे__vblex"/></e>
     <e lm="संपणे"><i>संप</i><par n="विचार/णे__vblex"/></e>
-    <e lm="पळणे"><i>पळ</i><par n="शोध/णे__vblex"/></e>
+    <e lm="पळणे"><i>पळ</i><par n="शोध/णे__vblex"<s/></e>
     <e lm="करणे"><i>कर</i><par n="शोध/णे__vblex"/></e>  -->
     
 
