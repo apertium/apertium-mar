@@ -158,7 +158,8 @@
     </pardef>
 
      <pardef n="कोण__prn">
-      <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="sp"/><s n="itg"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="impers"/><s n="sp"/><s n="p1"/><s n="itg"/></r></p></e>
+      <e><p><l>ीतरी</l><r><s n="prn"/><s n="impers"/><s n="p3"/><s n="mfn"/><s n="sp"/><s n="itg"/></r></p></e>
     </pardef>
    
     
@@ -848,6 +849,7 @@
     <e lm="ऐकणे"><i>ऐक</i><par n="झोप/णे__vblex"/></e>
     <e lm="करणे"><i>कर</i><par n="शोध/णे__vblex"/></e>
     <e lm="कळणे"><i>कळ</i><par n="झोप/णे__vblex"/></e>
+    <e lm="कापणे"><i>काप</i><par n="शोध/णे__vblex"/></e>
     <e lm="खाणे"><i>खा</i><par n="शोध/णे__vblex"/></e>
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="घालणे"><i>घाल</i><par n="शोध/णे__vblex"/></e>
