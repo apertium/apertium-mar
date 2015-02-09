@@ -160,6 +160,8 @@
      <pardef n="कोण__prn">
       <e><p><l></l><r><s n="prn"/><s n="impers"/><s n="sp"/><s n="p1"/><s n="itg"/></r></p></e>
       <e><p><l>ीतरी</l><r><s n="prn"/><s n="impers"/><s n="p3"/><s n="mfn"/><s n="sp"/><s n="itg"/></r></p></e>
+      <e><p><l>ाला</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ाला</l><r>ा<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
    
     
@@ -505,7 +507,6 @@
       <e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>्या</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
-    </pardef>
      
     <pardef n="गेल/ा__adj">
        <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -671,6 +672,7 @@
 
     <pardef n="एक__num">
       <e><p><l></l><r><s n="num"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>चा</l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
 
   </pardefs>
@@ -812,6 +814,8 @@
     <e lm="जुना"><i>जुन</i><par n="मोठ/ा__adj"/></e>
     <e lm="तीक्ष्ण"><i>तीक्ष्ण</i><par n="छान__adj"/></e>
     <e lm="थंड"><i>थंड</i><par n="छान__adj"/></e>
+    <e lm="दु:खा"><i>दु:ख</i><par n="मोठ/ा__adj"/></e>
+    <e lm="परका"><i>परक</i><par n="मोठ/ा__adj"/></e>
     <e lm="पातळ"><i>पातळ</i><par n="छान__adj"/></e>
     <e lm="पांढरा"><i>पांढर</i><par n="मोठ/ा__adj"/></e>
     <e lm="पुढे"><i>पुढ</i><par n="पुढ/े__adj"/></e>
@@ -822,8 +826,10 @@
 
     <!-- SECTION: Adverbs  -->
 
+    <e lm="अस"><i>अस</i><par n="तिथे__adv"/></e>
     <e lm="आत"><i>आत</i><par n="तिथे__adv"/></e>
     <e lm="एकत्र"><i>एकत्र</i><par n="तिथे__adv"/></e>
+    <e lm="कधी"><i>कधी</i><par n="तिथे__adv"/></e>
     <e lm="का"><i>का</i><par n="कुठे__adv"/></e>
     <e lm="कुठे"><i>कुठे</i><par n="कुठे__adv"/></e>
     <e lm="खूप"><i>खूप</i><par n="खूप__preadv"/></e>
