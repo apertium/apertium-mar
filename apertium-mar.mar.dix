@@ -404,7 +404,7 @@
     </pardef>
 
     <pardef n="पक्ष/ी__n_m"> 
-      <e><p><l></l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>्यात</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>्यातून</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>्याला</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -525,6 +525,9 @@
       <e><p><l>ला</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>कडे</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>पाशी</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>च</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>चा</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>चे</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
     </pardef>
 
 
@@ -924,7 +927,9 @@
     <e lm="खोटा"><i>खोट</i><par n="मोठ/ा__adj"/></e>
     <e lm="गरम"><i>गरम</i><par n="छान__adj"/></e>
     <e lm="गेला"><i>गेल</i><par n="गेल/ा__adj"/></e>
+    <e lm="चांगला"><i>चांगल</i><par n="मोठ/ा__adj"/></e>
     <e lm="छान"><i>छान</i><par n="छान__adj"/></e>
+    <e lm="छोटी"><i>छोटी</i><par n="छान__adj"/></e>
     <e lm="जाड"><i>जाड</i><par n="लहान__adj"/></e>
     <e lm="जुना"><i>जुन</i><par n="मोठ/ा__adj"/></e>
     <e lm="तीक्ष्ण"><i>तीक्ष्ण</i><par n="छान__adj"/></e>
@@ -982,6 +987,7 @@
     <e lm="खेळणे"><i>खेळ</i><par n="शोध/णे__vblex"/></e>
     <e lm="घालणे"><i>घाल</i><par n="शोध/णे__vblex"/></e>
     <e lm="घुसणे"><i>घुस</i><par n="झोप/णे__vblex"/></e>
+    <e lm="चालणे"><i>चाल</i><par n="झोप/णे__vblex"/></e>
     <e lm="चिकटणे"><i>चिकट</i><par n="झोप/णे__vblex"/></e>
     <e lm="जाणे"><i>जा</i><par n="जा/णे__vblex"/></e>
     <e lm="झा"><i>झा</i><par n="झा__vbser"/></e>
@@ -999,6 +1005,7 @@
     <e lm="बोलणे"><i>बोल</i><par n="झोप/णे__vblex"/></e>
     <e lm="मारणे"><i>मार</i><par n="झोप/णे__vblex"/></e>
     <e lm="मोजणे"><i>मोज</i><par n="शोध/णे__vblex"/></e>
+    <e lm="म्हणणे"><i>म्हण</i><par n="झोप/णे__vblex"/></e>
     <e lm="येणे"><i>ये</i><par n="आवड/णे__vblex"/></e>
     <e lm="रडणे"><i>रड</i><par n="झोप/णे__vblex"/></e>
     <e lm="लपणे"><i>लप</i><par n="शोध/णे__vblex"/></e>
