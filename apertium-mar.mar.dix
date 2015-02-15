@@ -212,12 +212,13 @@
       <e><p><l>्याला</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>्याहून</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>्यामधे</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-
+      <e><p><l>ासुध्दा</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>सुध्दा<s n="post"/></r></p></e>
       <e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>्यांहून</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>्यांमधे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>्यांशी</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="मांजर__n_f"> 
@@ -241,7 +242,7 @@
       <e><p><l>ातून</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
       <e><p><l>ासमोरच्या</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>समोर<s n="post"/></r></p></e>
 
       <e><p><l>े</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -249,7 +250,7 @@
       <e><p><l>ांतून</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ांना</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
     </pardef>
 
     <pardef n="बाग__n_f">  
@@ -259,8 +260,8 @@
       <e><p><l>ेला</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ेतून</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ेत</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ाबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ांबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
+      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
       <e><p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ांना</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ांनी</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="erg"/></r></p></e>
@@ -281,6 +282,7 @@
       <e><p><l>ांना</l><r>गा<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ांहून</l><r>गा<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ांमधे</l><r>गा<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ांशी</l><r>गा<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
          
     </pardef>
 
@@ -296,6 +298,7 @@
       <e><p><l>ींना</l><r>गी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ींहून</l><r>गी<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>ींमधे</l><r>गी<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>         
+      <e><p><l>ींशी</l><r>गी<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
     </pardef>
 
 
@@ -340,12 +343,15 @@
       <e><p><l>ीला</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ीतून</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ीमधे</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-
+      <e><p><l>ीचा</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ीच्या</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>्यांना</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>्यांना</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>्यांमधून</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r></p></e>
       <e><p><l>्यांमधे</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>    
+      <e><p><l>ीचे</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ीच्या</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
 
     <pardef n="हात__n_m"> 
@@ -354,8 +360,8 @@
       <e><p><l>ातून</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ाबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ांबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
+      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ांत</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>ांतून</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
@@ -382,8 +388,8 @@
       <e><p><l>ावरुन</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ाला</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ाबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ांबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
+      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ांवर</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>ांवरुन</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
@@ -492,8 +498,8 @@
       <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>्यांना</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>्यांपुढे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ाबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ांबरोबर</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/></r></p></e> 
+      <e><p><l>ाबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
+      <e><p><l>ांबरोबर</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>बरोबर<s n="post"/></r></p></e>
       <e><p><l>ासमोरच्या</l><r>ा<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/>समोर<s n="post"/></r></p></e>
       <e><p><l>ांसमोरच्या</l><r>ा<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/>समोर<s n="post"/></r></p></e>
     </pardef>
@@ -699,7 +705,8 @@
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>तात</l><r>णे<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e>       <p><l>ताना</l><r>णे<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ण्याची</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>    
+      <e>       <p><l>ायचा</l><r>णे<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ण्याची</l><r>णे<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>    
    </pardef>
 
     <pardef n="झोप/णे__vblex">
@@ -743,6 +750,7 @@
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>तात</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ायचा</l><r>णे<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
       <e>       <p><l>ण्याची</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
     
@@ -754,6 +762,8 @@
       <e><p><l>णार</l><r>णे<s n="vblex"/><s n="fut"/><s n="pres"/><s n="f"/><s n="sp"/></r></p></e>
       <e><p><l>ल</l><r>णे<s n="vblex"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ले</l><r>णे<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>ायचा</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l>ण्याची</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="जा/णे__vblex">
@@ -795,6 +805,7 @@
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>ते</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>तात</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ण्याची</l><r>णे<s n="vblex"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Postpositions -->
@@ -943,6 +954,7 @@
     <e lm="स्वतः"><i>स्वत</i><par n="स्वत/ः__n"/></e>
     <e lm="सोबत"><i>सोबत</i><par n="सोबत__n_mfn"/></e>
     <e lm="हनुवटी"><i>हनुवटी</i><par n="व्यक्ती__n_f"/></e>
+    <e lm="हवामान"><i>हवामान</i><par n="वर्ष__n"/></e>
     <e lm="हात"><i>हात</i><par n="हात__n_m"/></e>
     <e lm="क्षण"><i>क्षण</i><par n="आज__n"/></e>
 
@@ -1023,10 +1035,12 @@
     <e lm="पटकन"><i>पटकन</i><par n="चटकन__adv"/></e>
     <e lm="दुर्लक्ष"><i>दुर्लक्ष</i><par n="खूप__preadv"/></e>
     <e lm="नाही"><i>नाही</i><par n="तिथे__adv"/></e>
+    <e lm="नेहमी"><i>नेहमी</i><par n="चटकन__adv"/></e>
     <e lm="पहिल्यांदा"><i>पहिल्</i><par n="पहिल्/यांदा__adv"/></e>
     <e lm="मग"><i>मग</i><par n="तिथे__adv"/></e>
     <e lm="लवकर"><i>लवकर</i><par n="खूप__preadv"/></e>
     <e lm="सध्या"><i>सध्या</i><par n="तिथे__adv"/></e>    
+    <e lm="सावकाश"><i>सावकाश</i><par n="चटकन__adv"/></e>
     <e lm="हळूहळू"><i>हळूहळू</i><par n="चटकन__adv"/></e>
     
 
