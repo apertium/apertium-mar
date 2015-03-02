@@ -698,11 +698,11 @@
      <e><p><l></l><r><s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="आहे/__vbser">
-      <e><p><l></l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>त</l><r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>होता</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>होते</l><r><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+    <pardef n="/आहे__vbser">
+      <e><p><l>आहे</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>आहेत</l><r>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>होता</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>होते</l><r>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="झा__vbser">
@@ -1137,7 +1137,7 @@
  
     <e lm="आणणे"><i>आण</i><par n="आवड/णे__vblex"/></e>
     <e lm="आवडणे"><i>आवड</i><par n="आवड/णे__vblex"/></e>
-    <e lm="आहे"><i>आहे</i><par n="आहे/__vbser"/></e>
+    <e lm="आहे"><i></i><par n="/आहे__vbser"/></e>
     <e lm="उचलणे"><i>उचल</i><par n="झोप/णे__vblex"/></e>
     <e lm="ऐकणे"><i>ऐक</i><par n="झोप/णे__vblex"/></e>
     <e lm="करणे"><i>कर</i><par n="शोध/णे__vblex"/></e>
