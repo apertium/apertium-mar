@@ -40,16 +40,20 @@
 
 			<e>       <p><l>होतो</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होतो</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होता</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होतास</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होतीस</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होता</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 			<e>       <p><l>होतात</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 			<e>       <p><l>होता</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-			<e>       <p><l>आहे</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-			<e>       <p><l>होत्या</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 			<e>       <p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होतं</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होत्या</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 
 			<e>       <p><l>आहे</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
