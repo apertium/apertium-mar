@@ -26,6 +26,40 @@
 
 	<pardefs>
 
+		<!-- copula -->
+
+		<pardef n="/असणे__vaux">
+			<e>       <p><l>असणे</l><r>असणे<s n="vaux"/><s n="inf"/></r></p></e>
+
+			<e>       <p><l>असेन</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+			<e>       <p><l>असू</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+			<e>       <p><l>असशील</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+			<e>       <p><l>असाल</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+			<e>       <p><l>असेल</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+			<e>       <p><l>असतील</l><r>असणे<s n="vaux"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+
+			<e>       <p><l>होतो</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होतो</l><r>असणे<s n="vaux"/><s n="past"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होतास</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होतीस</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होता</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होतात</l><r>असणे<s n="vaux"/><s n="past"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होता</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+			<e>       <p><l>आहे</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होत्या</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+			<e>       <p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e>       <p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+
+			<e>       <p><l>आहे</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+			<e>       <p><l>आहोत</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+			<e>       <p><l>आहेस</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+			<e>       <p><l>आहात</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+			<e>       <p><l>आहे</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+			<e>       <p><l>आहेत</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+		</pardef>
+
 		<!-- postpositions -->
 
 		<pardef n="__post">
