@@ -13,5 +13,6 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mar.mar.dix -text
+dev/wx2utf8 -text
 /mar.prob -text svneol=unset#unset
 /modes.xml -text

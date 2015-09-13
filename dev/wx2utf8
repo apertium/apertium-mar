@@ -1,0 +1,83 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# SYNTAX:
+# echo "word" | ./wx2utf8
+# echo "word" | ./wx2utf8 "par_name"
+
+import codecs, sys
+
+words = sys.stdin.read().split('\n')[:-1]
+
+subs = {'a': 'अ', 'A': 'आ', 'i': 'इ', 'I': 'ई', 'u': 'उ', 'U': 'ऊ', 
+        'e': 'ए', 'E': 'ऐ', 'o': 'ओ', 'O': 'औ', 'M': 'अं', 'H': '',
+        'k': 'क', 'K': 'ख', 'g': 'ग', 'G': 'घ', 
+        'c': 'च', 'C': 'छ', 'j': 'ज', 'J': 'झ', 'F': 'ञ',
+        't': 'ट', 'T': 'ठ', 'd': 'ड', 'D': 'ढ', 'N': 'ण',
+        'w': 'त', 'W': 'थ', 'x': 'द', 'X': 'ध', 'n': 'न',
+        'p': 'प', 'P': 'फ', 'b': 'ब', 'B': 'भ', 'm': 'म',
+        'y': 'य', 'r': 'र', 'l': 'ल', 'v': 'व',
+        'S': 'ष', 'R': 'श', 's': 'स', 'h': 'ह', 'L': 'ळ',
+        'q': 'ऋ'}
+
+broken = {'a': 'अ', 'A': 'आ', 'i': 'इ', 'I': 'ई', 'u': 'उ', 'U': 'ऊ', 
+        'e': 'ए', 'E': 'ऐ', 'o': 'ओ', 'O': 'औ', 'M': 'ं', 'H': 'ः',
+        'k': 'क्', 'K': 'ख्', 'g': 'ग्', 'G': 'घ्', 
+        'c': 'च्', 'C': 'छ्', 'j': 'ज्', 'J': 'झ्', 'F': 'ञ्',
+        't': 'ट्', 'T': 'ठ्', 'd': 'ड्', 'D': 'ढ्', 'N': 'ण्',
+        'w': 'त्', 'W': 'थ्', 'x': 'द्', 'X': 'ध्', 'n': 'न्',
+        'p': 'प्', 'P': 'फ्', 'b': 'ब्', 'B': 'भ्', 'm': 'म्',
+        'y': 'य्', 'r': 'र्', 'l': 'ल्', 'v': 'व्',
+        'S': 'ष्', 'R': 'श्', 's': 'स्', 'h': 'ह्', 'L': 'ळ्',
+        'q': 'ऋ्'}
+
+matra = {'a': '', 'A': 'ा', 'i': 'ि', 'I': 'ी', 'u': 'ु', 'U': 'ू',
+         'e': 'े', 'E': 'ै', 'o': 'ो', 'O': 'ौ', 'M': 'ं', 'H': 'ः'}
+      
+def is_vowel(l):
+    l = l.lower()
+    return l == 'a' or l == 'e' or l == 'i' or l == 'o' or l == 'u' or l == '$'
+
+def is_cons(l):
+    return not is_vowel(l)# and not is_aswr(l)
+
+def to_type(l):
+    return "V" if is_vowel(l) else "C"
+
+def get_type(t):
+    out = "%s%s" % (to_type(t[0]), to_type(t[1]))
+    return out
+
+def tr_word(word):
+    vflag = False
+    word = word + '$'
+    out = ""
+    z = zip(word, word[1:])
+    for n, i in enumerate(z):
+        t = get_type(i)
+        if t == 'CC':
+            out += broken[i[0]]
+        if t == 'CV':
+            out += subs[i[0]]
+        if t == 'VC':
+            out = out + subs[i[0]] if (n == 0 or vflag) else out + matra[i[0]]
+            vflag = False
+        if t == 'VV':
+            out = out + matra[i[0]] if n == (len(z) - 1) else out + subs[i[0]]
+            vflag = True
+    return out
+
+#f = codecs.open(sys.argv[2], "w", "utf-8")
+for i in words:
+    try:
+	    w = tr_word(i)
+        # hacks for alignment
+	    if len(sys.argv) == 2:
+	        print('<e lm={:<32}\t<i>{}</i><par n="{}" /></e>\n'.format('"' + w + '">', w, sys.argv[1]))
+	    else:
+			print(w)
+    except:
+        pass
+
+
+
