@@ -36,7 +36,7 @@ matra = {'a': '', 'A': 'ा', 'i': 'ि', 'I': 'ी', 'u': 'ु', 'U': 'ू',
       
 def is_vowel(l):
     l = l.lower()
-    return l == 'a' or l == 'e' or l == 'i' or l == 'o' or l == 'u' or l == '$'
+    return l == 'a' or l == 'e' or l == 'i' or l == 'o' or l == 'u' 
 
 def is_cons(l):
     return not is_vowel(l)# and not is_aswr(l)
@@ -63,7 +63,7 @@ def tr_word(word):
             out = out + subs[i[0]] if (n == 0 or vflag) else out + matra[i[0]]
             vflag = False
         if t == 'VV':
-            out = out + matra[i[0]] if n == (len(z) - 1) else out + subs[i[0]]
+            out = out + subs[i[0]]
             vflag = True
     return out
 
