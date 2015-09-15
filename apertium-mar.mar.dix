@@ -5,6 +5,7 @@
 		<sdef n="adv"/>
 		<sdef n="post"/>
 		<sdef n="attr"/>
+		<sdef n="prn" />
 
 		<sdef n="f"  />
 		<sdef n="m"  />
@@ -25,6 +26,71 @@
 	</sdefs>
 
 	<pardefs>
+
+		<!-- pronouns -->
+			
+		<pardef n="/मी__prn"
+			<e>		  <p><l>मी</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>मला</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>मला</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>माझ्याने</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>माझ्याकडून</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>माझ्यात</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>माझ्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+
+			<e>		  <p><l>आम्ही</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>आम्हाला</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>आम्हाला</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>आमच्याने</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>आमचाकडून</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>आमच्यात</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>आमच्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+		</pardef>
+
+		<pardef n="/तू__prn"
+			<e>		  <p><l>तू</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>तुला</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>तुला</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>तुझ्याने</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>तुझ्याकडून</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>तुझ्यात</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>तुझ्या</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+
+			<e>		  <p><l>तुम्ही</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>तुम्हाला</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>तुम्हाला</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>तुमच्याने</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>तुमचाकडून</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>तुमच्यात</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>तुमच्या</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+		</pardef>		
+
+		<pardef n="/तो__prn"
+			<e>		  <p><l>तो</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>त्याला</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>त्याला</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>त्याने</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>त्याचाकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>त्याचात</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>त्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+			<!-- check -->
+			<e>		  <p><l>त्याचा</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+
+			<!-- check anuswar -->
+			<e>		  <p><l>ते</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+			<e>		  <p><l>त्यान्ना</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="acc"/></r></p></e>
+			<e>		  <p><l>त्यान्ना</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dat"/></r></p></e>
+			<!--e>		  <p><l></l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e-->
+			<e>		  <p><l>त्यान्नी</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="inst"/></r></p></e>
+			<e>		  <p><l>त्यांचाकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="abl"/></r></p></e>
+			<e>		  <p><l>त्यांचात</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
+			<e>		  <p><l>त्यांचा</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+		</pardef>
 
 		<!-- copula -->
 
