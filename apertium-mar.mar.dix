@@ -12,6 +12,7 @@
 		<sdef n="fut"/>
 		<sdef n="past"/>
 		<sdef n="pres"/>
+		<sdef n="num"/>
 		<sdef n="post"/>
 		<sdef n="attr"/>
 		<sdef n="prn" />
@@ -32,9 +33,52 @@
 		<sdef n="abl"/>
 		<sdef n="inst"/>
 		<sdef n="obl"/>
+
+	<sdef n="percent"  c="Percent"/>
+    <sdef n="cm"         c="Comma"/>
+    <sdef n="sent"       c="Sentence marker"/>
+    <sdef n="lpar"       c="Left parenthesis"/>
+    <sdef n="rpar"       c="Right parenthesis"/>
+    <sdef n="lquot"      c="Left quote"/>
+    <sdef n="rquot"      c="Right quote"/>
+    <sdef n="guio"       c="Hyphen"/>
+
 	</sdefs>
 
 	<pardefs>
+
+
+    <!-- SECTION: Punctuation -->      
+    <pardef n="numeros">
+      <e><re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?</re><p><l/><r><s n="num"/></r></p></e>
+  <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+  <e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">
+      <e><re>[.\?;:!।॥]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
 
 		<!-- pronouns -->
 		<!-- TODO: genitives, honorofics -->
@@ -8134,4 +8178,13 @@
 		<e lm="थोडासा">                        <i>थोडासा</i><par n="थोड/ासा__adj" /></e>
 		<e lm="छोटासा">                        <i>छोटासा</i><par n="थोड/ासा__adj" /></e>
 	</section>
+   <section id="final" type="inconditional">
+    <e><par n="coma"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="guio"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="quotes"/></e>
+   </section>
 </dictionary>
