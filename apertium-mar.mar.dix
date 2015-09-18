@@ -475,6 +475,9 @@
 		
 		<e lm="आणि">						<i>आणि</i><par n="__cnjcoo" /></e>
 		<e lm="व">							<i>व</i><par n="__cnjcoo" /></e>
+		<e lm="पण">							<i>पण</i><par n="__cnjcoo" /></e>
+		<e lm="किंवा">						<i>किंवा</i><par n="__cnjcoo" /></e>
+		<e lm="म्हणून">						<i>म्हणून</i><par n="__cnjcoo" /></e>
 
 		<!-- pronouns -->
 		<e lm="मी">							<i></i><par n="/मी__prn" /></e>
