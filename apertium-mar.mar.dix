@@ -7,9 +7,10 @@
 		<sdef n="p2"/>
 		<sdef n="p3"/>
 		<sdef n="vblex" />
-		<sdef n="imperf" />
+		<sdef n="impf" />
 		<sdef n="perf" />
 		<sdef n="inf"/>
+		<sdef n="imp"/>
 		<sdef n="adj"/>
 		<sdef n="adv"/>
 		<sdef n="fut"/>
@@ -302,7 +303,6 @@
 	
 		<!-- nouns -->
 
-		<pardef n="
 
 		<pardef n="बा/ई__n_f">
 			<e><p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -480,20 +480,20 @@
 			<e><p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
 			<e><p><l></l><r><s n="vblex"/><s n="imp"/></r></p></e>
 
-			<e><p><l>त</l><r>णे<s n="vblex"/><s n="imperf"/></r></p></e>
+			<e><p><l>त</l><r>णे<s n="vblex"/><s n="impf"/></r></p></e>
 
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
-			<e><p><l>तोस</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-			<e><p><l>तेस</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-			<e><p><l>ता</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+			<e><p><l>तोस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>तेस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>ता</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-			<e><p><l>तात</l><r>णे<s n="vblex"/><s n="imperf"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
+			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>तात</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
 			
 			<e><p><l>लो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
 			<e><p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
