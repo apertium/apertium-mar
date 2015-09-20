@@ -73,7 +73,7 @@ for i in words:
 	    w = tr_word(i)
         # hacks for alignment
 	    if len(sys.argv) == 2:
-	        print('<e lm={:<32}\t<i>{}</i><par n="{}" /></e>\n'.format('"' + w + '">', w, sys.argv[1]))
+	        print('<e lm={:<32}\t<i>{}</i><par n="{}" /></e>'.format('"' + w + '">', w, sys.argv[1]))
 	    else:
 			print(w)
     except:
