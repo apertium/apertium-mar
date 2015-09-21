@@ -95,6 +95,210 @@
 		<pardef n="barb">
 			<e><re>[A-Za-z]+</re><p><l></l><r><s n="barb"/></r></p></e> 
 		</pardef>
+	
+		<!-- postpositions -->
+
+		<pardef n="__post">
+			<!-- genitives (CHECK) -->
+			<e><p><l>चा</l><r>चा<s n="post"/><s n="clit"/></r></p></e>
+			<e><p><l>ची</l><r>ची<s n="post"/><s n="clit"/></r></p></e>
+			<e><p><l>चे</l><r>चे<s n="post"/><s n="clit"/></r></p></e>
+			<e><p><l>च्या</l><r>च्या<s n="post"/><s n="clit"/></r></p></e>
+
+			<!-- near -->
+			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- from -->
+			<e><p><l>कडून</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पासून</l><r>पासून<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- via (check second) -->
+			<e><p><l>द्वारे</l><r>द्वारे<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>हातुन</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- for -->
+			<e><p><l>कर्ता</l><r>कर्ता<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>करिता</l><r>करिता<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>साठी</l><r>साठी<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- without -->
+			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- about -->
+			<e><p><l>बद्दल</l><r>बद्दल<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- instead of -->
+			<e><p><l>ऐवजी</l><r>ऐवजी<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>जागी</l><r>जागी<s n="post"/><s n="adv"/></r></p></e>	
+
+			<!-- including -->
+			<e><p><l>सकट</l><r>सकट<s n="post"/><s n="adv"/></r></p></e>	
+
+			<!-- than -->
+			<e><p><l>पेक्षा</l><r>पेक्षा<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- upto -->
+			<e><p><l>पर्यंत</l><r>पर्यंत<s n="post"/><s n="adv"/></r></p></e>
+
+
+			<!-- in front of -->
+			<e><p><l>पुढे</l><r>पुढे<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पुढचा</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>पुढचे</l><r>पुढे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>पुढचे</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>पुढच्या</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>पुढच्या</l><r>पुढे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<e><p><l>समोर</l><r>समोर<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>समोरचा</l><r>समोर<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>समोरची</l><r>समोर<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>समोरचे</l><r>समोर<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>समोरचे</l><r>समोर<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>समोरच्या</l><r>समोर<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>समोरची</l><r>समोर<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>समोरच्या</l><r>समोर<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- behind -->
+			<e><p><l>मागे</l><r>मागे<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>मागचा</l><r>मागे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>मागची</l><r>मागे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>मागचे</l><r>मागे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>मागचे</l><r>मागे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>मागच्या</l><r>मागे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>मागची</l><r>मागे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>मागच्या</l><r>मागे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- next to -->
+			<e><p><l>शेजारी</l><r>शेजारी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>शेजारचा</l><r>शेजारी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>शेजारची</l><r>शेजारी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>शेजारचे</l><r>शेजारी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>शेजारचे</l><r>शेजारी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>शेजारच्या</l><r>शेजारी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>शेजारची</l><r>शेजारी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>शेजारच्या</l><r>शेजारी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- across -->
+			<e><p><l>पलीकडे</l><r>पलीकडे<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पलीकडचा</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>पलीकडची</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>पलीकडचे</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>पलीकडचे</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>पलीकडच्या</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>पलीकडची</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>पलीकडच्या</l><r>पलीकडे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- this side -->
+			<e><p><l>अलीकडे</l><r>अलीकडे<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>अलीकडचा</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>अलीकडची</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>अलीकडचे</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>अलीकडचे</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>अलीकडच्या</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>अलीकडची</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>अलीकडच्या</l><r>अलीकडे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- about -->
+			<e><p><l>संबंधी</l><r>संबंधी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>संबंधीचा</l><r>संबंधी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>संबंधीची</l><r>संबंधी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>संबंधीचे</l><r>संबंधी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>संबंधीचे</l><r>संबंधी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>संबंधीच्या</l><r>संबंधी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>संबंधीची</l><r>संबंधी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>संबंधीच्या</l><r>संबंधी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- out of -->
+			<e><p><l>पैकी</l><r>पैकी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पैकीचा</l><r>पैकी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>पैकीची</l><r>पैकी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>पैकीचे</l><r>पैकी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>पैकीचे</l><r>पैकी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>पैकीच्या</l><r>पैकी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>पैकीची</l><r>पैकी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>पैकीच्या</l><r>पैकी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- from above -->
+			<e><p><l>वरून</l><r>वरून<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>वरचा</l><r>वरून<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>वरची</l><r>वरून<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>वरचे</l><r>वरून<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>वरचे</l><r>वरून<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>वरच्या</l><r>वरून<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>वरची</l><r>वरून<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>वरच्या</l><r>वरून<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- below -->
+			<e><p><l>खाली</l><r>खाली<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>खालचा</l><r>खाली<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>खालची</l><r>खाली<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>खालचे</l><r>खाली<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>खालचे</l><r>खाली<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>खालच्या</l><r>खाली<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>खालची</l><r>खाली<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>खालच्या</l><r>खाली<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- before -->
+			<e><p><l>आधी</l><r>आधी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>आधीचा</l><r>आधी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>आधीची</l><r>आधी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>आधीचे</l><r>आधी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>आधीचे</l><r>आधी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>आधीच्या</l><r>आधी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>आधीची</l><r>आधी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>आधीच्या</l><r>आधी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<e><p><l>अगोदर</l><r>अगोदर<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>अगोदरचा</l><r>अगोदर<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>अगोदरची</l><r>अगोदर<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>अगोदरचे</l><r>अगोदर<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>अगोदरचे</l><r>अगोदर<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>अगोदरच्या</l><r>अगोदर<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>अगोदरची</l><r>अगोदर<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>अगोदरच्या</l><r>अगोदर<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<e><p><l>पुरवी</l><r>पुरवी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पुरवीचा</l><r>पुरवी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>पुरवीची</l><r>पुरवी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>पुरवीचे</l><r>पुरवी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>पुरवीचे</l><r>पुरवी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>पुरवीच्या</l><r>पुरवी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>पुरवीची</l><r>पुरवी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>पुरवीच्या</l><r>पुरवी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- out -->
+			<e><p><l>बाहेर</l><r>बाहेर<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>बाहेरचा</l><r>बाहेर<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>बाहेरची</l><r>बाहेर<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>बाहेरचे</l><r>बाहेर<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>बाहेरचे</l><r>बाहेर<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>बाहेरच्या</l><r>बाहेर<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>बाहेरची</l><r>बाहेर<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>बाहेरच्या</l><r>बाहेर<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- at the end -->
+			<e><p><l>शेवटी</l><r>शेवटी<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>शेवटचा</l><r>शेवटी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>शेवटची</l><r>शेवटी<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>शेवटचे</l><r>शेवटी<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>शेवटचे</l><r>शेवटी<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>शेवटच्या</l><r>शेवटी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>शेवटची</l><r>शेवटी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>शेवटच्या</l><r>शेवटी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+			<!-- in between -->
+			<e><p><l>मधे</l><r>मधे<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>मधला</l><r>मधे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
+			<e><p><l>मधली</l><r>मधे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
+			<e><p><l>मधले</l><r>मधे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/></r></p></e>
+			<e><p><l>मधले</l><r>मधे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/></r></p></e>
+			<e><p><l>मधल्या</l><r>मधे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/></r></p></e>
+			<e><p><l>मधली</l><r>मधे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/></r></p></e>
+			<e><p><l>मधल्या</l><r>मधे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+
+		</pardef>
 
 		<!-- pronouns -->
 		<!-- TODO: genitives, honorofics -->
@@ -241,60 +445,7 @@
 			<e>       <p><l>आहेत</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 		</pardef>
 
-		<!-- postpositions -->
-
-		<pardef n="__post">
-			<!-- genitives (CHECK) -->
-			<e><p><l>चा</l><r>चा<s n="post"/><s n="clit"/></r></p></e>
-			<e><p><l>ची</l><r>ची<s n="post"/><s n="clit"/></r></p></e>
-			<e><p><l>चे</l><r>चे<s n="post"/><s n="clit"/></r></p></e>
-			<e><p><l>च्या</l><r>च्या<s n="post"/><s n="clit"/></r></p></e>
-
-			<!-- near -->
-			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- from -->
-			<e><p><l>कडून</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
-			<e><p><l>पासून</l><r>पासून<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- via (check second) -->
-			<e><p><l>द्वारे</l><r>द्वारे<s n="post"/><s n="adv"/></r></p></e>	
-			<e><p><l>हातुन</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- for -->
-			<e><p><l>कर्ता</l><r>कर्ता<s n="post"/><s n="adv"/></r></p></e>	
-			<e><p><l>करिता</l><r>करिता<s n="post"/><s n="adv"/></r></p></e>	
-			<e><p><l>साठी</l><r>साठी<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- without -->
-			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- about -->
-			<e><p><l>बद्दल</l><r>बद्दल<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- instead of -->
-			<e><p><l>ऐवजी</l><r>ऐवजी<s n="post"/><s n="adv"/></r></p></e>	
-			<e><p><l>जागी</l><r>जागी<s n="post"/><s n="adv"/></r></p></e>	
-
-			<!-- including -->
-			<e><p><l>सकट</l><r>सकट<s n="post"/><s n="adv"/></r></p></e>	
-
-			<!-- than -->
-			<e><p><l>पेक्षा</l><r>पेक्षा<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- upto -->
-			<e><p><l>पर्यंत</l><r>पर्यंत<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- in front of -->
-			<e><p><l>पुढे</l><r>पुढे<s n="post"/><s n="adv"/></r></p></e>
-			<e><p><l>पुढचा</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/></r></p></e>
-			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/></r></p></e>
-			<e><p><l>पुढच्या</l><r>पुढे<s n="post"/><s n="attr"/><s n="mfn"/><s n="pl"/></r></p></e>
-
-			<!-- behind -->
-
-
-		</pardef>
+		
 
 		<!-- adjectives -->
 		
@@ -576,7 +727,10 @@
 
 	<section id="main" type="standard">
 
-		
+		<!-- probably a shit idea -->
+		<e lm=""> 							<i></i><par n="__post" /></e>
+
+		<!-- conjunctions -->
 		<e lm="आणि">						<i>आणि</i><par n="__cnjcoo" /></e>
 		<e lm="व">							<i>व</i><par n="__cnjcoo" /></e>
 		<e lm="पण">							<i>पण</i><par n="__cnjcoo" /></e>
@@ -9877,7 +10031,7 @@
 		<e lm="चपळ">                     <i>चपळ</i><par n="/लाल__adj" /></e>
 		<e lm="मंद">                     <i>मंद</i><par n="/लाल__adj" /></e>
 		<e lm="आळशी">                  <i>आळशी</i><par n="/लाल__adj" /></e>
-		
+
 		<e lm="आजचा">                         	<i>आजच</i><par n="काळ/ा__adj" /></e>
 		<e lm="आपला">                         	<i>आपल</i><par n="काळ/ा__adj" /></e>
 		<e lm="थोडा">                         	<i>थोड</i><par n="काळ/ा__adj" /></e>
