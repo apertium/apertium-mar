@@ -249,13 +249,49 @@
 			<e><p><l>ची</l><r>ची<s n="post"/><s n="clit"/></r></p></e>
 			<e><p><l>चे</l><r>चे<s n="post"/><s n="clit"/></r></p></e>
 			<e><p><l>च्या</l><r>च्या<s n="post"/><s n="clit"/></r></p></e>
-		
+
+			<!-- near -->
+			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- from -->
+			<e><p><l>कडून</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
+			<e><p><l>पासून</l><r>पासून<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- via (check second) -->
+			<e><p><l>द्वारे</l><r>द्वारे<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>हातुन</l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- for -->
+			<e><p><l>कर्ता</l><r>कर्ता<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>करिता</l><r>करिता<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>साठी</l><r>साठी<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- without -->
+			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- about -->
+			<e><p><l>बद्दल</l><r>बद्दल<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- instead of -->
+			<e><p><l>ऐवजी</l><r>ऐवजी<s n="post"/><s n="adv"/></r></p></e>	
+			<e><p><l>जागी</l><r>जागी<s n="post"/><s n="adv"/></r></p></e>	
+
+			<!-- including -->
+			<e><p><l>सकट</l><r>सकट<s n="post"/><s n="adv"/></r></p></e>	
+
+			<!-- than -->
+			<e><p><l>पेक्षा</l><r>पेक्षा<s n="post"/><s n="adv"/></r></p></e>
+
+			<!-- upto -->
+			<e><p><l>पर्यंत</l><r>पर्यंत<s n="post"/><s n="adv"/></r></p></e>
+
 			<!-- in front of -->
 			<e><p><l>पुढे</l><r>पुढे<s n="post"/><s n="adv"/></r></p></e>
 			<e><p><l>पुढचा</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/></r></p></e>
 			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/></r></p></e>
 
 			<!-- behind -->
+
 		</pardef>
 
 		<!-- adjectives -->
