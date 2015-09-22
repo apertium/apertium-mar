@@ -23,6 +23,7 @@
 		<sdef n="attr"/>
 		<sdef n="prn" />
 		<sdef n="cnjcoo" />
+		<sdef n="cnjsub" />
 		<sdef n="clit" />
 		<sdef n="compl" 	c="Completive" />
 
@@ -60,6 +61,10 @@
 		
 		<pardef n="__cnjcoo">
 			<e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+		</pardef>
+
+		<pardef n="__cnjsub">
+			<e><p><l></l><r><s n="cnjsub"/></r></p></e>
 		</pardef>
 
 
@@ -1002,14 +1007,31 @@
 	<section id="main" type="standard">
 
 		<!-- probably a shit idea -->
-		<e lm=""> 							<i></i><par n="__post" /></e>
+		<e lm=""> 								<i></i><par n="__post" /></e>
 
 		<!-- conjunctions -->
-		<e lm="आणि">						<i>आणि</i><par n="__cnjcoo" /></e>
-		<e lm="व">							<i>व</i><par n="__cnjcoo" /></e>
-		<e lm="पण">							<i>पण</i><par n="__cnjcoo" /></e>
+		<e lm="आणि">							<i>आणि</i><par n="__cnjcoo" /></e>
+		<e lm="अन">								<i>अन</i><par n="__cnjcoo" /></e>
+		<e lm="आणखी"> 						<i>आणखी</i><par n="__cnjcoo" /></e>
+		<e lm="व">								<i>व</i><par n="__cnjcoo" /></e>
+
+		<e lm="पण">								<i>पण</i><par n="__cnjcoo" /></e>
+		<e lm="वा">							<i>वा</i><par n="__cnjcoo" /></e>
+		<e lm="परंतु">							<i>परंतु</i><par n="__cnjcoo" /></e>
+
 		<e lm="किंवा">						<i>किंवा</i><par n="__cnjcoo" /></e>
+		<e lm="अथवा">							<i>अथवा</i><par n="__cnjcoo" /></e>
+
 		<e lm="म्हणून">						<i>म्हणून</i><par n="__cnjcoo" /></e>
+		<e lm="तेंव्हा">						<i>तेंव्हा</i><par n="__cnjcoo" /></e>
+
+
+		<e lm="कि">							<i>कि</i><par n="__cnjsub" /></e>
+		<e lm="कारण"> 							<i>कारण</i><par n="__cnjsub"/></e>
+		<e lm="म्हणून">						<i>म्हणून</i><par n="__cnjsub" /></e>
+		<e lm="जर">								<i>जर</i><par n="__cnjsub" /></e>
+
+
 
 		<!-- pronouns -->
 		<e lm="मी">							<i></i><par n="/मी__prn" /></e>
