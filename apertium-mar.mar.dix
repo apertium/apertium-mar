@@ -29,6 +29,10 @@
 		<sdef n="compl" 	c="Completive" />
 		<sdef n="emph" />
 		<sdef n="part" />
+		<sdef n="dt" />
+		<sdef n="dist" />
+		<sdef n="prox" />
+		<sdef n="det" />
 
 		<sdef n="f"  />
 		<sdef n="m"  />
@@ -117,12 +121,40 @@
 	
 		<!-- postpositions -->
 
-		<pardef n="__post">
+		<pardef n="__sg_case">
+			<!-- singulars -->
+			<e> 		<p><l>ला</l><r>ला<s n="acc"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ने</l><r>ने<s n="erg"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>नी</l><r>नी<s n="erg"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ला</l><r>ला<s n="dat"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>हून</l><r>हून<s n="abl"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>त</l><r>त<s n="loc"/></r></p><par n="__emph"/></e>
+
 			<!-- genitives (CHECK) -->
-			<e><p><l>चा</l><r>चा<s n="post"/><s n="clit"/></r></p><par n="__emph"/></e>
-			<e><p><l>ची</l><r>ची<s n="post"/><s n="clit"/></r></p><par n="__emph"/></e>
-			<e><p><l>चे</l><r>चे<s n="post"/><s n="clit"/></r></p><par n="__emph"/></e>
-			<e><p><l>च्या</l><r>च्या<s n="post"/><s n="clit"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>चा</l><r>चा<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ची</l><r>ची<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>चे</l><r>चे<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>च्या</l><r>च्या<s n="gen"/></r></p><par n="__emph"/></e>
+		</pardef>
+
+		<pardef n="__pl_case">
+			<!-- plurals -->
+			<e> 		<p><l>ना</l><r>ना<s n="acc"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>नी</l><r>नी<s n="erg"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ना</l><r>ना<s n="dat"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>हून</l><r>हून<s n="abl"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>त</l><r>त<s n="loc"/></r></p><par n="__emph"/></e>
+
+			<!-- genitives (CHECK) -->
+			<e> 		<p><l>चा</l><r>चा<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ची</l><r>ची<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>चे</l><r>चे<s n="gen"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>च्या</l><r>च्या<s n="gen"/></r></p><par n="__emph"/></e>
+		</pardef>
+
+
+
+		<pardef n="__post">
 
 			<!-- near -->
 			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
@@ -319,6 +351,11 @@
 
 		</pardef>
 
+		<pardef n="__clit">
+			<e><p><l>च्या</l><r>च्या<s n="clit"/><j/></r></p><par n="__post"/></e>
+			<e><p><l></l><r></r></p><par n="__post"/></e>
+		</pardef>
+
 		<!-- pronouns -->
 		<!-- TODO: genitives, honorofics -->
 			
@@ -425,6 +462,45 @@
 			<e>		  <p><l>त्यांच्यात</l><r>ते<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच्या</l><r>ते<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__post"/></e>
 		</pardef>	
+
+		<pardef n="__det">
+			<e>		  <p><l>तो</l><r>तो<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ती</l><r>ती<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ते</l><r>ते<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्या</l><r>त्या<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>		  <p><l>ति</l><r>ति<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>		  <p><l>त्या</l><r>त्या<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
+			<e>		  <p><l>त्या</l><r>त्या<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>ति</l><r>ति<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>त्या</l><r>त्या<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+
+
+			<e>		  <p><l>ते</l><r>ते<s n="det"/><s n="dist"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्या</l><r>त्या<s n="det"/><s n="dist"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ती</l><r>ती<s n="det"/><s n="dist"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्यां</l><r>त्यां<s n="det"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>		  <p><l>त्यां</l><r>त्यां<s n="det"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+
+
+			<e>		  <p><l>हा</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ही</l><r>ही<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>हे</l><r>हे<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>		  <p><l>हि</l><r>हि<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>हि</l><r>हि<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+
+			<e>		  <p><l>हे</l><r>हे<s n="det"/><s n="prox"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ह्यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>		  <p><l>ह्यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+		</pardef>
+
+
+
 
 		<!-- copula -->
 
@@ -720,6 +796,15 @@
 		</pardef>
 	
 		<!-- nouns -->
+
+		<pardef n="मुल/गा__n_m">
+			<e><p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e><p><l>ं</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__clit"/></e>
+			<e><p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__pl_case"/></e>
+		</pardef>
 
 		<pardef n="चो/री__n_f">
 			<e><p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -1017,6 +1102,9 @@
 
 	<section id="main" type="standard">
 
+		<!-- test -->
+		<e lm="मुलगा"> 						<i>मुल</i><par n="मुल/गा__n_m"/></e>
+
 		<!-- probably a shit idea -->
 		<e lm=""> 								<i></i><par n="__post" /></e>
 
@@ -1064,6 +1152,8 @@
 		<e lm="तो">							<i></i><par n="/तो__prn" /></e>
 		<e lm="ती">							<i></i><par n="/ती__prn" /></e>
 		<e lm="ते">							<i></i><par n="/ते__prn" /></e>
+
+		<e lm=""> 								<i></i><par n="__det" /></e>
 
 		<!-- copulas -->
 
