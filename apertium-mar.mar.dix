@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣं</alphabet>
+  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣंः</alphabet>
 	<sdefs>
 		<sdef n="n"			c="noun" />
 		<sdef n="vaux"		c="auxiliary verb" />
@@ -51,6 +51,7 @@
 		<sdef n="inst"/>
 		<sdef n="obl"/>
 		<sdef n="erg"/>
+		<sdef n="abbr"/>
 
 		<sdef n="percent"  	 c="Percent"/>
 		<sdef n="cm"         c="Comma"/>
@@ -117,6 +118,11 @@
 
 		<pardef n="barb">
 			<e><re>[A-Za-z]+</re><p><l></l><r><s n="barb"/></r></p></e> 
+		</pardef>
+
+		<pardef n="__abbr">
+			<e> 		<p><l>इ</l><r><s n="abbr"/></r></p></e>
+			<e> 		<p><l>इ.</l><r><s n="abbr"/></r></p></e>
 		</pardef>
 	
 		<!-- postpositions -->
@@ -488,17 +494,26 @@
 			<e>		  <p><l>ही</l><r>ही<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>हे</l><r>हे<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>हि</l><r>हि<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>हि</l><r>हि<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>			
+
 
 			<e>		  <p><l>हे</l><r>हे<s n="det"/><s n="prox"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ह्या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>या</l><r>ह्या<s n="det"/><s n="prox"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ह्यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e r="LR"><p><l>यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 			<e>		  <p><l>ह्यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR"><p><l>यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 		</pardef>
 
 
@@ -800,128 +815,149 @@
 		<!-- nouns -->
 
 		<pardef n="मुल/गा__n_m">
-			<e><p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l>ं</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__clit"/></e>
-			<e><p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>ं</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="चो/री__n_f">
-			<e><p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l>र्या</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>र्या</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="कवी__n_m">
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="हात__n_m">
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="अंथरूण__n_m">
-			<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="रस्त/ा__n_m">
-			<e><p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="कोय__n_f">
-			<e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="सुट्ट/ी__n_f">
-			<e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e><p><l>्या</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
+
+		<pardef n="भांड/े__n_nt">
+			<e> 		<p><l>े</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l></l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ं</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>्</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>ी</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+		</pardef>
+
+		<pardef n="विद्य/ा__n_f">
+			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r>े<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<!-- todo - check if plural exists -->
+		</pardef>
+
+
 	
 		<!-- split -->
 		<pardef n="बस__vblex">
-			<e><p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l></l><r><s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l></l><r><s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>त</l><r>णे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>त</l><r>णे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>तोस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>तेस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ता</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तोस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तेस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ता</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>तात</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तात</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			
-			<e><p><l>लो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लास</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लीस</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>	
-			<e><p><l>ल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लास</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लीस</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>	
+			<e> 		<p><l>ल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लं</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लेत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>लीत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लं</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लेत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>लीत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>ीन</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ू</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>शील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ाल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>तील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ीन</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ू</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>शील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
 			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="p1"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="p2"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
@@ -962,48 +998,48 @@
 		</pardef>
 
 		<pardef n="क/र__vblex">
-			<e><p><l>रणे</l><r>रणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>र</l><r>र<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रणे</l><r>रणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>र</l><r>र<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>रत</l><r>रणे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रत</l><r>रणे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>रतोस</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रतेस</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रता</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतोस</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतेस</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रता</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रतात</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतो</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रते</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतात</l><r>रणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			
-			<e><p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेला</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेले</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेली</l><r>रणे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e><p><l>रीन</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रू</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रशील</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>राल</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रेल</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>रतील</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रीन</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रू</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रशील</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>राल</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रेल</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रतील</l><r>रणे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
 			<e>       	<p><l>रणार</l><r>रणे<s n="vblex"/><s n="pros"/><s n="p1"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>रणार</l><r>रणे<s n="vblex"/><s n="pros"/><s n="p2"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
@@ -1053,6 +1089,7 @@
 
 		<!-- probably a shit idea -->
 		<e lm=""> 								<i></i><par n="__post" /></e>
+		<e lm=""> 								<i></i><par n="__abbr"/></e>
 
 		<!-- particles -->
 		<e lm="मात्र"> 						<i>मात्र</i><par n="__part"/></e>
@@ -1109,6 +1146,334 @@
 
 		<!-- verbs -->
 		<e lm="कर">  						<i>क</i><par n="क/र__vblex" /></e>
+		<e lm="आळव">                    	<i>आळव</i><par n="बस__vblex" /></e>
+		<e lm="आंबव">                 	<i>आंबव</i><par n="बस__vblex" /></e>
+		<e lm="आणव">                    	<i>आणव</i><par n="बस__vblex" /></e>
+		<e lm="आठव">                    	<i>आठव</i><par n="बस__vblex" /></e>
+		<e lm="आठव">                    	<i>आठव</i><par n="बस__vblex" /></e>
+		<e lm="आचव">                    	<i>आचव</i><par n="बस__vblex" /></e>
+		<e lm="आजमाव">              	<i>आजमाव</i><par n="बस__vblex" /></e>
+		<e lm="आरव">                    	<i>आरव</i><par n="बस__vblex" /></e>
+		<e lm="आटव">                    	<i>आटव</i><par n="बस__vblex" /></e>
+		<e lm="भांबाव">           	<i>भांबाव</i><par n="बस__vblex" /></e>
+		<e lm="भागव">                 	<i>भागव</i><par n="बस__vblex" /></e>
+		<e lm="भाराव">              	<i>भाराव</i><par n="बस__vblex" /></e>
+		<e lm="भाराव">              	<i>भाराव</i><par n="बस__vblex" /></e>
+		<e lm="भासव">                 	<i>भासव</i><par n="बस__vblex" /></e>
+		<e lm="भूशव">                 	<i>भूशव</i><par n="बस__vblex" /></e>
+		<e lm="भंडाव">              	<i>भंडाव</i><par n="बस__vblex" /></e>
+		<e lm="भडकव">                 	<i>भडकव</i><par n="बस__vblex" /></e>
+		<e lm="भरव">                    	<i>भरव</i><par n="बस__vblex" /></e>
+		<e lm="भरव">                    	<i>भरव</i><par n="बस__vblex" /></e>
+		<e lm="भेडसाव">           	<i>भेडसाव</i><par n="बस__vblex" /></e>
+		<e lm="भेटव">                 	<i>भेटव</i><par n="बस__vblex" /></e>
+		<e lm="भिडव">                 	<i>भिडव</i><par n="बस__vblex" /></e>
+		<e lm="भिजव">                 	<i>भिजव</i><par n="बस__vblex" /></e>
+		<e lm="भिरकाव">           	<i>भिरकाव</i><par n="बस__vblex" /></e>
+		<e lm="भिवाव">              	<i>भिवाव</i><par n="बस__vblex" /></e>
+		<e lm="भिवव">                 	<i>भिवव</i><par n="बस__vblex" /></e>
+		<e lm="भोव">                    	<i>भोव</i><par n="बस__vblex" /></e>
+		<e lm="भुलव">                 	<i>भुलव</i><par n="बस__vblex" /></e>
+		<e lm="छपव">                    	<i>छपव</i><par n="बस__vblex" /></e>
+		<e lm="ऐकव">                    	<i>ऐकव</i><par n="बस__vblex" /></e>
+		<e lm="घाबरव">              	<i>घाबरव</i><par n="बस__vblex" /></e>
+		<e lm="घालव">                 	<i>घालव</i><par n="बस__vblex" /></e>
+		<e lm="घालव">                 	<i>घालव</i><par n="बस__vblex" /></e>
+		<e lm="घडव">                    	<i>घडव</i><par n="बस__vblex" /></e>
+		<e lm="घटव">                    	<i>घटव</i><par n="बस__vblex" /></e>
+		<e lm="घोळव">                 	<i>घोळव</i><par n="बस__vblex" /></e>
+		<e lm="घुसव">                 	<i>घुसव</i><par n="बस__vblex" /></e>
+		<e lm="झटव">                    	<i>झटव</i><par n="बस__vblex" /></e>
+		<e lm="झिजव">                 	<i>झिजव</i><par n="बस__vblex" /></e>
+		<e lm="झोपव">                 	<i>झोपव</i><par n="बस__vblex" /></e>
+		<e lm="झुकव">                 	<i>झुकव</i><par n="बस__vblex" /></e>
+		<e lm="झुलव">                 	<i>झुलव</i><par n="बस__vblex" /></e>
+		<e lm="खाजव">                 	<i>खाजव</i><par n="बस__vblex" /></e>
+		<e lm="खालाव">              	<i>खालाव</i><par n="बस__vblex" /></e>
+		<e lm="खीजव">                 	<i>खीजव</i><par n="बस__vblex" /></e>
+		<e lm="खचव">                    	<i>खचव</i><par n="बस__vblex" /></e>
+		<e lm="खडसाव">              	<i>खडसाव</i><par n="बस__vblex" /></e>
+		<e lm="खपव">                    	<i>खपव</i><par n="बस__vblex" /></e>
+		<e lm="खव">                       	<i>खव</i><par n="बस__vblex" /></e>
+		<e lm="खवखव">                 	<i>खवखव</i><par n="बस__vblex" /></e>
+		<e lm="खताव">                 	<i>खताव</i><par n="बस__vblex" /></e>
+		<e lm="खेळव">                 	<i>खेळव</i><par n="बस__vblex" /></e>
+		<e lm="खिळव">                 	<i>खिळव</i><par n="बस__vblex" /></e>
+		<e lm="खिजव">                 	<i>खिजव</i><par n="बस__vblex" /></e>
+		<e lm="खोव">                    	<i>खोव</i><par n="बस__vblex" /></e>
+		<e lm="खुणाव">              	<i>खुणाव</i><par n="बस__vblex" /></e>
+		<e lm="खुलव">                 	<i>खुलव</i><par n="बस__vblex" /></e>
+		<e lm="फाव">                    	<i>फाव</i><par n="बस__vblex" /></e>
+		<e lm="फाव">                    	<i>फाव</i><par n="बस__vblex" /></e>
+		<e lm="फैलाव">              	<i>फैलाव</i><par n="बस__vblex" /></e>
+		<e lm="फर्माव">           	<i>फर्माव</i><par n="बस__vblex" /></e>
+		<e lm="फसव">                    	<i>फसव</i><par n="बस__vblex" /></e>
+		<e lm="फिरव">                 	<i>फिरव</i><par n="बस__vblex" /></e>
+		<e lm="फितव">                 	<i>फितव</i><par n="बस__vblex" /></e>
+		<e lm="फोफाव">              	<i>फोफाव</i><par n="बस__vblex" /></e>
+		<e lm="फुगव">                 	<i>फुगव</i><par n="बस__vblex" /></e>
+		<e lm="फुलव">                 	<i>फुलव</i><par n="बस__vblex" /></e>
+		<e lm="फुसलाव">           	<i>फुसलाव</i><par n="बस__vblex" /></e>
+		<e lm="षमव">                    	<i>षमव</i><par n="बस__vblex" /></e>
+		<e lm="षिजव">                 	<i>षिजव</i><par n="बस__vblex" /></e>
+		<e lm="षिकव">                 	<i>षिकव</i><par n="बस__vblex" /></e>
+		<e lm="षिलगाव">           	<i>षिलगाव</i><par n="बस__vblex" /></e>
+		<e lm="षिव">                    	<i>षिव</i><par n="बस__vblex" /></e>
+		<e lm="षिवषिव">           	<i>षिवषिव</i><par n="बस__vblex" /></e>
+		<e lm="ठणकाव">              	<i>ठणकाव</i><par n="बस__vblex" /></e>
+		<e lm="ठकव">                    	<i>ठकव</i><par n="बस__vblex" /></e>
+		<e lm="ठरव">                    	<i>ठरव</i><par n="बस__vblex" /></e>
+		<e lm="ठसव">                    	<i>ठसव</i><par n="बस__vblex" /></e>
+		<e lm="ठोठाव">              	<i>ठोठाव</i><par n="बस__vblex" /></e>
+		<e lm="थांबव">              	<i>थांबव</i><par n="बस__vblex" /></e>
+		<e lm="थोपट">                 	<i>थोपट</i><par n="बस__vblex" /></e>
+		<e lm="थोपव">                 	<i>थोपव</i><par n="बस__vblex" /></e>
+		<e lm="धकव">                    	<i>धकव</i><par n="बस__vblex" /></e>
+		<e lm="धमकाव">              	<i>धमकाव</i><par n="बस__vblex" /></e>
+		<e lm="धुडकाव">           	<i>धुडकाव</i><par n="बस__vblex" /></e>
+		<e lm="अडकव">                 	<i>अडकव</i><par n="बस__vblex" /></e>
+		<e lm="अडव">                    	<i>अडव</i><par n="बस__vblex" /></e>
+		<e lm="अजमाव">              	<i>अजमाव</i><par n="बस__vblex" /></e>
+		<e lm="अनुभव">              	<i>अनुभव</i><par n="बस__vblex" /></e>
+		<e lm="बानव">                 	<i>बानव</i><par n="बस__vblex" /></e>
+		<e lm="बाटव">                 	<i>बाटव</i><par n="बस__vblex" /></e>
+		<e lm="बळाव">                 	<i>बळाव</i><par n="बस__vblex" /></e>
+		<e lm="बळकाव">              	<i>बळकाव</i><par n="बस__vblex" /></e>
+		<e lm="बचाव">                 	<i>बचाव</i><par n="बस__vblex" /></e>
+		<e lm="बडव">                    	<i>बडव</i><par n="बस__vblex" /></e>
+		<e lm="बहकाव">              	<i>बहकाव</i><par n="बस__vblex" /></e>
+		<e lm="बजाव">                 	<i>बजाव</i><par n="बस__vblex" /></e>
+		<e lm="बनव">                    	<i>बनव</i><par n="बस__vblex" /></e>
+		<e lm="बस">                    	<i>बस</i><par n="बस__vblex" /></e>
+		<e lm="बिघडव">              	<i>बिघडव</i><par n="बस__vblex" /></e>
+		<e lm="बिंबव">              	<i>बिंबव</i><par n="बस__vblex" /></e>
+		<e lm="बोळव">                 	<i>बोळव</i><par n="बस__vblex" /></e>
+		<e lm="बोलाव">              	<i>बोलाव</i><par n="बस__vblex" /></e>
+		<e lm="बोलव">                 	<i>बोलव</i><par n="बस__vblex" /></e>
+		<e lm="बुडव">                 	<i>बुडव</i><par n="बस__vblex" /></e>
+		<e lm="बुडव">                 	<i>बुडव</i><par n="बस__vblex" /></e>
+		<e lm="बुजव">                 	<i>बुजव</i><par n="बस__vblex" /></e>
+		<e lm="चाळव">                 	<i>चाळव</i><par n="बस__vblex" /></e>
+		<e lm="चालव">                 	<i>चालव</i><par n="बस__vblex" /></e>
+		<e lm="चाटव">                 	<i>चाटव</i><par n="बस__vblex" /></e>
+		<e lm="चढव">                    	<i>चढव</i><par n="बस__vblex" /></e>
+		<e lm="चकव">                    	<i>चकव</i><par n="बस__vblex" /></e>
+		<e lm="चक्राव">           	<i>चक्राव</i><par n="बस__vblex" /></e>
+		<e lm="चमकाव">              	<i>चमकाव</i><par n="बस__vblex" /></e>
+		<e lm="चटाव">                 	<i>चटाव</i><par n="बस__vblex" /></e>
+		<e lm="चेतव">                 	<i>चेतव</i><par n="बस__vblex" /></e>
+		<e lm="चिथाव">              	<i>चिथाव</i><par n="बस__vblex" /></e>
+		<e lm="चिथव">                 	<i>चिथव</i><par n="बस__vblex" /></e>
+		<e lm="चिडव">                 	<i>चिडव</i><par n="बस__vblex" /></e>
+		<e lm="चिकटव">              	<i>चिकटव</i><par n="बस__vblex" /></e>
+		<e lm="चिवचिव">           	<i>चिवचिव</i><par n="बस__vblex" /></e>
+		<e lm="चुकव">                 	<i>चुकव</i><par n="बस__vblex" /></e>
+		<e lm="डसव">                    	<i>डसव</i><par n="बस__vblex" /></e>
+		<e lm="डिकव">                 	<i>डिकव</i><par n="बस__vblex" /></e>
+		<e lm="डोकाव">              	<i>डोकाव</i><par n="बस__vblex" /></e>
+		<e lm="डोलव">                 	<i>डोलव</i><par n="बस__vblex" /></e>
+		<e lm="डुबव">                 	<i>डुबव</i><par n="बस__vblex" /></e>
+		<e lm="गाजव">                 	<i>गाजव</i><par n="बस__vblex" /></e>
+		<e lm="गौरव">                 	<i>गौरव</i><par n="बस__vblex" /></e>
+		<e lm="गमाव">                 	<i>गमाव</i><par n="बस__vblex" /></e>
+		<e lm="गिरव">                 	<i>गिरव</i><par n="बस__vblex" /></e>
+		<e lm="गोठव">                 	<i>गोठव</i><par n="बस__vblex" /></e>
+		<e lm="गोव">                    	<i>गोव</i><par n="बस__vblex" /></e>
+		<e lm="गुंगव">              	<i>गुंगव</i><par n="बस__vblex" /></e>
+		<e lm="गुंतव">              	<i>गुंतव</i><par n="बस__vblex" /></e>
+		<e lm="गुरकाव">           	<i>गुरकाव</i><par n="बस__vblex" /></e>
+		<e lm="हालव">                 	<i>हालव</i><par n="बस__vblex" /></e>
+		<e lm="हालव">                 	<i>हालव</i><par n="बस__vblex" /></e>
+		<e lm="हारव">                 	<i>हारव</i><par n="बस__vblex" /></e>
+		<e lm="हलव">                    	<i>हलव</i><par n="बस__vblex" /></e>
+		<e lm="हरव">                    	<i>हरव</i><par n="बस__vblex" /></e>
+		<e lm="हटव">                    	<i>हटव</i><par n="बस__vblex" /></e>
+		<e lm="हेलाव">              	<i>हेलाव</i><par n="बस__vblex" /></e>
+		<e lm="हिंडव">              	<i>हिंडव</i><par n="बस__vblex" /></e>
+		<e lm="हिणव">                 	<i>हिणव</i><par n="बस__vblex" /></e>
+		<e lm="हिराव">              	<i>हिराव</i><par n="बस__vblex" /></e>
+		<e lm="हिसकाव">           	<i>हिसकाव</i><par n="बस__vblex" /></e>
+		<e lm="हुलकाव">           	<i>हुलकाव</i><par n="बस__vblex" /></e>
+		<e lm="हुलकव">              	<i>हुलकव</i><par n="बस__vblex" /></e>
+		<e lm="जाणव">                 	<i>जाणव</i><par n="बस__vblex" /></e>
+		<e lm="जागव">                 	<i>जागव</i><par n="बस__vblex" /></e>
+		<e lm="जडव">                    	<i>जडव</i><par n="बस__vblex" /></e>
+		<e lm="जगव">                    	<i>जगव</i><par n="बस__vblex" /></e>
+		<e lm="जमव">                    	<i>जमव</i><par n="बस__vblex" /></e>
+		<e lm="जिरव">                 	<i>जिरव</i><par n="बस__vblex" /></e>
+		<e lm="जोजव">                 	<i>जोजव</i><par n="बस__vblex" /></e>
+		<e lm="जुळव">                 	<i>जुळव</i><par n="बस__vblex" /></e>
+		<e lm="कालव">                 	<i>कालव</i><par n="बस__vblex" /></e>
+		<e lm="काव">                    	<i>काव</i><par n="बस__vblex" /></e>
+		<e lm="काताव">              	<i>काताव</i><par n="बस__vblex" /></e>
+		<e lm="कढव">                    	<i>कढव</i><par n="बस__vblex" /></e>
+		<e lm="कळव">                    	<i>कळव</i><par n="बस__vblex" /></e>
+		<e lm="कमाव">                 	<i>कमाव</i><par n="बस__vblex" /></e>
+		<e lm="करव">                    	<i>करव</i><par n="बस__vblex" /></e>
+		<e lm="कटव">                    	<i>कटव</i><par n="बस__vblex" /></e>
+		<e lm="कोमेजव">           	<i>कोमेजव</i><par n="बस__vblex" /></e>
+		<e lm="कुळव">                 	<i>कुळव</i><par n="बस__vblex" /></e>
+		<e lm="कुजव">                 	<i>कुजव</i><par n="बस__vblex" /></e>
+		<e lm="लांबव">              	<i>लांबव</i><par n="बस__vblex" /></e>
+		<e lm="लाडाव">              	<i>लाडाव</i><par n="बस__vblex" /></e>
+		<e lm="लागव">                 	<i>लागव</i><par n="बस__vblex" /></e>
+		<e lm="लाजव">                 	<i>लाजव</i><par n="बस__vblex" /></e>
+		<e lm="लालचाव">           	<i>लालचाव</i><par n="बस__vblex" /></e>
+		<e lm="लाव">                    	<i>लाव</i><par n="बस__vblex" /></e>
+		<e lm="लढव">                    	<i>लढव</i><par n="बस__vblex" /></e>
+		<e lm="लगाव">                 	<i>लगाव</i><par n="बस__vblex" /></e>
+		<e lm="लपव">                    	<i>लपव</i><par n="बस__vblex" /></e>
+		<e lm="लटकव">                 	<i>लटकव</i><par n="बस__vblex" /></e>
+		<e lm="लवव">                    	<i>लवव</i><par n="बस__vblex" /></e>
+		<e lm="लोळव">                 	<i>लोळव</i><par n="बस__vblex" /></e>
+		<e lm="लुंगव">              	<i>लुंगव</i><par n="बस__vblex" /></e>
+		<e lm="लुटव">                 	<i>लुटव</i><par n="बस__vblex" /></e>
+		<e lm="मागव">                 	<i>मागव</i><par n="बस__vblex" /></e>
+		<e lm="माजव">                 	<i>माजव</i><par n="बस__vblex" /></e>
+		<e lm="माजव">                 	<i>माजव</i><par n="बस__vblex" /></e>
+		<e lm="मालसाळव">        	<i>मालसाळव</i><par n="बस__vblex" /></e>
+		<e lm="मालव">                 	<i>मालव</i><par n="बस__vblex" /></e>
+		<e lm="मालव">                 	<i>मालव</i><par n="बस__vblex" /></e>
+		<e lm="मानव">                 	<i>मानव</i><par n="बस__vblex" /></e>
+		<e lm="मारव">                 	<i>मारव</i><par n="बस__vblex" /></e>
+		<e lm="मढव">                    	<i>मढव</i><par n="बस__vblex" /></e>
+		<e lm="मळव">                    	<i>मळव</i><par n="बस__vblex" /></e>
+		<e lm="मंदाव">              	<i>मंदाव</i><par n="बस__vblex" /></e>
+		<e lm="म्हणव">              	<i>म्हणव</i><par n="बस__vblex" /></e>
+		<e lm="मिळव">                 	<i>मिळव</i><par n="बस__vblex" /></e>
+		<e lm="मिळव">                 	<i>मिळव</i><par n="बस__vblex" /></e>
+		<e lm="मिचकाव">           	<i>मिचकाव</i><par n="बस__vblex" /></e>
+		<e lm="मिरव">                 	<i>मिरव</i><par n="बस__vblex" /></e>
+		<e lm="मिटव">                 	<i>मिटव</i><par n="बस__vblex" /></e>
+		<e lm="मोहव">                 	<i>मोहव</i><par n="बस__vblex" /></e>
+		<e lm="मुजव">                 	<i>मुजव</i><par n="बस__vblex" /></e>
+		<e lm="मुरव">                 	<i>मुरव</i><par n="बस__vblex" /></e>
+		<e lm="नांदव">              	<i>नांदव</i><par n="बस__vblex" /></e>
+		<e lm="नाचव">                 	<i>नाचव</i><par n="बस__vblex" /></e>
+		<e lm="नाडव">                 	<i>नाडव</i><par n="बस__vblex" /></e>
+		<e lm="नागव">                 	<i>नागव</i><par n="बस__vblex" /></e>
+		<e lm="नडव">                    	<i>नडव</i><par n="बस__vblex" /></e>
+		<e lm="नमव">                    	<i>नमव</i><par n="बस__vblex" /></e>
+		<e lm="निभाव">              	<i>निभाव</i><par n="बस__vblex" /></e>
+		<e lm="निजव">                 	<i>निजव</i><par n="बस__vblex" /></e>
+		<e lm="निर्ढाव">        	<i>निर्ढाव</i><par n="बस__vblex" /></e>
+		<e lm="निरव">                 	<i>निरव</i><par n="बस__vblex" /></e>
+		<e lm="निसव">                 	<i>निसव</i><par n="बस__vblex" /></e>
+		<e lm="नोंदव">              	<i>नोंदव</i><par n="बस__vblex" /></e>
+		<e lm="ओढव">                    	<i>ओढव</i><par n="बस__vblex" /></e>
+		<e lm="ओणव">                    	<i>ओणव</i><par n="बस__vblex" /></e>
+		<e lm="पांगव">              	<i>पांगव</i><par n="बस__vblex" /></e>
+		<e lm="पाठव">                 	<i>पाठव</i><par n="बस__vblex" /></e>
+		<e lm="पाजव">                 	<i>पाजव</i><par n="बस__vblex" /></e>
+		<e lm="पाकव">                 	<i>पाकव</i><par n="बस__vblex" /></e>
+		<e lm="पळव">                    	<i>पळव</i><par n="बस__vblex" /></e>
+		<e lm="पचव">                    	<i>पचव</i><par n="बस__vblex" /></e>
+		<e lm="परतव">                 	<i>परतव</i><par n="बस__vblex" /></e>
+		<e lm="पसरव">                 	<i>पसरव</i><par n="बस__vblex" /></e>
+		<e lm="पस्ताव">           	<i>पस्ताव</i><par n="बस__vblex" /></e>
+		<e lm="पटकाव">              	<i>पटकाव</i><par n="बस__vblex" /></e>
+		<e lm="पटव">                    	<i>पटव</i><par n="बस__vblex" /></e>
+		<e lm="पदव">                    	<i>पदव</i><par n="बस__vblex" /></e>
+		<e lm="पेटव">                 	<i>पेटव</i><par n="बस__vblex" /></e>
+		<e lm="पिकव">                 	<i>पिकव</i><par n="बस__vblex" /></e>
+		<e lm="पोहोंचव">        	<i>पोहोंचव</i><par n="बस__vblex" /></e>
+		<e lm="पोहोचव">           	<i>पोहोचव</i><par n="बस__vblex" /></e>
+		<e lm="प्रसव">              	<i>प्रसव</i><par n="बस__vblex" /></e>
+		<e lm="पुरव">                 	<i>पुरव</i><par n="बस__vblex" /></e>
+		<e lm="राबव">                 	<i>राबव</i><par n="बस__vblex" /></e>
+		<e lm="रागाव">              	<i>रागाव</i><par n="बस__vblex" /></e>
+		<e lm="राहव">                 	<i>राहव</i><par n="बस__vblex" /></e>
+		<e lm="रूजव">                 	<i>रूजव</i><par n="बस__vblex" /></e>
+		<e lm="रंगव">                 	<i>रंगव</i><par n="बस__vblex" /></e>
+		<e lm="रचव">                    	<i>रचव</i><par n="बस__vblex" /></e>
+		<e lm="रडव">                    	<i>रडव</i><par n="बस__vblex" /></e>
+		<e lm="रमव">                    	<i>रमव</i><par n="बस__vblex" /></e>
+		<e lm="रिझव">                 	<i>रिझव</i><par n="बस__vblex" /></e>
+		<e lm="रिचव">                 	<i>रिचव</i><par n="बस__vblex" /></e>
+		<e lm="रोडाव">              	<i>रोडाव</i><par n="बस__vblex" /></e>
+		<e lm="रोव">                    	<i>रोव</i><par n="बस__vblex" /></e>
+		<e lm="रुतव">                 	<i>रुतव</i><par n="बस__vblex" /></e>
+		<e lm="साठव">                 	<i>साठव</i><par n="बस__vblex" /></e>
+		<e lm="सामाव">              	<i>सामाव</i><par n="बस__vblex" /></e>
+		<e lm="स्थिराव">        	<i>स्थिराव</i><par n="बस__vblex" /></e>
+		<e lm="संपव">                 	<i>संपव</i><par n="बस__vblex" /></e>
+		<e lm="सडकाव">              	<i>सडकाव</i><par n="बस__vblex" /></e>
+		<e lm="सजव">                    	<i>सजव</i><par n="बस__vblex" /></e>
+		<e lm="समजाव">              	<i>समजाव</i><par n="बस__vblex" /></e>
+		<e lm="सरकव">                 	<i>सरकव</i><par n="बस__vblex" /></e>
+		<e lm="सरसाव">              	<i>सरसाव</i><par n="बस__vblex" /></e>
+		<e lm="सटकाव">              	<i>सटकाव</i><par n="बस__vblex" /></e>
+		<e lm="सताव">                 	<i>सताव</i><par n="बस__vblex" /></e>
+		<e lm="सोडव">                 	<i>सोडव</i><par n="बस__vblex" /></e>
+		<e lm="सोकाव">              	<i>सोकाव</i><par n="बस__vblex" /></e>
+		<e lm="सोपव">                 	<i>सोपव</i><par n="बस__vblex" /></e>
+		<e lm="सुखाव">              	<i>सुखाव</i><par n="बस__vblex" /></e>
+		<e lm="सुखव">                 	<i>सुखव</i><par n="बस__vblex" /></e>
+		<e lm="सुचव">                 	<i>सुचव</i><par n="बस__vblex" /></e>
+		<e lm="सुकव">                 	<i>सुकव</i><par n="बस__vblex" /></e>
+		<e lm="सुकव">                 	<i>सुकव</i><par n="बस__vblex" /></e>
+		<e lm="सुनाव">              	<i>सुनाव</i><par n="बस__vblex" /></e>
+		<e lm="सुस्ताव">        	<i>सुस्ताव</i><par n="बस__vblex" /></e>
+		<e lm="टांगव">              	<i>टांगव</i><par n="बस__vblex" /></e>
+		<e lm="टरकाव">              	<i>टरकाव</i><par n="बस__vblex" /></e>
+		<e lm="टवटव">                 	<i>टवटव</i><par n="बस__vblex" /></e>
+		<e lm="टेकव">                 	<i>टेकव</i><par n="बस__vblex" /></e>
+		<e lm="टिकव">                 	<i>टिकव</i><par n="बस__vblex" /></e>
+		<e lm="टोलव">                 	<i>टोलव</i><par n="बस__vblex" /></e>
+		<e lm="उंचाव">              	<i>उंचाव</i><par n="बस__vblex" /></e>
+		<e lm="उंचव">                 	<i>उंचव</i><par n="बस__vblex" /></e>
+		<e lm="उठव">                    	<i>उठव</i><par n="बस__vblex" /></e>
+		<e lm="उबव">                    	<i>उबव</i><par n="बस__vblex" /></e>
+		<e lm="उडव">                    	<i>उडव</i><par n="बस__vblex" /></e>
+		<e lm="उगव">                    	<i>उगव</i><par n="बस__vblex" /></e>
+		<e lm="उगव">                    	<i>उगव</i><par n="बस__vblex" /></e>
+		<e lm="उजव">                    	<i>उजव</i><par n="बस__vblex" /></e>
+		<e lm="उलथव">                 	<i>उलथव</i><par n="बस__vblex" /></e>
+		<e lm="उलटव">                 	<i>उलटव</i><par n="बस__vblex" /></e>
+		<e lm="उसव">                    	<i>उसव</i><par n="बस__vblex" /></e>
+		<e lm="उतरव">                 	<i>उतरव</i><par n="बस__vblex" /></e>
+		<e lm="उतव">                    	<i>उतव</i><par n="बस__vblex" /></e>
+		<e lm="वाढव">                 	<i>वाढव</i><par n="बस__vblex" /></e>
+		<e lm="वाळव">                 	<i>वाळव</i><par n="बस__vblex" /></e>
+		<e lm="वाचव">                 	<i>वाचव</i><par n="बस__vblex" /></e>
+		<e lm="वागव">                 	<i>वागव</i><par n="बस__vblex" /></e>
+		<e lm="वाहव">                 	<i>वाहव</i><par n="बस__vblex" /></e>
+		<e lm="वाजव">                 	<i>वाजव</i><par n="बस__vblex" /></e>
+		<e lm="वाकव">                 	<i>वाकव</i><par n="बस__vblex" /></e>
+		<e lm="वारव">                 	<i>वारव</i><par n="बस__vblex" /></e>
+		<e lm="व">                          	<i>व</i><par n="बस__vblex" /></e>
+		<e lm="वळव">                    	<i>वळव</i><par n="बस__vblex" /></e>
+		<e lm="वल्हव">              	<i>वल्हव</i><par n="बस__vblex" /></e>
+		<e lm="वर्तव">              	<i>वर्तव</i><par n="बस__vblex" /></e>
+		<e lm="वसव">                    	<i>वसव</i><par n="बस__vblex" /></e>
+		<e lm="वटव">                    	<i>वटव</i><par n="बस__vblex" /></e>
+		<e lm="वेडाव">              	<i>वेडाव</i><par n="बस__vblex" /></e>
+		<e lm="विझव">                 	<i>विझव</i><par n="बस__vblex" /></e>
+		<e lm="विनव">                 	<i>विनव</i><par n="बस__vblex" /></e>
+		<e lm="वितळव">              	<i>वितळव</i><par n="बस__vblex" /></e>
+		<e lm="वितळव">              	<i>वितळव</i><par n="बस__vblex" /></e>
+		<e lm="तापव">                 	<i>तापव</i><par n="बस__vblex" /></e>
+		<e lm="तळाव">                 	<i>तळाव</i><par n="बस__vblex" /></e>
+		<e lm="तगव">                    	<i>तगव</i><par n="बस__vblex" /></e>
+		<e lm="तरव">                    	<i>तरव</i><par n="बस__vblex" /></e>
+		<e lm="तटव">                    	<i>तटव</i><par n="बस__vblex" /></e>
+		<e lm="तेव">                    	<i>तेव</i><par n="बस__vblex" /></e>
+		<e lm="तुडव">                 	<i>तुडव</i><par n="बस__vblex" /></e>
+		<e lm="तुकव">                 	<i>तुकव</i><par n="बस__vblex" /></e>
+		<e lm="दाखव">                 	<i>दाखव</i><par n="बस__vblex" /></e>
+		<e lm="दाव">                    	<i>दाव</i><par n="बस__vblex" /></e>
+		<e lm="दडव">                    	<i>दडव</i><par n="बस__vblex" /></e>
+		<e lm="दगाव">                 	<i>दगाव</i><par n="बस__vblex" /></e>
+		<e lm="दर्षव">              	<i>दर्षव</i><par n="बस__vblex" /></e>
+		<e lm="दरडाव">              	<i>दरडाव</i><par n="बस__vblex" /></e>
+		<e lm="दटाव">                 	<i>दटाव</i><par n="बस__vblex" /></e>
+		<e lm="दव">                       	<i>दव</i><par n="बस__vblex" /></e>
+		<e lm="देवव">                 	<i>देवव</i><par n="बस__vblex" /></e>
+		<e lm="द्रव">                 	<i>द्रव</i><par n="बस__vblex" /></e>
+		<e lm="दुभाग">              	<i>दुभाग</i><par n="बस__vblex" /></e>
+		<e lm="दुखव">                 	<i>दुखव</i><par n="बस__vblex" /></e>
+		<e lm="दुणाव">              	<i>दुणाव</i><par n="बस__vblex" /></e>
+		<e lm="दुराव">              	<i>दुराव</i><par n="बस__vblex" /></e>
 		<e lm="आढळ">                    	<i>आढळ</i><par n="बस__vblex" /></e>
 		<e lm="आख">                       	<i>आख</i><par n="बस__vblex" /></e>
 		<e lm="आखड">                    	<i>आखड</i><par n="बस__vblex" /></e>
@@ -2110,6 +2475,975 @@
 		
 
 		<!-- nouns -->
+		<e lm="घंटा">                         	<i>घंट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घनिश्ठता">                     	<i>घनिश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षारदा">                        	<i>षारद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षब्दरचना">                     	<i>षब्दरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिवगीता">                      	<i>षिवगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="थट्टा">                        	<i>थट्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अजाणता">                       	<i>अजाणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अतूटता">                       	<i>अतूटत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ब्रह्मगीता">                   	<i>ब्रह्मगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गणेषगीता">                     	<i>गणेषगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गर्भगीता">                     	<i>गर्भगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हंसगीता">                      	<i>हंसगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हवा">                          	<i>हव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ज्ञानसाधना">                   	<i>ज्ञानसाधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पांडवगीता">                    	<i>पांडवगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परमार्थसाधना">                 	<i>परमार्थसाधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रामाणिकता">                  	<i>प्रामाणिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रामगीता">                      	<i>रामगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सापेक्शता">                    	<i>सापेक्शत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सहजता">                        	<i>सहजत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समयसूचकता">                    	<i>समयसूचकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सत्यता">                       	<i>सत्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वस्थता">                     	<i>स्वस्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वतंत्रता">                   	<i>स्वतंत्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उश्णता">                       	<i>उश्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उत्तरगीता">                    	<i>उत्तरगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विजयपताका">                    	<i>विजयपताक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तर्कषुद्धता">                  	<i>तर्कषुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यमगीता">                       	<i>यमगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="योजना">                        	<i>योजन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आढ्यता">                       	<i>आढ्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आख्यायिका">                    	<i>आख्यायिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आंतरत्वचा">                    	<i>आंतरत्वच</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आंतरिकता">                     	<i>आंतरिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आफ्रिका">                      	<i>आफ्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आषा">                          	<i>आष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आधेयता">                       	<i>आधेयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आधुनिकता">                     	<i>आधुनिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आध्यात्मिकता">                 	<i>आध्यात्मिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आज्ञा">                        	<i>आज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आजक्का">                       	<i>आजक्क</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आकांक्शा">                     	<i>आकांक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आकर्शकता">                     	<i>आकर्शकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आकस्मिकता">                    	<i>आकस्मिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आमसभा">                        	<i>आमसभ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आम्लता">                       	<i>आम्लत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आनुवंषिकता">                   	<i>आनुवंषिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आपदा">                         	<i>आपद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आराधना">                       	<i>आराधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आर्द्रता">                     	<i>आर्द्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आस्था">                        	<i>आस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आवा">                          	<i>आव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आवष्यकता">                     	<i>आवष्यकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आवरणत्वचा">                    	<i>आवरणत्वच</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्मीयता">                     	<i>आत्मीयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्महत्या">                    	<i>आत्महत्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्मसंतुश्टता">                	<i>आत्मसंतुश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्मविद्या">                   	<i>आत्मविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आतुरता">                       	<i>आतुरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्या">                        	<i>आत्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आत्यंतिकता">                   	<i>आत्यंतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आयुश्यरेशा">                   	<i>आयुश्यरेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="आयुर्मर्यादा">                 	<i>आयुर्मर्याद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भाशा">                         	<i>भाश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भाग्यरेशा">                    	<i>भाग्यरेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भाकडकथा">                      	<i>भाकडकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भार्या">                       	<i>भार्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भावना">                        	<i>भावन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भावनात्मकता">                  	<i>भावनात्मकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भावनिकता">                     	<i>भावनिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भीमा">                         	<i>भीम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भौगोलिकता">                    	<i>भौगोलिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भौतिकता">                      	<i>भौतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भूमध्यरेशा">                   	<i>भूमध्यरेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भूमिका">                       	<i>भूमिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भूरचना">                       	<i>भूरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भूतबाधा">                      	<i>भूतबाध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भंगुरता">                      	<i>भंगुरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भगवद्गीता">                    	<i>भगवद्गीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भरीवता">                       	<i>भरीवत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भरतकला">                       	<i>भरतकल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भस्त्रिका">                    	<i>भस्त्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भव्यता">                       	<i>भव्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भयानकता">                      	<i>भयानकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भेसूरता">                      	<i>भेसूरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भिक्शा">                       	<i>भिक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भिन्नता">                      	<i>भिन्नत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भित्त्तिका">                   	<i>भित्त्तिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भुंगा">                        	<i>भुंग</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भुमका">                        	<i>भुमक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="छंदोरचना">                     	<i>छंदोरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="छटा">                          	<i>छट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ऐहिकता">                       	<i>ऐहिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ऐतिहासिकता">                   	<i>ऐतिहासिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घंटा">                         	<i>घंट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घनता">                         	<i>घनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घनिश्ठता">                     	<i>घनिश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घटका">                         	<i>घटक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घटना">                         	<i>घटन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घटनिश्ठप्रतियोगिता">           	<i>घटनिश्ठप्रतियोगित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घोशणा">                        	<i>घोशण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="घ्ऋ्णा">                       	<i>घ्ऋ्ण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ईशणा">                         	<i>ईशण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ईर्शा">                        	<i>ईर्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="खातरजमा">                      	<i>खातरजम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="खस्ता">                        	<i>खस्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="फलधारणा">                      	<i>फलधारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षाखा">                         	<i>षाख</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षाळा">                         	<i>षाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षाळुंका">                      	<i>षाळुंक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षांता">                        	<i>षांत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षांता">                        	<i>षांत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षांताक्का">                    	<i>षांताक्क</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षांतता">                       	<i>षांतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षालीनता">                      	<i>षालीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षारदा">                        	<i>षारद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षासंकता">                      	<i>षासंकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षासनसंस्था">                   	<i>षासनसंस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षास्त्रषुद्धता">               	<i>षास्त्रषुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षास्त्रविद्या">                	<i>षास्त्रविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षीघ्रता">                      	<i>षीघ्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षीतलता">                       	<i>षीतलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षंका">                         	<i>षंक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षंकाकुषंका">                   	<i>षंकाकुषंक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षब्दरचना">                     	<i>षब्दरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षहाणपणा">                      	<i>षहाणपण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षहानिषा">                      	<i>षहानिष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षक्यता">                       	<i>षक्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षवपेटिका">                     	<i>षवपेटिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिळा">                         	<i>षिळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिश्टता">                      	<i>षिश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिश्या">                       	<i>षिश्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिथिलता">                      	<i>षिथिलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिक्शा">                       	<i>षिक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिक्शणसंस्था">                 	<i>षिक्शणसंस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिक्शिका">                     	<i>षिक्शिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिस्तबद्धता">                  	<i>षिस्तबद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षिवगीता">                      	<i>षिवगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षोकांतिका">                    	<i>षोकांतिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्राव्यता">                    	<i>ष्राव्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्रीषारदा">                    	<i>ष्रीषारद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्रद्धा">                      	<i>ष्रद्ध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्रेश्ठता">                    	<i>ष्रेश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्रुतिका">                     	<i>ष्रुतिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षुभ्रता">                      	<i>षुभ्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षुश्कता">                      	<i>षुश्कत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षुष्रूशा">                     	<i>षुष्रूश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षुचिर्भूतता">                  	<i>षुचिर्भूतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="षुद्धता">                      	<i>षुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्वासनलिका">                   	<i>ष्वासनलिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ष्वेतपत्रिका">                 	<i>ष्वेतपत्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ऊर्जा">                        	<i>ऊर्ज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ऊर्जितावस्था">                 	<i>ऊर्जितावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="थट्टा">                        	<i>थट्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धारणा">                        	<i>धारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धार्मिकता">                    	<i>धार्मिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धूर्तता">                      	<i>धूर्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धूसरता">                       	<i>धूसरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धश्टपुश्टता">                  	<i>धश्टपुश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धनप्रेशा">                     	<i>धनप्रेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धन्यता">                       	<i>धन्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धर्मषाळा">                     	<i>धर्मषाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="धुरा">                         	<i>धुर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ध्यानावस्था">                  	<i>ध्यानावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अखंडता">                       	<i>अखंडत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अंधष्रद्धा">                   	<i>अंधष्रद्ध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अंतर्निश्ठा">                  	<i>अंतर्निश्ठ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अफवा">                         	<i>अफव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अषांतता">                      	<i>अषांतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अषक्तता">                      	<i>अषक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अषुद्धता">                     	<i>अषुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अधिकरणता">                     	<i>अधिकरणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अबला">                         	<i>अबल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अचूकता">                       	<i>अचूकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अगाधता">                       	<i>अगाधत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अगतिकता">                      	<i>अगतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अहंता">                        	<i>अहंत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अहमहमिका">                     	<i>अहमहमिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अहिंसा">                       	<i>अहिंस</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अजाणता">                       	<i>अजाणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अकार्यक्शमता">                 	<i>अकार्यक्शमत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अक्शता">                       	<i>अक्शत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अलिप्तता">                     	<i>अलिप्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अल्पना">                       	<i>अल्पन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अल्पसंख्या">                   	<i>अल्पसंख्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अमर्यादा">                     	<i>अमर्याद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अमेरिका">                      	<i>अमेरिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अनौपचारिकता">                  	<i>अनौपचारिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अनिश्टता">                     	<i>अनिश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अनिवारता">                     	<i>अनिवारत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अन्ननलिका">                    	<i>अन्ननलिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अनुकूलता">                     	<i>अनुकूलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अनुयोगिता">                    	<i>अनुयोगित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपूर्णता">                     	<i>अपूर्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपूर्वता">                     	<i>अपूर्वत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपंगता">                       	<i>अपंगत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपक्शता">                      	<i>अपक्शत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपेश्टा">                      	<i>अपेश्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अपेक्शा">                      	<i>अपेक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अप्रामाणिकता">                 	<i>अप्रामाणिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अप्रषस्तता">                   	<i>अप्रषस्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अप्रस्तुतता">                  	<i>अप्रस्तुतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अप्सरा">                       	<i>अप्सर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अराजकता">                      	<i>अराजकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अराजकता">                      	<i>अराजकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अर्थपूर्णता">                  	<i>अर्थपूर्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अर्थव्यवस्था">                 	<i>अर्थव्यवस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अरुंदता">                      	<i>अरुंदत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="असाधारणता">                    	<i>असाधारणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="असामान्यता">                   	<i>असामान्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="असूया">                        	<i>असूय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्थिरता">                     	<i>अस्थिरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="असमर्थता">                     	<i>असमर्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="असत्यता">                      	<i>असत्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्पश्टता">                    	<i>अस्पश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्प्ऋ्ष्यता">                 	<i>अस्प्ऋ्ष्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्वच्छता">                    	<i>अस्वच्छत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्वस्थता">                    	<i>अस्वस्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अस्वस्थता">                    	<i>अस्वस्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवाढव्यता">                    	<i>अवाढव्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवाढ्व्यता">                   	<i>अवाढ्व्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवीटता">                       	<i>अवीटत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवचितता">                      	<i>अवचितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवज्ञा">                       	<i>अवज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवकळा">                        	<i>अवकळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवक्ऋ्पा">                     	<i>अवक्ऋ्प</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अवस्था">                       	<i>अवस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अविभक्तता">                    	<i>अविभक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अविद्या">                      	<i>अविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अव्यंगता">                     	<i>अव्यंगत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अतूटता">                       	<i>अतूटत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अतिरिक्तता">                   	<i>अतिरिक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="अत्यावष्यकता">                 	<i>अत्यावष्यकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बाह्यरेशा">                    	<i>बाह्यरेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बौद्धिकता">                    	<i>बौद्धिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बंदिस्तपणा">                   	<i>बंदिस्तपण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बससेवा">                       	<i>बससेव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बद्धता">                       	<i>बद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बया">                          	<i>बय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बेदा">                         	<i>बेद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ब्रह्मगीता">                   	<i>ब्रह्मगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="बुद्धिमत्ता">                  	<i>बुद्धिमत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चालना">                        	<i>चालन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चपला">                         	<i>चपल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चर्या">                        	<i>चर्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चतुःसीमा">                     	<i>चतुःसीम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चेश्टा">                       	<i>चेश्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चेतना">                        	<i>चेतन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चिंता">                        	<i>चिंत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चिकित्सा">                     	<i>चिकित्स</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चिपळ्या">                      	<i>चिपळ्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="चिरंतनता">                     	<i>चिरंतनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="डळमळीतता">                     	<i>डळमळीतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="एकांतिकता">                    	<i>एकांतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="एकवाक्यता">                    	<i>एकवाक्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गंधवार्ता">                    	<i>गंधवार्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गंडमाळा">                      	<i>गंडमाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गणना">                         	<i>गणन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गणेषगीता">                     	<i>गणेषगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गमजा">                         	<i>गमज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गप्पा">                        	<i>गप्प</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गर्भगीता">                     	<i>गर्भगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गर्जना">                       	<i>गर्जन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गर्विश्ठता">                   	<i>गर्विश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गतानुगतिकता">                  	<i>गतानुगतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गयावया">                       	<i>गयावय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ग्रामीणता">                    	<i>ग्रामीणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ग्राम्यता">                    	<i>ग्राम्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गुंफा">                        	<i>गुंफ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गुणवत्ता">                     	<i>गुणवत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="गुप्तता">                      	<i>गुप्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हंसगीता">                      	<i>हंसगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हरिकथा">                       	<i>हरिकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हवा">                          	<i>हव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="हेळणा">                        	<i>हेळण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="इंदिरा">                       	<i>इंदिर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="इच्छा">                        	<i>इच्छ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="इडापिडा">                      	<i>इडापिड</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="इजा">                          	<i>इज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="इयत्ता">                       	<i>इयत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जागा">                         	<i>जाग</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जागतिकता">                     	<i>जागतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जाग्ऋ्तता">                    	<i>जाग्ऋ्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जातीयता">                      	<i>जातीयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ज्ञानसाधना">                   	<i>ज्ञानसाधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जीवनकला">                      	<i>जीवनकल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जडता">                         	<i>जडत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जमीनधारणा">                    	<i>जमीनधारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जनलज्जा">                      	<i>जनलज्ज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जनता">                         	<i>जनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जन्मपत्रिका">                  	<i>जन्मपत्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जटा">                          	<i>जट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जत्रा">                        	<i>जत्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जिवंतता">                      	<i>जिवंतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="जोपासना">                      	<i>जोपासन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कांजण्या">                     	<i>कांजण्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कामना">                        	<i>कामन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कामवासना">                     	<i>कामवासन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कारणमीमांसा">                  	<i>कारणमीमांस</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कार्यतत्परता">                 	<i>कार्यतत्परत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="काया">                         	<i>काय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्शमा">                        	<i>क्शम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्शमता">                       	<i>क्शमत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कूपनलिका">                     	<i>कूपनलिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कळा">                          	<i>कळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कथा">                          	<i>कथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कक्शा">                        	<i>कक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कला">                          	<i>कल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कल्पकता">                      	<i>कल्पकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कल्पना">                       	<i>कल्पन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कल्पिता">                      	<i>कल्पित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कमतरता">                       	<i>कमतरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कनिश्ठता">                     	<i>कनिश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="करूणा">                        	<i>करूण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कटूता">                        	<i>कटूत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कविता">                        	<i>कवित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="किमया">                        	<i>किमय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्लिश्टता">                    	<i>क्लिश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कोनषिला">                      	<i>कोनषिल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्ऋ्पा">                       	<i>क्ऋ्प</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्ऋ्तज्ञता">                   	<i>क्ऋ्तज्ञत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्ऋ्त्रिमता">                  	<i>क्ऋ्त्रिमत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्ऋ्त्या">                     	<i>क्ऋ्त्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="क्रिया">                       	<i>क्रिय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुळकथा">                       	<i>कुळकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुषंका">                       	<i>कुषंक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुचंबणा">                      	<i>कुचंबण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुचेश्टा">                     	<i>कुचेश्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुलीनता">                      	<i>कुलीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुरूपता">                      	<i>कुरूपत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="कुविद्या">                     	<i>कुविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लालसा">                        	<i>लालस</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लैंगिकता">                     	<i>लैंगिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लीनता">                        	<i>लीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लघुकथा">                       	<i>लघुकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लंका">                         	<i>लंक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ललाटरेखा">                     	<i>ललाटरेख</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लमाणा">                        	<i>लमाण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लवचिकता">                      	<i>लवचिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लता">                          	<i>लत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लतकोडगा">                      	<i>लतकोडग</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लोकप्रियता">                   	<i>लोकप्रियत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लोकसंख्या">                    	<i>लोकसंख्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लोकविद्या">                    	<i>लोकविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="लोलंगता">                      	<i>लोलंगत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="माकडचेश्टा">                   	<i>माकडचेश्ट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मालमत्ता">                     	<i>मालमत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मालिका">                       	<i>मालिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मानखंडना">                     	<i>मानखंडन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मानसिकता">                     	<i>मानसिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मान्यता">                      	<i>मान्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मार्मिकता">                    	<i>मार्मिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मार्मिकता">                    	<i>मार्मिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="माता">                         	<i>मात</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मात्रा">                       	<i>मात्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मादकता">                       	<i>मादकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="माया">                         	<i>माय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मूळमाया">                      	<i>मूळमाय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मध्यमा">                       	<i>मध्यम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मग्रूरता">                     	<i>मग्रूरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="महामाया">                      	<i>महामाय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="महानगरपालिका">                 	<i>महानगरपालिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="महानता">                       	<i>महानत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="महत्त्वाकांक्शा">              	<i>महत्त्वाकांक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मजा">                          	<i>मज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मल्लविद्या">                   	<i>मल्लविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मनीशा">                        	<i>मनीश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मनोव्यथा">                     	<i>मनोव्यथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मनुका">                        	<i>मनुक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मर्यादा">                      	<i>मर्याद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मतपत्रिका">                    	<i>मतपत्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="म्ऋ्त्युसंख्या">               	<i>म्ऋ्त्युसंख्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मुभा">                         	<i>मुभ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मुग्धता">                      	<i>मुग्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मुक्तता">                      	<i>मुक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="मुद्रा">                       	<i>मुद्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नाटिका">                       	<i>नाटिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नाट्यछटा">                     	<i>नाट्यछट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नैतिकता">                      	<i>नैतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नीतिमत्ता">                    	<i>नीतिमत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नगरपालिका">                    	<i>नगरपालिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नकारात्मकता">                  	<i>नकारात्मकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नक्तबाबा">                     	<i>नक्तबाब</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नम्रता">                       	<i>नम्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नवीनता">                       	<i>नवीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नवलकथा">                       	<i>नवलकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नवविधा">                       	<i>नवविध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नेचा">                         	<i>नेच</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निःस्तब्धता">                  	<i>निःस्तब्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निंदा">                        	<i>निंद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निश्ठा">                       	<i>निश्ठ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निश्कामता">                    	<i>निश्कामत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निषा">                         	<i>निष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निगा">                         	<i>निग</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निकटता">                       	<i>निकटत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निक्ऋ्श्टता">                  	<i>निक्ऋ्श्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निराषा">                       	<i>निराष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निरागसता">                     	<i>निरागसत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्भीडता">                    	<i>निर्भीडत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्भत्सना">                   	<i>निर्भत्सन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्भयता">                     	<i>निर्भयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्णायकता">                   	<i>निर्णायकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निरिच्छता">                    	<i>निरिच्छत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्मळता">                     	<i>निर्मळत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्व्याजता">                  	<i>निर्व्याजत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निर्व्यसनता">                  	<i>निर्व्यसनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निस्प्ऋ्हता">                  	<i>निस्प्ऋ्हत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="निविदा">                       	<i>निविद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नियमितता">                     	<i>नियमितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="नियोजितता">                    	<i>नियोजितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पांडवगीता">                    	<i>पांडवगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पाठषाळा">                      	<i>पाठषाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पाध्यपूजा">                    	<i>पाध्यपूज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पागा">                         	<i>पाग</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पात्रयोजना">                   	<i>पात्रयोजन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पीडा">                         	<i>पीड</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पौश्टिकता">                    	<i>पौश्टिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पौर्णिमा">                     	<i>पौर्णिम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पूजा">                         	<i>पूज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पूर्णता">                      	<i>पूर्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पूर्वसूचना">                   	<i>पूर्वसूचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पडछाया">                       	<i>पडछाय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पराकाश्ठा">                    	<i>पराकाश्ठ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परीक्शा">                      	<i>परीक्श</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परंपरा">                       	<i>परंपर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परमार्थसाधना">                 	<i>परमार्थसाधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परटीणा">                       	<i>परटीण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परिभाशा">                      	<i>परिभाश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="परिचारिका">                    	<i>परिचारिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पत्रिका">                      	<i>पत्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पिडा">                         	<i>पिड</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्लीहा">                       	<i>प्लीह</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पोक्तता">                      	<i>पोक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्ऋ्थ्वीप्रदक्शिणा">           	<i>प्ऋ्थ्वीप्रदक्शिण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्राथमिकता">                   	<i>प्राथमिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्राचीनता">                    	<i>प्राचीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्राज्ञा">                     	<i>प्राज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रामाणिकता">                  	<i>प्रामाणिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रातिनिधिकता">                	<i>प्रातिनिधिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रौढावस्था">                  	<i>प्रौढावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रौढता">                      	<i>प्रौढत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रथमा">                       	<i>प्रथम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रचंडता">                     	<i>प्रचंडत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रजा">                        	<i>प्रज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रज्ञा">                      	<i>प्रज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रक्रिया">                    	<i>प्रक्रिय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रमाणबद्धता">                 	<i>प्रमाणबद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रस्थापितता">                 	<i>प्रस्थापितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रसन्नता">                    	<i>प्रसन्नत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रसिद्धता">                   	<i>प्रसिद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रतिभा">                      	<i>प्रतिभ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रतिक्रिया">                  	<i>प्रतिक्रिय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रतिपदा">                     	<i>प्रतिपद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रतियोगिता">                  	<i>प्रतियोगित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रदक्शिणा">                   	<i>प्रदक्शिण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रयोगषाळा">                   	<i>प्रयोगषाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रेरणा">                      	<i>प्रेरण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="प्रेतयात्रा">                  	<i>प्रेतयात्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पुनर्घटना">                    	<i>पुनर्घटन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पुनर्रचना">                    	<i>पुनर्रचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="पुरस्क्ऋ्तता">                 	<i>पुरस्क्ऋ्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="राश्ट्रीयता">                  	<i>राश्ट्रीयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="राजसत्ता">                     	<i>राजसत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="राज्यघटना">                    	<i>राज्यघटन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="राज्यसंस्था">                  	<i>राज्यसंस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="राज्यव्यवस्था">                	<i>राज्यव्यवस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रामगीता">                      	<i>रामगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रूपरेखा">                      	<i>रूपरेख</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रूपरेशा">                      	<i>रूपरेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रचना">                         	<i>रचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रडकथा">                        	<i>रडकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रजा">                          	<i>रज</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रक्तरंजितता">                  	<i>रक्तरंजितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रम्यता">                       	<i>रम्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रसना">                         	<i>रसन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रया">                          	<i>रय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="रेशा">                         	<i>रेश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सांगता">                       	<i>सांगत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सांकेतिकता">                   	<i>सांकेतिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सांप्रतता">                    	<i>सांप्रतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सांसर्गिकता">                  	<i>सांसर्गिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सांस्क्ऋ्तिकता">               	<i>सांस्क्ऋ्तिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="साधना">                        	<i>साधन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="साक्शरता">                     	<i>साक्शरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सामाजिकता">                    	<i>सामाजिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सामान्यता">                    	<i>सामान्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="साम्यावस्था">                  	<i>साम्यावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सापेक्शता">                    	<i>सापेक्शत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सार्थकता">                     	<i>सार्थकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सार्वत्रिकता">                 	<i>सार्वत्रिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सावधता">                       	<i>सावधत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सायुज्यता">                    	<i>सायुज्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सीमा">                         	<i>सीम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सीता">                         	<i>सीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सौम्यता">                      	<i>सौम्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्फुटरचना">                    	<i>स्फुटरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सूचना">                        	<i>सूचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सूक्श्मता">                    	<i>सूक्श्मत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थानबद्धता">                  	<i>स्थानबद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थानवद्धता">                  	<i>स्थानवद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थापना">                      	<i>स्थापन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थिरता">                      	<i>स्थिरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थितिषीलता">                  	<i>स्थितिषीलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्थितिस्थापकता">               	<i>स्थितिस्थापकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सभा">                          	<i>सभ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संभावना">                      	<i>संभावन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संभावितता">                    	<i>संभावितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संघटना">                       	<i>संघटन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संख्या">                       	<i>संख्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संथा">                         	<i>संथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संध्या">                       	<i>संध्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संहिता">                       	<i>संहित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संज्ञा">                       	<i>संज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संकीर्णता">                    	<i>संकीर्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संकुचितता">                    	<i>संकुचितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संकुचितता">                    	<i>संकुचितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संपूर्णता">                    	<i>संपूर्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संस्था">                       	<i>संस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संवेदना">                      	<i>संवेदन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संतक्ऋ्पा">                    	<i>संतक्ऋ्प</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संदिग्धता">                    	<i>संदिग्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संयुक्तता">                    	<i>संयुक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="संयुक्तिकता">                  	<i>संयुक्तिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सषक्तता">                      	<i>सषक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सधवा">                         	<i>सधव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सहजता">                        	<i>सहजत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सकेषा">                        	<i>सकेष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सक्रियता">                     	<i>सक्रियत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सक्तता">                       	<i>सक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सलोकता">                       	<i>सलोकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समांतरता">                     	<i>समांतरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समानता">                       	<i>समानत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समीपता">                       	<i>समीपत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समरसता">                       	<i>समरसत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समर्पकता">                     	<i>समर्पकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समस्या">                       	<i>समस्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समता">                         	<i>समत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समतोलता">                      	<i>समतोलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="समयसूचकता">                    	<i>समयसूचकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सरूपता">                       	<i>सरूपत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सरबरा">                        	<i>सरबर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सरिता">                        	<i>सरित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सर्वसमावेषकता">                	<i>सर्वसमावेषकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सवाश्णा">                      	<i>सवाश्ण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सविता">                        	<i>सवित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सत्ता">                        	<i>सत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सत्यता">                       	<i>सत्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सदिच्छा">                      	<i>सदिच्छ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सदोशता">                       	<i>सदोशत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सद्विद्या">                    	<i>सद्विद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सयुक्तिकता">                   	<i>सयुक्तिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सेंद्रियता">                   	<i>सेंद्रियत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सेवा">                         	<i>सेव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सिद्धावस्था">                  	<i>सिद्धावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सिद्धता">                      	<i>सिद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्मषानयात्रा">                 	<i>स्मषानयात्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सोषीकता">                      	<i>सोषीकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सोज्वळता">                     	<i>सोज्वळत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्पश्टता">                     	<i>स्पश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्पर्धा">                      	<i>स्पर्ध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुंता">                        	<i>सुंत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुंदरता">                      	<i>सुंदरत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुधारणा">                      	<i>सुधारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुबत्ता">                      	<i>सुबत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुबुद्धता">                    	<i>सुबुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुलभता">                       	<i>सुलभत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुप्तावस्था">                  	<i>सुप्तावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुरक्शितता">                   	<i>सुरक्शितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुसूत्रता">                    	<i>सुसूत्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुसंगतता">                     	<i>सुसंगतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुसह्यता">                     	<i>सुसह्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुटका">                        	<i>सुटक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="सुविद्या">                     	<i>सुविद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वाधीनता">                    	<i>स्वाधीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वच्छंदता">                   	<i>स्वच्छंदत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वच्छता">                     	<i>स्वच्छत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वप्नावस्था">                 	<i>स्वप्नावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वस्थता">                     	<i>स्वस्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वतंत्रता">                   	<i>स्वतंत्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="स्वेच्छा">                     	<i>स्वेच्छ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="टीका">                         	<i>टीक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="टिवल्याबावल्या">               	<i>टिवल्याबावल्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उशा">                          	<i>उश</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उश्णता">                       	<i>उश्णत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उश्माधारकता">                  	<i>उश्माधारकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उध्वस्तता">                    	<i>उध्वस्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उच्चता">                       	<i>उच्चत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उन्मत्तता">                    	<i>उन्मत्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपासना">                       	<i>उपासन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपाययोजना">                    	<i>उपाययोजन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपषाखा">                       	<i>उपषाख</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपजीविका">                     	<i>उपजीविक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपलब्धता">                     	<i>उपलब्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपमा">                         	<i>उपम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपसूचना">                      	<i>उपसूचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपयोगीता">                     	<i>उपयोगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपयोगिता">                     	<i>उपयोगित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उपयुक्तता">                    	<i>उपयुक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उत्स्फूर्तता">                 	<i>उत्स्फूर्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उत्सुकता">                     	<i>उत्सुकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उत्तरगीता">                    	<i>उत्तरगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उत्तरक्रिया">                  	<i>उत्तरक्रिय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उदासीनता">                     	<i>उदासीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उदात्तता">                     	<i>उदात्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उदंडता">                       	<i>उदंडत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="उद्बोधकता">                    	<i>उद्बोधकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वांछा">                        	<i>वांछ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वाचा">                         	<i>वाच</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वाच्यता">                      	<i>वाच्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वानवा">                        	<i>वानव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वार्ता">                       	<i>वार्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वासना">                        	<i>वासन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वास्तविकता">                   	<i>वास्तविकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वास्तुदेवता">                  	<i>वास्तुदेवत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वादग्रस्तता">                  	<i>वादग्रस्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वैयक्तिकता">                   	<i>वैयक्तिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वंचना">                        	<i>वंचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वंदना">                        	<i>वंदन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वंदता">                        	<i>वंदत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वक्रता">                       	<i>वक्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वक्त्ऋ्त्वस्पर्धा">            	<i>वक्त्ऋ्त्वस्पर्ध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वल्गना">                       	<i>वल्गन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वसा">                          	<i>वस</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वस्तुनिश्ठा">                  	<i>वस्तुनिश्ठ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वस्तुनिश्ठता">                 	<i>वस्तुनिश्ठत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वयोमर्यादा">                   	<i>वयोमर्याद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वेधषाळा">                      	<i>वेधषाळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वेला">                         	<i>वेल</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="वेसवा">                        	<i>वेसव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विशमता">                       	<i>विशमत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विशयपत्रिका">                  	<i>विशयपत्रिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विषेशता">                      	<i>विषेशत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विषिश्टता">                    	<i>विषिश्टत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विष्वरचना">                    	<i>विष्वरचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विष्वसनीयता">                  	<i>विष्वसनीयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विधवा">                        	<i>विधव</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विचारणा">                      	<i>विचारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विचक्शणता">                    	<i>विचक्शणत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विज्ञापना">                    	<i>विज्ञापन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विजयपताका">                    	<i>विजयपताक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विक्शिप्तता">                  	<i>विक्शिप्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विकसनषीलता">                   	<i>विकसनषीलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विकसितता">                     	<i>विकसितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विलोभनीयता">                   	<i>विलोभनीयत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विनिता">                       	<i>विनित</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विन्मुखता">                    	<i>विन्मुखत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विसंगतता">                     	<i>विसंगतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विस्कळीतता">                   	<i>विस्कळीतत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विटंबना">                      	<i>विटंबन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विवंचना">                      	<i>विवंचन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विवक्शितता">                   	<i>विवक्शितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विविधता">                      	<i>विविधत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विद्रूपता">                    	<i>विद्रूपत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विद्वत्ता">                    	<i>विद्वत्त</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="विद्या">                       	<i>विद्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्याख्या">                     	<i>व्याख्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्याकुलता">                    	<i>व्याकुलत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यापकता">                     	<i>व्यापकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्याप्तता">                    	<i>व्याप्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यथा">                        	<i>व्यथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यक्तता">                     	<i>व्यक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यस्तता">                     	<i>व्यस्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यवसायसंस्था">                	<i>व्यवसायसंस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="व्यवस्था">                     	<i>व्यवस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तांबा">                        	<i>तांब</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तांत्रिकता">                   	<i>तांत्रिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तारुण्यपीटिका">                	<i>तारुण्यपीटिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="ताटिका">                       	<i>ताटिक</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तीर्थयात्रा">                  	<i>तीर्थयात्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तीव्रता">                      	<i>तीव्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तमा">                          	<i>तम</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तन्हा">                        	<i>तन्ह</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तपष्चर्या">                    	<i>तपष्चर्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तपस्या">                       	<i>तपस्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तर्कषुद्धता">                  	<i>तर्कषुद्धत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तेलविक्या">                    	<i>तेलविक्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तिवाटा">                       	<i>तिवाट</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तिव्रता">                      	<i>तिव्रत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तोंडकळा">                      	<i>तोंडकळ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तोफा">                         	<i>तोफ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्ऋ्श्णा">                     	<i>त्ऋ्श्ण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्ऋ्तीया">                     	<i>त्ऋ्तीय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्रेधा">                       	<i>त्रेध</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्रिज्या">                     	<i>त्रिज्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तुलाभारा">                     	<i>तुलाभार</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तुलना">                        	<i>तुलन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तुर्या">                       	<i>तुर्य</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="तुर्यावस्था">                  	<i>तुर्यावस्थ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्वचा">                        	<i>त्वच</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="त्वरा">                        	<i>त्वर</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दैना">                         	<i>दैन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दीनता">                        	<i>दीनत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दीर्घता">                      	<i>दीर्घत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दौलतजादा">                     	<i>दौलतजाद</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दूशितता">                      	<i>दूशितत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दूर्वा">                       	<i>दूर्व</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दंतकथा">                       	<i>दंतकथ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दषा">                          	<i>दष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दहनक्रिया">                    	<i>दहनक्रिय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दक्शता">                       	<i>दक्शत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दया">                          	<i>दय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="देहधारणा">                     	<i>देहधारण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="देवाज्ञा">                     	<i>देवाज्ञ</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="देवता">                        	<i>देवत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दिषा">                         	<i>दिष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दुर्बोधता">                    	<i>दुर्बोधत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दुर्मिळता">                    	<i>दुर्मिळत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दुर्वासना">                    	<i>दुर्वासन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दुर्दषा">                      	<i>दुर्दष</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="दुर्दम्यता">                   	<i>दुर्दम्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="द्वितीया">                     	<i>द्वितीय</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यांत्रिकता">                   	<i>यांत्रिकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यातना">                        	<i>यातन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यात्रा">                       	<i>यात्र</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यंत्रणा">                      	<i>यंत्रण</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यथार्थता">                     	<i>यथार्थत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="यमगीता">                       	<i>यमगीत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="योग्यता">                      	<i>योग्यत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="योजकता">                       	<i>योजकत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="योजना">                        	<i>योजन</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="युक्तता">                      	<i>युक्तत</i><par n="विद्य/ा__n_f" /></e>
+		<e lm="भाडे">                         	<i>भाड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खेडे">                         	<i>खेड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="हजारतोंडे">                    	<i>हजारतोंड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="आढे">                          	<i>आढ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="आळे">                          	<i>आळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="आले">                          	<i>आल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="आतडे">                         	<i>आतड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भांडे">                        	<i>भांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भाडे">                         	<i>भाड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भाजलेले">                      	<i>भाजलेल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भावंडे">                       	<i>भावंड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भजे">                          	<i>भज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भले">                          	<i>भल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भरकांडे">                      	<i>भरकांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भरते">                         	<i>भरत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भेंडोळे">                      	<i>भेंडोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भेकरे">                        	<i>भेकर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="भिरके">                        	<i>भिरक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="छाताडे">                       	<i>छाताड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="ढोलके">                        	<i>ढोलक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घामोळे">                       	<i>घामोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घमेले">                        	<i>घमेल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घराणे">                        	<i>घराण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घरटे">                         	<i>घरट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घसरडे">                        	<i>घसरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घोंगडे">                       	<i>घोंगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घोसाळे">                       	<i>घोसाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घुंगर्डे">                     	<i>घुंगर्ड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="घुगुरटे">                      	<i>घुगुरट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="झाडेंझुडुपे">                  	<i>झाडेंझुडुप</i><par n="भांड/े__n_nt" /></e>
+		<e lm="झबले">                         	<i>झबल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खाणे">                         	<i>खाण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खाणेपिणे">                     	<i>खाणेपिण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खाते">                         	<i>खात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खरकटे">                        	<i>खरकट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खटले">                         	<i>खटल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खेळणे">                        	<i>खेळण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खेडे">                         	<i>खेड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खोडे">                         	<i>खोड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खोके">                         	<i>खोक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खुंटाळे">                      	<i>खुंटाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खुराडे">                       	<i>खुराड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="खुरपे">                        	<i>खुरप</i><par n="भांड/े__n_nt" /></e>
+		<e lm="फारोले">                       	<i>फारोल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="फावडे">                        	<i>फावड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="फडके">                         	<i>फडक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="फेपरे">                        	<i>फेपर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="फिके">                         	<i>फिक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षंकरपाळे">                     	<i>षंकरपाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षब्दकोडे">                     	<i>षब्दकोड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षहाजीराजे">                    	<i>षहाजीराज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षिंके">                        	<i>षिंक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षिक्शणखाते">                   	<i>षिक्शणखात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="षिसे">                         	<i>षिस</i><par n="भांड/े__n_nt" /></e>
+		<e lm="थारोळे">                       	<i>थारोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="थडगे">                         	<i>थडग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="थडे">                          	<i>थड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धाबे">                         	<i>धाब</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धणे">                          	<i>धण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धने">                          	<i>धन</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धिरडे">                        	<i>धिरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धुके">                         	<i>धुक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धुपाटणे">                      	<i>धुपाटण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="धुराडे">                       	<i>धुराड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अळंबे">                        	<i>अळंब</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अळे">                          	<i>अळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अंडे">                         	<i>अंड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अंगडे">                        	<i>अंगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अंगपुसणे">                     	<i>अंगपुसण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अंतडे">                        	<i>अंतड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="अडीचषे">                       	<i>अडीचष</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बाहुले">                       	<i>बाहुल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बाजारबुणगे">                   	<i>बाजारबुणग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बाजले">                        	<i>बाजल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बलुते">                        	<i>बलुत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बेळके">                        	<i>बेळक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बेचके">                        	<i>बेचक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बेलवांगे">                     	<i>बेलवांग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बिंडोळे">                      	<i>बिंडोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बिरडे">                        	<i>बिरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बियाणे">                       	<i>बियाण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बोळके">                        	<i>बोळक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बोंडले">                       	<i>बोंडल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बोहले">                        	<i>बोहल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बोलावणे">                      	<i>बोलावण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="बुजगावणे">                     	<i>बुजगावण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चंबूगबाळे">                    	<i>चंबूगबाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चिपटे">                        	<i>चिपट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चोखणे">                        	<i>चोखण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चोचले">                        	<i>चोचल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चोपडे">                        	<i>चोपड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="चुनाले">                       	<i>चुनाल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="डबडे">                         	<i>डबड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="डबके">                         	<i>डबक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="डबोले">                        	<i>डबोल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="डोके">                         	<i>डोक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाळणे">                        	<i>गाळण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाणे">                         	<i>गाण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाणें">                        	<i>गाणे</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाठोडे">                       	<i>गाठोड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाडगे">                        	<i>गाडग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गाडे">                         	<i>गाड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="गुरेंढोरे">                    	<i>गुरेंढोर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="हजारतोंडे">                    	<i>हजारतोंड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="हसे">                          	<i>हस</i><par n="भांड/े__n_nt" /></e>
+		<e lm="होणारे">                       	<i>होणार</i><par n="भांड/े__n_nt" /></e>
+		<e lm="होडगे">                        	<i>होडग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="होडके">                        	<i>होडक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="इरले">                         	<i>इरल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जाळे">                         	<i>जाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जानवे">                        	<i>जानव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जाते">                         	<i>जात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जिणे">                         	<i>जिण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जोडपे">                        	<i>जोडप</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जोडवे">                        	<i>जोडव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="जुळे">                         	<i>जुळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कांबळे">                       	<i>कांबळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कांडे">                        	<i>कांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="काजे">                         	<i>काज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कानकोरणे">                     	<i>कानकोरण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कारळे">                        	<i>कारळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कारंजे">                       	<i>कारंज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कारले">                        	<i>कारल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कासे">                         	<i>कास</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कातडे">                        	<i>कातड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कळे">                          	<i>कळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कडबोळे">                       	<i>कडबोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कडवे">                         	<i>कडव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कडे">                          	<i>कड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="केळे">                         	<i>केळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कोंडाळे">                      	<i>कोंडाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कोडे">                         	<i>कोड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कोल्हे">                       	<i>कोल्ह</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कुडबुडे">                      	<i>कुडबुड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कुडते">                        	<i>कुडत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="कुलंगडे">                      	<i>कुलंगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लासे">                         	<i>लास</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लाटणे">                        	<i>लाटण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लफडे">                         	<i>लफड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लव्हाळे">                      	<i>लव्हाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लेणे">                         	<i>लेण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लेणे">                         	<i>लेण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लोढणे">                        	<i>लोढण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लोणचे">                        	<i>लोणच</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लोणकदे">                       	<i>लोणकद</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लोटके">                        	<i>लोटक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="लुगडे">                        	<i>लुगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="माळवे">                        	<i>माळव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मांदे">                        	<i>मांद</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मागणे">                        	<i>मागण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मापटे">                        	<i>मापट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मातेरे">                       	<i>मातेर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मौजे">                         	<i>मौज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मढे">                          	<i>मढ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मधपोळे">                       	<i>मधपोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मडके">                         	<i>मडक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="महाभूते">                      	<i>महाभूत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="म्हावरे">                      	<i>म्हावर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मुळाक्शरे">                    	<i>मुळाक्शर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मुंडके">                       	<i>मुंडक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="मुस्के">                       	<i>मुस्क</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नाणे">                         	<i>नाण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नाचिकणे">                      	<i>नाचिकण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नाके">                         	<i>नाक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नाते">                         	<i>नात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नळकांडे">                      	<i>नळकांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नडघे">                         	<i>नडघ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नरडे">                         	<i>नरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नरसाळे">                       	<i>नरसाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नसराळे">                       	<i>नसराळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नवे">                          	<i>नव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नवेजुने">                      	<i>नवेजुन</i><par n="भांड/े__n_nt" /></e>
+		<e lm="नेढे">                         	<i>नेढ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="निसरडे">                       	<i>निसरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="ओढराळे">                       	<i>ओढराळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="ओझे">                          	<i>ओझ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाखे">                         	<i>पाख</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाळे">                         	<i>पाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाळे">                         	<i>पाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाळे">                         	<i>पाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाळेमुळे">                     	<i>पाळेमुळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाते">                         	<i>पात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पाते">                         	<i>पात</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पातेले">                       	<i>पातेल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पंचपाळे">                      	<i>पंचपाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पडसे">                         	<i>पडस</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पडते">                         	<i>पडत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पन्हे">                        	<i>पन्ह</i><par n="भांड/े__n_nt" /></e>
+		<e lm="परडे">                         	<i>परड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पिठले">                        	<i>पिठल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पोळे">                         	<i>पोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पोवळे">                        	<i>पोवळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पोते">                         	<i>पोत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="पुणे">                         	<i>पुण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="प्यादे">                       	<i>प्याद</i><par n="भांड/े__n_nt" /></e>
+		<e lm="राजे">                         	<i>राज</i><par n="भांड/े__n_nt" /></e>
+		<e lm="रहाटगाडगे">                    	<i>रहाटगाडग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="रकटे">                         	<i>रकट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="रताळे">                        	<i>रताळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="रुपे">                         	<i>रुप</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सांकडे">                       	<i>सांकड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="साकडे">                        	<i>साकड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="साटे">                         	<i>साट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="साटेलोटे">                     	<i>साटेलोट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="संगजिरे">                      	<i>संगजिर</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सलकडे">                        	<i>सलकड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सतेले">                        	<i>सतेल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सोने">                         	<i>सोन</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सोवळे">                        	<i>सोवळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="सुकेळे">                       	<i>सुकेळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="टाके">                         	<i>टाक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="टोळके">                        	<i>टोळक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="उट्टे">                        	<i>उट्ट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वांगे">                        	<i>वांग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वाकडे">                        	<i>वाकड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वारे">                         	<i>वार</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वाटोळे">                       	<i>वाटोळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वावडे">                        	<i>वावड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वावगे">                        	<i>वावग</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वळे">                          	<i>वळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वेडेवाकडे">                    	<i>वेडेवाकड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="वेगवेगळे">                     	<i>वेगवेगळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="विटाळे">                       	<i>विटाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तांबे">                        	<i>तांब</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तान्हे">                       	<i>तान्ह</i><par n="भांड/े__n_nt" /></e>
+		<e lm="ताटाळे">                       	<i>ताटाळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तळे">                          	<i>तळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तगारे">                        	<i>तगार</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तगारे">                        	<i>तगार</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तकटे">                         	<i>तकट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तिळे">                         	<i>तिळ</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तिकांडे">                      	<i>तिकांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तिकटे">                        	<i>तिकट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तिरपगडे">                      	<i>तिरपगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="तोंडेले">                      	<i>तोंडेल</i><par n="भांड/े__n_nt" /></e>
+		<e lm="त्रांगडे">                     	<i>त्रांगड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="त्रागडे">                      	<i>त्रागड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दांडके">                       	<i>दांडक</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दागदागिने">                    	<i>दागदागिन</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दारे">                         	<i>दार</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दावे">                         	<i>दाव</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दातरडे">                       	<i>दातरड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दमामे">                        	<i>दमाम</i><par n="भांड/े__n_nt" /></e>
+		<e lm="देणेघेणे">                     	<i>देणेघेण</i><par n="भांड/े__n_nt" /></e>
+		<e lm="देषपांडे">                     	<i>देषपांड</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दुभते">                        	<i>दुभत</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दुपटे">                        	<i>दुपट</i><par n="भांड/े__n_nt" /></e>
+		<e lm="दुटे">                         	<i>दुट</i><par n="भांड/े__n_nt" /></e>
 		<e lm="आहुती">                        	<i>आहुत</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="भट्टी">                        	<i>भट्ट</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="फळी">                          	<i>फळ</i><par n="सुट्ट/ी__n_f" /></e>
@@ -2391,7 +3725,7 @@
 		<e lm="बाडेचिट्ठी">                   	<i>बाडेचिट्ठ</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="बाही">                         	<i>बाह</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="बाहुली">                       	<i>बाहुल</i><par n="सुट्ट/ी__n_f" /></e>
-		<e lm="बाजारबसवी">                    	<i>बाजारबसव</i><par n="सुट्ट/ी__n_f" /></e>
+		<e lm="बाजारबसी">                    	<i>बाजारबस</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="बाजी">                         	<i>बाज</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="बाकी">                         	<i>बाक</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="बालवाडी">                      	<i>बालवाड</i><par n="सुट्ट/ी__n_f" /></e>
@@ -4744,7 +6078,7 @@
 		<e lm="बनेलपणा">                      	<i>बनेलपणा</i><par n="कवी__n_m" /></e>
 		<e lm="बरोबरी">                       	<i>बरोबरी</i><par n="कवी__n_m" /></e>
 		<e lm="बस">                           	<i>बस</i><par n="कवी__n_m" /></e>
-		<e lm="बसवी">                         	<i>बसवी</i><par n="कवी__n_m" /></e>
+		<e lm="बसी">                         	<i>बसी</i><par n="कवी__n_m" /></e>
 		<e lm="बटबटीतपणा">                    	<i>बटबटीतपणा</i><par n="कवी__n_m" /></e>
 		<e lm="बटकी">                         	<i>बटकी</i><par n="कवी__n_m" /></e>
 		<e lm="बतावणी">                       	<i>बतावणी</i><par n="कवी__n_m" /></e>
