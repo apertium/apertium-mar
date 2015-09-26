@@ -39,6 +39,10 @@
 		<sdef n="excl"		c="Exclusive" />
 		<sdef n="hort"      c="Hortative" />
 		<sdef n="incp"		c="Inceptive" />
+		<sdef n="interr"    c="interrogative" />
+		<sdef n="refl"	 	c="Reflexive" />
+		<sdef n="rel"		c="Relative" />
+		<sdef n="corel"		c="Correlative" />
 
 		<sdef n="f"  />
 		<sdef n="m"  />
@@ -382,7 +386,6 @@
 		</pardef>
 
 		<!-- pronouns -->
-		<!-- TODO: genitives, honorofics -->
 
 		<pardef n="/मी__prn">
 			<e>		  <p><l>मी</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
@@ -493,6 +496,93 @@
 			<e>		  <p><l>त्यांच्यात</l><r>ते<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच्या</l><r>ते<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__part"/></e>
 		</pardef>	
+
+		<!-- reflexive -->
+
+		<pardef n="/स्वतः__refl">
+			<e>		  <p><l>स्वतः</l><r>स्वतः<s n="prn"/><s n="mfn"/><s n="sp"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>स्वतःला</l><r>स्वतः<s n="prn"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>स्वतःला</l><r>स्वतः<s n="prn"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>स्वतः</l><r>स्वतः<s n="prn"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>स्वतःच</l><r>स्वतः<s n="prn"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+		</pardef>
+
+		<pardef n="/आपण__refl">
+			<e>		  <p><l>आपण</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>आपणाला</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>आपल्याला</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>आपणाला</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>आपल्याला</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<!-- no clitic for aaplya -->
+			<e>		  <p><l>आपल्या</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post"/></e>
+			<e>		  <p><l>आपल</l><r>आपण<s n="prn"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+		</pardef>
+
+		<!-- interrogative (check) -->
+		<pardef n="/कोण__interr">
+			<e>		  <p><l>कोण</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणाला</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणाला</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणी</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणी</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणाला</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणाला</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणापासून</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणापासून</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणात</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणात</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणाच</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+			<e r="LR"><p><l>कुणाच</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>		  <p><l>कोणच</l><r>कोण<s n="adj"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+		</pardef>
+
+		<pardef n="/काय__interr">
+			<e>		  <p><l>काय</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशानी</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कशाने</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="dat"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशापासून</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कश्यात</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कश्याच</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		  <p><l>कसा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+			<e>		  <p><l>कसल</l><r>काय<s n="adj"/><s n="interr"/><s n="mfn"/><s n="sp"/></r></p></e>
+		</pardef>
+
+		<!-- rel/corel -->
+		<pardef n="__rel_corel">
+			<e>		  <p><l>जो</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>तो</l><r>तो<s n="prn"/><s n="corel"/><s n="m"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>जी</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ती</l><r>तो<s n="prn"/><s n="corel"/><s n="f"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>जे</l><r>जो<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ते</l><r>तो<s n="prn"/><s n="corel"/><s n="nt"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>जे</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ते</l><r>तो<s n="prn"/><s n="corel"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ज्या</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्या</l><r>तो<s n="prn"/><s n="corel"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>जी</l><r>जो<s n="prn"/><s n="rel"/><s n="nt"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ती</l><r>तो<s n="prn"/><s n="corel"/><s n="nt"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+
+			<e>		  <p><l>ज्याला</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्याला</l><r>तो<s n="prn"/><s n="corel"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>जिला</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>तिला</l><r>तो<s n="prn"/><s n="corel"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ज्याला</l><r>जो<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्या</l><r>तो<s n="prn"/><s n="corel"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ज्यांना</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="corel"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ज्यांना</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="corel"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>ज्यांना</l><r>जो<s n="prn"/><s n="rel"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="corel"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+		</pardef>
+
+
+
+		<!-- determiners -->
 
 		<pardef n="__det">
 			<e>		  <p><l>तो</l><r>तो<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -928,6 +1018,8 @@
 			<!-- todo - check if plural exists -->
 		</pardef>
 
+
+		<!-- verbs -->
 
 	
 		<!-- split -->
@@ -1502,6 +1594,11 @@
 		<e lm="ते">							<i></i><par n="/ते__prn" /></e>
 
 		<e lm=""> 								<i></i><par n="__det" /></e>
+		<e lm=""> 								<i></i><par n="__rel_corel" /></e>
+		<e lm=""> 								<i></i><par n="/काय__interr" /></e>
+		<e lm=""> 								<i></i><par n="/कोण__interr" /></e>
+		<e lm=""> 								<i></i><par n="/स्वतः__refl" /></e>
+		<e lm=""> 								<i></i><par n="/आपण__refl" /></e>
 
 		<!-- copulas -->
 
