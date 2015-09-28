@@ -343,6 +343,10 @@
 			<e><p><l>खालची</l><r>खाली<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>खालच्या</l><r>खाली<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- above -->
+			<e><p><l>वरती</l><r>वरती<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>वरच</l><r>वरती<s n="post"/><s n="attr"/><j/></r></p><par n="__prn_gen"/></e>
+
 			<!-- before -->
 			<e><p><l>आधी</l><r>आधी<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>आधीचा</l><r>आधी<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -370,6 +374,10 @@
 			<e><p><l>पुरवीच्या</l><r>पुरवी<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>पुरवीची</l><r>पुरवी<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>पुरवीच्या</l><r>पुरवी<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- after -->
+			<e><p><l>नंतर</l><r>नंतर<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>नंतरच</l><r>नंतर<s n="post"/><s n="attr"/><j/></r></p><par n="__prn_gen"/></e>
 
 			<!-- out -->
 			<e><p><l>बाहेर</l><r>बाहेर<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
@@ -580,8 +588,15 @@
 			<e>		  <p><l>कशापासून</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>कश्यात</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>कश्याच</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__prn_gen"/></e>
+			<!-- CHECK -->
 			<e>		  <p><l>कसा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_unbound"/></e>
+			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_bound"/></e>
 			<e>		  <p><l>कसल</l><r>काय<s n="adj"/><s n="interr"/><s n="mfn"/><s n="sp"/></r></p></e>
+		</pardef>
+
+		<pardef n="/का__interr">
+			<e> 	  <p><l>का</l><r>का<s n="adv"/><s n="interr"/></r></p></e>
 		</pardef>
 
 		<!-- rel/corel -->
@@ -662,6 +677,7 @@
 			<e r="LR"><p><l>यां</l><r>ह्यां<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 
 			<e> 		<p><l>एक</l><r>एक<s n="det"/><s n="indef"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>एका</l><r>एक<s n="det"/><s n="indef"/><s n="obl"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
 
