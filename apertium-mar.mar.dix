@@ -2591,6 +2591,7 @@
 
 		<!-- probably a shit idea -->
 		<e lm=""> 								<i></i><par n="__abbr"/></e>
+		<e lm=""> 								<i></i><par n="__inj"/></e>
 		<e lm=""> 								<i></i><par n="__standalone_clit"/></e>
 		<e lm=""> 								<i></i><par n="__post_unbound"/></e>
 		<e lm=""> 								<i></i><par n="__gen_endings"/></e>
