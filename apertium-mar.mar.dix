@@ -211,6 +211,50 @@
 			<e> 		<p><l>ी</l><r>ी<s n="gen"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
+		<!-- verbal stuff -->
+
+
+		<pardef n="__post_verbal_no_clit">
+			<!-- because of -->
+			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>	
+			<e><p><l>ने</l><r>ने<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>	
+
+			<!-- without -->
+			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- on having <verbed> -->
+			<e><p><l>वर</l><r>वर<s n="gna"/></r></p></e>
+		
+		</pardef>
+
+		<pardef n="__post_verbal">
+
+			<!-- before -->
+			<e><p><l>आधी</l><r>आधी<s n="gna"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>आधीच</l><r>आधी<s n="gna"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<e><p><l>अगोदर</l><r>अगोदर<s n="gna"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>अगोदरच</l><r>अगोदर<s n="gna"/><j/></r></p><par n="__prn_gen"/></e>			
+
+			<e><p><l>पुरवी</l><r>पुरवी<s n="gna"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>पुरवीच</l><r>पुरवी<s n="gna"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- after -->
+			<e><p><l>नंतर</l><r>नंतर<s n="gna"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>नंतरच</l><r>नंतर<s n="gna"/><j/></r></p><par n="__prn_gen"/></e>
+
+		</pardef>
+
+
+		<pardef n="__clit_vb">
+			<e><p><l>च्या</l><r>च्या<s n="clit"/><j/></r></p><par n="__post_verbal"/></e>
+			<e><p><l></l><r></r></p><par n="__post_verbal_no_clit"/></e>
+		</pardef>
+
+
+
+		<!-- nominal stuff -->
+
 		<pardef n="__post_bound_no_clit">
 			<!-- towards -->
 			<e><p><l>कडे</l><r>कडे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
@@ -218,6 +262,8 @@
 			<!-- from -->
 			<e><p><l>तील</l><r>तील<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>पैकी</l><r>पैकी<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+
+
 
 		</pardef>
 		
@@ -792,8 +838,7 @@
 			<e>       	<p><l>असून</l><r>आहे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असताना</l><r>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असतांना</l><r>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असल्याने</l><r>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असल्यामुळे</l><r>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
 			<!-- adjectival forms -->
 			<e>       	<p><l>असलेला</l><r>असलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -802,7 +847,10 @@
 			<e>       	<p><l>असलेले</l><r>असलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असलेली</l><r>असलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>असलेल्यां</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>       	<p><l>असलेल्यां</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 
 		</pardef>
 
@@ -872,8 +920,7 @@
 			<e>       	<p><l>नसून</l><r>नाही<s n="adv"/><j/>आहे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसताना</l><r>नाही<s n="adv"/><j/>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसतांना</l><r>नाही<s n="adv"/><j/>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसल्याने</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसल्यामुळे</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>नसल्या</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
 			<!-- adjectival forms -->
 			<e>       	<p><l>नसलेला</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -882,7 +929,10 @@
 			<e>       	<p><l>नसलेले</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसलेली</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>नसलेल्यां</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>       	<p><l>नसलेल्यां</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 		</pardef>
 
 		<!-- become -->
@@ -971,8 +1021,7 @@
 			<e>       	<p><l>होऊन</l><r>हो<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होताना</l><r>हो<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होतांना</l><r>हो<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झाल्याने</l><r>हो<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झाल्यामुळे</l><r>हो<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>झाल्या</l><r>हो<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
 			<!-- adjectival forms -->
 			<e>       	<p><l>झालेला</l><r>झालेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -981,7 +1030,10 @@
 			<e>       	<p><l>झालेले</l><r>झालेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>झालेली</l><r>झालेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>झालेल्यां</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>       	<p><l>झालेल्यां</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 
 
 		</pardef>
@@ -1381,9 +1433,8 @@
 			<e>       	<p><l>ण्यात</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>तांना</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>ल्याने</l><r>णे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>ल्यामुळे</l><r>णे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-
+			<e>       	<p><l>ल्या</l><r>णे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
+			<e>       	<p><l>ण्या</l><r>णे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
 			<!-- adjectival forms -->
 			<e>       	<p><l>लेला</l><r>लेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -1392,7 +1443,10 @@
 			<e>       	<p><l>लेले</l><r>लेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>लेल्या</l><r>लेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>लेली</l><r>लेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>लेल्या</l><r>लेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>लेल्या</l><r>लेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>लेल्या</l><r>लेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>लेल्यां</l><r>लेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>लेल्यां</l><r>लेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 
 		</pardef>
 
