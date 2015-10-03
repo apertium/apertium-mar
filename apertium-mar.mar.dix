@@ -158,13 +158,33 @@
 			<e> 		<p><l>इ.</l><r>इ.<s n="abbr"/></r></p></e>
 			
 			<!-- doctor -->
+			<e> 		<p><l>डॉ</l><r>डॉ.<s n="abbr"/></r></p></e>
 			<e> 		<p><l>डॉ.</l><r>डॉ.<s n="abbr"/></r></p></e>
+
+			<!-- km -->
+			<e> 		<p><l>किमी</l><r>किमी.<s n="abbr"/></r></p></e>
+			<e> 		<p><l>किमी.</l><r>किमी.<s n="abbr"/></r></p></e>
+
+			<!-- father -->
+			<e> 		<p><l>फ्र</l><r>फ्र.<s n="abbr"/></r></p></e>
+			<e> 		<p><l>फ्र.</l><r>फ्र.<s n="abbr"/></r></p></e>
+
+			<!-- rupee -->
+			<e> 		<p><l>रु</l><r>रु.<s n="abbr"/></r></p></e>
+			<e> 		<p><l>रु.</l><r>रु.<s n="abbr"/></r></p></e>
+
+			<!-- pH (wot) -->
+			<e> 		<p><l>पीएच</l><r>पीएच.<s n="abbr"/></r></p></e>
+			<e> 		<p><l>पीएच.</l><r>पीएच.<s n="abbr"/></r></p></e>
 
 		</pardef>
 
 		<pardef n="__inj">
 			<e> 		<p><l>ए</l><r>ए<s n="inj"/></r></p></e>
-			<e> 		<p><l>ए</l><r>ए<s n="inj"/></r></p></e>
+			<e> 		<p><l>ई</l><r>ई<s n="inj"/></r></p></e>
+			<e> 		<p><l>रे</l><r>रे<s n="inj"/></r></p></e>
+			<e> 		<p><l>ओ</l><r>ओ<s n="inj"/></r></p></e>
+			<e> 		<p><l>आ</l><r>आ<s n="inj"/></r></p></e>
 		</pardef>
 	
 		<!-- postpositions -->
@@ -285,6 +305,22 @@
 		</pardef>
 
 
+		<pardef n="__inf_endings">
+			<e> 		<p><l>े</l><r>े<s n="inf"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ं</l><r>े<s n="inf"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="inf"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ं</l><r>े<s n="inf"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्याने</l><r>े<s n="inf"/><s n="inst"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यापासून</l><r>े<s n="inf"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यात</l><r>े<s n="inf"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>े<s n="inf"/><s n="gen"/><j/></r></p><par n="__gen_endings"/></e>
+			<e> 		<p><l>्या</l><r>े<s n="inf"/><s n="obl"/><j/></r></p><par n="__clit_vb"/></e>
+		</pardef>
+
+
+
+
+
 
 		<!-- nominal stuff -->
 
@@ -298,8 +334,7 @@
 
 			<!-- uptil -->
 			<e><p><l>पर्यंत</l><r>पर्यंत<s n="gna"/><j/></r></p><par n="__emph"/></e>
-
-
+			
 
 		</pardef>
 		
@@ -371,6 +406,7 @@
 
 			<!-- behind -->
 			<e><p><l>मागे</l><r>मागे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>मागील</l><r>मागील<s n="gna"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मागचा</l><r>मागे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मागची</l><r>मागे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मागचे</l><r>मागे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -508,6 +544,7 @@
 			<!-- in between -->
 			<e><p><l>मधे</l><r>मधे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR"><p><l>मध्ये</l><r>मधे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>मधील</l><r>मधील<s n="gna"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मधला</l><r>मधे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मधली</l><r>मधे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>मधले</l><r>मधे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -871,23 +908,23 @@
 			<e>       	<p><l>असावी</l><r>आहे<s n="vaux"/><s n="subj"/><s n="p2"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>असावीत</l><r>आहे<s n="vaux"/><s n="subj"/><s n="p2"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
+
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>असून</l><r>आहे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>असत</l><r>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असताना</l><r>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असतांना</l><r>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
+
+			<!-- gerund -->
+			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>असलेला</l><r>असलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेली</l><r>असलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेले</l><r>असलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेले</l><r>असलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेली</l><r>असलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e>       	<p><l>असलेल्या</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e>       	<p><l>असलेल्यां</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
-			<e>       	<p><l>असलेल्यां</l><r>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>असलेल</l><r>असलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>असणा</l><r>असणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
@@ -1378,18 +1415,6 @@
 		</pardef>
 
 		<!-- verbs -->
-	
-		<pardef n="__inf_endings">
-			<e> 		<p><l>े</l><r>े<s n="inf"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>ं</l><r>े<s n="inf"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>े</l><r>े<s n="inf"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>ं</l><r>े<s n="inf"/><s n="acc"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्याने</l><r>े<s n="inf"/><s n="inst"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यापासून</l><r>े<s n="inf"/><s n="abl"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यात</l><r>े<s n="inf"/><s n="loc"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r>े<s n="inf"/><s n="gen"/><j/></r></p><par n="__gen_endings"/></e>
-			<e> 		<p><l>्या</l><r>े<s n="inf"/><s n="obl"/><j/></r></p><par n="__clit_vb"/></e>
-		</pardef>
 
 
 		<pardef n="बस__vblex">
@@ -1447,9 +1472,7 @@
 			<e> 		<p><l>ेल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>तील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="p1"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="p2"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="p3"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 
 			<!-- subjunctive -->
 			<e>       	<p><l>ावा</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -1591,8 +1614,111 @@
 
 		</pardef>
 
+		<pardef n="मिळ__vblex">
+			<!-- infinitives -->
+			<e> 		<p><l>ण</l><r>णे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>
+
+			<e> 		<p><l>ुया</l><r>णे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">  <p><l>ुयात</l><r>णे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
+			<e>         <p><l>ायला</l><r>णे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>त</l><r>णे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>तोस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तेस</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ता</l><r>णे<s n="vblex"/><s n="impf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>तो</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ते</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तात</l><r>णे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			
+			<e> 		<p><l>ालो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालो</l><r>णे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>ाला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालास</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालीस</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>	
+			<e> 		<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>ाला</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालं</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाले</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालेत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाल्यात</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाली</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ालीत</l><r>णे<s n="vblex"/><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>ीन</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ू</l><r>णे<s n="vblex"/><s n="fut"/><s n="p1"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>शील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ाल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p2"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ेल</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तील</l><r>णे<s n="vblex"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e>       	<p><l>णार</l><r>णे<s n="vblex"/><s n="pros"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- subjunctive -->
+			<e>       	<p><l>ावा</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावी</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावे</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ावेत</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ाव्या</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ाव्यात</l><r>णे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			
+			<e>       	<p><l>ावा</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावी</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावे</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ावेत</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ाव्या</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ाव्यात</l><r>णे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<e>       	<p><l>ावा</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावी</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावे</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">  <p><l>ावं</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावे</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ावेत</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ाव्या</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ाव्यात</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावी</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ावीत</l><r>णे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- adverbial derivations (move?) (CHECK) -->
+			<e>       	<p><l>ून</l><r>णे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>त</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ताना</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>तांना</l><r>णे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- gerund -->
+			<e>       	<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
+			<!-- adjectival forms -->
+			<e>       	<p><l>ालेल</l><r>लेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>णा</l><r>णारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
+
+		</pardef>
+
 		<pardef n="/जा__vblex">
-			<e> 		<p><l>जाणे</l><r>जाणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>जाण</l><r>जाणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
+
 			<e> 		<p><l>जा</l><r>जाणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>जाऊया</l><r>जाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>जाऊयात</l><r>जाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -1681,30 +1807,29 @@
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>जाऊन</l><r>जाणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जात</l><r>जाणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>जाण्यात</l><r>जाणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जाताना</l><r>जाणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जातांना</l><r>जाणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेल्याने</l><r>जाणे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेल्यामुळे</l><r>जाणे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>गेल्या</l><r>जाणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>गेल्या</l><r>जाणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>गेल्या</l><r>जाणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>गेलेला</l><r>गेलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेली</l><r>गेलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेले</l><r>गेलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेले</l><r>गेलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेल्या</l><r>गेलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेली</l><r>गेलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>गेलेल्या</l><r>गेलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>गेलेल</l><r>गेलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>जाणा</l><r>जाणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
 		<pardef n="/ये__vblex">
-			<e> 		<p><l>येणे</l><r>येणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>येण</l><r>येणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
+
 			<e> 		<p><l>ये</l><r>येणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>येऊया</l><r>येणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>येऊयात</l><r>येणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
-			<e>         <p><l>येयला</l><r>येणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
+			<e>         <p><l>यायला</l><r>येणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>येऊ</l><r>येणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>येत</l><r>येणे<s n="vblex"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
@@ -1761,54 +1886,53 @@
 			<e>       	<p><l>येणार</l><r>येणे<s n="vblex"/><s n="pros"/><s n="p3"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 
 			<!-- subjunctive -->
-			<e>       	<p><l>येवा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>येवेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>येव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>यावेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>याव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>याव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			
-			<e>       	<p><l>येवा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>येवेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>येव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>यावेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>याव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>याव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
-			<e>       	<p><l>येवा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR">  <p><l>येवं</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>येवेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>येव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येवी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>येवीत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावा</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">  <p><l>यावं</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावे</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>यावेत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>याव्या</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>याव्यात</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>यावी</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>यावीत</l><r>येणे<s n="vblex"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>येऊन</l><r>येणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येत</l><r>येणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>येण्यात</l><r>येणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येताना</l><r>येणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येतांना</l><r>येणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आल्याने</l><r>येणे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आल्यामुळे</l><r>येणे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>आल्या</l><r>येणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>आल्या</l><r>येणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>आल्या</l><r>येणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>आलेला</l><r>आलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेली</l><r>आलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेले</l><r>आलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेले</l><r>आलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेल्या</l><r>आलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेली</l><r>आलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>आलेल्या</l><r>आलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>आलेल</l><r>आलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>येणा</l><r>येणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
 		<pardef n="/हो__vblex">
-			<e> 		<p><l>होणे</l><r>होणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>होण</l><r>होणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
+
 			<e> 		<p><l>हो</l><r>होणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>होऊया</l><r>होणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>होऊयात</l><r>होणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -1897,23 +2021,25 @@
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>होऊन</l><r>होणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होत</l><r>होणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>होण्यात</l><r>होणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होताना</l><r>होणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होतांना</l><r>होणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>झाल्या</l><r>होणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>झाल्या</l><r>होणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>झाल्या</l><r>होणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
 			<!-- adjectival forms -->
-			<e>       	<p><l>झालेला</l><r>झालेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेली</l><r>झालेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेले</l><r>झालेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेले</l><r>झालेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेली</l><r>झालेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>झालेल</l><r>झालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>होणा</l><r>होणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
 		<pardef n="/दे__vblex">
-			<e> 		<p><l>देणे</l><r>देणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>देण</l><r>देणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
+
 			<e> 		<p><l>दे</l><r>देणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>देऊया</l><r>देणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>देऊयात</l><r>देणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -1984,23 +2110,25 @@
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>देऊन</l><r>देणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देत</l><r>देणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>देण्यात</l><r>देणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देताना</l><r>देणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देतांना</l><r>देणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>दिल्या</l><r>देणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>दिल्या</l><r>देणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>दिल्या</l><r>देणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
 			<!-- adjectival forms -->
-			<e>       	<p><l>दिलेला</l><r>दिलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेली</l><r>दिलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेले</l><r>दिलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेले</l><r>दिलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेल्या</l><r>दिलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेली</l><r>दिलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>दिलेल्या</l><r>दिलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>दिलेल</l><r>दिलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>देणा</l><r>देणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
 		<pardef n="/घे__vblex">
-			<e> 		<p><l>घेणे</l><r>घेणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>घेण</l><r>घेणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
+
 			<e> 		<p><l>घे</l><r>घेणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>घेऊया</l><r>घेणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>घेऊयात</l><r>घेणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -2073,23 +2201,24 @@
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>घेऊन</l><r>घेणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेत</l><r>घेणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेण्यात</l><r>घेणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेताना</l><r>घेणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेतांना</l><r>घेणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>घेतल्या</l><r>घेणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>घेतल्या</l><r>घेणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>घेतल्या</l><r>घेणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
 			<!-- adjectival forms -->
-			<e>       	<p><l>घेतलेला</l><r>घेतलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेली</l><r>घेतलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेले</l><r>घेतलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेले</l><r>घेतलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेल्या</l><r>घेतलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेली</l><r>घेतलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>घेतलेल्या</l><r>घेतलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>घेतलेल</l><r>घेतलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>घेणा</l><r>घेणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 
 		</pardef>
 
 		<pardef n="/म्हण__vblex">
-			<e> 		<p><l>म्हणणे</l><r>म्हणणे<s n="vblex"/><s n="inf"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>म्हणण</l><r>म्हणणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 			<e> 		<p><l>म्हण</l><r>म्हणणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>म्हणूया</l><r>म्हणणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>म्हणूयात</l><r>म्हणणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -2206,30 +2335,23 @@
 			<!-- adverbial derivations (move?) (CHECK) -->
 			<e>       	<p><l>म्हणून</l><r>म्हणणे<s n="adv"/><s n="compl"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणत</l><r>म्हणणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणण्यात</l><r>म्हणणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणताना</l><r>म्हणणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणतांना</l><r>म्हणणे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 
-			<!-- adjectival forms -->
-			<e>       	<p><l>म्हणालेला</l><r>म्हणालेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेली</l><r>म्हणालेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेले</l><r>म्हणालेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेले</l><r>म्हणालेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेल्या</l><r>म्हणालेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेली</l><r>म्हणालेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हणालेल्या</l><r>म्हणालेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
-
+			<!-- gerund -->
+			<e>       	<p><l>म्हणाल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e r="LR">	<p><l>म्हटल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>म्हणाल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e r="LR">	<p><l>म्हटल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>म्हणाल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+			<e r="LR">	<p><l>म्हटल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>म्हटलेला</l><r>म्हटलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेली</l><r>म्हटलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेले</l><r>म्हटलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेले</l><r>म्हटलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेल्या</l><r>म्हटलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेली</l><r>म्हटलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>म्हटलेल्या</l><r>म्हटलेला<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>म्हणालेल</l><r>म्हणालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e r="LR">	<p><l>म्हटलेल</l><r>म्हटलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
 
-
+			<!-- r problems -->
+			<e>       	<p><l>म्हणणा</l><r>म्हणणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
 		</pardef>
 
 		<pardef n="म्हणजे__vblex">
@@ -2888,6 +3010,7 @@
 		<e lm="जा">  						<i></i><par n="/जा__vblex" /></e>
 		<e lm="ये">  						<i></i><par n="/ये__vblex" /></e>
 		<e lm="कर">  						<i>क</i><par n="क/र__vblex" /></e>
+		<e lm="मिळ">                    	<i>मिळ</i><par n="मिळ__vblex" /></e>
 		<e lm="आळव">                    	<i>आळव</i><par n="बस__vblex" /></e>
 		<e lm="आंबव">                 	<i>आंबव</i><par n="बस__vblex" /></e>
 		<e lm="आणव">                    	<i>आणव</i><par n="बस__vblex" /></e>
@@ -14854,7 +14977,143 @@
 		<e lm="दुरावा">                       	<i>दुराव</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="दुसोरा">                       	<i>दुसोर</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="दुवा">                         	<i>दुव</i><par n="रस्त/ा__n_m" /></e>
-		
+
+		<e lm="इंग्लिश">         	<i>इंग्लिश</i><par n="/लाल__adj" /></e>
+		<e lm="सामाजिक">         	<i>सामाजिक</i><par n="/लाल__adj" /></e>
+		<e lm="प्राचीन">         	<i>प्राचीन</i><par n="/लाल__adj" /></e>
+		<e lm="प्रकाशित">      	<i>प्रकाशित</i><par n="/लाल__adj" /></e>
+		<e lm="अमेरिकन">         	<i>अमेरिकन</i><par n="/लाल__adj" /></e>
+		<e lm="खालील">               	<i>खालील</i><par n="/लाल__adj" /></e>
+		<e lm="इंग्रजी">         	<i>इंग्रजी</i><par n="/लाल__adj" /></e>
+		<e lm="अतिशय">               	<i>अतिशय</i><par n="/लाल__adj" /></e>
+		<e lm="संपूर्ण">         	<i>संपूर्ण</i><par n="/लाल__adj" /></e>
+		<e lm="जागतिक">            	<i>जागतिक</i><par n="/लाल__adj" /></e>
+		<e lm="तमिळ">                  	<i>तमिळ</i><par n="/लाल__adj" /></e>
+		<e lm="अत्यंत">            	<i>अत्यंत</i><par n="/लाल__adj" /></e>
+		<e lm="लोकप्रिय">      	<i>लोकप्रिय</i><par n="/लाल__adj" /></e>
+		<e lm="रोमन">                  	<i>रोमन</i><par n="/लाल__adj" /></e>
+		<e lm="स्वतंत्र">      	<i>स्वतंत्र</i><par n="/लाल__adj" /></e>
+		<e lm="पुढील">               	<i>पुढील</i><par n="/लाल__adj" /></e>
+		<e lm="सर्वाधिक">      	<i>सर्वाधिक</i><par n="/लाल__adj" /></e>
+		<e lm="ऐतिहासिक">      	<i>ऐतिहासिक</i><par n="/लाल__adj" /></e>
+		<e lm="जर्मन">               	<i>जर्मन</i><par n="/लाल__adj" /></e>
+		<e lm="शास्त्रीय">   	<i>शास्त्रीय</i><par n="/लाल__adj" /></e>
+		<e lm="सांस्कृतिक">	<i>सांस्कृतिक</i><par n="/लाल__adj" /></e>
+		<e lm="आधुनिक">            	<i>आधुनिक</i><par n="/लाल__adj" /></e>
+		<e lm="प्रचंड">            	<i>प्रचंड</i><par n="/लाल__adj" /></e>
+		<e lm="आवश्यक">            	<i>आवश्यक</i><par n="/लाल__adj" /></e>
+		<e lm="मराठा">               	<i>मराठा</i><par n="/लाल__adj" /></e>
+		<e lm="उच्च">                  	<i>उच्च</i><par n="/लाल__adj" /></e>
+		<e lm="शुद्ध">               	<i>शुद्ध</i><par n="/लाल__adj" /></e>
+		<e lm="विशिष्ट">         	<i>विशिष्ट</i><par n="/लाल__adj" /></e>
+		<e lm="प्रदर्शित">   	<i>प्रदर्शित</i><par n="/लाल__adj" /></e>
+		<e lm="योग्य">               	<i>योग्य</i><par n="/लाल__adj" /></e>
+		<e lm="प्रकारचे">      	<i>प्रकारचे</i><par n="/लाल__adj" /></e>
+		<e lm="प्राथमिक">      	<i>प्राथमिक</i><par n="/लाल__adj" /></e>
+		<e lm="रशियन">               	<i>रशियन</i><par n="/लाल__adj" /></e>
+		<e lm="सार्वजनिक">   	<i>सार्वजनिक</i><par n="/लाल__adj" /></e>
+		<e lm="अंतिम">               	<i>अंतिम</i><par n="/लाल__adj" /></e>
+		<e lm="तयार">                  	<i>तयार</i><par n="/लाल__adj" /></e>
+		<e lm="सरकारी">            	<i>सरकारी</i><par n="/लाल__adj" /></e>
+		<e lm="नैसर्गिक">      	<i>नैसर्गिक</i><par n="/लाल__adj" /></e>
+		<e lm="शक्य">                  	<i>शक्य</i><par n="/लाल__adj" /></e>
+		<e lm="युनायटेड">      	<i>युनायटेड</i><par n="/लाल__adj" /></e>
+		<e lm="साधारण">            	<i>साधारण</i><par n="/लाल__adj" /></e>
+		<e lm="सर्वोत्तम">   	<i>सर्वोत्तम</i><par n="/लाल__adj" /></e>
+		<e lm="विकसित">            	<i>विकसित</i><par n="/लाल__adj" /></e>
+		<e lm="जाहीर">               	<i>जाहीर</i><par n="/लाल__adj" /></e>
+		<e lm="सामान्य">         	<i>सामान्य</i><par n="/लाल__adj" /></e>
+		<e lm="वरील">                  	<i>वरील</i><par n="/लाल__adj" /></e>
+		<e lm="ओपन">                     	<i>ओपन</i><par n="/लाल__adj" /></e>
+		<e lm="शैक्षणिक">      	<i>शैक्षणिक</i><par n="/लाल__adj" /></e>
+		<e lm="पवित्र">            	<i>पवित्र</i><par n="/लाल__adj" /></e>
+		<e lm="कादंबरी">         	<i>कादंबरी</i><par n="/लाल__adj" /></e>
+		<e lm="सुंदर">               	<i>सुंदर</i><par n="/लाल__adj" /></e>
+		<e lm="विद्यमान">      	<i>विद्यमान</i><par n="/लाल__adj" /></e>
+		<e lm="औषधी">                  	<i>औषधी</i><par n="/लाल__adj" /></e>
+		<e lm="प्रकारची">      	<i>प्रकारची</i><par n="/लाल__adj" /></e>
+		<e lm="लष्करी">            	<i>लष्करी</i><par n="/लाल__adj" /></e>
+		<e lm="साहित्यिक">   	<i>साहित्यिक</i><par n="/लाल__adj" /></e>
+		<e lm="इंडियन">            	<i>इंडियन</i><par n="/लाल__adj" /></e>
+		<e lm="अरबी">                  	<i>अरबी</i><par n="/लाल__adj" /></e>
+		<e lm="समाविष्ट">      	<i>समाविष्ट</i><par n="/लाल__adj" /></e>
+		<e lm="बंगाली">            	<i>बंगाली</i><par n="/लाल__adj" /></e>
+		<e lm="किती">                  	<i>किती</i><par n="/लाल__adj" /></e>
+		<e lm="औद्योगिक">      	<i>औद्योगिक</i><par n="/लाल__adj" /></e>
+		<e lm="अजून">                  	<i>अजून</i><par n="/लाल__adj" /></e>
+		<e lm="खास">                     	<i>खास</i><par n="/लाल__adj" /></e>
+		<e lm="नागरी">               	<i>नागरी</i><par n="/लाल__adj" /></e>
+		<e lm="मुस्लिम">         	<i>मुस्लिम</i><par n="/लाल__adj" /></e>
+		<e lm="एकदिवसीय">      	<i>एकदिवसीय</i><par n="/लाल__adj" /></e>
+		<e lm="स्पष्ट">            	<i>स्पष्ट</i><par n="/लाल__adj" /></e>
+		<e lm="स्पॅनिश">         	<i>स्पॅनिश</i><par n="/लाल__adj" /></e>
+		<e lm="प्रचलित">         	<i>प्रचलित</i><par n="/लाल__adj" /></e>
+		<e lm="बरोबर">               	<i>बरोबर</i><par n="/लाल__adj" /></e>
+		<e lm="सहकारी">            	<i>सहकारी</i><par n="/लाल__adj" /></e>
+		<e lm="केंद्रीय">      	<i>केंद्रीय</i><par n="/लाल__adj" /></e>
+		<e lm="कन्नड">               	<i>कन्नड</i><par n="/लाल__adj" /></e>
+		<e lm="तेलुगू">            	<i>तेलुगू</i><par n="/लाल__adj" /></e>
+		<e lm="निश्चित">         	<i>निश्चित</i><par n="/लाल__adj" /></e>
+		<e lm="नॅशनल">               	<i>नॅशनल</i><par n="/लाल__adj" /></e>
+		<e lm="तीव्र">               	<i>तीव्र</i><par n="/लाल__adj" /></e>
+		<e lm="लैंगिक">            	<i>लैंगिक</i><par n="/लाल__adj" /></e>
+		<e lm="युरोपीय">         	<i>युरोपीय</i><par n="/लाल__adj" /></e>
+		<e lm="उत्कृष्ट">      	<i>उत्कृष्ट</i><par n="/लाल__adj" /></e>
+		<e lm="तरुण">                  	<i>तरुण</i><par n="/लाल__adj" /></e>
+		<e lm="कम्युनिस्ट">	<i>कम्युनिस्ट</i><par n="/लाल__adj" /></e>
+		<e lm="ऑस्ट्रेलियन">	<i>ऑस्ट्रेलियन</i><par n="/लाल__adj" /></e>
+		<e lm="प्रीमियर">      	<i>प्रीमियर</i><par n="/लाल__adj" /></e>
+		<e lm="ब्रिटीश">         	<i>ब्रिटीश</i><par n="/लाल__adj" /></e>
+		<e lm="निवृत्त">         	<i>निवृत्त</i><par n="/लाल__adj" /></e>
+		<e lm="इटालियन">         	<i>इटालियन</i><par n="/लाल__adj" /></e>
+		<e lm="वेस्ट">               	<i>वेस्ट</i><par n="/लाल__adj" /></e>
+		<e lm="भरपूर">               	<i>भरपूर</i><par n="/लाल__adj" /></e>
+		<e lm="मर्यादित">      	<i>मर्यादित</i><par n="/लाल__adj" /></e>
+		<e lm="पाकिस्तानी">	<i>पाकिस्तानी</i><par n="/लाल__adj" /></e>
+		<e lm="पारंपरिक">      	<i>पारंपरिक</i><par n="/लाल__adj" /></e>
+		<e lm="हवाई">                  	<i>हवाई</i><par n="/लाल__adj" /></e>
+		<e lm="थंड">                     	<i>थंड</i><par n="/लाल__adj" /></e>
+		<e lm="वैदिक">               	<i>वैदिक</i><par n="/लाल__adj" /></e>
+		<e lm="विरोधी">            	<i>विरोधी</i><par n="/लाल__adj" /></e>
+		<e lm="उल्लेखनीय">   	<i>उल्लेखनीय</i><par n="/लाल__adj" /></e>
+		<e lm="प्रस्थापित">	<i>प्रस्थापित</i><par n="/लाल__adj" /></e>
+		<e lm="जिवंत">               	<i>जिवंत</i><par n="/लाल__adj" /></e>
+		<e lm="पोर्तुगीज">   	<i>पोर्तुगीज</i><par n="/लाल__adj" /></e>
+		<e lm="काल्पनिक">      	<i>काल्पनिक</i><par n="/लाल__adj" /></e>
+		<e lm="वारकरी">            	<i>वारकरी</i><par n="/लाल__adj" /></e>
+		<e lm="गंभीर">               	<i>गंभीर</i><par n="/लाल__adj" /></e>
+		<e lm="रोड">                     	<i>रोड</i><par n="/लाल__adj" /></e>
+		<e lm="ग्रेट">               	<i>ग्रेट</i><par n="/लाल__adj" /></e>
+		<e lm="लोकमान्य">      	<i>लोकमान्य</i><par n="/लाल__adj" /></e>
+		<e lm="मुघल">                  	<i>मुघल</i><par n="/लाल__adj" /></e>
+		<e lm="रॉयल">                  	<i>रॉयल</i><par n="/लाल__adj" /></e>
+		<e lm="गुजराती">         	<i>गुजराती</i><par n="/लाल__adj" /></e>
+		<e lm="आध्यात्मिक">	<i>आध्यात्मिक</i><par n="/लाल__adj" /></e>
+		<e lm="पौराणिक">         	<i>पौराणिक</i><par n="/लाल__adj" /></e>
+		<e lm="स्थायिक">         	<i>स्थायिक</i><par n="/लाल__adj" /></e>
+		<e lm="सुप्रसिद्ध">	<i>सुप्रसिद्ध</i><par n="/लाल__adj" /></e>
+		<e lm="तांत्रिक">      	<i>तांत्रिक</i><par n="/लाल__adj" /></e>
+		<e lm="शारीरिक">         	<i>शारीरिक</i><par n="/लाल__adj" /></e>
+		<e lm="हिंदुस्तानी">	<i>हिंदुस्तानी</i><par n="/लाल__adj" /></e>
+		<e lm="गरम">                     	<i>गरम</i><par n="/लाल__adj" /></e>
+		<e lm="फारसी">               	<i>फारसी</i><par n="/लाल__adj" /></e>
+		<e lm="दीर्घ">               	<i>दीर्घ</i><par n="/लाल__adj" /></e>
+		<e lm="पंजाबी">            	<i>पंजाबी</i><par n="/लाल__adj" /></e>
+		<e lm="परदेशी">            	<i>परदेशी</i><par n="/लाल__adj" /></e>
+		<e lm="नागरिक">            	<i>नागरिक</i><par n="/लाल__adj" /></e>
+		<e lm="केसरी">               	<i>केसरी</i><par n="/लाल__adj" /></e>
+		<e lm="सागरी">               	<i>सागरी</i><par n="/लाल__adj" /></e>
+		<e lm="सुरक्षित">      	<i>सुरक्षित</i><par n="/लाल__adj" /></e>
+		<e lm="प्रतिनिधित्व">	<i>प्रतिनिधित्व</i><par n="/लाल__adj" /></e>
+		<e lm="ठरावीक">            	<i>ठरावीक</i><par n="/लाल__adj" /></e>
+		<e lm="वैचारिक">         	<i>वैचारिक</i><par n="/लाल__adj" /></e>
+		<e lm="सुपर">                  	<i>सुपर</i><par n="/लाल__adj" /></e>
+		<e lm="संरक्षित">      	<i>संरक्षित</i><par n="/लाल__adj" /></e>
+		<e lm="दहशतवादी">      	<i>दहशतवादी</i><par n="/लाल__adj" /></e>
+		<e lm="प्रसंगी">         	<i>प्रसंगी</i><par n="/लाल__adj" /></e>
+		<e lm="जगप्रसिद्ध">	<i>जगप्रसिद्ध</i><par n="/लाल__adj" /></e>
+		<e lm="अचूक">                  	<i>अचूक</i><par n="/लाल__adj" /></e>
+		<e lm="लिमिटेड">         	<i>लिमिटेड</i><par n="/लाल__adj" /></e>
 		<e lm="प्रसिद्ध">                <i>प्रसिद्ध</i><par n="/लाल__adj" /></e>
 		<e lm="मध्य">                <i>मध्य</i><par n="/लाल__adj" /></e>
 		<e lm="मुख्य">                <i>मुख्य</i><par n="/लाल__adj" /></e>
@@ -15197,6 +15456,7 @@
 		<e lm="दहषतावादी">                    	<i>दहषतावादी</i><par n="/लाल__adj" /></e>
 		<e lm="लट्टू">                        	<i>लट्टू</i><par n="/लाल__adj" /></e>
 		<e lm="आजचा">                         	<i>आजच</i><par n="काळ/ा__adj" /></e>
+		<e lm="उजवा">                         	<i>उजव</i><par n="काळ/ा__adj" /></e>
 		<e lm="आपला">                         	<i>आपल</i><par n="काळ/ा__adj" /></e>
 		<e lm="थोडा">                         	<i>थोड</i><par n="काळ/ा__adj" /></e>
 		<e lm="नंतरचा">                       	<i>नंतरच</i><par n="काळ/ा__adj" /></e>
