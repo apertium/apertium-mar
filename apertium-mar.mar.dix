@@ -1448,6 +1448,9 @@
 			<!-- infinitives -->
 			<e> 		<p><l>ण</l><r>णे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>
 
+			<e> 		<p><l></l><r>णे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r>णे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>ुया</l><r>णे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>ुयात</l><r>णे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ायला</l><r>णे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -1652,7 +1655,9 @@
 		<pardef n="क/र__vblex">
 			<e> 		<p><l>रण</l><r>रणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 
-			<e> 		<p><l>र</l><r>रणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>र</l><r>रणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रा</l><r>रणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>रुया</l><r>रणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>रुयात</l><r>रणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>रायला</l><r>रणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -1747,6 +1752,9 @@
 		<pardef n="लिह/ी__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>िण</l><r>िणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>
+
+			<e> 		<p><l>ी</l><r>रणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r>रणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>ुया</l><r>िणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>ुयात</l><r>िणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -1952,6 +1960,7 @@
 			<e> 		<p><l>जाण</l><r>जाणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 
 			<e> 		<p><l>जा</l><r>जाणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>जाऊया</l><r>जाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>जाऊयात</l><r>जाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>जायला</l><r>जाणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -2058,7 +2067,9 @@
 		<pardef n="/ये__vblex">
 			<e> 		<p><l>येण</l><r>येणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 
-			<e> 		<p><l>ये</l><r>येणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ये</l><r>येणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>या</l><r>येणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>येऊया</l><r>येणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>येऊयात</l><r>येणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>यायला</l><r>येणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -2272,7 +2283,9 @@
 		<pardef n="/दे__vblex">
 			<e> 		<p><l>देण</l><r>देणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 
-			<e> 		<p><l>दे</l><r>देणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>दे</l><r>देणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>द्या</l><r>देणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>देऊया</l><r>देणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>देऊयात</l><r>देणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>द्यायला</l><r>देणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -2361,7 +2374,9 @@
 		<pardef n="/घे__vblex">
 			<e> 		<p><l>घेण</l><r>घेणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
 
-			<e> 		<p><l>घे</l><r>घेणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>घे</l><r>घेणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>घ्या</l><r>घेणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>घेऊया</l><r>घेणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>घेऊयात</l><r>घेणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>घेायला</l><r>घेणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
@@ -2451,7 +2466,10 @@
 
 		<pardef n="/म्हण__vblex">
 			<e> 		<p><l>म्हणण</l><r>म्हणणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>	
-			<e> 		<p><l>म्हण</l><r>म्हणणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
+
+			<e> 		<p><l>म्हण</l><r>म्हणणे<s n="vblex"/><s n="imp"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>म्हणा</l><r>म्हणणे<s n="vblex"/><s n="imp"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>म्हणूया</l><r>म्हणणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>म्हणूयात</l><r>म्हणणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e>         <p><l>म्हणायला</l><r>म्हणणे<s n="vblex"/><s n="incp"/><j/></r></p><par n="__emph"/></e>
