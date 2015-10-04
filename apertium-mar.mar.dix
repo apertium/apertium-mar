@@ -3117,12 +3117,14 @@
 		<pardef n="/येथे__adv">
 			<e> 		<p><l>येथे</l><r>येथे<s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>येथील</l><r>येथे<s n="adj"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>येथून</l><r>येथे<s n="adj"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>इथे</l><r>येथे<s n="adv"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
 		<pardef n="/तेथे__adv">
 			<e> 		<p><l>तेथे</l><r>तेथे<s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>तेथील</l><r>तेथे<s n="adj"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तेथून</l><r>तेथे<s n="adj"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>तिथे</l><r>तेथे<s n="adv"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
@@ -3131,11 +3133,6 @@
 			<e> 		<p><l>जेथील</l><r>जेथे<s n="adj"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>जिथे</l><r>जेथे<s n="adv"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
-
-		<pardef n="__adv">
-			<e> 		<p><l></l><r><s n="adv"/><j/></r></p><par n="__emph"/></e>
-		</pardef>
-
 
 	</pardefs>
 
@@ -3226,6 +3223,39 @@
 		<e lm="जेथे"> 					<i></i><par n="/जेथे__adv" /></e>
 		<e lm="साली"> 				<i>साली</i><par n="__adv" /></e>
 		<e lm="रोजी"> 				<i>रोजी</i><par n="__adv" /></e>
+		<e lm="मग">                        	<i>मग</i><par n="__adv" /></e>
+		<e lm="आता">                     	<i>आता</i><par n="__adv" /></e>
+		<e lm="पुन्हा">            	<i>पुन्हा</i><par n="__adv" /></e>
+		<e lm="अंतरावर">         	<i>अंतरावर</i><par n="__adv" /></e>
+		<e lm="येथून">               	<i>येथून</i><par n="__adv" /></e>
+		<e lm="बहुतेक">            	<i>बहुतेक</i><par n="__adv" /></e>
+		<e lm="एकत्र">               	<i>एकत्र</i><par n="__adv" /></e>
+		<e lm="दक्षिणेस">      	<i>दक्षिणेस</i><par n="__adv" /></e>
+		<e lm="एकदा">                  	<i>एकदा</i><par n="__adv" /></e>
+		<e lm="मिळून">               	<i>मिळून</i><par n="__adv" /></e>
+		<e lm="गावी">                  	<i>गावी</i><par n="__adv" /></e>
+		<e lm="पूर्णपणे">      	<i>पूर्णपणे</i><par n="__adv" /></e>
+		<e lm="शहरे">                  	<i>शहरे</i><par n="__adv" /></e>
+		<e lm="करुन">                  	<i>करुन</i><par n="__adv" /></e>
+		<e lm="घरी">                     	<i>घरी</i><par n="__adv" /></e>
+		<e lm="जवळजवळ">            	<i>जवळजवळ</i><par n="__adv" /></e>
+		<e lm="रात्री">            	<i>रात्री</i><par n="__adv" /></e>
+		<e lm="अनेकदा">            	<i>अनेकदा</i><par n="__adv" /></e>
+		<e lm="सहज">                     	<i>सहज</i><par n="__adv" /></e>
+		<e lm="नुकसान">            	<i>नुकसान</i><par n="__adv" /></e>
+		<e lm="म्हणुन">            	<i>म्हणुन</i><par n="__adv" /></e>
+		<e lm="सकाळी">               	<i>सकाळी</i><par n="__adv" /></e>
+		<e lm="लवकरच">               	<i>लवकरच</i><par n="__adv" /></e>
+		<e lm="खालीलप्रमाणे">	<i>खालीलप्रमाणे</i><par n="__adv" /></e>
+		<e lm="पहिल्यांदा">	<i>पहिल्यांदा</i><par n="__adv" /></e>
+		<e lm="जगभर">                  	<i>जगभर</i><par n="__adv" /></e>
+		<e lm="पुढीलप्रमाणे">	<i>पुढीलप्रमाणे</i><par n="__adv" /></e>
+		<e lm="निघून">               	<i>निघून</i><par n="__adv" /></e>
+		<e lm="शहरी">                  	<i>शहरी</i><par n="__adv" /></e>
+		<e lm="फारच">                  	<i>फारच</i><par n="__adv" /></e>
+		<e lm="श्रेष्ठ">         	<i>श्रेष्ठ</i><par n="__adv" /></e>
+		<e lm="दररोज">               	<i>दररोज</i><par n="__adv" /></e>
+		<e lm="लवकर">                  	<i>लवकर</i><par n="__adv" /></e>
 		<e lm="तयार करणे"> 					<i>तयार<b/>क</i><par n="क/र__vblex" /></e>
 		<e lm="तयार होणे"> 					<i>तयार<b/></i><par n="/हो__vblex" /></e>
 		<e lm="सुरू करणे"> 					<i>सुरू<b/>क</i><par n="क/र__vblex" /></e>
