@@ -343,7 +343,6 @@
 			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 
 			<!-- from -->
-			<e><p><l>कडून</l><r>कडून<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>पासून</l><r>पासून<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 
 			<!-- via (check second) -->
@@ -383,7 +382,11 @@
 		<pardef n="__post_unbound">
 
 			<!-- from -->
+			<e><p><l>कडून</l><r>कडून<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>कडच</l><r>कडून<s n="post"/><s n="attr"/><j/></r></p><par n="__generic_suff"/></e>
+
 			<e><p><l>पासून</l><r>पासून<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>पासच</l><r>पासून<s n="post"/><s n="attr"/><j/></r></p><par n="__generic_suff"/></e>
 
 			<!-- in front of -->
 			<e><p><l>पुढे</l><r>पुढे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
@@ -530,6 +533,10 @@
 			<e><p><l>बाहेरच्या</l><r>बाहेर<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>बाहेरची</l><r>बाहेर<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>बाहेरच्या</l><r>बाहेर<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+
+			<!-- upto -->
+			<e><p><l>पर्यंत</l><r>पर्यंत<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>पर्यंतच</l><r>पर्यंत<s n="post"/><s n="attr"/><j/></r></p><par n="__generic_suff"/></e>
 
 			<!-- at the end -->
 			<e><p><l>शेवटी</l><r>शेवटी<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
@@ -957,6 +964,9 @@
 
 		<pardef n="/नाही_आहे__vaux">
 
+			<e r="LR">       	<p><l>नाहीत</l><r>नाही<s n="adj"/><j/>आहे<s n="vaux"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+
+
 			<e>       	<p><l>नव्हतो</l><r>नाही<s n="adv"/><j/>आहे<s n="vaux"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नव्हते</l><r>नाही<s n="adv"/><j/>आहे<s n="vaux"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नव्हतो</l><r>नाही<s n="adv"/><j/>आहे<s n="vaux"/><s n="past"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
@@ -1337,6 +1347,7 @@
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>े</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
@@ -1440,6 +1451,19 @@
 			<e> 		<p><l>्यां</l><r><s n="n"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>्यां</l><r><s n="n"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
+
+		<pardef n="क्रिकेट__n">
+			<e> 		<p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
+		<pardef n="साखर__n_f">
+			<e> 		<p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
 
 		<!-- verbs -->
 
@@ -1552,6 +1576,8 @@
 		<pardef n="प/हा__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>हाण</l><r>हाणे<s n="vblex"/><j/></r></p><par n="__inf_endings"/></e>
+
+			<e> 		<p><l>हा</l><r>हाणे<s n="vblex"/><s n="imp"/><j/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>ाहुया</l><r>हाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>ाहुयात</l><r>हाणे<s n="vblex"/><s n="hort"/><j/></r></p><par n="__emph"/></e>
@@ -3166,6 +3192,8 @@
 		<e lm=""> 								<i></i><par n="__post_unbound"/></e>
 		<e lm=""> 								<i></i><par n="__gen_endings"/></e>
 		<e lm=""> 								<i></i><par n="__num" /></e>
+		<e lm=""> 								<i></i><par n="__sg_case" /></e>
+		<e lm=""> 								<i></i><par n="__pl_case" /></e>
 
 		<!-- particles -->
 		<e lm="मात्र"> 						<i>मात्र</i><par n="__part"/></e>
@@ -3176,6 +3204,7 @@
 		<e lm="देखील"> 						<i>देखील</i><par n="__part"/></e>
 		<e lm="न"> 								<i>न</i><par n="__part"/></e>
 		<e lm="हो"> 							<i>हो</i><par n="__part"/></e>
+		<e lm="होय"> 							<i>होय</i><par n="__part"/></e>
 		<e lm="नाही"> 						<i>नाही</i><par n="__part"/></e>
 		<e lm="बर"> 								<i>बर</i><par n="__part"/></e>
 			
@@ -3184,6 +3213,7 @@
 		<e lm="ठार"> 							<i>ठार</i><par n="__part"/></e>
 		<e lm="एक"> 							<i>एक</i><par n="__part"/></e>
 		<e lm="मुळीच"> 						<i>मुळीच</i><par n="__part"/></e>
+		<e lm="अ"> 								<i>अ</i><par n="__part"/></e>
 
 		<!-- conjunctions -->
 		<e lm="आणि">							<i>आणि</i><par n="__cnjcoo" /></e>
@@ -3240,9 +3270,19 @@
 		<e lm="तेथे"> 					<i></i><par n="/तेथे__adv" /></e>
 		<e lm="जेथे"> 					<i></i><par n="/जेथे__adv" /></e>
 		<e lm="साली"> 				<i>साली</i><par n="__adv" /></e>
+		<e lm="निर्माण"> 				<i>निर्माण</i><par n="__adv" /></e>
+		<e lm="ऑफ"> 				<i>ऑफ</i><par n="__adv" /></e>
+		<e lm="ऑन"> 				<i>ऑन</i><par n="__adv" /></e>
+		<e lm="सुमारे"> 				<i>सुमारे</i><par n="__adv" /></e>
+		<e lm="कधी"> 				<i>कधी</i><par n="__adv" /></e>
+		<e lm="वेळी"> 				<i>वेळी</i><par n="__adv" /></e>
+		<e lm="चालू"> 				<i>चालू</i><par n="__adv" /></e>
+		<e lm="वर्षी"> 				<i>वर्षी</i><par n="__adv" /></e>
+		<e lm="वगैरे"> 				<i>वगैरे</i><par n="__adv" /></e>
 		<e lm="रोजी"> 				<i>रोजी</i><par n="__adv" /></e>
 		<e lm="मग">                        	<i>मग</i><par n="__adv" /></e>
 		<e lm="आता">                     	<i>आता</i><par n="__adv" /></e>
+		<e lm="सुरु">                     	<i>सुरु</i><par n="__adv" /></e>
 		<e lm="पुन्हा">            	<i>पुन्हा</i><par n="__adv" /></e>
 		<e lm="अंतरावर">         	<i>अंतरावर</i><par n="__adv" /></e>
 		<e lm="येथून">               	<i>येथून</i><par n="__adv" /></e>
@@ -4636,6 +4676,7 @@
 		<e lm="प्राणी">                       	<i>प्राण</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पाणी">                         	<i>पाण</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="न्हावी">                       	<i>न्हाव</i><par n="न्हाव/ी__n_m" /></e>
+		<e lm="पक्षी">                       		<i>पक्ष</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="परमार्थी">                     	<i>परमार्थ</i><par n="न्हाव/ी__n" /></e>
 		<e lm="ग्ऋ्हस्थाष्रमी">               	<i>ग्ऋ्हस्थाष्रम</i><par n="न्हाव/ी__n" /></e>
 		<e lm="फेरतपासणी">                    	<i>फेरतपासण</i><par n="न्हाव/ी__n_m" /></e>
@@ -7985,6 +8026,7 @@
 		<e lm="यातायात">        	<i>यातायात</i><par n="कोय__n_f" /></e>
 		<e lm="युगत">                 	<i>युगत</i><par n="कोय__n_f" /></e>
 		<e lm="आत्मप्रचिती">                  	<i>आत्मप्रचिती</i><par n="कवी__n_m" /></e>
+		<e lm="मृत्यू">                  	<i>मृत्यू</i><par n="कवी__n_m" /></e>
 		<e lm="आत्मवस्तू">                    	<i>आत्मवस्तू</i><par n="कवी__n_m" /></e>
 		<e lm="झुंजारपणा">                    	<i>झुंजारपणा</i><par n="कवी__n_m" /></e>
 		<e lm="फलप्राप्ती">                   	<i>फलप्राप्ती</i><par n="कवी__n_m" /></e>
@@ -12414,6 +12456,7 @@
 		<e lm="युक्तिवाद">                    	<i>युक्तिवाद</i><par n="हात__n_m" /></e>
 		<e lm="युरोपियन">                     	<i>युरोपियन</i><par n="हात__n_m" /></e>
 		<e lm="आश्रयस्थान">                   	<i>आश्रयस्थान</i><par n="अंथरूण__n_m" /></e>
+		<e lm="संघ">                   	<i>संघ</i><par n="अंथरूण__n_m" /></e>
 		<e lm="घर">                           	<i>घर</i><par n="अंथरूण__n_m" /></e>
 		<e lm="शब्दरत्न">                     	<i>शब्दरत्न</i><par n="अंथरूण__n_m" /></e>
 		<e lm="शब्दसामर्थ्य">                 	<i>शब्दसामर्थ्य</i><par n="अंथरूण__n_m" /></e>
@@ -15262,8 +15305,13 @@
 		<e lm="दुसोरा">                       	<i>दुसोर</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="दुवा">                         	<i>दुव</i><par n="रस्त/ा__n_m" /></e>
 
+		<!-- adjectives -->
+
 		<e lm="इंग्लिश">         	<i>इंग्लिश</i><par n="/लाल__adj" /></e>
+		<e lm="अन्य">         	<i>अन्य</i><par n="/लाल__adj" /></e>
+		<e lm="प्रशासकीय">         	<i>प्रशासकीय</i><par n="/लाल__adj" /></e>
 		<e lm="सामाजिक">         	<i>सामाजिक</i><par n="/लाल__adj" /></e>
+		<e lm="राजकीय">         	<i>राजकीय</i><par n="/लाल__adj" /></e>
 		<e lm="प्राचीन">         	<i>प्राचीन</i><par n="/लाल__adj" /></e>
 		<e lm="प्रकाशित">      	<i>प्रकाशित</i><par n="/लाल__adj" /></e>
 		<e lm="अमेरिकन">         	<i>अमेरिकन</i><par n="/लाल__adj" /></e>
@@ -16502,6 +16550,7 @@
 		<e lm="कॉलोराडो">	<i>कॉलोराडो</i><par n="भारत__np" /></e>
 		<e lm="म्हैसूर">	<i>म्हैसूर</i><par n="भारत__np" /></e>
 		<e lm="बंगळूर">	<i>बंगळूर</i><par n="भारत__np" /></e>
+		<e lm="इंग्लंड">	<i>इंग्लंड</i><par n="भारत__np" /></e>
 		<e lm="चंपारण"> 	<i>चंपारण</i><par n="भारत__np"/></e>
 		<e lm="लोकसभा">	<i>लोकसभा</i><par n="टाटा__np" /></e>
 		<e lm="विधानसभा">	<i>विधानसभा</i><par n="टाटा__np" /></e>
@@ -16605,6 +16654,19 @@
 		<e lm="फ़ातिमा"> 	<i>फ़ातिमा</i><par n="मैरी__np"/></e>
 		<e lm="मुमताज़"> 	<i>मुमताज़</i><par n="मैरी__np"/></e>
 		<e lm="उत्तर"> 	<i>उत्तर</i><par n="उत्तर__np"/></e>
+		<e lm="इंग्लिश">	<i>इंग्लिश</i><par n="उत्तर__np" /></e>
+		<e lm="संस्कृत">	<i>संस्कृत</i><par n="उत्तर__np" /></e>
+		<e lm="मराठा">	<i>मराठा</i><par n="उत्तर__np" /></e>
+		<e lm="पोप">	<i>पोप</i><par n="उत्तर__np" /></e>
+		<e lm="विंडोज">	<i>विंडोज</i><par n="उत्तर__np" /></e>
+		<e lm="ज्येष्ठ">	<i>ज्येष्ठ</i><par n="उत्तर__np" /></e>
+		<e lm="उर्दू">	<i>उर्दू</i><par n="उत्तर__np" /></e>
+		<e lm="तेलुगू">	<i>तेलुगू</i><par n="उत्तर__np" /></e>
+		<e lm="देवनागरी">	<i>देवनागरी</i><par n="उत्तर__np" /></e>
+		<e lm="लॅटिन">	<i>लॅटिन</i><par n="उत्तर__np" /></e>
+		<e lm="फारसी">	<i>फारसी</i><par n="उत्तर__np" /></e>
+		<e lm="मल्याळम">	<i>मल्याळम</i><par n="उत्तर__np" /></e>
+		<e lm="रामायण">	<i>रामायण</i><par n="उत्तर__np" /></e>
 		<e lm="दक्षिण"> 	<i>दक्षिण</i><par n="उत्तर__np"/></e>
 		<e lm="पश्चिम"> 	<i>पश्चिम</i><par n="उत्तर__np"/></e>
 		<e lm="ईस्ट"> 	<i>ईस्ट</i><par n="उत्तर__np"/></e>
