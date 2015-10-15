@@ -241,15 +241,17 @@
 			<e> 		<p><l>ी</l><r>ी<s n="gen"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
+
 		<pardef n="__generic_suff">
 			<!-- genitives (CHECK) -->
-			<e> 		<p><l>ा</l><r>ा<s n="gen"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ी</l><r>ी<s n="gen"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>े</l><r>े<s n="gen"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>ं</l><r>ं<s n="gen"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>े</l><r>े<s n="gen"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r>्या<s n="gen"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ी</l><r>ी<s n="gen"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r>ा<s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ं</l><r>ं<s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>्या<s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>्या<s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
 		</pardef>
 
 		<pardef n="__gpr_gen">
@@ -412,13 +414,7 @@
 
 			<!-- in front of -->
 			<e><p><l>पुढे</l><r>पुढे<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढचा</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढचे</l><r>पुढे<s n="post"/><s n="attr"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढचे</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढच्या</l><r>पुढे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढची</l><r>पुढे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e><p><l>पुढच्या</l><r>पुढे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
+			<e><p><l>पुढच</l><r>पुढे<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__generic_suff"/></e>
 
 			<e><p><l>समोर</l><r>समोर<s n="post"/><s n="adv"/><j/></r></p><par n="__emph"/></e>
 			<e><p><l>समोरचा</l><r>समोर<s n="post"/><s n="attr"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
@@ -609,6 +605,22 @@
 
 		<pardef n="__standalone_post">
 			<e><p><l>आत</l><r>आत<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+		</pardef>
+
+
+		<pardef n="__gpr_suff">
+			<!-- genitives (CHECK) -->
+			<e> 		<p><l>ा</l><r>ा<s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ं</l><r>ं<s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r>े<s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>्या<s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>्या</l><r>ा<s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e>       	<p><l>्या</l><r>ा<s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>्यां</l><r>ा<s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+			<e>       	<p><l>्यां</l><r>ा<s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 		</pardef>
 
 		<!-- pronouns -->
@@ -996,7 +1008,7 @@
 			<e>       	<p><l>असल्या</l><r>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>असलेल</l><r>असलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>असलेल</l><r>असलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>असणा</l><r>असणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -1074,17 +1086,21 @@
 			<e>       	<p><l>नसतांना</l><r>नाही<s n="adv"/><j/>आहे<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसल्या</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>नसल्या</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>नसल्या</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>नसल्या</l><r>नाही<s n="adv"/><j/>आहे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
 			<!-- adjectival forms -->
-			<e>       	<p><l>नसलेला</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेली</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेले</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेले</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेली</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>नसलेल</l><r>नाही<s n="adv"/><j/>असलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>नसणा</l><r>नाही<s n="adv"/><j/>असणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
+
+		
+			<!--e>       	<p><l>नसलेल्या</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>       	<p><l>नसलेल्यां</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
-			<e>       	<p><l>नसलेल्यां</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>नसलेल्यां</l><r>नाही<s n="adv"/><j/>असलेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e-->
 		</pardef>
 
 		<!-- become -->
@@ -1175,17 +1191,19 @@
 			<e>       	<p><l>होतांना</l><r>हो<s n="adv"/><s n="impf"/><j/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>झाल्या</l><r>हो<s n="vblex"/><s n="gna"/><s n="impf"/><j/></r></p><par n="__clit_vb"/></e>
 
+			<!-- gerund -->
+			<e>       	<p><l>झाल्या</l><r>हो<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal"/></e>
+			<e>       	<p><l>झाल्या</l><r>हो<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
+			<e>       	<p><l>झाल्या</l><r>हो<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
+
 			<!-- adjectival forms -->
-			<e>       	<p><l>झालेला</l><r>झालेला<s n="adj"/><s n="m"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेली</l><r>झालेला<s n="adj"/><s n="f"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेले</l><r>झालेला<s n="adj"/><s n="nt"/><s n="sg"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेले</l><r>झालेला<s n="adj"/><s n="m"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="f"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेली</l><r>झालेला<s n="adj"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e>       	<p><l>झालेल्या</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e>       	<p><l>झालेल्यां</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
-			<e>       	<p><l>झालेल्यां</l><r>झालेला<s n="adj"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>झालेल</l><r>झालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
+
+			<!-- r problems -->
+			<e>       	<p><l>होणा</l><r>होणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
+
+
+			
 
 
 		</pardef>
@@ -1751,7 +1769,7 @@
 			<e>       	<p><l>ल्या</l><r>णे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>लेल</l><r>लेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>लेल</l><r>लेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>णा</l><r>णारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -1855,7 +1873,7 @@
 			<e>       	<p><l>ाहिल्या</l><r>हाणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>ाहिलेल</l><r>ाहिलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>ाहिलेल</l><r>ाहिलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>ाहाणा</l><r>ाहाणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -1954,7 +1972,7 @@
 			<e>       	<p><l>ेल्या</l><r>रणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>ेलेल</l><r>ेलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>ेलेल</l><r>ेलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>रणा</l><r>रणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2059,7 +2077,7 @@
 			<e>       	<p><l>िल्या</l><r>िणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>िलेल</l><r>िलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>िलेल</l><r>िलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>िणा</l><r>िणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2161,7 +2179,7 @@
 			<e>       	<p><l>ाल्या</l><r>णे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>ालेल</l><r>लेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>ालेल</l><r>लेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>णा</l><r>णारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2269,7 +2287,7 @@
 			<e>       	<p><l>गेल्या</l><r>जाणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>गेलेल</l><r>गेलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>गेलेल</l><r>गेलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>जाणा</l><r>जाणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2378,7 +2396,7 @@
 			<e>       	<p><l>आल्या</l><r>येणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>आलेल</l><r>आलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>आलेल</l><r>आलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>येणा</l><r>येणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2485,7 +2503,7 @@
 			<e>       	<p><l>झाल्या</l><r>होणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>झालेल</l><r>झालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>झालेल</l><r>झालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>होणा</l><r>होणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2576,7 +2594,7 @@
 			<e>       	<p><l>दिल्या</l><r>देणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>दिलेल</l><r>दिलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>दिलेल</l><r>दिलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>देणा</l><r>देणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2669,7 +2687,7 @@
 			<e>       	<p><l>घेतल्या</l><r>घेणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>घेतलेल</l><r>घेतलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>घेतलेल</l><r>घेतलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>घेणा</l><r>घेणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2809,8 +2827,8 @@
 			<e r="LR">	<p><l>म्हटल्या</l><r>म्हणणे<s n="vblex"/><s n="ger"/><s n="perf"/><j/></r></p><par n="__sg_case"/></e>
 
 			<!-- adjectival forms -->
-			<e>       	<p><l>म्हणालेल</l><r>म्हणालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
-			<e r="LR">	<p><l>म्हटलेल</l><r>म्हटलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>       	<p><l>म्हणालेल</l><r>म्हणालेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
+			<e r="LR">	<p><l>म्हटलेल</l><r>म्हटलेला<s n="gpr"/><s n="perf"/><j/></r></p><par n="__gpr_suff"/></e>
 
 			<!-- r problems -->
 			<e>       	<p><l>म्हणणा</l><r>म्हणणारा<s n="gpr"/><s n="inf"/><j/></r></p><par n="__gpr_gen"/></e>
@@ -2833,7 +2851,7 @@
 			<e>		<p><l>एक</l><r>एक<s n="num"/><j/></r></p><par n="__emph"/></e>
 			<e>     <p><l>एका</l><r>एक<s n="num"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>     <p><l>एका</l><r>एक<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e>		<p><l>पहिल</l><r>एक<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पहिल</l><r>एक<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकपट</l><r>एक<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
@@ -2841,7 +2859,7 @@
 			<e>     <p><l>दोघां</l><r>दोन<s n="num"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>     <p><l>दोघां</l><r>दोन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>     <p><l>दोन्ही</l><r>दोन<s n="num"/><s n="aggr"/></r></p></e>
-			<e>		<p><l>दुसर</l><r>दोन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>दुसर</l><r>दोन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>दुप्पट</l><r>दोन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
@@ -2849,7 +2867,7 @@
 			<e>     <p><l>तिघां</l><r>तीन<s n="num"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>     <p><l>तिघां</l><r>तीन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>     <p><l>तीन्ही</l><r>तीन<s n="num"/><s n="aggr"/></r></p></e>
-			<e>		<p><l>तिसर</l><r>तीन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>तिसर</l><r>तीन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तिप्पट</l><r>तीन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
@@ -2857,491 +2875,491 @@
 			<e>     <p><l>चौघां</l><r>चार<s n="num"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>     <p><l>चौघां</l><r>चार<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>     <p><l>चारही</l><r>चार<s n="num"/><s n="aggr"/></r></p></e>
-			<e>		<p><l>चौथ</l><r>चार<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौथ</l><r>चार<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौपट</l><r>चार<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पाच</l><r>पाच<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पाचव</l><r>पाच<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पाचव</l><r>पाच<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पाचपट</l><r>पाच<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सहा</l><r>सहा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सहाव</l><r>सहा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सहाव</l><r>सहा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सहापट</l><r>सहा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सात</l><r>सात<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सातव</l><r>सात<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सातव</l><r>सात<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सातपट</l><r>सात<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>आठ</l><r>आठ<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>आठव</l><r>आठ<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>आठव</l><r>आठ<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>आठपट</l><r>आठ<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>नऊ</l><r>नऊ<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>नव्व</l><r>नऊ<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>नव्व</l><r>नऊ<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>नऊपट</l><r>नऊ<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>दहा</l><r>दहा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>दहाव</l><r>दहा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>दहाव</l><r>दहा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>दहापट</l><r>दहा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अकरा</l><r>अकरा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अकराव</l><r>अकरा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अकराव</l><r>अकरा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अकरापट</l><r>अकरा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बारा</l><r>बारा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बाराव</l><r>बारा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बाराव</l><r>बारा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बारापट</l><r>बारा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>तेरा</l><r>तेरा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>तेराव</l><r>तेरा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>तेराव</l><r>तेरा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तेरापट</l><r>तेरा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौदा</l><r>चौदा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौदाव</l><r>चौदा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौदाव</l><r>चौदा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौदापट</l><r>चौदा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंधरा</l><r>पंधरा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंधराव</l><r>पंधरा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंधराव</l><r>पंधरा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंधरापट</l><r>पंधरा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सोळा</l><r>सोळा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सोळाव</l><r>सोळा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सोळाव</l><r>सोळा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सोळापट</l><r>सोळा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सतरा</l><r>सतरा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सतराव</l><r>सतरा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सतराव</l><r>सतरा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सतरापट</l><r>सतरा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठरा</l><r>अठरा<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठराव</l><r>अठरा<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठराव</l><r>अठरा<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठरापट</l><r>अठरा<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणीस</l><r>एकोणीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणिसाव</l><r>एकोणीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणिसाव</l><r>एकोणीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणीसपट</l><r>एकोणीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>वीस</l><r>वीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>विसाव</l><r>वीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>विसाव</l><r>वीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>वीसपट</l><r>वीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकवीस</l><r>एकवीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकविसाव</l><r>एकवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकविसाव</l><r>एकवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकवीसपट</l><r>एकवीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बावीस</l><r>बावीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बाविसाव</l><r>बावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बाविसाव</l><r>बावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बावीसपट</l><r>बावीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>तेवीस</l><r>तेवीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>तेवीसव</l><r>तेवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>तेवीसव</l><r>तेवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तेवीसपट</l><r>तेवीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चोवीस</l><r>चोवीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चोवीसव</l><r>चोवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चोवीसव</l><r>चोवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चोवीसपट</l><r>चोवीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंचवीस</l><r>पंचवीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंचवीसव</l><r>पंचवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंचवीसव</l><r>पंचवीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंचवीसपट</l><r>पंचवीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सव्वीस</l><r>सव्वीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सव्वीसव</l><r>सव्वीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सव्वीसव</l><r>सव्वीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सव्वीसपट</l><r>सव्वीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्तावीस</l><r>सत्तावीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्तावीसव</l><r>सत्तावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्तावीसव</l><r>सत्तावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्तावीसपट</l><r>सत्तावीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठावीस</l><r>अठ्ठावीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठावीसव</l><r>अठ्ठावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठावीसव</l><r>अठ्ठावीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठावीसपट</l><r>अठ्ठावीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणतीस</l><r>एकोणतीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणतीसव</l><r>एकोणतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणतीसव</l><r>एकोणतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणतीसपट</l><r>एकोणतीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>तीस</l><r>तीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>तीसव</l><r>तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>तीसव</l><r>तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तीसपट</l><r>तीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकतीस</l><r>एकतीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकतीसव</l><r>एकतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकतीसव</l><r>एकतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकतीसपट</l><r>एकतीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बत्तीस</l><r>बत्तीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बत्तीसव</l><r>बत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बत्तीसव</l><r>बत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बत्तीसपट</l><r>बत्तीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>तेहत्तीस</l><r>तेहत्तीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>तेहत्तीसव</l><r>तेहत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>तेहत्तीसव</l><r>तेहत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तेहत्तीसपट</l><r>तेहत्तीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौतीस</l><r>चौतीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौतीसव</l><r>चौतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौतीसव</l><r>चौतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौतीसपट</l><r>चौतीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पस्तीस</l><r>पस्तीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पस्तीसव</l><r>पस्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पस्तीसव</l><r>पस्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पस्तीसपट</l><r>पस्तीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>छत्तीस</l><r>छत्तीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>छत्तीसव</l><r>छत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>छत्तीसव</l><r>छत्तीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>छत्तीसपट</l><r>छत्तीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सदोतीस</l><r>सदोतीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सदोतीसव</l><r>सदोतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सदोतीसव</l><r>सदोतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सदोतीसपट</l><r>सदोतीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अडोतीस</l><r>अडोतीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अडोतीसव</l><r>अडोतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अडोतीसव</l><r>अडोतीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अडोतीसपट</l><r>अडोतीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणचाळीस</l><r>एकोणचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणचाळीसव</l><r>एकोणचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणचाळीसव</l><r>एकोणचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणचाळीसपट</l><r>एकोणचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चाळीस</l><r>चाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चाळीसव</l><r>चाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चाळीसव</l><r>चाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चाळीसपट</l><r>चाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकेचाळीस</l><r>एकेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकेचाळीसव</l><r>एकेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकेचाळीसव</l><r>एकेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकेचाळीसपट</l><r>एकेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बेचाळीस</l><r>बेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बेचाळीसव</l><r>बेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बेचाळीसव</l><r>बेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बेचाळीसपट</l><r>बेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्रेचाळीस</l><r>त्रेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्रेचाळीसव</l><r>त्रेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्रेचाळीसव</l><r>त्रेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्रेचाळीसपट</l><r>त्रेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चव्वेचाळीस</l><r>चव्वेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चव्वेचाळीसव</l><r>चव्वेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चव्वेचाळीसव</l><r>चव्वेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चव्वेचाळीसपट</l><r>चव्वेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंचेचाळीस</l><r>पंचेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंचेचाळीसव</l><r>पंचेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंचेचाळीसव</l><r>पंचेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंचेचाळीसपट</l><r>पंचेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सेहेचाळीस</l><r>सेहेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सेहेचाळीसव</l><r>सेहेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सेहेचाळीसव</l><r>सेहेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सेहेचाळीसपट</l><r>सेहेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्तेचाळीस</l><r>सत्तेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्तेचाळीसव</l><r>सत्तेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्तेचाळीसव</l><r>सत्तेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्तेचाळीसपट</l><r>सत्तेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठेचाळीस</l><r>अठ्ठेचाळीस<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठेचाळीसव</l><r>अठ्ठेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठेचाळीसव</l><r>अठ्ठेचाळीस<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठेचाळीसपट</l><r>अठ्ठेचाळीस<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणपन्नास</l><r>एकोणपन्नास<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणपन्नासव</l><r>एकोणपन्नास<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणपन्नासव</l><r>एकोणपन्नास<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणपन्नासपट</l><r>एकोणपन्नास<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पन्नास</l><r>पन्नास<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पन्नासव</l><r>पन्नास<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पन्नासव</l><r>पन्नास<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पन्नासपट</l><r>पन्नास<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एक्कावन</l><r>एक्कावन<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एक्कावनव</l><r>एक्कावन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एक्कावनव</l><r>एक्कावन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एक्कावनपट</l><r>एक्कावन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बावन्न</l><r>बावन्न<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बावन्नव</l><r>बावन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बावन्नव</l><r>बावन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बावन्नपट</l><r>बावन्न<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्रेपन्न</l><r>त्रेपन्न<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्रेपन्नव</l><r>त्रेपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्रेपन्नव</l><r>त्रेपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्रेपन्नपट</l><r>त्रेपन्न<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चोपन्न</l><r>चोपन्न<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चोपन्नव</l><r>चोपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चोपन्नव</l><r>चोपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चोपन्नपट</l><r>चोपन्न<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंचावन</l><r>पंचावन<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंचावनव</l><r>पंचावन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंचावनव</l><r>पंचावन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंचावनपट</l><r>पंचावन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>छपन्न</l><r>छपन्न<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>छपन्नव</l><r>छपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>छपन्नव</l><r>छपन्न<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>छपन्नपट</l><r>छपन्न<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्तावन</l><r>सत्तावन<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्तावनव</l><r>सत्तावन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्तावनव</l><r>सत्तावन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्तावनपट</l><r>सत्तावन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठावन</l><r>अठ्ठावन<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठावनव</l><r>अठ्ठावन<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठावनव</l><r>अठ्ठावन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठावनपट</l><r>अठ्ठावन<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणसाठ</l><r>एकोणसाठ<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणसाठव</l><r>एकोणसाठ<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणसाठव</l><r>एकोणसाठ<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणसाठपट</l><r>एकोणसाठ<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>साठ</l><r>साठ<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>साठव</l><r>साठ<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>साठव</l><r>साठ<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>साठपट</l><r>साठ<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकसष्ट</l><r>एकसष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकसष्टव</l><r>एकसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकसष्टव</l><r>एकसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकसष्टपट</l><r>एकसष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बासष्ट</l><r>बासष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बासष्टव</l><r>बासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बासष्टव</l><r>बासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बासष्टपट</l><r>बासष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्रेसष्ट</l><r>त्रेसष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्रेसष्टव</l><r>त्रेसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्रेसष्टव</l><r>त्रेसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्रेसष्टपट</l><r>त्रेसष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौसष्ट</l><r>चौसष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौसष्टव</l><r>चौसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौसष्टव</l><r>चौसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौसष्टपट</l><r>चौसष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पासष्ट</l><r>पासष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पासष्टव</l><r>पासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पासष्टव</l><r>पासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पासष्टपट</l><r>पासष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सहासष्ट</l><r>सहासष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सहासष्टव</l><r>सहासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सहासष्टव</l><r>सहासष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सहासष्टपट</l><r>सहासष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सदुसष्ट</l><r>सदुसष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सदुसष्टव</l><r>सदुसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सदुसष्टव</l><r>सदुसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सदुसष्टपट</l><r>सदुसष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अडुसष्ट</l><r>अडुसष्ट<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अडुसष्टव</l><r>अडुसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अडुसष्टव</l><r>अडुसष्ट<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अडुसष्टपट</l><r>अडुसष्ट<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणसत्तर</l><r>एकोणसत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणसत्तरव</l><r>एकोणसत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणसत्तरव</l><r>एकोणसत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणसत्तरपट</l><r>एकोणसत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्तर</l><r>सत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्तरव</l><r>सत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्तरव</l><r>सत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्तरपट</l><r>सत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकाहत्तर</l><r>एकाहत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकाहत्तरव</l><r>एकाहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकाहत्तरव</l><r>एकाहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकाहत्तरपट</l><r>एकाहत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>बहात्तर</l><r>बहात्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>बहात्तरव</l><r>बहात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>बहात्तरव</l><r>बहात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>बहात्तरपट</l><r>बहात्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्र्याहत्तर</l><r>त्र्याहत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्र्याहत्तरव</l><r>त्र्याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्र्याहत्तरव</l><r>त्र्याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्र्याहत्तरपट</l><r>त्र्याहत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौर्‍याहत्तर</l><r>चौर्‍याहत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौर्‍याहत्तरव</l><r>चौर्‍याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौर्‍याहत्तरव</l><r>चौर्‍याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौर्‍याहत्तरपट</l><r>चौर्‍याहत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंच्याहत्तर</l><r>पंच्याहत्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंच्याहत्तरव</l><r>पंच्याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंच्याहत्तरव</l><r>पंच्याहत्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंच्याहत्तरपट</l><r>पंच्याहत्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>शहात्तर</l><r>शहात्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>शहात्तरव</l><r>शहात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>शहात्तरव</l><r>शहात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>शहात्तरपट</l><r>शहात्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्त्यात्तर</l><r>सत्त्यात्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्त्यात्तरव</l><r>सत्त्यात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्त्यात्तरव</l><r>सत्त्यात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्त्यात्तरपट</l><r>सत्त्यात्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठ्यात्तर</l><r>अठ्ठ्यात्तर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठ्यात्तरव</l><r>अठ्ठ्यात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठ्यात्तरव</l><r>अठ्ठ्यात्तर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठ्यात्तरपट</l><r>अठ्ठ्यात्तर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणऐंशी</l><r>एकोणऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणऐंशीव</l><r>एकोणऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणऐंशीव</l><r>एकोणऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणऐंशीपट</l><r>एकोणऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>ऐंशी</l><r>ऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>ऐंशीव</l><r>ऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>ऐंशीव</l><r>ऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>ऐंशीपट</l><r>ऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एक्याऐंशी</l><r>एक्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एक्याऐंशीव</l><r>एक्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एक्याऐंशीव</l><r>एक्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एक्याऐंशीपट</l><r>एक्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>ब्याऐंशी</l><r>ब्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>ब्याऐंशीव</l><r>ब्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>ब्याऐंशीव</l><r>ब्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>ब्याऐंशीपट</l><r>ब्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्र्याऐंशी</l><r>त्र्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्र्याऐंशीव</l><r>त्र्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्र्याऐंशीव</l><r>त्र्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्र्याऐंशीपट</l><r>त्र्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौर्‍याऐंशी</l><r>चौर्‍याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौर्‍याऐंशीव</l><r>चौर्‍याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौर्‍याऐंशीव</l><r>चौर्‍याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौर्‍याऐंशीपट</l><r>चौर्‍याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंच्याऐंशी</l><r>पंच्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंच्याऐंशीव</l><r>पंच्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंच्याऐंशीव</l><r>पंच्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंच्याऐंशीपट</l><r>पंच्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>शहाऐंशी</l><r>शहाऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>शहाऐंशीव</l><r>शहाऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>शहाऐंशीव</l><r>शहाऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>शहाऐंशीपट</l><r>शहाऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्त्याऐंशी</l><r>सत्त्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्त्याऐंशीव</l><r>सत्त्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्त्याऐंशीव</l><r>सत्त्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्त्याऐंशीपट</l><r>सत्त्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठ्याऐंशी</l><r>अठ्ठ्याऐंशी<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठ्याऐंशीव</l><r>अठ्ठ्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठ्याऐंशीव</l><r>अठ्ठ्याऐंशी<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठ्याऐंशीपट</l><r>अठ्ठ्याऐंशी<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एकोणनव्वद</l><r>एकोणनव्वद<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एकोणनव्वदव</l><r>एकोणनव्वद<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एकोणनव्वदव</l><r>एकोणनव्वद<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकोणनव्वदपट</l><r>एकोणनव्वद<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>नव्वद</l><r>नव्वद<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>नव्वदव</l><r>नव्वद<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>नव्वदव</l><r>नव्वद<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>नव्वदपट</l><r>नव्वद<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>एक्याण्णव</l><r>एक्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>एक्याण्णवव</l><r>एक्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>एक्याण्णवव</l><r>एक्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एक्याण्णवपट</l><r>एक्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>ब्याण्णव</l><r>ब्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>ब्याण्णवव</l><r>ब्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>ब्याण्णवव</l><r>ब्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>ब्याण्णवपट</l><r>ब्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>त्र्याण्णव</l><r>त्र्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>त्र्याण्णवव</l><r>त्र्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>त्र्याण्णवव</l><r>त्र्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>त्र्याण्णवपट</l><r>त्र्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>चौर्‍याण्णव</l><r>चौर्‍याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>चौर्‍याण्णवव</l><r>चौर्‍याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>चौर्‍याण्णवव</l><r>चौर्‍याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौर्‍याण्णवपट</l><r>चौर्‍याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>पंच्याण्णव</l><r>पंच्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>पंच्याण्णवव</l><r>पंच्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>पंच्याण्णवव</l><r>पंच्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>पंच्याण्णवपट</l><r>पंच्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>शहाण्णव</l><r>शहाण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>शहाण्णवव</l><r>शहाण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>शहाण्णवव</l><r>शहाण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>शहाण्णवपट</l><r>शहाण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>सत्त्याण्णव</l><r>सत्त्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>सत्त्याण्णवव</l><r>सत्त्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>सत्त्याण्णवव</l><r>सत्त्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>सत्त्याण्णवपट</l><r>सत्त्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>अठ्ठ्याण्णव</l><r>अठ्ठ्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>अठ्ठ्याण्णवव</l><r>अठ्ठ्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>अठ्ठ्याण्णवव</l><r>अठ्ठ्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>अठ्ठ्याण्णवपट</l><r>अठ्ठ्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>नव्याण्णव</l><r>नव्याण्णव<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>नव्याण्णवव</l><r>नव्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>नव्याण्णवव</l><r>नव्याण्णव<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>नव्याण्णवपट</l><r>नव्याण्णव<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
 			<e>		<p><l>शंभर</l><r>शंभर<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>शंभरव</l><r>शंभर<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>शंभरव</l><r>शंभर<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>शंभरपट</l><r>शंभर<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 			<e>		<p><l>हजार</l><r>हजार<s n="num"/><j/></r></p><par n="__emph"/></e>
-			<e>		<p><l>हजारव</l><r>हजार<s n="num"/><s n="ord"/><j/></r></p><par n="__prn_gen"/></e>
+			<e>		<p><l>हजारव</l><r>हजार<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>हजारपट</l><r>हजार<s n="num"/><s n="mult"/><j/></r></p><par n="__emph"/></e>
 
 
@@ -11521,14 +11539,7 @@
 		<e lm="काबाडकष्ट">                    	<i>काबाडकष्ट</i><par n="हात__n_m" /></e>
 		<e lm="काडीमोड">                      	<i>काडीमोड</i><par n="हात__n_m" /></e>
 		<e lm="काडेचिरआईत">                   	<i>काडेचिरआईत</i><par n="हात__n_m" /></e>
-		<e lm="कागद">                         	<i>कागद</i><par n="हात__n_m" /></e>
-		<e lm="काल">                          	<i>काल</i><par n="हात__n_m" /></e>
-		<e lm="कालखंड">                       	<i>कालखंड</i><par n="हात__n_m" /></e>
-		<e lm="कामगार">                       	<i>कामगार</i><par n="हात__n_m" /></e>
-		<e lm="कामक्रोध">                     	<i>कामक्रोध</i><par n="हात__n_m" /></e>
-		<e lm="कान">                          	<i>कान</i><par n="हात__n_m" /></e>
-		<e lm="कापूर">                        	<i>कापूर</i><par n="हात__n_m" /></e>
-		<e lm="काप">                          	<i>काप</i><par n="हात__n_m" /></e>
+		<e lm="कागद">								<i>कागद</i><par n="हात__n_m" /></e>
 		<e lm="कापुस">                        	<i>कापुस</i><par n="हात__n_m" /></e>
 		<e lm="कारागीर">                      	<i>कारागीर</i><par n="हात__n_m" /></e>
 		<e lm="कारभार">                       	<i>कारभार</i><par n="हात__n_m" /></e>
