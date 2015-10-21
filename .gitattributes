@@ -14,5 +14,7 @@
 /configure.ac -text
 dev/apertium-mar.mar.dix -text
 dev/wx2utf8 -text
+eval/Makefile -text
+eval/evaluate-morph.py -text
 /mar.prob -text svneol=unset#unset
 /modes.xml -text
