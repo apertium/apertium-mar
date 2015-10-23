@@ -1,5 +1,49 @@
 पोहण्याकरता - spelling, dialectal
 ऎकण्यची - diacritic
-ॲरोझ - not marathi (arrows, aeros?)
+ॲरोझ - foreign
 भोसी - foreign
 झालॆ - diacritic
+टेसला - foreign
+ठेवीली - spelling, dialectal
+नेउुन - spelling
+पाहण्यारयाची - spelling
+जैत - not a word
+अनङ्गारिरङ्गाः - diacritic
+शोधीत - spelling, dialectal
+लुशियस - foreigns
+इलन्कै - not a word
+नौरात्रोत्सात्वात - spelling
+बॅनरचा - not a word
+उपअधिक्षक - spelling
+पिरै - not a word
+ेसम - not a word
+रोआल - not a word
+डुरक्याला - not a word
+सर्वांनां - spelling
+आंगप - not a word
+क्षुधितो - not a word
+टिकल - foreign
+लिश्टस्टाइनर - spelling
+हसबंड - foreign
+हपलपफ - spelling
+आनंदगर - not a word
+लियोपोल्दिना - not a word
+मोहो - not a word
+यहाँबाट - not a word
+श्द्धा - not a word
+डम्पी - foreign
+आमूर - not a word
+बदलेल्या - spelling
+ईकोट - not a word
+बायकार्बोनेट् - spelling
+श्ष्टया - not a word
+मयि - not a word
+र्पोक्ती - not a word
+हौट - foreign
+तालीस - foreign
+लाइटकॉइन - foreign
+ॅरिझोनाच्या - tokenisation fail
+नगरराज्यकढून - spelling
+ैवतकथेला - tokenisation fail
+तव् - tokenisation fail
+ुधासारखा - tokenisation fail
