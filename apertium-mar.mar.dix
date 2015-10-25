@@ -1408,11 +1408,14 @@
 		<!-- proper nouns (do cases) -->
 
 	    <pardef n="जेम्स__np">
-	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__clit"/></e>
+	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__sg_case"/></e>
 	    </pardef>  
 	            
 	    <pardef n="मैरी__np">
-	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
 	    </pardef>    
 	    
 	    <pardef n="मोटलानी__np">
@@ -17391,7 +17394,17 @@
 		<e lm="छोटासा">                        <i>छोट</i><par n="थोड/ासा__adj" /></e>
 
 		<!-- proper nouns -->
-		<e lm="नारायण">	<i>नारायण</i><par n="जेम्स__np" /></e>
+		<e lm="नारायण">		<i>नारायण</i><par n="जेम्स__np" /></e>
+		<e lm="यहूदा">			<i>यहूदा</i><par n="जेम्स__np" /></e>
+		<e lm="याकोब">		<i>याकोब</i><par n="जेम्स__np" /></e>
+		<e lm="ईयोब">		<i>ईयोब</i><par n="जेम्स__np" /></e>
+		<e lm="योहान">		<i>योहान</i><par n="जेम्स__np" /></e>
+		<e lm="यशया">		<i>यशया</i><par n="जेम्स__np" /></e>
+		<e lm="यहोशवा">		<i>यहोशवा</i><par n="जेम्स__np" /></e>
+		<e lm="यिर्मया">		<i>यिर्मया</i><par n="जेम्स__np" /></e>
+		<e lm="योनाथान">		<i>योनाथान</i><par n="जेम्स__np" /></e>
+		<e lm="एज्रा">		<i>एज्रा</i><par n="जेम्स__np" /></e>>
+		<e lm="एज्रा">		<i>जखऱ्या</i><par n="जेम्स__np" /></e>>
 		<e lm="प्रशांत">	<i>प्रशांत</i><par n="जेम्स__np" /></e>
 		<e lm="महादेव">	<i>महादेव</i><par n="जेम्स__np" /></e>
 		<e lm="गोविंद">	<i>गोविंद</i><par n="जेम्स__np" /></e>
