@@ -12,7 +12,6 @@
 		<sdef n="perf" />
 		<sdef n="inf"/>
 		<sdef n="imp"/>
-		<sdef n="subj"/>
 		<sdef n="adj"/>
 		<sdef n="adv"/>
 		<sdef n="fut"/>
@@ -1377,7 +1376,7 @@
  			<e> 		<p><l>रा</l><r>रा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e र="LR"> 	<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
