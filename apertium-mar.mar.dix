@@ -40,7 +40,7 @@
 		<sdef n="hab"      c="Habitual" />
 		<sdef n="incp"		c="Inceptive" />
 		<sdef n="interr"    c="interrogative" />
-		<sdef n="ref"	 	c="Reflexive" />
+		<sdef n="refl"	 	c="Reflexive" />
 		<sdef n="rel"		c="Relative" />
 		<sdef n="corel"		c="Correlative" />
 		<sdef n="indef" 	c="Indefinite" />
