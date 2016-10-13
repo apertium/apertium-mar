@@ -586,18 +586,18 @@
 	"कुत्रा" n m pl obl @nsubj #3->5
     "शी" inst @case #4->3
 "<बोलल्यावर>"
-	"बोलणे" vblex ger perf
-	"वर" gna 
+	"बोलणे" vblex ger perf @advcl #5->9
+	"वर" gna @mark #6->5
 "<काही>"
-	"काही" det @det #4->5
+	"काही" det @det #7->8
 "<उत्तर>"
-	"उत्तर" n nt sg nom @nsubj #5->6
+	"उत्तर" n nt sg nom @nsubj #8->9
 "<मिळत>"
-	"मिळणे" vblex impf @root #6->0
+	"मिळणे" vblex impf @root #9->0
 "<नाही>"
-	"नाही" adv @neg #7->6
+	"नाही" adv @neg #10->9
 "<!>"
-	"!" sent @punct #8->6
+	"!" sent @punct #11->9
 
 "<मेरी>"
 	"मेरी" np ant f sg nom @nsubj #1->9
@@ -984,9 +984,9 @@
 "<">"
 	""" qt @punct #5->8
 "<मला>"
-	"मी" prn p1 mf sg dat @
+	"मी" prn p1 mf sg dat @iobj #6->8
 "<तू>"
-	"तू" prn p2 mf sg nom
+	"तू" prn p2 mf sg nom @nusbj #7->8
 "<सापडलास>"
 	"सापडणे" vblex perf p2 m sg @parataxis #8->3
 "<!>"
@@ -997,55 +997,42 @@
 	"." sent @punct #11->8
 	
 "<ते>"
-	"ते" det dist m pl
-	"ते" det dist nt sg
-	"ते" prn p3 nt sg nom
-	"तो" prn p3 m pl nom
-	"तो" prn corel m pl nom
-	"तो" prn corel nt sg nom
-"<द>"
-	"द" barb
-"<ोघेही>"
-	"*ोघेही"
+	"तो" prn p3 m pl nom @nsubj #1->3
+"<दोघेही>"
+	"दोघेही" det mfn pl @appos #2->1
 "<खुश>"
-	"खुश" n f sg nom
+	"खुश" adj mfn sp @root #3->0
 "<आहेत>"
-	"आहे" vaux pres p3 mfn pl
+	"आहे" vaux pres p3 mfn pl @cop #4->3
 "<आणि>"
-	"आणि" cnjcoo
+	"आणि" cnjcoo @cc #5->4
 "<घरी>"
-	"घरी" adv
+	"घरी" adv @advmod #6->7
 "<जातात>"
-	"जाणे" vblex impf p3 mfn pl
+	"जाणे" vblex impf p3 mfn pl @conj #7->4
 "<,>"
-	"," cm
+	"," cm @punct #8->4
 "<आता>"
-	"आता" adv
+	"आता" adv @advmod #9->11
 "<काही>"
-	"काही" adv
-	"काही" n m sg nom
-	"काही" n m pl nom
+	"काही" prn mfn sp @nsubj #10->11
 "<खाण्याची>"
-	"खाणे" n nt sg obl
-		"ची" gen f sg
-	"खाणे" n nt sg obl
-		"ची" gen nt pl
+	"खाणे" vblex ger @amod #11->18
+	"चा" gen f sg @case #12->11
 "<आणि>"
-	"आणि" cnjcoo
+	"आणि" cnjcoo @cc #13->11
 "<थोडे>"
-	"थोडा" adj m pl
-	"थोडा" adj nt sg
+	"थोडा" adj nt sg @amod #14->15
 "<पाणी>"
-	"पाण" n nt sg nom
-	"पाण" n nt pl nom
-"<पिण्याची>"
-	"*पिण्याची"
+	"पाणी" n nt pl nom @nsubj #15->16
+"<पीण्याची>"
+	"पीणे" vblex ger @conj #16->11
+	"चा" gen f sg @case #17->16
 "<वेळ>"
-	"वेळ" n f sg nom
+	"वेळ" n f sg nom @parataxis #18->3
 "<आहे>"
-	"आहे" vaux pres p1 mf sg
-	"आहे" vaux pres p3 mfn sg
+	"आहे" vaux pres p3 mfn sg @cop #19->18
 "<.>"
-	"." sent
+	"." sent @punct #20->18
 
 
