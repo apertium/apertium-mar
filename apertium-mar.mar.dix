@@ -14,8 +14,8 @@
 		<sdef n="inf"/>
 		<sdef n="imp"/>
 		<sdef n="sup"/>
-		<sdef n="adj"/>
-		<sdef n="adv"/>
+		<sdef n="adj"     c="Adjective"/>
+		<sdef n="adv"     c="Adverb"/>
 		<sdef n="fut"/>
 		<sdef n="pros"/>
 		<sdef n="desi"/>
@@ -3132,7 +3132,7 @@
 		<e lm="तातपर्य"> 					<i>तातपर्य</i><par n="__adsen"/></e>
 		<e lm="तातपऱ्य"> 					<i>तातपरऱ्य</i><par n="__adsen"/></e>
 		<e lm="उलट"> 					<i>उलट</i><par n="__adsen"/></e>
-		<e lm="शिवाय"> 					<i>शिवाय</i><par n="__adsen"/></e>
+		<e lm="शिवाय"> 					<i>शिवाय</i><par n="__adv"/></e>
 		<e lm="कसय"> 					<i>कसय</i><par n="__adsen"/></e>
 
 		<!-- pronouns -->
@@ -15685,6 +15685,7 @@
 
 		<!-- adjectives -->
 		<e lm="जवळील">							<i>जवळील</i><par n="/लाल__adj" /></e>
+		<e lm="नवेनवे">							<i>नवेनवे</i><par n="/लाल__adj" /></e>
 		<e lm="विश्वचषक">                      	<i>विश्वचषक</i><par n="/लाल__adj" /></e>
 		<e lm="मूळ">                      	<i>मूळ</i><par n="/लाल__adj" /></e>
 		<e lm="सोव्हियेत">                      	<i>सोव्हियेत</i><par n="/लाल__adj" /></e>
@@ -16199,7 +16200,6 @@
 		<e lm="निनावी">                       	<i>निनावी</i><par n="/लाल__adj" /></e>
 		<e lm="फुटीर">                        	<i>फुटीर</i><par n="/लाल__adj" /></e>
 		<e lm="सळंग">                         	<i>सळंग</i><par n="/लाल__adj" /></e>
-
 		<e lm="मूक">                          	<i>मूक</i><par n="/लाल__adj" /></e>
 		<e lm="नादार">                        	<i>नादार</i><par n="/लाल__adj" /></e>
 		<e lm="बेतमीज">                       	<i>बेतमीज</i><par n="/लाल__adj" /></e>
@@ -16213,7 +16213,6 @@
 		<e lm="आपला">                         	<i>आपल</i><par n="काळ/ा__adj" /></e>
 		<e lm="थोडा">                         	<i>थोड</i><par n="काळ/ा__adj" /></e>
 		<e lm="नंतरचा">                       	<i>नंतरच</i><par n="काळ/ा__adj" /></e>
-		<e lm="नुसता">                        	<i>नुसत</i><par n="काळ/ा__adj" /></e>
 		<e lm="पुढचा">                        	<i>पुढच</i><par n="काळ/ा__adj" /></e>
 		<e lm="सारखा">                        	<i>सारख</i><par n="काळ/ा__adj" /></e>
 		<e lm="सगळा">                         	<i>सगळ</i><par n="काळ/ा__adj" /></e>
