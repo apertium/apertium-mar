@@ -11,6 +11,8 @@
 		<sdef n="vbmod" />
 		<sdef n="impf" />
 		<sdef n="perf" />
+		<sdef n="tv"     c="transitive"/> 	
+		<sdef n="stem"     c="stem"/> 	
 		<sdef n="inf"/>
 		<sdef n="imp"/>
 		<sdef n="sup"/>
@@ -1487,7 +1489,10 @@
 
 
 		<pardef n="बस__vblex">
+      		<e>         <p><l></l><r><s n="vblex"/><s n="p2"/><s n="stem"/></r></p></e>
+			<e> 		<p><l></l><r>णे<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<!-- infinitives -->
+
 			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
 			
 			<!-- gerunds -->
@@ -1513,7 +1518,6 @@
 			<e> 		<p><l>ू</l><r>णे<s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ू</l><r>णे<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p><par n="__emph"/></e>
 
-			<e> 		<p><l></l><r>णे<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ा</l><r>णे<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>ो</l><r>णे<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p><par n="__emph"/></e>
