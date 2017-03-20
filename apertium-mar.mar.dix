@@ -1489,7 +1489,8 @@
 
 
 		<pardef n="बस__vblex">
-      		<e>         <p><l></l><r><s n="vblex"/><s n="p2"/><s n="stem"/></r></p></e>
+      		<e>         <p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
+      		<!-- <e>         <p><l></l><r><s n="vblex"/><s n="p2"/><s n="stem"/></r></p></e> -->
 			<e> 		<p><l></l><r>णे<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<!-- infinitives -->
 
@@ -3076,6 +3077,9 @@
 		<e lm=""> 								<i></i><par n="__pl_case" /></e>
 
 		<!-- particles -->
+		<!-- <e lm="ये">                         <i> ये </i> <par n="/ये__vblex"/></e> -->
+		<e lm="ये">   						<i></i><par n="/ये__vblex"/></e>
+
 		<e lm="मात्र"> 						<i>मात्र</i><par n="__part"/></e>
 		<e lm="फक्त"> 							<i>फक्त</i><par n="__part"/></e>
 		<e lm="केवळ"> 							<i>केवळ</i><par n="__part"/></e>
