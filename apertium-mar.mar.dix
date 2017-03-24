@@ -89,6 +89,7 @@
 		<sdef n="obl"/>
 		<sdef n="erg"/>
 		<sdef n="abbr"/>
+		<sdef n="iv"     c="intransitive"/>
 
 		<sdef n="percent"  	 c="Percent"/>
 		<sdef n="cm"         c="Comma"/>
