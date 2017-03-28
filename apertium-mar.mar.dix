@@ -2228,7 +2228,7 @@
 		</pardef>
 
 		<!-- be -->
-		<pardef n="/आहे__vaux">
+		<pardef n="/असणे__vaux">
 			<!-- infinitives -->
 			<e> 		<p><l>असणे</l><r>असणे<s n="vblex"/><s n="inf"/></r></p></e>
 			
@@ -2499,7 +2499,7 @@
 		<pardef n="__cmpvb_copula">
 			<e><p><l>क</l><r>क</r></p><par n="क/र__vblex" /></e>
 			<e><p><l></l><r></r></p><par n="/हो__vblex" /></e>
-			<e><p><l></l><r></r></p><par n="/आहे__vaux" /></e>
+			<e><p><l></l><r></r></p><par n="/असणे__vaux" /></e>
 		</pardef>
 
 		<!-- numbers :S fix final ones -->
@@ -3162,7 +3162,9 @@
 
 		<!-- copulas -->
 
-		<e lm="आहे"><i/><par n="/आहे__vaux"/></e>
+		<!-- <e lm="आहे"> <i/><par n="/आहे__vaux"/></e> -->
+		<e lm="असणे">   						<i></i><par n="/असणे__vaux"/></e>
+
 		<e lm=""><i/><par n="/हो__vaux"/></e>
 		<!--e lm=""><i/><par n="/अस__vaux"/></e-->
 		<e lm=""><i/><par n="/नाही_आहे__vaux"/></e>
