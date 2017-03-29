@@ -782,11 +782,16 @@
 			<e>		  <p><l>त्याच्याकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्याच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्या</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-
+			<!-- 
+				tyaanni : usne 
+				tyaanna : unko
+			-->
 			<e>		  <p><l>ती</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><j/></r></p><par n="__prn_gen"/></e>
 			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p><par n="__emph"/></e>
+			<!-- check त्यांनी for nom/cc/dat later -->
+			<e>		  <p><l>त्यांनी</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच्याकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यां</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
