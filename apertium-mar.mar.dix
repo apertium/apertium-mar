@@ -273,7 +273,6 @@
 
 		<!-- verbal stuff -->
 
-
 		<pardef n="__post_verbal_no_clit">
 			<!-- because of -->
 			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
@@ -765,6 +764,8 @@
 			<e>		  <p><l>तिला</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>तिच्याकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="abl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>तिच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="loc"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>तिच्या</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>तिच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="loc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ति</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 
 			<e>		  <p><l>त्या</l><r>तो<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -1028,10 +1029,15 @@
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__clit"/></e>
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__sg_case"/></e>
 	    </pardef>  
-	            
+
+        <!-- check later, you can reduce it by connecting __post_unbound pardef -->
 	    <pardef n="मैरी__np">
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+	
+	      <e><p><l>ला</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	      <e><p><l>कडे</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+
 	    </pardef>    
 	    
 	    <pardef n="मोटलानी__np">
@@ -1252,6 +1258,7 @@
 			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>ेन</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
@@ -1514,8 +1521,8 @@
 			<e>       	<p><l>ून</l><r>णे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>तांना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
-			<e> 		<p><l>त</l><r>णे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>ता</l><r>णे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>त</l><r>णे<s n="vblex"/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ता</l><r>णे<s n="vblex"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ू</l><r>णे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
 			
 			<!-- adjectival forms -->
@@ -3939,6 +3946,7 @@
 		<e lm="बोड">                    	<i>बोड</i><par n="बस__vblex" /></e>
 		<e lm="बोकाल">              	<i>बोकाल</i><par n="बस__vblex" /></e>
 		<e lm="बोल">                    	<i>बोल</i><par n="बस__vblex" /></e>
+		<e lm="बघ">                    	<i>बघ</i><par n="बस__vblex" /></e>
 		<e lm="बोलणे">              	<i>बोलणे</i><par n="बस__vblex" /></e>
 		<e lm="बुचकळ">              	<i>बुचकळ</i><par n="बस__vblex" /></e>
 		<e lm="बुज">                    	<i>बुज</i><par n="बस__vblex" /></e>
@@ -4308,6 +4316,8 @@
 		<e lm="पळ">                       	<i>पळ</i><par n="बस__vblex" /></e>
 		<e lm="पच">                       	<i>पच</i><par n="बस__vblex" /></e>
 		<e lm="पड">                       	<i>पड</i><par n="बस__vblex" /></e>
+		<e lm="माहित पड">              <i>माहित<b/>पड</i><par n="बस__vblex" /></e>
+		<e lm="माहित असणे">               <i>माहित<b/>असणे</i><par n="बस__vblex" /></e>
 		<e lm="पहुच">                 	<i>पहुच</i><par n="बस__vblex" /></e>
 		<e lm="पहुड">                 	<i>पहुड</i><par n="बस__vblex" /></e>
 		<e lm="पकड">                    	<i>पकड</i><par n="बस__vblex" /></e>
@@ -5310,6 +5320,8 @@
 		<e lm="रामगीता">                      	<i>रामगीत</i><par n="विद्य/ा__n_f" /></e>
 		<e lm="सापेक्षता">                    	<i>सापेक्षत</i><par n="विद्य/ा__n_f" /></e>
 		<e lm="सहजता">                        	<i>सहजत</i><par n="विद्य/ा__n_f" /></e>
+		<!-- <e lm="पता"> 						<i>पत</i><par n="ध/ा__n_m"/></e> -->
+
 		<e lm="समयसूचकता">                    	<i>समयसूचकत</i><par n="विद्य/ा__n_f" /></e>
 		<e lm="सत्यता">                       	<i>सत्यत</i><par n="विद्य/ा__n_f" /></e>
 		<e lm="स्वस्थता">                     	<i>स्वस्थत</i><par n="विद्य/ा__n_f" /></e>
@@ -6110,6 +6122,7 @@
 		<e lm="डोके">                         	<i>डोक</i><par n="भांड/े__n_nt" /></e>
 		<e lm="गाळणे">                        	<i>गाळण</i><par n="भांड/े__n_nt" /></e>
 		<e lm="गाणे">                         	<i>गाण</i><par n="भांड/े__n_nt" /></e>
+		<!-- <e lm="बघणे">                         	<i>बघ</i><par n="भांड/े__n_nt" /></e> -->
 		<e lm="गाणें">                        	<i>गाणे</i><par n="भांड/े__n_nt" /></e>
 		<e lm="गाठोडे">                       	<i>गाठोड</i><par n="भांड/े__n_nt" /></e>
 		<e lm="गाडगे">                        	<i>गाडग</i><par n="भांड/े__n_nt" /></e>
@@ -8868,6 +8881,7 @@
 		<e lm="बाष्कळपणा">                    	<i>बाष्कळपणा</i><par n="कवी__n_m" /></e>
 		<e lm="बाबा">                         	<i>बाबा</i><par n="कवी__n_m" /></e>
 		<e lm="बाबतीत">                       	<i>बाबतीत</i><par n="कवी__n_m" /></e>
+		<e lm="बागेत">                       	<i>बागेत</i><par n="कवी__n_m" /></e>
 		<e lm="बागआी">                        	<i>बागआी</i><par n="कवी__n_m" /></e>
 		<e lm="बाहेरख्याली">                  	<i>बाहेरख्याली</i><par n="कवी__n_m" /></e>
 		<e lm="बाह्यात्कारी">                 	<i>बाह्यात्कारी</i><par n="कवी__n_m" /></e>
@@ -9250,6 +9264,7 @@
 		<e lm="मआऊली">                        	<i>मआऊली</i><par n="कवी__n_m" /></e>
 		<e lm="माथेफिरूपणा">                  	<i>माथेफिरूपणा</i><par n="कवी__n_m" /></e>
 		<e lm="माहिती">                       	<i>माहिती</i><par n="कवी__n_m" /></e>
+
 		<e lm="मालती">                        	<i>मालती</i><par n="कवी__n_m" /></e>
 		<e lm="मामा">                         	<i>मामा</i><par n="कवी__n_m" /></e>
 		<e lm="मामंजी">                       	<i>मामंजी</i><par n="कवी__n_m" /></e>
@@ -9419,7 +9434,8 @@
 		<e lm="पागडी">                        	<i>पागडी</i><par n="कवी__n_m" /></e>
 		<e lm="पाहाणी">                       	<i>पाहाणी</i><par n="कवी__n_m" /></e>
 		<e lm="पाहणी">                        	<i>पाहणी</i><par n="कवी__n_m" /></e>
-		<e lm="पाहणी">                        	<i>पाहणी</i><par n="कवी__n_m" /></e>
+		<e lm="बघणी">                        	<i>बघणी</i><par n="कवी__n_m" /></e>
+		<!-- <e lm="पाहणी">                        	<i>पाहणी</i><par n="कवी__n_m" /></e> -->
 		<e lm="पाजी">                         	<i>पाजी</i><par n="कवी__n_m" /></e>
 		<e lm="पाजीपणा">                      	<i>पाजीपणा</i><par n="कवी__n_m" /></e>
 		<e lm="पाकोळी">                       	<i>पाकोळी</i><par n="कवी__n_m" /></e>
@@ -10040,8 +10056,10 @@
 		<e lm="यो">                           	<i>यो</i><par n="कवी__n_m" /></e>
 		<e lm="योनी">                         	<i>योनी</i><par n="कवी__n_m" /></e>
 		<e lm="युगोस्लाव्हिया">               	<i>युगोस्लाव्हिया</i><par n="कवी__n_m" /></e>
-		<e lm="आधारग्रंथ">                    	<i>आधारग्रंथ</i><par n="हात__n_m" /></e>
+		<!-- <e lm="आधारग्रंथ">                    	<i>आधारग्रंथ</i><par n="हात__n_m" /></e> -->
 		<e lm="सदस्य">                    	<i>सदस्य</i><par n="हात__n_m" /></e>
+		<e lm="माहित">                    	<i>माहित</i><par n="हात__n_m" /></e>
+
 		<e lm="लेखन">                    	<i>लेखन</i><par n="हात__n_m" /></e>
 		<e lm="पुत्र">                    	<i>पुत्र</i><par n="हात__n_m" /></e>
 		<e lm="राष्ट्राध्यक्ष">                    	<i>राष्ट्राध्यक्ष</i><par n="हात__n_m" /></e>
@@ -14642,6 +14660,7 @@
 		<e lm="बावकडा">                       	<i>बावकड</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="बावटा">                        	<i>बावट</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="बादला">                        	<i>बादल</i><par n="रस्त/ा__n_m" /></e>
+		<e lm="बघ">                        		<i>बघणे</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="बघ्या">                        	<i>बघ्य</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="बखेडा">                        	<i>बखेड</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="बखोटा">                        	<i>बखोट</i><par n="रस्त/ा__n_m" /></e>
@@ -17258,6 +17277,7 @@
 		<e lm="मसीह"> 	<i>मसीह</i><par n="जेम्स__np"/></e>
 		<e lm="मैरी"> 	<i>मैरी</i><par n="मैरी__np"/></e>
 		<e lm="मेरी"> 	<i>मेरी</i><par n="मैरी__np"/></e>
+		<!-- <e lm="मेरीला"> 	<i>मेरी</i><par n="मैरी__np"/></e> -->
 		<e lm="ग्रेगोरी"> 	<i>ग्रेगोरी</i><par n="मैरी__np"/></e>
 		<e lm="मुहम्मद"> 	<i>मुहम्मद</i><par n="जेम्स__np"/></e>
 		<e lm="जेम्स"> 	<i>जेम्स</i><par n="जेम्स__np"/></e>
