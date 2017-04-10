@@ -748,6 +748,7 @@
 			<!-- check anuswar -->
 			<e>		  <p><l>ते</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="acc"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>यांना</l><r>तो<s n="prn"/><s n="p2"/><s n="m"/><s n="pl"/><s n="acc"/></r></p><par n="__emph"/></e>
 			<!-- check mfn for yanni -->
 			<e>		  <p><l>यांनी</l><r>तो<s n="prn"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__prn_gen"/></e>
@@ -966,12 +967,12 @@
 		</pardef>
 
 		<pardef n="काळ/ा__adj">
- 			<e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e><p><l>्या</l><r>ा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e><p><l>ी</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
+ 			<e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>्या</l><r>ा<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>ी</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e><p><l>्या</l><r>ा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
@@ -1125,6 +1126,15 @@
 			<e r="LR">	<p><l>े</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
+		</pardef>
+		<pardef n="अंथरूण__n_f">
+			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e> 		<p><l>ं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>े</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 		</pardef>
 
 		<pardef n="रस्त/ा__n_m">
@@ -3306,7 +3316,7 @@
 		<e lm="आंबव">                 	<i>आंबव</i><par n="बस__vblex" /></e>
 		<e lm="आणव">                    	<i>आणव</i><par n="बस__vblex" /></e>
 		<e lm="आठव">                    	<i>आठव</i><par n="बस__vblex" /></e>
-		<e lm="आठव">                    	<i>आठव</i><par n="बस__vblex" /></e>
+		<!-- <e lm="आठव">                    	<i>आठव</i><par n="बस__vblex" /></e> -->
 		<e lm="आचव">                    	<i>आचव</i><par n="बस__vblex" /></e>
 		<e lm="आजमाव">              	<i>आजमाव</i><par n="बस__vblex" /></e>
 		<e lm="आरव">                    	<i>आरव</i><par n="बस__vblex" /></e>
@@ -13593,7 +13603,7 @@
 		<e lm="लुकण">                         	<i>लुकण</i><par n="अंथरूण__n_nt" /></e>
 		<e lm="माघारपण">                      	<i>माघारपण</i><par n="अंथरूण__n_nt" /></e>
 		<e lm="मांध्य">                       	<i>मांध्य</i><par n="अंथरूण__n_nt" /></e>
-		<e lm="मांजर">                        	<i>मांजर</i><par n="अंथरूण__n_nt" /></e>
+		<e lm="मांजर">                        	<i>मांजर</i><par n="अंथरूण__n_f" /></e>
 		<e lm="माणिक">                        	<i>माणिक</i><par n="अंथरूण__n_nt" /></e>
 		<e lm="माधुर्य">                      	<i>माधुर्य</i><par n="अंथरूण__n_nt" /></e>
 		<e lm="माध्यम">                       	<i>माध्यम</i><par n="अंथरूण__n_nt" /></e>
