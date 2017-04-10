@@ -13,6 +13,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mar.mar.dix -text
+dev/translit/Makefile -text
+dev/translit/mar.lexc -text
+dev/translit/mar.twol -text
 dev/wx2utf8 -text
 eval/Makefile -text
 eval/errors.txt -text

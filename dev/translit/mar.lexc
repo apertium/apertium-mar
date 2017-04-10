@@ -1,0 +1,175 @@
+LEXICON Root
+AllCons ;
+Vowels ;
+Punct ;
+Num ;
+
+LEXICON AllCons
+Aspable ;
+Cons ;
+Asp ; 
+FinalY ;
+
+LEXICON NonAspCons
+Aspable ;
+Cons ;
+FinalY ;
+
+LEXICON Aspable
+m:म		PostAsp ;
+n:न		PostAsp ;
+v:व		PostAsp ;
+w:व	 	PostAsp ;
+
+LEXICON Cons
+b:ब		PostCons ;
+bh:भ	PostCons ;
+c:क 	PostCons ;
+ck:क 	PostCons ;
+ch:च	PostCons ;
+chh:छ	PostCons ;
+d:द		PostCons ;
+d:ड		PostCons ;
+dh:ध	PostCons ;
+dh:ढ		PostCons ;
+f:फ		PostCons ;
+g:ग		PostCons ;
+gh:घ	PostCons ;
+j:ज		PostCons ;
+jh:झ	PostCons ;
+k:क		PostCons ;
+kh:ख	PostCons ;
+l:ल		PostCons ;
+l:ळ		PostCons ;
+n:ण 	PostCons ;
+p:प		PostCons ;
+ph:फ	PostCons ;
+q:क		PostCons ;
+r:र		PostCons ;
+r:ऱ् 	NonAspCons ;	
+s:स		PostCons ;
+sh:श	PostCons ;
+sh:ष		PostCons ;
+t:त		PostCons ;
+t:ट		PostCons ;
+th:थ	PostCons ;
+th:ठ		PostCons ;
+y:य		PostCons ;
+z:ज		PostCons ;
+z:झ 	PostCons ;
+zh:झ	PostCons ;
+ksh:क््ष PostCons ;
+dny:ज्ञ PostCons ;
+toy:त+आहे End ;
+tiye:त+आहे End ;
+tay:त+आहे End ;
+loy:लो+आहे End ;
+lay:ले+आहे End ;
+lay:ला+आहे End ;
+liye:ली+आहे End ;
+
+LEXICON Asp
+h:ह 		PostConsNoJoin ;
+
+LEXICON FinalY
+ya:य 	End ;	
+
+LEXICON AllNasal
+n:ं 	Root ;
+End ;
+Root ;
+
+LEXICON Vowels
+a:अ 	AllNasal ;
+a:आ		AllNasal ;
+aa:आ	AllNasal ;
+i:इ		AllNasal ;
+i:ई		AllNasal ;
+ee:ई		AllNasal ;
+u:उ		AllNasal ;
+u:ऊ		AllNasal ;
+oo:ऊ	AllNasal ;
+e:ए		AllNasal ;
+ai:ऐ		AllNasal ;
+o:ओ		AllNasal ;
+au:औ	AllNasal ;
+aha:अः	AllNasal ;
+
+LEXICON Matra
+a:		AllCons ;
+aa:ा 	AllCons ;
+a:ा 	PostVow ;
+i:ि 	PostVow ;
+i:ी 	PostVow ;
+ee:ी	PostVow ;
+u:ु		PostVow ;
+u:ू		PostVow ;
+oo:ू 	PostVow ;
+e:े		PostVow ;
+ai:ै	PostVow ;
+o:ो		PostVow ;
+au:ौ	PostVow ;
+an:ं	PostVow ;
+a:ं 	End ;
+a:0		End ;
+an:ां  PostVow ;
+aha:ः	PostVow ;
+
+LEXICON PostCons
+:्		NonAspCons ;
+:		Matra ;
+:		End ;
+ru:ृ	AllCons ;
+ri:ृ	AllCons ;
+
+LEXICON PostConsNoJoin
+r:्र 	AllCons ;
+y:्य 	Matra ;
+ru:ृ	AllCons ;
+ri:ृ	AllCons ;
+:		AllCons ;
+:		Matra ;
+: 		End ;
+
+LEXICON PostAsp
+:् 		Asp ;
+: 		PostCons ;
+
+LEXICON Temp
+AllCons ;
+Vowels ;
+
+LEXICON PostVow
+:		AllCons ;
+:		Vowels ;
+:		End ;
+
+LEXICON Punct
+.:.		Root ;
+,:,		Root ;
+
+LEXICON Num 
+%0:०	End ;
+1:१ 	End ;
+2:२ 	End ;
+3:३ 	End ;
+4:४ 	End ;
+5:५ 	End ;
+6:६ 	End ;
+7:७ 	End ;
+8:८ 	End ;
+9:९ 	End ;
+%0:०	Root ;
+1:१ 	Root ;
+2:२ 	Root ;
+3:३ 	Root ;
+4:४ 	Root ;
+5:५ 	Root ;
+6:६ 	Root ;
+7:७ 	Root ;
+8:८ 	Root ;
+9:९ 	Root ;
+
+
+LEXICON End
+: # ;

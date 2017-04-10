@@ -1,0 +1,89 @@
+Alphabet
+	A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+	a b c d e f g h i j k l m n o p q r s t u v w x y z
+	अ आ इ ई उ ऊ ए ऐ ओ औ
+	् ा ि ी ु ू े ै ो ौ ं ः
+	क ख ग घ
+	च छ ज झ
+	त थ द ध न
+	ट ठ ड ढ ण
+	प फ ब भ म
+	य र ऱ ल व श ष
+	स ह ळ
+	;
+Sets
+	
+	Consonant = B C D F G H J K L M N P Q R S T V W X Y Z
+				b c d f g h j k l m n p q r s t v w x y z
+				क ख ग घ
+				च छ ज झ
+				त थ द ध न
+				ट ठ ड ढ ण
+				प फ ब भ म
+				य र ऱ ल व श ष
+				स ह ळ क्ष ;
+
+	Vowel	  = A E I O U
+				a e i o u
+				अ आ इ ई उ ऊ ए ऐ ओ औ
+				ा ि ी ु ू े ै ो ौ ः ;
+
+	FullVowel = अ आ इ ई उ ऊ ए ऐ ओ औ ;
+
+	Nasal 	  = ं म न ;
+
+	Breaker   = ् ;
+
+	NonBreakable = य ह ;
+
+	Rs = र ऱ ;
+
+Rules
+
+	"schwa suppression (add vowel before final breaker)"
+	्:0 <=> [ [ Consonant Vowel* ] | FullVowel | Nasal ] [ Consonant - Rs ] _ [ Consonant - NonBreakable ] [ Breaker \र | \Breaker ?+ ] ; 
+	except 
+		ल _ ल | ळ ; 
+		ळ _ ल | ळ ;
+		क _ क | ख ;
+		ख _ ख | क ;
+		ग _ ग | घ ;
+		घ _ घ | ग ;
+		च _ च | छ ;
+		छ _ च | छ ;
+		ज _ ज | झ ;
+		झ _ ज | झ ;
+		त _ त | थ ;
+		थ _ त | थ ;
+		द _ द | ध ;
+		ध _ द | ध ;
+		ट _ ट | ठ ;
+		ठ _ ठ | ट ;
+		ड _ ड | ढ ;
+		ढ _ ढ | ड ;
+		प _ प | फ ;
+		फ _ प | फ ;
+		ब _ ब | भ ;
+		भ _ ब | भ ;
+		र _ र ;
+		व _ व ;
+		श _ श | ष ;
+		ष _ श | ष ;
+		स _ स ;
+		ह _ ह ;
+
+	"initial r"
+	्:0 <=> [ [ Consonant Vowel* ] | FullVowel | Nasal ] Rs _ [ त | ल | ण ] [ Breaker \Rs | \Breaker ? .#. | Vowel .#. ] ; 
+
+	"mb -> nasal"
+	म:ं <=> _ Breaker: [ ब | भ | फ ];
+
+	"n_ -> nasal"
+	न:ं <=> _ Breaker: [Consonant - [ह | य] ] ;
+
+	"remove breaker"
+	Breaker:0 <=> :ं _ ;
+
+	"remove double safety"
+	Breaker:0 <=> Breaker _ ;
+
