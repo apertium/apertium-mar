@@ -70,6 +70,11 @@
 		<sdef n="gpr" 	  c="Verbal adjective"/>
 		<sdef n="ger" 	  c="Gerund"/>
 
+		<sdef n="prx"     c="Proximate"/>
+		<sdef n="dst"     c="Distant"/>
+	   <sdef n="dem"     c="Demonstrative"/>
+
+
 
 		<sdef n="f"  />
 		<sdef n="m"  />
@@ -747,8 +752,8 @@
 
 			<!-- check anuswar -->
 			<e>		  <p><l>ते</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="acc"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>यांना</l><r>तो<s n="prn"/><s n="p2"/><s n="m"/><s n="pl"/><s n="acc"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>त्यांना</l><r>तो<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>यांना</l><r>तो<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p><par n="__emph"/></e>
 			<!-- check mfn for yanni -->
 			<e>		  <p><l>यांनी</l><r>तो<s n="prn"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><j/></r></p><par n="__prn_gen"/></e>
