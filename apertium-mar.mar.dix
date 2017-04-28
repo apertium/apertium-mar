@@ -69,13 +69,9 @@
 		<sdef n="gna" 	  c="Verbal adverb"/>
 		<sdef n="gpr" 	  c="Verbal adjective"/>
 		<sdef n="ger" 	  c="Gerund"/>
-
 		<sdef n="prx"     c="Proximate"/>
 		<sdef n="dst"     c="Distant"/>
-	   <sdef n="dem"     c="Demonstrative"/>
-
-
-
+	    <sdef n="dem"     c="Demonstrative"/>
 		<sdef n="f"  />
 		<sdef n="m"  />
 		<sdef n="nt" />
@@ -9398,7 +9394,7 @@
 		<e lm="नटवेपणा">                      	<i>नटवेपणा</i><par n="कवी__n_m" /></e>
 		<e lm="नवरोजी">                       	<i>नवरोजी</i><par n="कवी__n_m" /></e>
 		<e lm="नदीकाठी">                      	<i>नदीकाठी</i><par n="कवी__n_m" /></e>
-		<e lm="नेहमी">                        	<i>नेहमी</i><par n="कवी__n_m" /></e>
+		<e lm="नेहमी">                        	<i>नेहमी</i><par n="__adv" /></e>
 		<e lm="नेमस्तपणा">                    	<i>नेमस्तपणा</i><par n="कवी__n_m" /></e>
 		<e lm="नेतेपणा">                      	<i>नेतेपणा</i><par n="कवी__n_m" /></e>
 		<e lm="नेत्रपल्लवी">                  	<i>नेत्रपल्लवी</i><par n="कवी__n_m" /></e>
