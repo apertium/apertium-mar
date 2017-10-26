@@ -11,8 +11,8 @@
 		<sdef n="vbmod" />
 		<sdef n="impf" />
 		<sdef n="perf" />
-		<sdef n="tv"     c="transitive"/> 	
-		<sdef n="stem"     c="stem"/> 	
+		<sdef n="tv"     c="transitive"/>
+		<sdef n="stem"     c="stem"/>
 		<sdef n="inf"/>
 		<sdef n="imp"/>
 		<sdef n="sup"/>
@@ -61,7 +61,7 @@
 		<sdef n="np"      c="Proper noun"/>
 		<sdef n="ant"     c="Anthroponym"/>
 		<sdef n="al"     c="Altres"/>
-		<sdef n="cog"     c="Cognomen"/>	
+		<sdef n="cog"     c="Cognomen"/>
 		<sdef n="top"     c="Topological"/>
 		<sdef n="subj"    c="subject"/>
 		<sdef n="org"     c="Organisation"/>
@@ -105,7 +105,7 @@
 	</sdefs>
 
 	<pardefs>
-		
+
 		<pardef n="__emph">
 			<e><p><l>च</l><r><j/>च<s n="emph"/></r></p></e>
 			<e><p><l>ही</l><r><j/>ही<s n="emph"/></r></p></e>
@@ -129,7 +129,7 @@
 			<e><p><l></l><r><s n="ads"/></r></p><par n="__emph"/></e>
 		</pardef>
 
-		<!-- SECTION: Punctuation -->      
+		<!-- SECTION: Punctuation -->
 		<pardef n="numeros">
                         <e><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
 		  <e> 		<re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?</re><p><l/><r><s n="num"/></r></p></e>
@@ -163,7 +163,7 @@
 		</pardef>
 
 		<pardef n="barb">
-			<e><re>[A-Za-zÁÁÁÁĂĂÂÂÂÂÄÄÄÄÀÀĄĄÅÅÅÃÃÃÃÆḂḂĆĆČČÇÇĊĊĎĎḊḊÐĐĐÉÉÉÉĚĚÊÊÊÊËËËËĖĖÈÈĒĒĒĒĘĘŊFḞḞĞĞĞĞĞĢĢĠĠÍÍÍÍÎÎÎÎÏÏÏÏİİÌÌĪĪĪĪĮĮĨĨĲĶĶĹĹĽĽĻĻŁŁṀṀŃŃŇŇŅŅÑÑÑÑŒÓÓÓÓÔÔÔÔÖÖÖÖÒÒØØÕÕÕÕṖṖŔŔŘŘŖŖŚŚŠŠŞŞŞŞṠṠẞŤŤṪṪŦŦŦÞÚÚÚÚÛÛÛÛÜÜÜÜÙÙŪūūŪŲŲŮŮŨŨŴŴÝÝÝÝŶŶŸŸŸŸŹŹŽŽŽŻŻáááăăââââääääààąąåååããããæḃḃććččççċċďďḋḋðđđııééééěěêêêêëëëëėėèèēēēēęęŋḟḟğğğğğģģġġííííîîîîïïïïììīīīīįįĩĩĳķķĸĺĺľľļļłłœṁṁńńňňņņññññóóóóôôôôööööòòøøõõõõṗṗŕŕřřŗŗśśššşşşşṡṡßťťṫṫŧŧŧþúúúúŭûûûûüüüüùùūūūūųųůůũũŵŵýýýýŷŷÿÿÿÿźźžžžżż]+</re><p><l></l><r><s n="barb"/></r></p></e> 
+			<e><re>[A-Za-zÁÁÁÁĂĂÂÂÂÂÄÄÄÄÀÀĄĄÅÅÅÃÃÃÃÆḂḂĆĆČČÇÇĊĊĎĎḊḊÐĐĐÉÉÉÉĚĚÊÊÊÊËËËËĖĖÈÈĒĒĒĒĘĘŊFḞḞĞĞĞĞĞĢĢĠĠÍÍÍÍÎÎÎÎÏÏÏÏİİÌÌĪĪĪĪĮĮĨĨĲĶĶĹĹĽĽĻĻŁŁṀṀŃŃŇŇŅŅÑÑÑÑŒÓÓÓÓÔÔÔÔÖÖÖÖÒÒØØÕÕÕÕṖṖŔŔŘŘŖŖŚŚŠŠŞŞŞŞṠṠẞŤŤṪṪŦŦŦÞÚÚÚÚÛÛÛÛÜÜÜÜÙÙŪūūŪŲŲŮŮŨŨŴŴÝÝÝÝŶŶŸŸŸŸŹŹŽŽŽŻŻáááăăââââääääààąąåååããããæḃḃććččççċċďďḋḋðđđııééééěěêêêêëëëëėėèèēēēēęęŋḟḟğğğğğģģġġííííîîîîïïïïììīīīīįįĩĩĳķķĸĺĺľľļļłłœṁṁńńňňņņññññóóóóôôôôööööòòøøõõõõṗṗŕŕřřŗŗśśššşşşşṡṡßťťṫṫŧŧŧþúúúúŭûûûûüüüüùùūūūūųųůůũũŵŵýýýýŷŷÿÿÿÿźźžžžżż]+</re><p><l></l><r><s n="barb"/></r></p></e>
 			<e><p><l>द</l><r>द<s n="barb"/></r></p></e>
 			<e><p><l>िद</l><r>िद<s n="barb"/></r></p></e>
 			<e><p><l>आर</l><r>आर<s n="barb"/></r></p></e>
@@ -175,7 +175,7 @@
 			<e> 		<p><l>इ</l><r>इ.<s n="abbr"/></r></p></e>
 			<e> 		<p><l>इ.</l><r>इ.<s n="abbr"/></r></p></e>
 			<e> 		<p><l>आदी</l><r>इ.<s n="abbr"/></r></p></e>
-			
+
 			<!-- doctor -->
 			<e> 		<p><l>डॉ</l><r>डॉ.<s n="abbr"/></r></p></e>
 			<e> 		<p><l>डॉ.</l><r>डॉ.<s n="abbr"/></r></p></e>
@@ -209,13 +209,13 @@
 			<e> 		<p><l>ओ</l><r>ओ<s n="inj"/></r></p></e>
 			<e> 		<p><l>आ</l><r>आ<s n="inj"/></r></p></e>
 			<e> 		<p><l>हो</l><r>हो<s n="inj"/></r></p></e>
-			<e r="LR"> 		<p><l>होय</l><r>हो<s n="inj"/></r></p></e>			
+			<e r="LR"> 		<p><l>होय</l><r>हो<s n="inj"/></r></p></e>
 			<e> 		<p><l>नाही</l><r>नाही<s n="inj"/></r></p></e>
 			<e> 		<p><l>हो</l><r>हो<s n="inj"/></r></p></e>
 
 
 		</pardef>
-	
+
 		<!-- postpositions -->
 
 		<pardef n="__gen_endings">
@@ -282,7 +282,7 @@
 
 		<pardef n="__post_verbal_no_clit">
 			<!-- because of -->
-			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- without -->
 			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
@@ -301,7 +301,7 @@
 
 			<!-- for -->
 			<e><p><l>स</l><r>स<s n="post"/><s n="adv"/></r></p></e>
-		
+
 		</pardef>
 
 		<pardef n="__post_verbal">
@@ -311,7 +311,7 @@
 			<e><p><l>आधीच</l><r>आधी<s n="post"/><s n="adv"/><j/></r></p><par n="__generic_suff"/></e>
 
 			<e><p><l>अगोदर</l><r>अगोदर<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
-			<e><p><l>अगोदरच</l><r>अगोदर<s n="post"/><s n="adv"/><j/></r></p><par n="__generic_suff"/></e>			
+			<e><p><l>अगोदरच</l><r>अगोदर<s n="post"/><s n="adv"/><j/></r></p><par n="__generic_suff"/></e>
 
 			<e><p><l>पुरवी</l><r>पुरवी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 			<e><p><l>पुरवीच</l><r>पुरवी<s n="post"/><s n="adv"/><j/></r></p><par n="__generic_suff"/></e>
@@ -360,24 +360,29 @@
 
 		<!-- nominal stuff -->
 
+        <pardef n="__post_bound_no_clit_special">
+            <!-- these are phonetically special because they take a long 'a' before them in some cases -->
+
+            <!-- in/inside -->
+            <e><p><l>तील</l><r>तील<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+
+			<!-- for -->
+			<e><p><l>स</l><r>स<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+
+			<!-- from inside -->
+			<e><p><l>तून</l><r>तून<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+        </pardef>
+
 		<pardef n="__post_bound_no_clit">
 			<!-- towards -->
 			<e><p><l>कडे</l><r>कडे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
-			<!-- from -->
-			<e><p><l>तील</l><r>तील<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+			<!-- among -->
 			<e><p><l>पैकी</l><r>पैकी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
-
-			<!-- for -->
-			<e><p><l>स</l><r>स<s n="post"/><s n="adv"/></r></p></e>
-
-			<!-- from inside -->
-			<e><p><l>तून</l><r>तून<s n="post"/><s n="adv"/></r></p></e>
-			
-
+            <e><p><l></l><r></r></p><par n="__post_bound_no_clit_special"/></e>
 		</pardef>
-		
+
 		<pardef n="__post_bound">
 			<!-- near -->
 			<e><p><l>पाशी</l><r>पाशी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
@@ -387,15 +392,15 @@
 			<e><p><l>तून</l><r>तून<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- via (check second) -->
-			<e><p><l>द्वारे</l><r>द्वारे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>द्वारे</l><r>द्वारे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 			<e><p><l>हातुन</l><r>कडून<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- because of -->
-			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>मुळे</l><r>मुळे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- for the sake of -->
-			<e><p><l>कर्ता</l><r>कर्ता<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
-			<e><p><l>करिता</l><r>करिता<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>कर्ता</l><r>कर्ता<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+			<e><p><l>करिता</l><r>करिता<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- without -->
 			<e><p><l>शिवाय</l><r>शिवाय<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
@@ -404,11 +409,11 @@
 			<e><p><l>बद्दल</l><r>बद्दल<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- instead of -->
-			<e><p><l>ऐवजी</l><r>ऐवजी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
-			<e><p><l>जागी</l><r>जागी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>ऐवजी</l><r>ऐवजी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
+			<e><p><l>जागी</l><r>जागी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 			<!-- including -->
-			<e><p><l>सकट</l><r>सकट<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>	
+			<e><p><l>सकट</l><r>सकट<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
 
 			<!-- upto -->
@@ -421,7 +426,7 @@
 
 			<!-- for the sake of -->
 			<e><p><l>साठी</l><r>साठी<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- than -->
 			<e><p><l>पेक्षा</l><r>पेक्षा<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 
@@ -652,7 +657,7 @@
 			<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
 			<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 		</pardef>
-		
+
 		<pardef n="__gpr_gen">
 			<!-- for the fucky Rs -->
 			<e> 		<p><l>रा</l><r><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
@@ -669,18 +674,18 @@
 
 
 		</pardef>
-		
+
 		<pardef n="__big_suff">
 			<e>			<p><l>ो</l><r><s n="p1"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>ी</l><r><s n="p1"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ो</l><r><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<e> 		<p><l>ा</l><r><s n="p2"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्या</l><r><s n="p2"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ा</l><r><s n="p2"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<e> 		<p><l>ा</l><r><s n="p3"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r><s n="p3"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
@@ -732,7 +737,7 @@
 			<e>		  <p><l>तुमच्याकडून</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="excl"/><s n="abl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>तुमच्यात</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="excl"/><s n="loc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>तुम</l><r>तू<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="excl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-		</pardef>		
+		</pardef>
 
 		<pardef n="/आपण__prn">
 			<e>		  <p><l>आपण</l><r>मी<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="hon2"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -753,7 +758,7 @@
 			<e>		  <p><l>आपल्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="incl"/><s n="obl"/><j/></r></p><par n="__post_unbound"/></e>
 			<e>		  <p><l>आपल्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="incl"/><s n="obl"/><j/></r></p><par n="__post_bound"/></e>
 		</pardef>
-			
+
 
 		<pardef n="/तो__prn">
 			<e>		  <p><l>तो</l><r>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -804,8 +809,8 @@
 			<e>		  <p><l>त्याच्याकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्याच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्या</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<!-- 
-				tyaanni : usne 
+			<!--
+				tyaanni : usne
 				tyaanna : unko
 			-->
 			<e>		  <p><l>ती</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -817,7 +822,7 @@
 			<e>		  <p><l>त्यांच्याकडून</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="abl"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यांच्यात</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्यां</l><r>तो<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-		</pardef>	
+		</pardef>
 
 		<!-- reflexive -->
 
@@ -929,7 +934,7 @@
 			<e>		  <p><l>ते</l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>त्या</l><r>तो<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>ति</l><r>तो<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e>		  <p><l>त्या</l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
+			<e>		  <p><l>त्या</l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>त्या</l><r>तो<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>ति</l><r>तो<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>त्या</l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
@@ -947,13 +952,13 @@
 			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>हि</l><r>हा<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
-			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
-			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>			
+			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
 			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>हि</l><r>हा<s n="det"/><s n="prox"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>			
+			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 
 
 			<e>		  <p><l>हे</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -975,10 +980,10 @@
 
 		<!-- copula -->
 
-		
+
 
 		<!-- adjectives -->
-		
+
 		<pardef n="/लाल__adj">
 			<e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
 			<e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
@@ -1053,35 +1058,65 @@
 			<e><p><l>ीशी</l><r>ासा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>्याशा</l><r>ासा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
 		</pardef>
-	
+
 		<!-- proper nouns (do cases) -->
 
 	    <pardef n="जेम्स__np">
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__clit"/></e>
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="__sg_case"/></e>
-	    </pardef>  
+	    </pardef>
 
         <!-- check later, you can reduce it by connecting __post_unbound pardef -->
 	    <pardef n="मैरी__np">
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-	
+
 	      <e><p><l>ला</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	      <e><p><l>कडे</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
 
-	    </pardef>    
-	    
+	    </pardef>
+
 	    <pardef n="मोटलानी__np">
 			<e><p><l></l><r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 	    </pardef>
 
-	    <pardef n="भारत__np">
-	      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
-	      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p><par n="__clit"/></e>
-	      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/></r></p><par n="__sg_case"/></e>
+		<pardef n="भारत__np">
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
 
-	    </pardef>
+		<pardef n="दिल्ली__np">
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
+		<pardef n="पुण/े__np">
+			<e><p><l>े</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>्या</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>्या</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
+		<pardef n="सातार/ा__np">
+			<e><p><l>ा</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>्या</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>्या</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
+		<pardef n="कोल्हापूर__np">
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__post_bound_no_clit_special"/></e>
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
+
+		<pardef n="अयोध्य/ा__np">
+			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>े</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>े</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__sg_case"/></e>
+		</pardef>
 
 	    <pardef n="टाटा__np">
 	      <e><p><l></l><r><s n="np"/><s n="org"/><s n="sg"/></r></p></e>
@@ -1241,7 +1276,7 @@
 			<e> 		<p><l>ी</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>्यां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__pl_case"/></e>
-		</pardef>	
+		</pardef>
 
 		<pardef n="न्हाव/ी__n_f">
 			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -1422,7 +1457,7 @@
 			<e> 		<p><l>ली</l><r><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>लीस</l><r><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ला</l><r><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>लात</l><r><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>	
+			<e> 		<p><l>लात</l><r><s n="perf"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ल्या</l><r><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ल्यात</l><r><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ले</l><r><s n="perf"/><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1437,7 +1472,7 @@
 			<e> 		<p><l>ल्यात</l><r><s n="perf"/><s n="p3"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ली</l><r><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>लीत</l><r><s n="perf"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
-					
+
 			<!-- oblique perfs (?) (CHECK) -->
 			<e>       	<p><l>ल्या</l><r><s n="perf"/><s n="obl"/><j/></r></p><par n="__post_verbal"/></e>
 			<e>       	<p><l>ल्या</l><r><s n="perf"/><s n="obl"/><j/></r></p><par n="__post_verbal_no_clit"/></e>
@@ -1520,7 +1555,7 @@
 			<e r="LR">	<p><l>ावेत</l><r><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ाव्या</l><r><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>ाव्यात</l><r><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<e>       	<p><l>ावा</l><r><s n="subj"/><s n="p2"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ावी</l><r><s n="subj"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ावे</l><r><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1549,20 +1584,20 @@
 			<!-- infinitives -->
 
 			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>ण</l><r>णे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>ायला</l><r>णे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ून</l><r>णे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>तांना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>तांना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>त</l><r>णे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ता</l><r>णे<s n="vblex"/><s n="pprs"/><s n="dup"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ू</l><r>णे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>लेल</l><r>णे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1601,20 +1636,20 @@
 		<pardef n="प/हा__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>हाणे</l><r>हाणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>हाण</l><r>हाणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>हायला</l><r>हाणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ाहून</l><r>हाणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ाहताना</l><r>हाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>ाहतांना</l><r>हाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>ाहतांना</l><r>हाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ाहत</l><r>हाणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ाहता</l><r>हाणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ाहू</l><r>हाणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>ाहिलेल</l><r>हाणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1636,7 +1671,7 @@
 			<e> 		<p><l>ाहुया</l><r>हाणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>ाहुयात</l><r>हाणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 
-		
+
 			<!-- बस-तो -->
 			<e> 		<p><l>ाह</l><r>हाणे<s n="vblex"/></r></p><par n="__vblex_impfv"/></e>
 			<!-- बस-लो -->
@@ -1655,22 +1690,22 @@
 		<pardef n="क/र__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>रणे</l><r>रणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>रण</l><r>रणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>रायला</l><r>रणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>रून</l><r>रणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>रताना</l><r>रणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>रतांना</l><r>रणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>रतांना</l><r>रणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>रत</l><r>रणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>रीत</l><r>रणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 
 			<e>       	<p><l>रता</l><r>रणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>रू</l><r>रणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>ेलेल</l><r>रणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1692,7 +1727,7 @@
 			<e> 		<p><l>रुया</l><r>रणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>रुयात</l><r>रणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 
-				
+
 			<!-- बस-तो -->
 			<e> 		<p><l>र</l><r>रणे<s n="vblex"/></r></p><par n="__vblex_impfv"/></e>
 			<!-- बस-लो -->
@@ -1710,20 +1745,20 @@
 		<pardef n="लिह/ी__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>िणे</l><r>ीणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>िण</l><r>ीणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>ायला</l><r>ीणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ून</l><r>ीणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>ीणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>तांना</l><r>ीणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>तांना</l><r>ीणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>त</l><r>ीणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ता</l><r>ीणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ू</l><r>ीणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>िलेल</l><r>ीणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1763,20 +1798,20 @@
 		<pardef n="मिळ__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>ण</l><r>णे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>ायला</l><r>णे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ून</l><r>णे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>तांना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>तांना</l><r>णे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>त</l><r>णे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ता</l><r>णे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ू</l><r>णे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>ालेल</l><r>णे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1815,20 +1850,20 @@
 		<pardef n="/जा__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>जाणे</l><r>जाणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>जाण</l><r>जाणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>जायला</l><r>जाणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जाऊन</l><r>जाणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जाताना</l><r>जाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>जातांना</l><r>जाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>जातांना</l><r>जाणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>जात</l><r>जाणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>जाता</l><r>जाणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>जाऊ</l><r>जाणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>गलेल</l><r>जाणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1877,20 +1912,20 @@
 		<pardef n="/ये__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>येणे</l><r>येणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>येण</l><r>येणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>यायला</l><r>येणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येऊन</l><r>येणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येताना</l><r>येणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>येतांना</l><r>येणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>येतांना</l><r>येणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>येत</l><r>येणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>येता</l><r>येणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>येऊ</l><r>येणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>आलेल</l><r>येणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -1936,7 +1971,7 @@
 		</pardef>
 
 		<pardef n="/हो__vblex">
-			<e> 		<p><l>होण</l><r>होणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>	
+			<e> 		<p><l>होण</l><r>होणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
 
 			<e> 		<p><l>हो</l><r>होणे<s n="vblex"/><s n="imp"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>होऊया</l><r>होणे<s n="vblex"/><s n="hort"/></r></p><par n="__emph"/></e>
@@ -1958,7 +1993,7 @@
 			<e> 		<p><l>होते</l><r>होणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>होते</l><r>होणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>होतात</l><r>होणे<s n="vblex"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<e> 		<p><l>झालो</l><r>होणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>झाले</l><r>होणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>झालो</l><r>होणे<s n="vblex"/><s n="perf"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2004,7 +2039,7 @@
 			<e r="LR">	<p><l>होवेत</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होव्या</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>होव्यात</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p1"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<e>       	<p><l>होवा</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होवी</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होवे</l><r>होणे<s n="vblex"/><s n="subj"/><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2050,20 +2085,20 @@
 		<pardef n="/दे__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>देणे</l><r>देणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>देण</l><r>देणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>द्यायला</l><r>देणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देऊन</l><r>देणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देताना</l><r>देणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>देतांना</l><r>देणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>देतांना</l><r>देणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>देत</l><r>देणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>देता</l><r>देणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>देऊ</l><r>देणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>दिलेल</l><r>देणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -2112,20 +2147,20 @@
 		<pardef n="/घे__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>घेणे</l><r>घेणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>घेण</l><r>घेणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>घ्यायला</l><r>घेणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेऊन</l><r>घेणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेताना</l><r>घेणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>घेतांना</l><r>घेणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>घेतांना</l><r>घेणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>घेत</l><r>घेणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>घेता</l><r>घेणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>घेऊ</l><r>घेणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>घेतलेल</l><r>घेणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -2174,20 +2209,20 @@
 		<pardef n="/म्हण__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>म्हणणे</l><r>म्हणणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>म्हणण</l><r>म्हणणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>म्हणायला</l><r>म्हणणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणून</l><r>म्हणणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणताना</l><r>म्हणणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>म्हणतांना</l><r>म्हणणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>म्हणतांना</l><r>म्हणणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>म्हणत</l><r>म्हणणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>म्हणता</l><r>म्हणणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>म्हणू</l><r>म्हणणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>म्हणालेल</l><r>म्हणणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 			<e r="LR"> 	<p><l>म्हटलेल</l><r>म्हणणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
@@ -2225,25 +2260,25 @@
 			<!-- बस-ावा -->
 			<e> 		<p><l>म्हण</l><r>म्हणणे<s n="vblex"/></r></p><par n="__vblex_subj"/></e>
 		</pardef>
-		
+
 
 		<pardef n="सांग/__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>णे</l><r>सांगणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>ण</l><r>सांगणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
-			
+
 			<!-- -->
 			<e>         <p><l>ायला</l><r>सांगणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ून</l><r>सांगणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ताना</l><r>सांगणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>तांना</l><r>सांगणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>तांना</l><r>सांगणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>त</l><r>सांगणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ता</l><r>सांगणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>ू</l><r>सांगणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- adjectival forms -->
 			<e>       	<p><l>ितलेल</l><r>सांगणे<s n="vblex"/><s n="pprs"/><s n="perf"/></r></p><par n="__big_suff"/></e>
 
@@ -2265,7 +2300,7 @@
 			<e> 		<p><l>ुया</l><r>सांगणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 			<e r="LR">  <p><l>ुयात</l><r>सांगणे<s n="vblex"/><s n="p1"/><s n="pl"/><s n="incl"/><s n="hort"/></r></p><par n="__emph"/></e>
 
-		
+
 			<!-- बस-तो -->
 			<e> 		<p><l></l><r>सांगणे<s n="vblex"/></r></p><par n="__vblex_impfv"/></e>
 			<!-- बस-लो -->
@@ -2284,7 +2319,7 @@
 		<pardef n="/असणे__vaux">
 			<!-- infinitives -->
 			<e> 		<p><l>असणे</l><r>असणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>असण</l><r>असणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
@@ -2298,11 +2333,11 @@
 			<e>         <p><l>असायला</l><r>असणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असून</l><r>असणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असताना</l><r>असणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>असतांना</l><r>असणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>असतांना</l><r>असणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>असत</l><r>असणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असता</l><r>असणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>असू</l><r>असणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 
 			<e>       	<p><l>आहे</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>आहो</l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2334,7 +2369,7 @@
 			<e>       	<p><l>होते</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होत्या</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होती</l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- habitual -->
 			<e> 		<p><l>असे</l><r>असणे<s n="vaux"/><s n="past"/><s n="hab"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>असु</l><r>असणे<s n="vaux"/><s n="past"/><s n="hab"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2354,14 +2389,14 @@
 
 			<e> 		<p><l>अस</l><r>असणे<s n="vaux"/></r></p><par n="__vblex_perf"/></e>
 
-			
+
 			<!-- imperfs -->
 			<e>       	<p><l>अस</l><r>असणे<s n="vaux"/><s n="pres"/></r></p><par n="__vblex_impfv"/></e>
 
 
 			<!-- future -->
 			<e>       	<p><l>अस</l><r>असणे<s n="vaux"/><s n="fut"/></r></p><par n="__vblex_fut"/></e>
-			
+
 			<!-- predictive -->
 			<e>			<p><l>अस</l><r>असणे<s n="vaux"/></r></p><par n="__vblex_pred"/></e>
 
@@ -2376,7 +2411,7 @@
 
 			<!-- infinitives -->
 			<e> 		<p><l>नसणे</l><r>नसणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>नसण</l><r>नसणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
@@ -2391,11 +2426,11 @@
 			<e>         <p><l>असायला</l><r>नसणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असून</l><r>नसणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>असताना</l><r>नसणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>असतांना</l><r>नसणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>असतांना</l><r>नसणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>असत</l><r>नसणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>असू</l><r>नसणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नसता</l><r>नसणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e-->
-			
+
 
 			<e>       	<p><l>नाहीये</l><r>नसणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नाहीयोत</l><r>नसणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2424,7 +2459,7 @@
 			<e>       	<p><l>नव्हते</l><r>नसणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नव्हत्या</l><r>नसणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>नव्हती</l><r>नसणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- habitual -->
 			<e> 		<p><l>नसे</l><r>नसणे<s n="vaux"/><s n="past"/><s n="hab"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>नसु</l><r>नसणे<s n="vaux"/><s n="past"/><s n="hab"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -2436,14 +2471,14 @@
 
 			<e> 		<p><l>नस</l><r>नसणे<s n="vaux"/></r></p><par n="__vblex_perf"/></e>
 
-			
+
 			<!-- imperfs -->
 			<e>       	<p><l>नस</l><r>नसणे<s n="vaux"/></r></p><par n="__vblex_impfv"/></e>
 
 
 			<!-- future -->
 			<e>       	<p><l>नस</l><r>नसणे<s n="vaux"/></r></p><par n="__vblex_fut"/></e>
-			
+
 			<!-- predictive -->
 			<e>			<p><l>नस</l><r>नसणे<s n="vaux"/></r></p><par n="__vblex_pred"/></e>
 
@@ -2456,7 +2491,7 @@
 		<pardef n="/हो__vaux">
 			<!-- infinitives -->
 			<e> 		<p><l>होण</l><r>होणे<s n="vblex"/><s n="inf"/></r></p></e>
-			
+
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
 			<e> 		<p><l>होण</l><r>होणे<s n="vblex"/></r></p><par n="__inf_endings"/></e>
@@ -2470,11 +2505,11 @@
 			<e>         <p><l>व्हायला</l><r>होणे<s n="vblex"/><s n="sup"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होऊन</l><r>होणे<s n="vblex"/><s n="trans"/><s n="perf"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होताना</l><r>होणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>होतांना</l><r>होणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>	
+			<e r="LR"> 	<p><l>होतांना</l><r>होणे<s n="vblex"/><s n="trans"/><s n="impf"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>होत</l><r>होणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होता</l><r>होणे<s n="vblex"/><s n="pprs"/></r></p><par n="__emph"/></e>
 			<e>         <p><l>होऊ</l><r>होणे<s n="vblex"/><s n="incp"/></r></p><par n="__emph"/></e>
-			
+
 
 			<e>       	<p><l>होतोय</l><r>होणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>होतिये</l><r>होणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
@@ -2505,7 +2540,7 @@
 			<!-- perfs -->
 			<e> 		<p><l>झा</l><r>होणे<s n="vaux"/></r></p><par n="__vblex_perf"/></e>
 
-			
+
 			<!-- imperfs -->
 			<e>       	<p><l>हो</l><r>होणे<s n="vaux"/><s n="pres"/></r></p><par n="__vblex_impfv"/></e>
 
@@ -2518,7 +2553,7 @@
 			<e> 		<p><l>होतील</l><r><s n="vaux"/><s n="fut"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="__emph"/></e>
 
 			<e>       	<p><l>होणार</l><r><s n="vaux"/><s n="pros"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			
+
 			<!-- predictive -->
 			<e>			<p><l>व्ह</l><r>होणे<s n="vaux"/></r></p><par n="__vblex_pred"/></e>
 
@@ -3144,7 +3179,7 @@
 		<e lm="हो"> 							<i>हो</i><par n="__part"/></e>
 		<e lm="होय"> 							<i>होय</i><par n="__part"/></e>
 		<e lm="बर"> 								<i>बर</i><par n="__part"/></e>
-			
+
 		<e lm="फार"> 							<i>फार</i><par n="__part"/></e>
 		<e lm="अगदी"> 							<i>अगदी</i><par n="__part"/></e>
 		<e lm="ठार"> 							<i>ठार</i><par n="__part"/></e>
@@ -4669,7 +4704,7 @@
 		<e lm="दुमड">                 	<i>दुमड</i><par n="बस__vblex" /></e>
 		<e lm="दुमदुम">           	<i>दुमदुम</i><par n="बस__vblex" /></e>
 		<e lm="योज">                    	<i>योज</i><par n="बस__vblex" /></e>
-				
+
 
 		<!-- nouns -->
 
@@ -6257,7 +6292,6 @@
 		<e lm="पोळे">                         	<i>पोळ</i><par n="भांड/े__n_nt" /></e>
 		<e lm="पोवळे">                        	<i>पोवळ</i><par n="भांड/े__n_nt" /></e>
 		<e lm="पोते">                         	<i>पोत</i><par n="भांड/े__n_nt" /></e>
-		<e lm="पुणे">                         	<i>पुण</i><par n="भांड/े__n_nt" /></e>
 		<e lm="प्यादे">                       	<i>प्याद</i><par n="भांड/े__n_nt" /></e>
 		<e lm="राजे">                         	<i>राज</i><par n="भांड/े__n_nt" /></e>
 		<e lm="रहाटगाडगे">                    	<i>रहाटगाडग</i><par n="भांड/े__n_nt" /></e>
@@ -10293,7 +10327,6 @@
 		<e lm="भालदार">                       	<i>भालदार</i><par n="हात__n_m" /></e>
 		<e lm="भान">                          	<i>भान</i><par n="हात__n_m" /></e>
 		<e lm="भारतीय">                       	<i>भारतीय</i><par n="हात__n_m" /></e>
-		<e lm="भारत">                         	<i>भारत</i><par n="हात__n_m" /></e>
 		<e lm="भास">                          	<i>भास</i><par n="हात__n_m" /></e>
 		<e lm="भास्कर">                       	<i>भास्कर</i><par n="हात__n_m" /></e>
 		<e lm="भाटकार">                       	<i>भाटकार</i><par n="हात__n_m" /></e>
@@ -14986,7 +15019,6 @@
 		<e lm="कडबा">                         	<i>कडब</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="कडवा">                         	<i>कडव</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="कज्जा">                        	<i>कज्ज</i><par n="रस्त/ा__n_m" /></e>
-		<e lm="कलकत्ता">                      	<i>कलकत्त</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="कलता">                         	<i>कलत</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="कलिजा">                        	<i>कलिज</i><par n="रस्त/ा__n_m" /></e>
 		<e lm="कल्ला">                        	<i>कल्ल</i><par n="रस्त/ा__n_m" /></e>
@@ -16791,7 +16823,7 @@
 		<e lm="आनन्द"> 	<i>आनन्द</i><par n="जेम्स__np"/></e>
 		<e lm="अनन्त"> 	<i>अनन्त</i><par n="जेम्स__np"/></e>
 		<e lm="अनिल"> 	<i>अनिल</i><par n="जेम्स__np"/></e>
-		<e lm="अनिरुद्ध"> 	<i>अनिरुद्ध</i><par n="जेम्स__np"/></e>	
+		<e lm="अनिरुद्ध"> 	<i>अनिरुद्ध</i><par n="जेम्स__np"/></e>
 		<e lm="अनिश"> 	<i>अनिश</i><par n="जेम्स__np"/></e>
 		<e lm="अंकुर"> 	<i>अंकुर</i><par n="जेम्स__np"/></e>
 		<e lm="अनुज"> 	<i>अनुज</i><par n="जेम्स__np"/></e>
@@ -16855,7 +16887,7 @@
 		<e lm="कमल"> 	<i>कमल</i><par n="जेम्स__np"/></e>
 		<e lm="कम्बोज"> 	<i>कम्बोज</i><par n="जेम्स__np"/></e>
 		<e lm="कपिल"> 	<i>कपिल</i><par n="जेम्स__np"/></e>
-		<e lm="कर्ण"> 	<i>कर्ण</i><par n="जेम्स__np"/></e>	
+		<e lm="कर्ण"> 	<i>कर्ण</i><par n="जेम्स__np"/></e>
 		<e lm="कर्ण"> 	<i>कर्ण</i><par n="जेम्स__np"/></e>
 		<e lm="किरण"> 	<i>किरण</i><par n="जेम्स__np"/></e>
 		<e lm="िकशोर"> 	<i>िकशोर</i><par n="जेम्स__np"/></e>
@@ -16873,7 +16905,7 @@
 		<e lm="महेन्द्रा"> 	<i>महेन्द्रा</i><par n="जेम्स__np"/></e>
 		<e lm="मानदीप"> 	<i>मानदीप</i><par n="जेम्स__np"/></e>
 		<e lm="मनीश"> 	<i>मनीश</i><par n="जेम्स__np"/></e>
-		<e lm="केजरीवाल"> 	<i>केजरीवाल</i><par n="जेम्स__np"/></e> 
+		<e lm="केजरीवाल"> 	<i>केजरीवाल</i><par n="जेम्स__np"/></e>
 		<e lm="मोदी"> 	<i>मोदी</i><par n="जेम्स__np"/></e>
 		<e lm="महर"> 	<i>महर</i><par n="जेम्स__np"/></e>
 		<e lm="याया"> 	<i>याया</i><par n="जेम्स__np"/></e>
@@ -17017,53 +17049,53 @@
 		<e lm="सुविधा">	<i>सुविधा</i><par n="मैरी__np" /></e>
 		<e lm="सरस्वती">	<i>सरस्वती</i><par n="मैरी__np" /></e>
 		<e lm="गीता">	<i>गीता</i><par n="मैरी__np" /></e>
-		<e lm="आलिया"> 	<i>आलिया</i><par n="मैरी__np"/></e> 
-		<e lm="आईशा"> 	<i>आईशा</i><par n="मैरी__np"/></e> 
-		<e lm="मिशेल"> 	<i>मिशेल</i><par n="मैरी__np"/></e> 
-		<e lm="ज़ोहरा"> 	<i>ज़ोहरा</i><par n="मैरी__np"/></e> 
+		<e lm="आलिया"> 	<i>आलिया</i><par n="मैरी__np"/></e>
+		<e lm="आईशा"> 	<i>आईशा</i><par n="मैरी__np"/></e>
+		<e lm="मिशेल"> 	<i>मिशेल</i><par n="मैरी__np"/></e>
+		<e lm="ज़ोहरा"> 	<i>ज़ोहरा</i><par n="मैरी__np"/></e>
 		<e lm="दाउद"> 	<i>दाउद</i><par n="जेम्स__np"/></e>
-		<e lm="सातारा">	<i>सातारा</i><par n="भारत__np" /></e>
-		<e lm="नागपूर">	<i>नागपूर</i><par n="भारत__np" /></e>
-		<e lm="नाशिक">	<i>नाशिक</i><par n="भारत__np" /></e>
-		<e lm="फ्रान्स">	<i>फ्रान्स</i><par n="भारत__np" /></e>
-		<e lm="पाकिस्तान">	<i>पाकिस्तान</i><par n="भारत__np" /></e>
-		<e lm="कोल्हापूर">	<i>कोल्हापूर</i><par n="भारत__np" /></e>
-		<e lm="लंडन">	<i>लंडन</i><par n="भारत__np" /></e>
-		<e lm="अहमदनगर">	<i>अहमदनगर</i><par n="भारत__np" /></e>
-		<e lm="औरंगाबाद">	<i>औरंगाबाद</i><par n="भारत__np" /></e>
-		<e lm="जपान">	<i>जपान</i><par n="भारत__np" /></e>
-		<e lm="रशिया">	<i>रशिया</i><par n="भारत__np" /></e>
-		<e lm="सांगली">	<i>सांगली</i><par n="भारत__np" /></e>
-		<e lm="सोलापूर">	<i>सोलापूर</i><par n="भारत__np" /></e>
-		<e lm="तमिळनाडू">	<i>तमिळनाडू</i><par n="भारत__np" /></e>
-		<e lm="केरळ">	<i>केरळ</i><par n="भारत__np" /></e>
-		<e lm="युरोप">	<i>युरोप</i><par n="भारत__np" /></e>
-		<e lm="रायगड">	<i>रायगड</i><par n="भारत__np" /></e>
-		<e lm="अमरावती">	<i>अमरावती</i><par n="भारत__np" /></e>
-		<e lm="मराठवाडा">	<i>मराठवाडा</i><par n="भारत__np" /></e>
-		<e lm="काश्मीर">	<i>काश्मीर</i><par n="भारत__np" /></e>
-		<e lm="कोकण">	<i>कोकण</i><par n="भारत__np" /></e>
-		<e lm="पॅरिस">	<i>पॅरिस</i><par n="भारत__np" /></e>
-		<e lm="जळगाव">	<i>जळगाव</i><par n="भारत__np" /></e>
-		<e lm="विंबल्डन">	<i>विंबल्डन</i><par n="भारत__np" /></e>
+		<e lm="सातारा">	<i>सातार</i><par n="सातार/ा__np" /></e>
+		<e lm="नागपूर">	<i>नागपूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="नाशिक">	<i>नाशिक</i><par n="कोल्हापूर__np" /></e>
+		<e lm="फ्रान्स">	<i>फ्रान्स</i><par n="कोल्हापूर__np" /></e>
+		<e lm="पाकिस्तान">	<i>पाकिस्तान</i><par n="कोल्हापूर__np" /></e>
+		<e lm="कोल्हापूर">	<i>कोल्हापूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="लंडन">	<i>लंडन</i><par n="कोल्हापूर__np" /></e>
+		<e lm="अहमदनगर">	<i>अहमदनगर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="औरंगाबाद">	<i>औरंगाबाद</i><par n="कोल्हापूर__np" /></e>
+		<e lm="जपान">	<i>जपान</i><par n="कोल्हापूर__np" /></e>
+		<e lm="रशिया">	<i>रशिया</i><par n="दिल्ली__np" /></e>
+		<e lm="सांगली">	<i>सांगली</i><par n="दिल्ली__np" /></e>
+		<e lm="सोलापूर">	<i>सोलापूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="तमिळनाडू">	<i>तमिळनाडू</i><par n="दिल्ली__np" /></e>
+		<e lm="केरळ">	<i>केरळ</i><par n="कोल्हापूर__np" /></e>
+		<e lm="युरोप">	<i>युरोप</i><par n="कोल्हापूर__np" /></e>
+		<e lm="रायगड">	<i>रायगड</i><par n="कोल्हापूर__np" /></e>
+		<e lm="अमरावती">	<i>अमरावती</i><par n="दिल्ली__np" /></e>
+		<e lm="मराठवाडा">	<i>मराठवाड</i><par n="सातार/ा__np" /></e>
+		<e lm="काश्मीर">	<i>काश्मीर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="कोकण">	<i>कोकण</i><par n="कोल्हापूर__np" /></e>
+		<e lm="पॅरिस">	<i>पॅरिस</i><par n="कोल्हापूर__np" /></e>
+		<e lm="जळगाव">	<i>जळगाव</i><par n="कोल्हापूर__np" /></e>
+		<e lm="विंबल्डन">	<i>विंबल्डन</i><par n="कोल्हापूर__np" /></e>
 		<e lm="विदर्भ">	<i>विदर्भ</i><par n="भारत__np" /></e>
-		<e lm="इराण">	<i>इराण</i><par n="भारत__np" /></e>
-		<e lm="नांदेड">	<i>नांदेड</i><par n="भारत__np" /></e>
-		<e lm="डेक्कन">	<i>डेक्कन</i><par n="भारत__np" /></e>
-		<e lm="ओडिशा">	<i>ओडिशा</i><par n="भारत__np" /></e>
-		<e lm="कॅनडा">	<i>कॅनडा</i><par n="भारत__np" /></e>
-		<e lm="सिंगापूर">	<i>सिंगापूर</i><par n="भारत__np" /></e>
+		<e lm="इराण">	<i>इराण</i><par n="कोल्हापूर__np" /></e>
+		<e lm="नांदेड">	<i>नांदेड</i><par n="कोल्हापूर__np" /></e>
+		<e lm="डेक्कन">	<i>डेक्कन</i><par n="कोल्हापूर__np" /></e>
+		<e lm="ओडिशा">	<i>ओडिशा</i><par n="दिल्ली__np" /></e>
+		<e lm="कॅनडा">	<i>कॅनडा</i><par n="दिल्ली__np" /></e>
+		<e lm="सिंगापूर">	<i>सिंगापूर</i><par n="कोल्हापूर__np" /></e>
 		<e lm="बांगलादेश">	<i>बांगलादेश</i><par n="भारत__np" /></e>
-		<e lm="मद्रास">	<i>मद्रास</i><par n="भारत__np" /></e>
-		<e lm="तुर्कस्तान">	<i>तुर्कस्तान</i><par n="भारत__np" /></e>
-		<e lm="जयपूर">	<i>जयपूर</i><par n="भारत__np" /></e>
-		<e lm="नेपाळ">	<i>नेपाळ</i><par n="भारत__np" /></e>
-		<e lm="कॅलिफोर्निया">	<i>कॅलिफोर्निया</i><par n="भारत__np" /></e>
-		<e lm="कॉलोराडो">	<i>कॉलोराडो</i><par n="भारत__np" /></e>
-		<e lm="म्हैसूर">	<i>म्हैसूर</i><par n="भारत__np" /></e>
-		<e lm="बंगळूर">	<i>बंगळूर</i><par n="भारत__np" /></e>
-		<e lm="इंग्लंड">	<i>इंग्लंड</i><par n="भारत__np" /></e>
-		<e lm="चंपारण"> 	<i>चंपारण</i><par n="भारत__np"/></e>
+		<e lm="मद्रास">	<i>मद्रास</i><par n="कोल्हापूर__np" /></e>
+		<e lm="तुर्कस्तान">	<i>तुर्कस्तान</i><par n="कोल्हापूर__np" /></e>
+		<e lm="जयपूर">	<i>जयपूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="नेपाळ">	<i>नेपाळ</i><par n="कोल्हापूर__np" /></e>
+		<e lm="कॅलिफोर्निया">	<i>कॅलिफोर्निया</i><par n="दिल्ली__np" /></e>
+		<e lm="कॉलोराडो">	<i>कॉलोराडो</i><par n="दिल्ली__np" /></e>
+		<e lm="म्हैसूर">	<i>म्हैसूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="बंगळूर">	<i>बंगळूर</i><par n="कोल्हापूर__np" /></e>
+		<e lm="इंग्लंड">	<i>इंग्लंड</i><par n="कोल्हापूर__np" /></e>
+		<e lm="चंपारण"> 	<i>चंपारण</i><par n="कोल्हापूर__np"/></e>
 		<e lm="लोकसभा">	<i>लोकसभा</i><par n="टाटा__np" /></e>
 		<e lm="विधानसभा">	<i>विधानसभा</i><par n="टाटा__np" /></e>
 		<e lm="ऑलिंपिक">	<i>ऑलिंपिक</i><par n="टाटा__np" /></e>
@@ -17103,7 +17135,7 @@
 		<e lm="सिद्दीकी"> 	<i>सिद्दीकी</i><par n="मोटलानी__np"/></e>
 		<e lm="मंगेशकर"> 	<i>मंगेशकर</i><par n="मोटलानी__np"/></e>
 		<e lm="श्रीवास्तव"> 	<i>श्रीवास्तव</i><par n="मोटलानी__np"/></e>
-		<e lm="जोधा"> 	<i>जोधा</i><par n="मैरी__np"/></e> 
+		<e lm="जोधा"> 	<i>जोधा</i><par n="मैरी__np"/></e>
 		<e lm="कैकेयी"> 	<i>कैकेयी</i><par n="मैरी__np"/></e>
 		<e lm="खन्ना"> 	<i>खन्ना</i><par n="मोटलानी__np"/></e>
 		<e lm="कुन्ती"> 	<i>कुन्ती</i><par n="मैरी__np"/></e>
@@ -17182,7 +17214,7 @@
 		<e lm="दक्षिण"> 	<i>दक्षिण</i><par n="उत्तर__np"/></e>
 		<e lm="पश्चिम"> 	<i>पश्चिम</i><par n="उत्तर__np"/></e>
 		<e lm="ईस्ट"> 	<i>ईस्ट</i><par n="उत्तर__np"/></e>
-		<e lm="डा"> 	<i>डा</i><par n="मोटलानी__np"/></e>	
+		<e lm="डा"> 	<i>डा</i><par n="मोटलानी__np"/></e>
 		<e lm="डे"> 	<i>डे</i><par n="मोटलानी__np"/></e>
 		<e lm="मौर्य"> 	<i>मौर्य</i><par n="मोटलानी__np"/></e>
 		<e lm="बाला"> 	<i>बाला</i><par n="जेम्स__np"/></e>
@@ -17291,15 +17323,15 @@
 		<e lm="अबदुल्लाह"> 	<i>अबदुल्लाह</i><par n="जेम्स__np"/></e>
 		<e lm="खुदा"> 	<i>खुदा</i><par n="जेम्स__np"/></e>
 		<e lm="अल्लाह"> 	<i>अल्लाह</i><par n="जेम्स__np"/></e>
-		<e lm="इमाम-ए-आज़म"> 	<i>इमाम-ए-आज़म</i><par n="जेम्स__np"/></e>	
-		<e lm="अकबर"> 	<i>अकबर</i><par n="जेम्स__np"/></e>	
+		<e lm="इमाम-ए-आज़म"> 	<i>इमाम-ए-आज़म</i><par n="जेम्स__np"/></e>
+		<e lm="अकबर"> 	<i>अकबर</i><par n="जेम्स__np"/></e>
 		<e lm="सिकंदर"> 	<i>सिकंदर</i><par n="जेम्स__np"/></e>
 		<e lm="चंगेज़ ख़ान"> 	<i>चंगेज़<b/>ख़ान</i><par n="जेम्स__np"/></e>
 		<e lm="सुलेमान"> 	<i>सुलेमान</i><par n="जेम्स__np"/></e>
 		<e lm="कोन्स्टान्टिन"> 	<i>कोन्स्टान्टिन</i><par n="जेम्स__np"/></e>
 		<e lm="अल्फ़्रेड महान"> 	<i>अल्फ़्रेड महान</i><par n="जेम्स__np"/></e>
 		<e lm="पीटर महान"> 	<i>पीटर महान</i><par n="जेम्स__np"/></e>
-		<e lm="हुसैन"> 	<i>हुसैन</i><par n="जेम्स__np"/></e>	
+		<e lm="हुसैन"> 	<i>हुसैन</i><par n="जेम्स__np"/></e>
 		<e lm="उद्दीन"> 	<i>उद्दीन</i><par n="जेम्स__np"/></e>
 		<e lm="इबन"> 	<i>इबन</i><par n="जेम्स__np"/></e>
 		<e lm="अहमद"> 	<i>अहमद</i><par n="जेम्स__np"/></e>
@@ -17323,7 +17355,7 @@
 		<e lm="जेम्स"> 	<i>जेम्स</i><par n="जेम्स__np"/></e>
 		<e lm="कृष्णा"> 	<i>कृष्णा</i><par n="जेम्स__np"/></e>
 		<e lm="विक्रम"> 	<i>विक्रम</i><par n="जेम्स__np"/></e>
-		<e lm="जॉन"> 	<i>जॉन</i><par n="जेम्स__np"/></e>	
+		<e lm="जॉन"> 	<i>जॉन</i><par n="जेम्स__np"/></e>
 		<e lm="शुक्ल"> 	<i>शुक्ल</i><par n="मोटलानी__np"/></e>
 		<e lm="टाटा"> 	<i>टाटा</i><par n="मोटलानी__np"/></e>
 		<e lm="आज़ाद"> 	<i>आज़ाद</i><par n="मोटलानी__np"/></e>
@@ -17387,7 +17419,7 @@
 		<e lm="पृथ्वीराज"> 	<i>पृथ्वीराज</i><par n="जेम्स__np"/></e>
 		<e lm="चौधरी"> 	<i>चौधरी</i><par n="मोटलानी__np"/></e>
 		<e lm="राधा"> 	<i>राधा</i><par n="मैरी__np"/></e>
-		<e lm="भागीरथी"> 	<i>भागीरथी</i><par n="मैरी__np"/></e>	
+		<e lm="भागीरथी"> 	<i>भागीरथी</i><par n="मैरी__np"/></e>
 		<e lm="लक्ष्मीबाई"> 	<i>लक्ष्मीबाई</i><par n="मैरी__np"/></e>
 		<e lm="नोबेल"> 	<i>नोबेल</i><par n="जेम्स__np"/></e>
 		<e lm="मुमताज"> 	<i>मुमताज</i><par n="मैरी__np"/></e>
@@ -17407,7 +17439,7 @@
 		<e lm="सचिन"> 	<i>सचिन</i><par n="जेम्स__np"/></e>
 		<e lm="रावण"> 	<i>रावण</i><par n="जेम्स__np"/></e>
 		<e lm="ओबामा"> 	<i>ओबामा</i><par n="जेम्स__np"/></e>
-		<e lm="भीष्म"> 	<i>भीष्म</i><par n="जेम्स__np"/></e>	
+		<e lm="भीष्म"> 	<i>भीष्म</i><par n="जेम्स__np"/></e>
 		<e lm="वाल्मीकि"> 	<i>वाल्मीकि</i><par n="जेम्स__np"/></e>
 		<e lm="रफ़ी"> 	<i>रफ़ी</i><par n="मोटलानी__np"/></e>
 		<e lm="दत्त"> 	<i>दत्त</i><par n="मोटलानी__np"/></e>
@@ -17445,7 +17477,7 @@
 		<e lm="धृतराष्ट्र"> 	<i>धृतराष्ट्र</i><par n="जेम्स__np"/></e>
 		<e lm="हैरी"> 	<i>हैरी</i><par n="जेम्स__np"/></e>
 		<e lm="भारती"> 	<i>भारती</i><par n="मोटलानी__np"/></e>
-		<e lm="भूषण"> 	<i>भूषण</i><par n="मोटलानी__np"/></e>		
+		<e lm="भूषण"> 	<i>भूषण</i><par n="मोटलानी__np"/></e>
 		<e lm="राव"> 	<i>राव</i><par n="मोटलानी__np"/></e>
 
 		<!-- Companies-->
@@ -17461,466 +17493,469 @@
 		<e lm="अष्टांक सॉफ़्टवेयर"> 	<i>अष्टांक<b/>सॉफ़्टवेयर</i><par n="टाटा__np"/></e>
 		<e lm="विविध भारती"> 	<i>विविध<b/>भारती</i><par n="टाटा__np"/></e>
 		<!-- countries & cities & rivers -->
-		<e lm="चित्रकूट"> 	<i>चित्रकूट</i><par n="भारत__np"/></e>
-		<e lm="पोलैंड"> 	<i>पोलैंड</i><par n="भारत__np"/></e>
-		<e lm="अलवर"> 	<i>अलवर</i><par n="भारत__np"/></e>
-		<e lm="काठमांडु"> 	<i>काठमांडु</i><par n="भारत__np"/></e>
-		<e lm="इंडीज"> 	<i>इंडीज</i><par n="भारत__np"/></e>
-		<e lm="मुजफ्फरपुर"> 	<i>मुजफ्फरपुर</i><par n="भारत__np"/></e>
-		<e lm="बूंदी"> 	<i>बूंदी</i><par n="भारत__np"/></e>
-		<e lm="काठमांडू"> 	<i>काठमांडू</i><par n="भारत__np"/></e>
-		<e lm="ताइवान"> 	<i>ताइवान</i><par n="भारत__np"/></e>
-		<e lm="सिरोही"> 	<i>सिरोही</i><par n="भारत__np"/></e>
-		<e lm="हाजीपुर"> 	<i>हाजीपुर</i><par n="भारत__np"/></e>
-		<e lm="नालंदा"> 	<i>नालंदा</i><par n="भारत__np"/></e>
-		<e lm="हस्तिनापुर"> 	<i>हस्तिनापुर</i><par n="भारत__np"/></e>
-		<e lm="पोखरण"> 	<i>पोखरण</i><par n="भारत__np"/></e>
-		<e lm="ठाणे"> 	<i>ठाणे</i><par n="भारत__np"/></e>
-		<e lm="उत्तराखंड"> 	<i>उत्तराखंड</i><par n="भारत__np"/></e>
-		<e lm="चम्बल"> 	<i>चम्बल</i><par n="भारत__np"/></e>
-		<e lm="पानीपत"> 	<i>पानीपत</i><par n="भारत__np"/></e>
-		<e lm="मुरादाबाद"> 	<i>मुरादाबाद</i><par n="भारत__np"/></e>
-		<e lm="मेवाड़"> 	<i>मेवाड़</i><par n="भारत__np"/></e>	
-		<e lm="गंगोलीहाट"> 	<i>गंगोलीहाट</i><par n="भारत__np"/></e>
-		<e lm="छिबरामऊ"> 	<i>छिबरामऊ</i><par n="भारत__np"/></e>
-		<e lm="मैसूर"> 	<i>मैसूर</i><par n="भारत__np"/></e>
-		<e lm="थराली"> 	<i>थराली</i><par n="भारत__np"/></e>
-		<e lm="कांडा"> 	<i>कांडा</i><par n="भारत__np"/></e>
-		<e lm="स्वीडन"> 	<i>स्वीडन</i><par n="भारत__np"/></e>
-		<e lm="फ्लोरिडा"> 	<i>फ्लोरिडा</i><par n="भारत__np"/></e>
-		<e lm="शिकागो"> 	<i>शिकागो</i><par n="भारत__np"/></e>
-		<e lm="कानपुर"> 	<i>कानपुर</i><par n="भारत__np"/></e>
-		<e lm="बर्मा"> 	<i>बर्मा</i><par n="भारत__np"/></e>
-		<e lm="ब्राजील"> 	<i>ब्राजील</i><par n="भारत__np"/></e>
-		<e lm="ग्वालियर"> 	<i>ग्वालियर</i><par n="भारत__np"/></e>
-		<e lm="गोवा"> 	<i>गोवा</i><par n="भारत__np"/></e>
-		<e lm="बनारस"> 	<i>बनारस</i><par n="भारत__np"/></e>
-		<e lm="बेल्जियम"> 	<i>बेल्जियम</i><par n="भारत__np"/></e>
-		<e lm="दुबई"> 	<i>दुबई</i><par n="भारत__np"/></e>
-		<e lm="नागपुर"> 	<i>नागपुर</i><par n="भारत__np"/></e>
-		<e lm="फ़्रांस"> 	<i>फ़्रांस</i><par n="भारत__np"/></e>
-		<e lm="भनोली"> 	<i>भनोली</i><par n="भारत__np"/></e>
-		<e lm="अहमदाबाद"> 	<i>अहमदाबाद</i><par n="भारत__np"/></e>
-		<e lm="रामनगर"> 	<i>रामनगर</i><par n="भारत__np"/></e>
-		<e lm="मध्यप्रदेश"> 	<i>मध्यप्रदेश</i><par n="भारत__np"/></e>
-		<e lm="इंग्लैण्ड"> 	<i>इंग्लैण्ड</i><par n="भारत__np"/></e>
-		<e lm="हरिद्वार"> 	<i>हरिद्वार</i><par n="भारत__np"/></e>
-		<e lm="उज्जैन"> 	<i>उज्जैन</i><par n="भारत__np"/></e>
-		<e lm="सिडनी"> 	<i>सिडनी</i><par n="भारत__np"/></e>
-		<e lm="नीदरलैंड"> 	<i>नीदरलैंड</i><par n="भारत__np"/></e>
-		<e lm="बर्लिन"> 	<i>बर्लिन</i><par n="भारत__np"/></e>
-		<e lm="मैनचेस्टर"> 	<i>मैनचेस्टर</i><par n="भारत__np"/></e>
-		<e lm="डेनमार्क"> 	<i>डेनमार्क</i><par n="भारत__np"/></e>
-		<e lm="अफ़ग़ानिस्तान"> 	<i>अफ़ग़ानिस्तान</i><par n="भारत__np"/></e>
-		<e lm="आस्ट्रेलिया"> 	<i>आस्ट्रेलिया</i><par n="भारत__np"/></e>
-		<e lm="रामपुर"> 	<i>रामपुर</i><par n="भारत__np"/></e>
-		<e lm="इमामगंज"> 	<i>इमामगंज</i><par n="भारत__np"/></e>
-		<e lm="पोखरी"> 	<i>पोखरी</i><par n="भारत__np"/></e>
-		<e lm="पुर्तगाल"> 	<i>पुर्तगाल</i><par n="भारत__np"/></e>
-		<e lm="बुंदेलखंड"> 	<i>बुंदेलखंड</i><par n="भारत__np"/></e>
-		<e lm="किरौली"> 	<i>किरौली</i><par n="भारत__np"/></e>
-		<e lm="रायगढ"> 	<i>रायगढ</i><par n="भारत__np"/></e>
-		<e lm="अजमेर"> 	<i>अजमेर</i><par n="भारत__np"/></e>
-		<e lm="मेरठ"> 	<i>मेरठ</i><par n="भारत__np"/></e>
-		<e lm="कैस्पियन"> 	<i>कैस्पियन</i><par n="भारत__np"/></e>
-		<e lm="श्रीनगर"> 	<i>श्रीनगर</i><par n="भारत__np"/></e>
-		<e lm="अमृतसर"> 	<i>अमृतसर</i><par n="भारत__np"/></e>
-		<e lm="जिब्राल्टर"> 	<i>जिब्राल्टर</i><par n="भारत__np"/></e>
-		<e lm="सैन"> 	<i>सैन</i><par n="भारत__np"/></e>
-		<e lm="लॉस"> 	<i>लॉस</i><par n="भारत__np"/></e>
-		<e lm="लॉस एंजलिस"> 	<i>लॉस<b/>एंजलिस</i><par n="भारत__np"/></e>
-		<e lm="वाशिंगटन"> 	<i>वाशिंगटन</i><par n="भारत__np"/></e>
-		<e lm="लन्दन"> 	<i>लन्दन</i><par n="भारत__np"/></e>
-		<e lm="सीकरी"> 	<i>सीकरी</i><par n="भारत__np"/></e>
-		<e lm="मगध"> 	<i>मगध</i><par n="भारत__np"/></e>
-		<e lm="पिथोरागढ"> 	<i>पिथोरागढ</i><par n="भारत__np"/></e>
-		<e lm="पुणे"> 	<i>पुणे</i><par n="भारत__np"/></e>
-		<e lm="कर्नूलु"> 	<i>कर्नूलु</i><par n="भारत__np"/></e>
-		<e lm="पिथौरागढ"> 	<i>पिथौरागढ</i><par n="भारत__np"/></e>
-		<e lm="चौबटाखाल"> 	<i>चौबटाखाल</i><par n="भारत__np"/></e>
-		<e lm="अतरौली"> 	<i>अतरौली</i><par n="भारत__np"/></e>
-		<e lm="मियामी"> 	<i>मियामी</i><par n="भारत__np"/></e>
-		<e lm="स्कॉटलैंड"> 	<i>स्कॉटलैंड</i><par n="भारत__np"/></e>
-		<e lm="बेरीनाग"> 	<i>बेरीनाग</i><par n="भारत__np"/></e>
-		<e lm="मेक्सिको"> 	<i>मेक्सिको</i><par n="भारत__np"/></e>
-		<e lm="न्यूजीलैंड"> 	<i>न्यूजीलैंड</i><par n="भारत__np"/></e>
-		<e lm="अरावली"> 	<i>अरावली</i><par n="भारत__np"/></e>
-		<e lm="जम्मू"> 	<i>जम्मू</i><par n="भारत__np"/></e>
-		<e lm="काबुल"> 	<i>काबुल</i><par n="भारत__np"/></e>
-		<e lm="उम्मा"> 	<i>उम्मा</i><par n="भारत__np"/></e>
-		<e lm="मदीना"> 	<i>मदीना</i><par n="भारत__np"/></e>
-		<e lm="बॉम्बे"> 	<i>बॉम्बे</i><par n="भारत__np"/></e>
-		<e lm="फारस"> 	<i>फारस</i><par n="भारत__np"/></e>
-		<e lm="गोरखपुर"> 	<i>गोरखपुर</i><par n="भारत__np"/></e>
-		<e lm="गुना"> 	<i>गुना</i><par n="भारत__np"/></e>
-		<e lm="तिब्बत"> 	<i>तिब्बत</i><par n="भारत__np"/></e>
-		<e lm="सिंगापुर"> 	<i>सिंगापुर</i><par n="भारत__np"/></e>
-		<e lm="बंबई"> 	<i>बंबई</i><par n="भारत__np"/></e>
-		<e lm="बम्बई"> 	<i>बम्बई</i><par n="भारत__np"/></e>
-		<e lm="बीकानेर"> 	<i>बीकानेर</i><par n="भारत__np"/></e>
-		<e lm="अल्मोडा"> 	<i>अल्मोडा</i><par n="भारत__np"/></e>
-		<e lm="कायमगंज"> 	<i>कायमगंज</i><par n="भारत__np"/></e>
-		<e lm="आयरलैंड"> 	<i>आयरलैंड</i><par n="भारत__np"/></e>	
-		<e lm="मक्का"> 	<i>मक्का</i><par n="भारत__np"/></e>
-		<e lm="हिंदुस्तान"> 	<i>हिंदुस्तान</i><par n="भारत__np"/></e>
-		<e lm="हिन्दुस्तान"> 	<i>हिन्दुस्तान</i><par n="भारत__np"/></e>
-		<e lm="सिन्धु"> 	<i>सिन्धु</i><par n="भारत__np"/></e>
-		<e lm="यमुना"> 	<i>यमुना</i><par n="भारत__np"/></e>
-		<e lm="पौडी"> 	<i>पौडी</i><par n="भारत__np"/></e>
-		<e lm="पौड़ी"> 	<i>पौड़ी</i><par n="भारत__np"/></e>
-		<e lm="जैसलमेर"> 	<i>जैसलमेर</i><par n="भारत__np"/></e>
-		<e lm="उदयपुर"> 	<i>उदयपुर</i><par n="भारत__np"/></e>
-		<e lm="अयोध्या"> 	<i>अयोध्या</i><par n="भारत__np"/></e>
-		<e lm="जोधपुर"> 	<i>जोधपुर</i><par n="भारत__np"/></e>
-		<e lm="भरतपुर"> 	<i>भरतपुर</i><par n="भारत__np"/></e>
-		<e lm="वाराणसी"> 	<i>वाराणसी</i><par n="भारत__np"/></e>
-		<e lm="फतेहपुर"> 	<i>फतेहपुर</i><par n="भारत__np"/></e>
-		<e lm="पेरिस"> 	<i>पेरिस</i><par n="भारत__np"/></e>
-		<e lm="कैलिफोर्निया"> 	<i>कैलिफोर्निया</i><par n="भारत__np"/></e>
-		<e lm="अनंतपुर"> 	<i>अनंतपुर</i><par n="भारत__np"/></e>
-		<e lm="कलकत्ता"> 	<i>कलकत्ता</i><par n="भारत__np"/></e>
-		<e lm="रावलपिंडी"> 	<i>रावलपिंडी</i><par n="भारत__np"/></e>
-		<e lm="फ़िलिस्तीन"> 	<i>फ़िलिस्तीन</i><par n="भारत__np"/></e>
-		<e lm="चम्पावत"> 	<i>चम्पावत</i><par n="भारत__np"/></e>
-		<e lm="क्वेटा"> 	<i>क्वेटा</i><par n="भारत__np"/></e>
-		<e lm="कुमाऊँ"> 	<i>कुमाऊँ</i><par n="भारत__np"/></e>
-		<e lm="कोरिया"> 	<i>कोरिया</i><par n="भारत__np"/></e>
-		<e lm="लाहौर"> 	<i>लाहौर</i><par n="भारत__np"/></e>	
-		<e lm="कराची"> 	<i>कराची</i><par n="भारत__np"/></e>	
-		<e lm="यमकेश्वर"> 	<i>यमकेश्वर</i><par n="भारत__np"/></e>	
-		<e lm="बागेश्वर"> 	<i>बागेश्वर</i><par n="भारत__np"/></e>	
-		<e lm="चमोली"> 	<i>चमोली</i><par n="भारत__np"/></e>	
-		<e lm="कन्नौज"> 	<i>कन्नौज</i><par n="भारत__np"/></e>	
-		<e lm="अल्मोड़ा"> 	<i>अल्मोड़ा</i><par n="भारत__np"/></e>	
-		<e lm="भिकियासैण"> 	<i>भिकियासैण</i><par n="भारत__np"/></e>	
-		<e lm="गढ़वाल"> 	<i>गढ़वाल</i><par n="भारत__np"/></e>	
-		<e lm="नैनीताल"> 	<i>नैनीताल</i><par n="भारत__np"/></e>	
-		<e lm="मथुरा"> 	<i>मथुरा</i><par n="भारत__np"/></e>	
-		<e lm="काशी"> 	<i>काशी</i><par n="भारत__np"/></e>	
-		<e lm="लखीसराय"> 	<i>लखीसराय</i><par n="भारत__np"/></e>	
+		<e lm="चित्रकूट"> 	<i>चित्रकूट</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पोलैंड"> 	<i>पोलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अलवर"> 	<i>अलवर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="काठमांडु"> 	<i>काठमांडु</i><par n="दिल्ली__np"/></e>
+		<e lm="इंडीज"> 	<i>इंडीज</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मुजफ्फरपुर"> 	<i>मुजफ्फरपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बूंदी"> 	<i>बूंदी</i><par n="दिल्ली__np"/></e>
+		<e lm="काठमांडू"> 	<i>काठमांडू</i><par n="दिल्ली__np"/></e>
+		<e lm="ताइवान"> 	<i>ताइवान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिरोही"> 	<i>सिरोही</i><par n="दिल्ली__np"/></e>
+		<e lm="हाजीपुर"> 	<i>हाजीपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नालंदा"> 	<i>नालंदा</i><par n="दिल्ली__np"/></e>
+		<e lm="हस्तिनापुर"> 	<i>हस्तिनापुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पोखरण"> 	<i>पोखरण</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ठाणे"> 	<i>ठाण</i><par n="पुण/े__np"/></e>
+        <e lm="पार्ले">     <i>पार्ल</i><par n="पुण/े__np"/></e>
+        <e lm="वेंगुर्ले">     <i>वेंगुर्ल</i><par n="पुण/े__np"/></e>
+		<e lm="उत्तराखंड"> 	<i>उत्तराखंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="चम्बल"> 	<i>चम्बल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पानीपत"> 	<i>पानीपत</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मुरादाबाद"> 	<i>मुरादाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मेवाड़"> 	<i>मेवाड़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गंगोलीहाट"> 	<i>गंगोलीहाट</i><par n="कोल्हापूर__np"/></e>
+		<e lm="छिबरामऊ"> 	<i>छिबरामऊ</i><par n="दिल्ली__np"/></e>
+		<e lm="मैसूर"> 	<i>मैसूर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="थराली"> 	<i>थराली</i><par n="दिल्ली__np"/></e>
+		<e lm="कांडा"> 	<i>कांडा</i><par n="दिल्ली__np"/></e>
+		<e lm="स्वीडन"> 	<i>स्वीडन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ्लोरिडा"> 	<i>फ्लोरिडा</i><par n="दिल्ली__np"/></e>
+		<e lm="शिकागो"> 	<i>शिकागो</i><par n="दिल्ली__np"/></e>
+		<e lm="कानपुर"> 	<i>कानपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बर्मा"> 	<i>बर्मा</i><par n="दिल्ली__np"/></e>
+		<e lm="ब्राजील"> 	<i>ब्राजील</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ग्वालियर"> 	<i>ग्वालियर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गोवा"> 	<i>गोव</i><par n="सातार/ा__np"/></e>
+		<e lm="बनारस"> 	<i>बनारस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेल्जियम"> 	<i>बेल्जियम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="दुबई"> 	<i>दुबई</i><par n="दिल्ली__np"/></e>
+		<e lm="नागपुर"> 	<i>नागपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ़्रांस"> 	<i>फ़्रांस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="भनोली"> 	<i>भनोली</i><par n="दिल्ली__np"/></e>
+		<e lm="अहमदाबाद"> 	<i>अहमदाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रामनगर"> 	<i>रामनगर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मध्यप्रदेश"> 	<i>मध्यप्रदेश</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इंग्लैण्ड"> 	<i>इंग्लैण्ड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हरिद्वार"> 	<i>हरिद्वार</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उज्जैन"> 	<i>उज्जैन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिडनी"> 	<i>सिडनी</i><par n="दिल्ली__np"/></e>
+		<e lm="नीदरलैंड"> 	<i>नीदरलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बर्लिन"> 	<i>बर्लिन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मैनचेस्टर"> 	<i>मैनचेस्टर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="डेनमार्क"> 	<i>डेनमार्क</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अफ़ग़ानिस्तान"> 	<i>अफ़ग़ानिस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="आस्ट्रेलिया"> 	<i>आस्ट्रेलिया</i><par n="दिल्ली__np"/></e>
+		<e lm="रामपुर"> 	<i>रामपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इमामगंज"> 	<i>इमामगंज</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पोखरी"> 	<i>पोखरी</i><par n="दिल्ली__np"/></e>
+		<e lm="पुर्तगाल"> 	<i>पुर्तगाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बुंदेलखंड"> 	<i>बुंदेलखंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="किरौली"> 	<i>किरौली</i><par n="दिल्ली__np"/></e>
+		<e lm="रायगढ"> 	<i>रायगढ</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अजमेर"> 	<i>अजमेर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मेरठ"> 	<i>मेरठ</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कैस्पियन"> 	<i>कैस्पियन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="श्रीनगर"> 	<i>श्रीनगर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अमृतसर"> 	<i>अमृतसर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जिब्राल्टर"> 	<i>जिब्राल्टर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सैन"> 	<i>सैन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लॉस"> 	<i>लॉस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लॉस एंजलिस"> 	<i>लॉस<b/>एंजलिस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="वाशिंगटन"> 	<i>वाशिंगटन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लन्दन"> 	<i>लन्दन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सीकरी"> 	<i>सीकरी</i><par n="दिल्ली__np"/></e>
+		<e lm="मगध"> 	<i>मगध</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पिथोरागढ"> 	<i>पिथोरागढ</i><par n="कोल्हापूर__np"/></e>
+        <e lm="पुणे"> 	<i>पुण</i><par n="पुण/े__np"/></e>
+		<e lm="कर्नूलु"> 	<i>कर्नूलु</i><par n="दिल्ली__np"/></e>
+		<e lm="पिथौरागढ"> 	<i>पिथौरागढ</i><par n="कोल्हापूर__np"/></e>
+		<e lm="चौबटाखाल"> 	<i>चौबटाखाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अतरौली"> 	<i>अतरौली</i><par n="दिल्ली__np"/></e>
+		<e lm="मियामी"> 	<i>मियामी</i><par n="दिल्ली__np"/></e>
+		<e lm="स्कॉटलैंड"> 	<i>स्कॉटलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेरीनाग"> 	<i>बेरीनाग</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मेक्सिको"> 	<i>मेक्सिको</i><par n="दिल्ली__np"/></e>
+		<e lm="न्यूजीलैंड"> 	<i>न्यूजीलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अरावली"> 	<i>अरावली</i><par n="दिल्ली__np"/></e>
+		<e lm="जम्मू"> 	<i>जम्मू</i><par n="दिल्ली__np"/></e>
+		<e lm="काबुल"> 	<i>काबुल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उम्मा"> 	<i>उम्मा</i><par n="दिल्ली__np"/></e>
+		<e lm="मदीना"> 	<i>मदीना</i><par n="दिल्ली__np"/></e>
+		<e lm="बॉम्बे"> 	<i>बॉम्बे</i><par n="दिल्ली__np"/></e>
+		<e lm="फारस"> 	<i>फारस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गोरखपुर"> 	<i>गोरखपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गुना"> 	<i>गुना</i><par n="दिल्ली__np"/></e>
+		<e lm="तिब्बत"> 	<i>तिब्बत</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिंगापुर"> 	<i>सिंगापुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बंबई"> 	<i>बंबई</i><par n="दिल्ली__np"/></e>
+		<e lm="बम्बई"> 	<i>बम्बई</i><par n="दिल्ली__np"/></e>
+		<e lm="बीकानेर"> 	<i>बीकानेर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अल्मोडा"> 	<i>अल्मोडा</i><par n="दिल्ली__np"/></e>
+		<e lm="कायमगंज"> 	<i>कायमगंज</i><par n="कोल्हापूर__np"/></e>
+		<e lm="आयरलैंड"> 	<i>आयरलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मक्का"> 	<i>मक्क</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="हिंदुस्तान"> 	<i>हिंदुस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हिन्दुस्तान"> 	<i>हिन्दुस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिन्धु"> 	<i>सिन्धु</i><par n="दिल्ली__np"/></e>
+		<e lm="यमुना"> 	<i>यमुन</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="पौडी"> 	<i>पौडी</i><par n="दिल्ली__np"/></e>
+		<e lm="पौड़ी"> 	<i>पौड़ी</i><par n="दिल्ली__np"/></e>
+		<e lm="जैसलमेर"> 	<i>जैसलमेर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उदयपुर"> 	<i>उदयपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अयोध्या"> 	<i>अयोध्य</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="जोधपुर"> 	<i>जोधपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="भरतपुर"> 	<i>भरतपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="वाराणसी"> 	<i>वाराणसी</i><par n="दिल्ली__np"/></e>
+		<e lm="फतेहपुर"> 	<i>फतेहपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पेरिस"> 	<i>पेरिस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कैलिफोर्निया"> 	<i>कैलिफोर्निया</i><par n="दिल्ली__np"/></e>
+		<e lm="अनंतपुर"> 	<i>अनंतपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कलकत्ता"> 	<i>कलकत्त</i><par n="सातार/ा__np"/></e>
+		<e lm="रावलपिंडी"> 	<i>रावलपिंडी</i><par n="दिल्ली__np"/></e>
+		<e lm="फ़िलिस्तीन"> 	<i>फ़िलिस्तीन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="चम्पावत"> 	<i>चम्पावत</i><par n="कोल्हापूर__np"/></e>
+		<e lm="क्वेटा"> 	<i>क्वेटा</i><par n="दिल्ली__np"/></e>
+		<e lm="कुमाऊँ"> 	<i>कुमाऊँ</i><par n="दिल्ली__np"/></e>
+		<e lm="कोरिया"> 	<i>कोरिया</i><par n="दिल्ली__np"/></e>
+		<e lm="लाहौर"> 	<i>लाहौर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कराची"> 	<i>कराची</i><par n="दिल्ली__np"/></e>
+		<e lm="यमकेश्वर"> 	<i>यमकेश्वर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बागेश्वर"> 	<i>बागेश्वर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="चमोली"> 	<i>चमोली</i><par n="दिल्ली__np"/></e>
+		<e lm="कन्नौज"> 	<i>कन्नौज</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अल्मोड़ा"> 	<i>अल्मोड़ा</i><par n="दिल्ली__np"/></e>
+		<e lm="भिकियासैण"> 	<i>भिकियासैण</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गढ़वाल"> 	<i>गढ़वाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नैनीताल"> 	<i>नैनीताल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मथुरा"> 	<i>मथुर</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="काशी"> 	<i>काशी</i><par n="दिल्ली__np"/></e>
+		<e lm="लखीसराय"> 	<i>लखीसराय</i><par n="कोल्हापूर__np"/></e>
 		<e lm="हिमालय"> 	<i>हिमालय</i><par n="भारत__np"/></e>
-		<e lm="ईरान"> 	<i>ईरान</i><par n="भारत__np"/></e>
-		<e lm="मुंगेर"> 	<i>मुंगेर</i><par n="भारत__np"/></e>
-		<e lm="लंदन"> 	<i>लंदन</i><par n="भारत__np"/></e>
-		<e lm="मुंबई"> 	<i>मुंबई</i><par n="भारत__np"/></e>
-		<e lm="एशिया"> 	<i>एशिया</i><par n="भारत__np"/></e>
-		<e lm="अफ्रीका"> 	<i>अफ्रीका</i><par n="भारत__np"/></e>
-		<e lm="फूलपुर"> 	<i>फूलपुर</i><par n="भारत__np"/></e>
-		<e lm="अमेरिका"> 	<i>अमेरिका</i><par n="भारत__np"/></e>
-		<e lm="अमरीका"> 	<i>अमरीका</i><par n="भारत__np"/></e>
-		<e lm="आलैंड‌ द्वीप‌"> 	<i>आलैंड‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="नीदरलैंड्स"> 	<i>नीदरलैंड्स</i><par n="भारत__np"/></e>
-		<e lm="हॉलैंड"> 	<i>हॉलैंड</i><par n="भारत__np"/></e>
-		<e lm="न्यू ज़ीलैंड"> 	<i>न्यू ज़ीलैंड</i><par n="भारत__np"/></e>
-		<e lm="स्वाज़ीलैंड"> 	<i>स्वाज़ीलैंड</i><par n="भारत__np"/></e>
-		<e lm="स्विटज़रलैंड"> 	<i>स्विटज़रलैंड</i><par n="भारत__np"/></e>
-		<e lm="स्विट्ज़रलैंड"> 	<i>स्विट्ज़रलैंड</i><par n="भारत__np"/></e>
-		<e lm="स्कॉटलैण्ड"> 	<i>स्कॉटलैण्ड</i><par n="भारत__np"/></e>
-		<e lm="स्कौटलैंड"> 	<i>फिनलैंड</i><par n="भारत__np"/></e>
-		<e lm="अफ़ग़ानिस्तान‌"> 	<i>अफ़ग़ानिस्तान‌</i><par n="भारत__np"/></e>
-		<e lm="अफ़्ग़ानिस्तान"> 	<i>अफ़्ग़ानिस्तान</i><par n="भारत__np"/></e>
-		<e lm="जॉर्डन"> 	<i>जॉर्डन</i><par n="भारत__np"/></e>
-		<e lm="फ़ैज़"> 	<i>फ़ैज़</i><par n="भारत__np"/></e>
-		<e lm="अल्बानिया"> 	<i>अल्बानिया</i><par n="भारत__np"/></e>
-		<e lm="अल्जीरिया"> 	<i>अल्जीरिया</i><par n="भारत__np"/></e>
-		<e lm="पख्तूनख्वा"> 	<i>पख्तूनख्वा</i><par n="भारत__np"/></e>
-		<e lm="अमरीकी स‌मोआ"> 	<i>अमरीकी<b/>स‌मोआ</i><par n="भारत__np"/></e>
-		<e lm="अंडोरा"> 	<i>अंडोरा</i><par n="भारत__np"/></e>
-		<e lm="अंगोला"> 	<i>अंगोला</i><par n="भारत__np"/></e>
-		<e lm="अंग्विला"> 	<i>अंग्विला</i><par n="भारत__np"/></e>
-		<e lm="अंटार्क‌टिका"> 	<i>अंटार्क‌टिका</i><par n="भारत__np"/></e>
-		<e lm="अंटिग्वा और‌ बार‌बुडा"> 	<i>अंटिग्वा<b/>और‌<b/>बार‌बुडा</i><par n="भारत__np"/></e>
-		<e lm="आर्जेंटीना"> 	<i>आर्जेंटीना</i><par n="भारत__np"/></e>
-		<e lm="आर्मीनिया"> 	<i>आर्मीनिया</i><par n="भारत__np"/></e>
-		<e lm="अरूबा"> 	<i>अरूबा</i><par n="भारत__np"/></e>
-		<e lm="ऑस्ट्रेलिया"> 	<i>ऑस्ट्रेलिया</i><par n="भारत__np"/></e>
-		<e lm="ऑस्ट्रिया"> 	<i>ऑस्ट्रिया</i><par n="भारत__np"/></e>
-		<e lm="आज़र‌बायजान‌"> 	<i>आज़र‌बायजान‌</i><par n="भारत__np"/></e>
-		<e lm="ब‌हामाज़"> 	<i>ब‌हामाज़</i><par n="भारत__np"/></e>
-		<e lm="बाहरैन"> 	<i>बाहरैन</i><par n="भारत__np"/></e>
+		<e lm="ईरान"> 	<i>ईरान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मुंगेर"> 	<i>मुंगेर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लंदन"> 	<i>लंदन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मुंबई"> 	<i>मुंबई</i><par n="दिल्ली__np"/></e>
+		<e lm="एशिया"> 	<i>एशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="अफ्रीका"> 	<i>अफ्रीक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="फूलपुर"> 	<i>फूलपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अमेरिका"> 	<i>अमेरिक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="अमरीका"> 	<i>अमरीक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="आलैंड‌ द्वीप‌"> 	<i>आलैंड‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नीदरलैंड्स"> 	<i>नीदरलैंड्स</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हॉलैंड"> 	<i>हॉलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="न्यू ज़ीलैंड"> 	<i>न्यू ज़ीलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्वाज़ीलैंड"> 	<i>स्वाज़ीलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्विटज़रलैंड"> 	<i>स्विटज़रलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्विट्ज़रलैंड"> 	<i>स्विट्ज़रलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्कॉटलैण्ड"> 	<i>स्कॉटलैण्ड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्कौटलैंड"> 	<i>फिनलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अफ़ग़ानिस्तान‌"> 	<i>अफ़ग़ानिस्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अफ़्ग़ानिस्तान"> 	<i>अफ़्ग़ानिस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जॉर्डन"> 	<i>जॉर्डन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ़ैज़"> 	<i>फ़ैज़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अल्बानिया"> 	<i>अल्बानिया</i><par n="दिल्ली__np"/></e>
+		<e lm="अल्जीरिया"> 	<i>अल्जीरिया</i><par n="दिल्ली__np"/></e>
+		<e lm="पख्तूनख्वा"> 	<i>पख्तूनख्वा</i><par n="दिल्ली__np"/></e>
+		<e lm="अमरीकी स‌मोआ"> 	<i>अमरीकी<b/>स‌मोआ</i><par n="दिल्ली__np"/></e>
+		<e lm="अंडोरा"> 	<i>अंडोरा</i><par n="दिल्ली__np"/></e>
+		<e lm="अंगोला"> 	<i>अंगोला</i><par n="दिल्ली__np"/></e>
+		<e lm="अंग्विला"> 	<i>अंग्विला</i><par n="दिल्ली__np"/></e>
+		<e lm="अंटार्क‌टिका"> 	<i>अंटार्क‌टिक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="अंटिग्वा और‌ बार‌बुडा"> 	<i>अंटिग्वा<b/>और‌<b/>बार‌बुडा</i><par n="दिल्ली__np"/></e>
+		<e lm="आर्जेंटीना"> 	<i>आर्जेंटीना</i><par n="दिल्ली__np"/></e>
+		<e lm="आर्मीनिया"> 	<i>आर्मीनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="अरूबा"> 	<i>अरूबा</i><par n="दिल्ली__np"/></e>
+		<e lm="ऑस्ट्रेलिया"> 	<i>ऑस्ट्रेलिया</i><par n="दिल्ली__np"/></e>
+		<e lm="ऑस्ट्रिया"> 	<i>ऑस्ट्रिया</i><par n="दिल्ली__np"/></e>
+		<e lm="आज़र‌बायजान‌"> 	<i>आज़र‌बायजान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ब‌हामाज़"> 	<i>ब‌हामाज़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बाहरैन"> 	<i>बाहरैन</i><par n="कोल्हापूर__np"/></e>
 		<e lm="बांग्लादेश"> 	<i>बांग्लादेश</i><par n="भारत__np"/></e>
-		<e lm="बारबेडॉस"> 	<i>बारबेडॉस</i><par n="भारत__np"/></e>
-		<e lm="बेलारूस‌"> 	<i>बेलारूस‌</i><par n="भारत__np"/></e>
-		<e lm="रूस"> 	<i>रूस</i><par n="भारत__np"/></e>
-		<e lm="बेल्जिय‌म‌"> 	<i>बेल्जिय‌म‌</i><par n="भारत__np"/></e>
-		<e lm="बेलीज़"> 	<i>बेलीज़</i><par n="भारत__np"/></e>
-		<e lm="बेनिन‌"> 	<i>बेनिन‌</i><par n="भारत__np"/></e>
-		<e lm="ब‌र‌मुडा"> 	<i>ब‌र‌मुडा</i><par n="भारत__np"/></e>
-		<e lm="भूटान‌"> 	<i>भूटान‌</i><par n="भारत__np"/></e>
-		<e lm="बोलिविया"> 	<i>बोलिविया</i><par n="भारत__np"/></e>
-		<e lm="बोस‌निया और‌ ह‌र्ज़ेगोविना"> 	<i>बोस‌निया<b/>और‌<b/>ह‌र्ज़ेगोविना</i><par n="भारत__np"/></e>
-		<e lm="बोत्स्वाना"> 	<i>बोत्स्वाना</i><par n="भारत__np"/></e>
-		<e lm="बूवे द्वीप‌"> 	<i>बूवे<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="ब्राज़ील"> 	<i>ब्राज़ील</i><par n="भारत__np"/></e>
-		<e lm="ब्रूनई दारुस्सलाम‌"> 	<i>ब्रूनई<b/>दारुस्सलाम‌</i><par n="भारत__np"/></e>
-		<e lm="बल्गारिया"> 	<i>बल्गारिया</i><par n="भारत__np"/></e>
-		<e lm="बुर्कीना फ़ासो"> 	<i>बुर्कीना<b/>फ़ासो</i><par n="भारत__np"/></e>
-		<e lm="बुरुंडी"> 	<i>बुरुंडी</i><par n="भारत__np"/></e>
-		<e lm="कंबोडिया"> 	<i>कंबोडिया</i><par n="भारत__np"/></e>
-		<e lm="कैम‌रून‌"> 	<i>कैम‌रून‌</i><par n="भारत__np"/></e>
-		<e lm="कैनेडा"> 	<i>कैनेडा</i><par n="भारत__np"/></e>
-		<e lm="कनाडा"> 	<i>कनाडा</i><par n="भारत__np"/></e>	
-		<e lm="केप‌ व‌र्द"> 	<i>केप‌<b/>व‌र्द</i><par n="भारत__np"/></e>
-		<e lm="केमैन‌ द्वीप‌"> 	<i>केमैन‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
+		<e lm="बारबेडॉस"> 	<i>बारबेडॉस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेलारूस‌"> 	<i>बेलारूस‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रूस"> 	<i>रूस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेल्जिय‌म‌"> 	<i>बेल्जिय‌म‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेलीज़"> 	<i>बेलीज़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेनिन‌"> 	<i>बेनिन‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ब‌र‌मुडा"> 	<i>ब‌र‌मुडा</i><par n="दिल्ली__np"/></e>
+		<e lm="भूटान‌"> 	<i>भूटान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बोलिविया"> 	<i>बोलिविया</i><par n="दिल्ली__np"/></e>
+		<e lm="बोस‌निया और‌ ह‌र्ज़ेगोविना"> 	<i>बोस‌निया<b/>और‌<b/>ह‌र्ज़ेगोविना</i><par n="दिल्ली__np"/></e>
+		<e lm="बोत्स्वाना"> 	<i>बोत्स्वाना</i><par n="दिल्ली__np"/></e>
+		<e lm="बूवे द्वीप‌"> 	<i>बूवे<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ब्राज़ील"> 	<i>ब्राज़ील</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ब्रूनई दारुस्सलाम‌"> 	<i>ब्रूनई<b/>दारुस्सलाम‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बल्गारिया"> 	<i>बल्गारिया</i><par n="दिल्ली__np"/></e>
+		<e lm="बुर्कीना फ़ासो"> 	<i>बुर्कीना<b/>फ़ासो</i><par n="दिल्ली__np"/></e>
+		<e lm="बुरुंडी"> 	<i>बुरुंडी</i><par n="दिल्ली__np"/></e>
+		<e lm="कंबोडिया"> 	<i>कंबोडिया</i><par n="दिल्ली__np"/></e>
+		<e lm="कैम‌रून‌"> 	<i>कैम‌रून‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कैनेडा"> 	<i>कैनेडा</i><par n="दिल्ली__np"/></e>
+		<e lm="कनाडा"> 	<i>कनाडा</i><par n="दिल्ली__np"/></e>
+		<e lm="केप‌ व‌र्द"> 	<i>केप‌<b/>व‌र्द</i><par n="कोल्हापूर__np"/></e>
+		<e lm="केमैन‌ द्वीप‌"> 	<i>केमैन‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="म‌ध्य‌ अफ़्रीकी ग‌ण‌राज्य‌"> 	<i>म‌ध्य‌<b/>अफ़्रीकी<b/>ग‌ण‌राज्य‌</i><par n="भारत__np"/></e>
-		<e lm="चाड‌"> 	<i>चाड‌</i><par n="भारत__np"/></e>
-		<e lm="चिली"> 	<i>चिली</i><par n="भारत__np"/></e>
-		<e lm="चीन‌"> 	<i>चीन‌</i><par n="भारत__np"/></e>
-		<e lm="क्रिस‌म‌स‌ द्वीप‌"> 	<i>क्रिस‌म‌स‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="कोलंबिया"> 	<i>कोलंबिया</i><par n="भारत__np"/></e>
-		<e lm="कोमोरोस‌"> 	<i>कोमोरोस‌</i><par n="भारत__np"/></e>
-		<e lm="कुक‌ द्वीप‌"> 	<i>कुक‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="कोस्टारीका"> 	<i>कोस्टारीका</i><par n="भारत__np"/></e>
-		<e lm="आइव‌री कोस्ट‌"> 	<i>आइव‌री<b/>कोस्ट‌</i><par n="भारत__np"/></e>
-		<e lm="क्यूबा"> 	<i>क्यूबा</i><par n="भारत__np"/></e>
-		<e lm="साइप्रस‌"> 	<i>साइप्रस‌</i><par n="भारत__np"/></e>
+		<e lm="चाड‌"> 	<i>चाड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="चिली"> 	<i>चिली</i><par n="दिल्ली__np"/></e>
+		<e lm="चीन‌"> 	<i>चीन‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="क्रिस‌म‌स‌ द्वीप‌"> 	<i>क्रिस‌म‌स‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोलंबिया"> 	<i>कोलंबिया</i><par n="दिल्ली__np"/></e>
+		<e lm="कोमोरोस‌"> 	<i>कोमोरोस‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कुक‌ द्वीप‌"> 	<i>कुक‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोस्टारीका"> 	<i>कोस्टारीका</i><par n="दिल्ली__np"/></e>
+		<e lm="आइव‌री कोस्ट‌"> 	<i>आइव‌री<b/>कोस्ट‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="क्यूबा"> 	<i>क्यूबा</i><par n="दिल्ली__np"/></e>
+		<e lm="साइप्रस‌"> 	<i>साइप्रस‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="चेक‌ ग‌ण‌राज्य‌"> 	<i>चेक‌<b/>ग‌ण‌राज्य‌</i><par n="भारत__np"/></e>
-		<e lm="डेन‌मार्क‌"> 	<i>डेन‌मार्क‌</i><par n="भारत__np"/></e>
-		<e lm="जिबूती"> 	<i>जिबूती</i><par n="भारत__np"/></e>
-		<e lm="डोमिनिका"> 	<i>डोमिनिका</i><par n="भारत__np"/></e>
+		<e lm="डेन‌मार्क‌"> 	<i>डेन‌मार्क‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जिबूती"> 	<i>जिबूती</i><par n="दिल्ली__np"/></e>
+		<e lm="डोमिनिका"> 	<i>डोमिनिका</i><par n="दिल्ली__np"/></e>
 		<e lm="डोमिनिक‌न‌ ग‌ण‌राज्य‌"> 	<i>डोमिनिक‌न‌<b/>ग‌ण‌राज्य‌</i><par n="भारत__np"/></e>
-		<e lm="इक्वादोर‌"> 	<i>इक्वादोर‌</i><par n="भारत__np"/></e>
+		<e lm="इक्वादोर‌"> 	<i>इक्वादोर‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="मिस्र"> 	<i>मिस्र</i><par n="भारत__np"/></e>
-		<e lm="एल‌ साल्वादोर"> 	<i>एल‌<b/>साल्वादोर</i><par n="भारत__np"/></e>
-		<e lm="इक्वटोरियल गिनी"> 	<i>इक्वटोरियल<b/>गिनी</i><par n="भारत__np"/></e>
-		<e lm="एरिट्रिया"> 	<i>एरिट्रिया</i><par n="भारत__np"/></e>
-		<e lm="एस्टोनिया"> 	<i>एस्टोनिया</i><par n="भारत__np"/></e>
-		<e lm="ईथियोपिया"> 	<i>ईथियोपिया</i><par n="भारत__np"/></e>
-		<e lm="फ़ारोअ द्वीप‌"> 	<i>फ़ारोअ<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="फ़ीजी"> 	<i>फ़ीजी</i><par n="भारत__np"/></e>
-		<e lm="फ़िन‌लैंड‌"> 	<i>फ़िन‌लैंड‌</i><par n="भारत__np"/></e>
-		<e lm="फ़्राँस"> 	<i>फ़्राँस</i><par n="भारत__np"/></e>
-		<e lm="फ़्राँसीसी ग‌याना"> 	<i>फ़्राँसीसी<b/>ग‌याना</i><par n="भारत__np"/></e>
-		<e lm="फ़्राँसीसी पॉलिनेशिया"> 	<i>फ़्राँसीसी<b/>पॉलिनेशिया</i><par n="भारत__np"/></e>
+		<e lm="एल‌ साल्वादोर"> 	<i>एल‌<b/>साल्वादोर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इक्वटोरियल गिनी"> 	<i>इक्वटोरियल<b/>गिनी</i><par n="दिल्ली__np"/></e>
+		<e lm="एरिट्रिया"> 	<i>एरिट्रिया</i><par n="दिल्ली__np"/></e>
+		<e lm="एस्टोनिया"> 	<i>एस्टोनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="ईथियोपिया"> 	<i>ईथियोपिया</i><par n="दिल्ली__np"/></e>
+		<e lm="फ़ारोअ द्वीप‌"> 	<i>फ़ारोअ<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ़ीजी"> 	<i>फ़ीजी</i><par n="दिल्ली__np"/></e>
+		<e lm="फ़िन‌लैंड‌"> 	<i>फ़िन‌लैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ़्राँस"> 	<i>फ़्राँस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ़्राँसीसी ग‌याना"> 	<i>फ़्राँसीसी<b/>ग‌याना</i><par n="दिल्ली__np"/></e>
+		<e lm="फ़्राँसीसी पॉलिनेशिया"> 	<i>फ़्राँसीसी<b/>पॉलिनेशिया</i><par n="दिल्ली__np"/></e>
 		<e lm="द‌क्षिणी फ़्राँसीसी क्षेत्र"> 	<i>द‌क्षिणी<b/>फ़्राँसीसी<b/>क्षेत्र</i><par n="भारत__np"/></e>
-		<e lm="गाबों"> 	<i>गाबों</i><par n="भारत__np"/></e>
-		<e lm="गाम्बिया"> 	<i>गाम्बिया</i><par n="भारत__np"/></e>
-		<e lm="जॉर्जिया"> 	<i>जॉर्जिया</i><par n="भारत__np"/></e>
-		<e lm="जर्मनी"> 	<i>जर्मनी</i><par n="भारत__np"/></e>
-		<e lm="इस्राएल"> 	<i>इस्राएल</i><par n="भारत__np"/></e>
-		<e lm="गाना"> 	<i>गाना</i><par n="भारत__np"/></e>
-		<e lm="जिब्रॉल्टर‌"> 	<i>जिब्रॉल्टर‌</i><par n="भारत__np"/></e>
-		<e lm="यूनान"> 	<i>यूनान</i><par n="भारत__np"/></e>
-		<e lm="ग्रीन‌लैंड‌"> 	<i>ग्रीन‌लैंड‌</i><par n="भारत__np"/></e>
-		<e lm="ग्रेनाडा"> 	<i>ग्रेनाडा</i><par n="भारत__np"/></e>
-		<e lm="ग्वादलूप‌"> 	<i>ग्वादलूप‌</i><par n="भारत__np"/></e>
-		<e lm="ग्वाम"> 	<i>ग्वाम</i><par n="भारत__np"/></e>
-		<e lm="ग्वातेमाला"> 	<i>ग्वातेमाला</i><par n="भारत__np"/></e>
-		<e lm="गिनी"> 	<i>गिनी</i><par n="भारत__np"/></e>
-		<e lm="गिनी बीसो"> 	<i>गिनी<b/>बीसो</i><par n="भारत__np"/></e>
-		<e lm="ग‌याना"> 	<i>ग‌याना</i><par n="भारत__np"/></e>
-		<e lm="हाईती"> 	<i>हाईती</i><par n="भारत__np"/></e>
-		<e lm="होंदूरास‌"> 	<i>होंदूरास‌</i><par n="भारत__np"/></e>
-		<e lm="हाँग‌ काँग‌"> 	<i>हाँग‌<b/>काँग‌</i><par n="भारत__np"/></e>
-		<e lm="हंग‌री"> 	<i>हंग‌री</i><par n="भारत__np"/></e>
-		<e lm="आइस‌लैंड‌"> 	<i>आइस‌लैंड‌</i><par n="भारत__np"/></e>
+		<e lm="गाबों"> 	<i>गाबों</i><par n="दिल्ली__np"/></e>
+		<e lm="गाम्बिया"> 	<i>गाम्बिया</i><par n="दिल्ली__np"/></e>
+		<e lm="जॉर्जिया"> 	<i>जॉर्जिया</i><par n="दिल्ली__np"/></e>
+		<e lm="जर्मनी"> 	<i>जर्मनी</i><par n="दिल्ली__np"/></e>
+		<e lm="इस्राएल"> 	<i>इस्राएल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गाना"> 	<i>गाना</i><par n="दिल्ली__np"/></e>
+		<e lm="जिब्रॉल्टर‌"> 	<i>जिब्रॉल्टर‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="यूनान"> 	<i>यूनान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ग्रीन‌लैंड‌"> 	<i>ग्रीन‌लैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ग्रेनाडा"> 	<i>ग्रेनाडा</i><par n="दिल्ली__np"/></e>
+		<e lm="ग्वादलूप‌"> 	<i>ग्वादलूप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ग्वाम"> 	<i>ग्वाम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ग्वातेमाला"> 	<i>ग्वातेमाला</i><par n="दिल्ली__np"/></e>
+		<e lm="गिनी"> 	<i>गिनी</i><par n="दिल्ली__np"/></e>
+		<e lm="गिनी बीसो"> 	<i>गिनी<b/>बीसो</i><par n="दिल्ली__np"/></e>
+		<e lm="ग‌याना"> 	<i>ग‌याना</i><par n="दिल्ली__np"/></e>
+		<e lm="हाईती"> 	<i>हाईती</i><par n="दिल्ली__np"/></e>
+		<e lm="होंदूरास‌"> 	<i>होंदूरास‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हाँग‌ काँग‌"> 	<i>हाँग‌<b/>काँग‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हंग‌री"> 	<i>हंग‌री</i><par n="दिल्ली__np"/></e>
+		<e lm="आइस‌लैंड‌"> 	<i>आइस‌लैंड‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="भारत"> 	<i>भारत</i><par n="भारत__np"/></e>
-		<e lm="इंडिया"> 	<i>इंडिया</i><par n="भारत__np"/></e>
-		<e lm="इंडोनेशिया"> 	<i>इंडोनेशिया</i><par n="भारत__np"/></e>
-		<e lm="इराक‌"> 	<i>इराक‌</i><par n="भारत__np"/></e>
-		<e lm="आय‌र‌लैंड‌"> 	<i>आय‌र‌लैंड‌</i><par n="भारत__np"/></e>
-		<e lm="इस्राईल‌"> 	<i>इस्राईल‌</i><par n="भारत__np"/></e>
-		<e lm="इट‌ली"> 	<i>इट‌ली</i><par n="भारत__np"/></e>
-		<e lm="इटली"> 	<i>इटली</i><par n="भारत__np"/></e>
-		<e lm="जमाइका"> 	<i>जमाइका</i><par n="भारत__np"/></e>
-		<e lm="जापान‌"> 	<i>जापान‌</i><par n="भारत__np"/></e>
-		<e lm="जोर्ड‌न‌"> 	<i>जोर्ड‌न‌</i><par n="भारत__np"/></e>
-		<e lm="क‌ज़ाक‌स्तान‌"> 	<i>क‌ज़ाक‌स्तान‌</i><par n="भारत__np"/></e>
-		<e lm="कीनिया"> 	<i>कीनिया</i><par n="भारत__np"/></e>
-		<e lm="किरिबास"> 	<i>किरिबास</i><par n="भारत__np"/></e>
-		<e lm="कुवैत‌"> 	<i>कुवैत‌</i><par n="भारत__np"/></e>
-		<e lm="किर्गिज‌़स्तान‌"> 	<i>किर्गिज‌़स्तान‌</i><par n="भारत__np"/></e>
-		<e lm="लातविया"> 	<i>लातविया</i><par n="भारत__np"/></e>
-		<e lm="लेब‌नान‌"> 	<i>लेब‌नान‌</i><par n="भारत__np"/></e>
-		<e lm="लेसुटू"> 	<i>लेसुटू</i><par n="भारत__np"/></e>
-		<e lm="लाइबीरिया"> 	<i>लाइबीरिया</i><par n="भारत__np"/></e>
-		<e lm="लिबियाई अर‌ब‌ ज‌माहीरिया"> 	<i>लिबियाई<b/>अर‌ब‌<b/>ज‌माहीरिया</i><par n="भारत__np"/></e>
-		<e lm="लीक्टेनस्टाइन"> 	<i>लीक्टेनस्टाइन</i><par n="भारत__np"/></e>
-		<e lm="लिथुआनिया"> 	<i>लिथुआनिया</i><par n="भारत__np"/></e>
-		<e lm="ल‌ग्ज़मबर्ग‌"> 	<i>ल‌ग्ज़मबर्ग‌</i><par n="भारत__np"/></e>
-		<e lm="म‌काऊ"> 	<i>म‌काऊ</i><par n="भारत__np"/></e>
-		<e lm="मैडागास्क‌र‌"> 	<i>मैडागास्क‌र‌</i><par n="भारत__np"/></e>
-		<e lm="म‌लावी"> 	<i>म‌लावी</i><par n="भारत__np"/></e>
-		<e lm="मलेशिया"> 	<i>मलेशिया</i><par n="भारत__np"/></e>
-		<e lm="माल‌दीव‌"> 	<i>माल‌दीव‌</i><par n="भारत__np"/></e>
-		<e lm="माली"> 	<i>माली</i><par n="भारत__np"/></e>
-		<e lm="माल्टा"> 	<i>माल्टा</i><par n="भारत__np"/></e>
-		<e lm="मार्श‌ल‌ द्वीप‌"> 	<i>मार्श‌ल‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="मार्टीनीक‌"> 	<i>मार्टीनीक‌</i><par n="भारत__np"/></e>
-		<e lm="मोरीतानिया"> 	<i>मोरीतानिया</i><par n="भारत__np"/></e>
-		<e lm="मोरिशिय‌स‌"> 	<i>मोरिशिय‌स‌</i><par n="भारत__np"/></e>
-		<e lm="मायोत‌"> 	<i>मायोत‌</i><par n="भारत__np"/></e>
-		<e lm="मैक्सिको"> 	<i>मैक्सिको</i><par n="भारत__np"/></e>
-		<e lm="मोनाको"> 	<i>मोनाको</i><par n="भारत__np"/></e>
-		<e lm="मंगोलिया"> 	<i>मंगोलिया</i><par n="भारत__np"/></e>
-		<e lm="मोंत‌सेरात‌"> 	<i>मोंत‌सेरात‌</i><par n="भारत__np"/></e>
-		<e lm="मोर‌क्को"> 	<i>मोर‌क्को</i><par n="भारत__np"/></e>
-		<e lm="मोजा़म्बीक‌"> 	<i>मोजा़म्बीक‌</i><par n="भारत__np"/></e>
-		<e lm="म्यांमार‌"> 	<i>म्यांमार‌</i><par n="भारत__np"/></e>
-		<e lm="नामीबिया"> 	<i>नामीबिया</i><par n="भारत__np"/></e>
-		<e lm="नाउरू"> 	<i>नाउरू</i><par n="भारत__np"/></e>
-		<e lm="नेपाल‌"> 	<i>नेपाल‌</i><par n="भारत__np"/></e>
-		<e lm="नेद‌र‌लैंड‌"> 	<i>नेद‌र‌लैंड‌</i><par n="भारत__np"/></e>
-		<e lm="नेद‌र‌लैंड‌ आंतील्स‌"> 	<i>नेद‌र‌लैंड‌<b/>आंतील्स‌</i><par n="भारत__np"/></e>
-		<e lm="न्यू कैलडोनिया"> 	<i>न्यू<b/>कैलडोनिया</i><par n="भारत__np"/></e>
-		<e lm="न्यूयॉर्क"> 	<i>न्यूयॉर्क</i><par n="भारत__np"/></e>
-		<e lm="यॉर्क"> 	<i>यॉर्क</i><par n="भारत__np"/></e>
-		<e lm="न्यूज़ीलैंड‌"> 	<i>न्यूज़ीलैंड‌</i><par n="भारत__np"/></e>
-		<e lm="नीकाराग्वा"> 	<i>नीकाराग्वा</i><par n="भारत__np"/></e>
-		<e lm="नीजेर"> 	<i>नीजेर</i><par n="भारत__np"/></e>
-		<e lm="नाइजीरिया"> 	<i>नाइजीरिया</i><par n="भारत__np"/></e>
-		<e lm="निउए"> 	<i>निउए</i><par n="भारत__np"/></e>
-		<e lm="नॉर‌फ़ोक‌ द्वीप‌"> 	<i>नॉर‌फ़ोक‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="उत्त‌री मारिआना द्वीप‌"> 	<i>उत्त‌री<b/>मारिआना<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="नॉर्वे"> 	<i>नॉर्वे</i><par n="भारत__np"/></e>
-		<e lm="ओमान‌"> 	<i>ओमान‌</i><par n="भारत__np"/></e>
-		<e lm="पाकिस्तान‌"> 	<i>पाकिस्तान‌</i><par n="भारत__np"/></e>
-		<e lm="पालाऊ"> 	<i>पालाऊ</i><par n="भारत__np"/></e>
+		<e lm="इंडिया"> 	<i>इंडिया</i><par n="दिल्ली__np"/></e>
+		<e lm="इंडोनेशिया"> 	<i>इंडोनेशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="इराक‌"> 	<i>इराक‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="आय‌र‌लैंड‌"> 	<i>आय‌र‌लैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इस्राईल‌"> 	<i>इस्राईल‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इट‌ली"> 	<i>इट‌ली</i><par n="दिल्ली__np"/></e>
+		<e lm="इटली"> 	<i>इटली</i><par n="दिल्ली__np"/></e>
+		<e lm="जमाइका"> 	<i>जमाइक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="जापान‌"> 	<i>जापान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जोर्ड‌न‌"> 	<i>जोर्ड‌न‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="क‌ज़ाक‌स्तान‌"> 	<i>क‌ज़ाक‌स्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कीनिया"> 	<i>कीनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="किरिबास"> 	<i>किरिबास</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कुवैत‌"> 	<i>कुवैत‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="किर्गिज‌़स्तान‌"> 	<i>किर्गिज‌़स्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लातविया"> 	<i>लातविया</i><par n="दिल्ली__np"/></e>
+		<e lm="लेब‌नान‌"> 	<i>लेब‌नान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लेसुटू"> 	<i>लेसुटू</i><par n="दिल्ली__np"/></e>
+		<e lm="लाइबीरिया"> 	<i>लाइबीरिया</i><par n="दिल्ली__np"/></e>
+		<e lm="लिबियाई अर‌ब‌ ज‌माहीरिया"> 	<i>लिबियाई<b/>अर‌ब‌<b/>ज‌माहीरिया</i><par n="दिल्ली__np"/></e>
+		<e lm="लीक्टेनस्टाइन"> 	<i>लीक्टेनस्टाइन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लिथुआनिया"> 	<i>लिथुआनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="ल‌ग्ज़मबर्ग‌"> 	<i>ल‌ग्ज़मबर्ग‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="म‌काऊ"> 	<i>म‌काऊ</i><par n="दिल्ली__np"/></e>
+		<e lm="मैडागास्क‌र‌"> 	<i>मैडागास्क‌र‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="म‌लावी"> 	<i>म‌लावी</i><par n="दिल्ली__np"/></e>
+		<e lm="मलेशिया"> 	<i>मलेशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="माल‌दीव‌"> 	<i>माल‌दीव‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="माली"> 	<i>माली</i><par n="दिल्ली__np"/></e>
+		<e lm="माल्टा"> 	<i>माल्टा</i><par n="दिल्ली__np"/></e>
+		<e lm="मार्श‌ल‌ द्वीप‌"> 	<i>मार्श‌ल‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मार्टीनीक‌"> 	<i>मार्टीनीक‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मोरीतानिया"> 	<i>मोरीतानिया</i><par n="दिल्ली__np"/></e>
+		<e lm="मोरिशिय‌स‌"> 	<i>मोरिशिय‌स‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मायोत‌"> 	<i>मायोत‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मैक्सिको"> 	<i>मैक्सिको</i><par n="दिल्ली__np"/></e>
+		<e lm="मोनाको"> 	<i>मोनाको</i><par n="दिल्ली__np"/></e>
+		<e lm="मंगोलिया"> 	<i>मंगोलिया</i><par n="दिल्ली__np"/></e>
+		<e lm="मोंत‌सेरात‌"> 	<i>मोंत‌सेरात‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मोर‌क्को"> 	<i>मोर‌क्को</i><par n="दिल्ली__np"/></e>
+		<e lm="मोजा़म्बीक‌"> 	<i>मोजा़म्बीक‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="म्यांमार‌"> 	<i>म्यांमार‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नामीबिया"> 	<i>नामीबिया</i><par n="दिल्ली__np"/></e>
+		<e lm="नाउरू"> 	<i>नाउरू</i><par n="दिल्ली__np"/></e>
+		<e lm="नेपाल‌"> 	<i>नेपाल‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नेद‌र‌लैंड‌"> 	<i>नेद‌र‌लैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नेद‌र‌लैंड‌ आंतील्स‌"> 	<i>नेद‌र‌लैंड‌<b/>आंतील्स‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="न्यू कैलडोनिया"> 	<i>न्यू<b/>कैलडोनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="न्यूयॉर्क"> 	<i>न्यूयॉर्क</i><par n="कोल्हापूर__np"/></e>
+		<e lm="यॉर्क"> 	<i>यॉर्क</i><par n="कोल्हापूर__np"/></e>
+		<e lm="न्यूज़ीलैंड‌"> 	<i>न्यूज़ीलैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नीकाराग्वा"> 	<i>नीकाराग्वा</i><par n="दिल्ली__np"/></e>
+		<e lm="नीजेर"> 	<i>नीजेर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नाइजीरिया"> 	<i>नाइजीरिया</i><par n="दिल्ली__np"/></e>
+		<e lm="निउए"> 	<i>निउए</i><par n="दिल्ली__np"/></e>
+		<e lm="नॉर‌फ़ोक‌ द्वीप‌"> 	<i>नॉर‌फ़ोक‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उत्त‌री मारिआना द्वीप‌"> 	<i>उत्त‌री<b/>मारिआना<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नॉर्वे"> 	<i>नॉर्वे</i><par n="दिल्ली__np"/></e>
+		<e lm="ओमान‌"> 	<i>ओमान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पाकिस्तान‌"> 	<i>पाकिस्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पालाऊ"> 	<i>पालाऊ</i><par n="दिल्ली__np"/></e>
 		<e lm="फ़िलीस्तीनी क्षेत्र"> 	<i>फ़िलीस्तीनी<b/>क्षेत्र</i><par n="भारत__np"/></e>
-		<e lm="पानामा"> 	<i>पानामा</i><par n="भारत__np"/></e>
-		<e lm="पापुआ न्यू गिनी"> 	<i>पापुआ<b/>न्यू<b/>गिनी</i><par n="भारत__np"/></e>
-		<e lm="पाराग्वे"> 	<i>पाराग्वे</i><par n="भारत__np"/></e>
-		<e lm="पेरू"> 	<i>पेरू</i><par n="भारत__np"/></e>
-		<e lm="फ़िलीपीन‌"> 	<i>फ़िलीपीन‌</i><par n="भारत__np"/></e>
-		<e lm="पिट‌कैर्न‌"> 	<i>पिट‌कैर्न‌</i><par n="भारत__np"/></e>
-		<e lm="पोलैंड‌"> 	<i>पोलैंड‌</i><par n="भारत__np"/></e>
-		<e lm="पुर्त‌गाल‌"> 	<i>पुर्त‌गाल‌</i><par n="भारत__np"/></e>
-		<e lm="प्वेर्तो रीको"> 	<i>प्वेर्तो<b/>रीको</i><par n="भारत__np"/></e>
-		<e lm="क‌त‌र‌"> 	<i>क‌त‌र‌</i><par n="भारत__np"/></e>
-		<e lm="रीयूनिय‌न‌"> 	<i>रीयूनिय‌न‌</i><par n="भारत__np"/></e>
-		<e lm="रुमानिया"> 	<i>रुमानिया</i><par n="भारत__np"/></e>
+		<e lm="पानामा"> 	<i>पानामा</i><par n="दिल्ली__np"/></e>
+		<e lm="पापुआ न्यू गिनी"> 	<i>पापुआ<b/>न्यू<b/>गिनी</i><par n="दिल्ली__np"/></e>
+		<e lm="पाराग्वे"> 	<i>पाराग्वे</i><par n="दिल्ली__np"/></e>
+		<e lm="पेरू"> 	<i>पेरू</i><par n="दिल्ली__np"/></e>
+		<e lm="फ़िलीपीन‌"> 	<i>फ़िलीपीन‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पिट‌कैर्न‌"> 	<i>पिट‌कैर्न‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पोलैंड‌"> 	<i>पोलैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पुर्त‌गाल‌"> 	<i>पुर्त‌गाल‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="प्वेर्तो रीको"> 	<i>प्वेर्तो<b/>रीको</i><par n="दिल्ली__np"/></e>
+		<e lm="क‌त‌र‌"> 	<i>क‌त‌र‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रीयूनिय‌न‌"> 	<i>रीयूनिय‌न‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रुमानिया"> 	<i>रुमानिया</i><par n="दिल्ली__np"/></e>
 		<e lm="रूसी संघ‌"> 	<i>रूसी<b/>संघ‌</i><par n="भारत__np"/></e>
-		<e lm="रवांडा"> 	<i>रवांडा</i><par n="भारत__np"/></e>
-		<e lm="सेंट हेलेना"> 	<i>सेंट<b/>हेलेना</i><par n="भारत__np"/></e>
-		<e lm="सेंट‌ लुसिया"> 	<i>सेंट‌<b/>लुसिया</i><par n="भारत__np"/></e>
-		<e lm="सैमोआ"> 	<i>सैमोआ</i><par n="भारत__np"/></e>
-		<e lm="सान‌ मारीनो"> 	<i>सान‌<b/>मारीनो</i><par n="भारत__np"/></e>
-		<e lm="स‌ऊदी अर‌ब‌"> 	<i>स‌ऊदी<b/>अर‌ब‌</i><par n="भारत__np"/></e>
-		<e lm="सेनेग‌ाल‌"> 	<i>सेनेग‌ाल‌</i><par n="भारत__np"/></e>
-		<e lm="स‌र्बिया और‌ मोंटेनीग्रो"> 	<i>स‌र्बिया<b/>और‌<b/>मोंटेनीग्रो</i><par n="भारत__np"/></e>
-		<e lm="सेशेल्स‌"> 	<i>सेशेल्स‌</i><par n="भारत__np"/></e>
-		<e lm="सियेरा लियोन‌"> 	<i>सियेरा<b/>लियोन‌</i><par n="भारत__np"/></e>
-		<e lm="सिंगापुर‌"> 	<i>सिंगापुर‌</i><par n="भारत__np"/></e>
-		<e lm="युक्रेन"> 	<i>युक्रेन</i><par n="भारत__np"/></e>
-		<e lm="स्लोवाकिया"> 	<i>स्लोवाकिया</i><par n="भारत__np"/></e>
-		<e lm="वलाकिया"> 	<i>वलाकिया</i><par n="भारत__np"/></e>
-		<e lm="मॉल्डोवा"> 	<i>मॉल्डोवा</i><par n="भारत__np"/></e>
-		<e lm="ट्रांसिल्वेनिया"> 	<i>ट्रांसिल्वेनिया</i><par n="भारत__np"/></e>
-		<e lm="स्लोवेनिया"> 	<i>स्लोवेनिया</i><par n="भारत__np"/></e>
-		<e lm="सोलोम‌न‌ द्वीप‌"> 	<i>सोलोम‌न‌<b/>द्वीप‌</i><par n="भारत__np"/></e>
-		<e lm="सोमालिया"> 	<i>सोमालिया</i><par n="भारत__np"/></e>
-		<e lm="द‌क्षिण‌ अफ़्रीका"> 	<i>द‌क्षिण‌<b/>अफ़्रीका</i><par n="भारत__np"/></e>
-		<e lm="अफ़्रीका"> 	<i>अफ़्रीका</i><par n="भारत__np"/></e>
-		<e lm="स्पेन‌"> 	<i>स्पेन‌</i><par n="भारत__np"/></e>
-		<e lm="स्पेन"> 	<i>स्पेन</i><par n="भारत__np"/></e>
-		<e lm="श्रीलंका"> 	<i>श्रीलंका</i><par n="भारत__np"/></e>
-		<e lm="लंका"> 	<i>लंका</i><par n="भारत__np"/></e>
-		<e lm="सुदान"> 	<i>सुदान</i><par n="भारत__np"/></e>
-		<e lm="सूरीनाम‌"> 	<i>सूरीनाम‌</i><par n="भारत__np"/></e>
-		<e lm="स्वाज़ीलैंड‌"> 	<i>स्वाज़ीलैंड‌</i><par n="भारत__np"/></e>
-		<e lm="स्वीड‌न‌"> 	<i>स्वीड‌न‌</i><par n="भारत__np"/></e>
+		<e lm="रवांडा"> 	<i>रवांडा</i><par n="दिल्ली__np"/></e>
+		<e lm="सेंट हेलेना"> 	<i>सेंट<b/>हेलेना</i><par n="दिल्ली__np"/></e>
+		<e lm="सेंट‌ लुसिया"> 	<i>सेंट‌<b/>लुसिया</i><par n="दिल्ली__np"/></e>
+		<e lm="सैमोआ"> 	<i>सैमोआ</i><par n="दिल्ली__np"/></e>
+		<e lm="सान‌ मारीनो"> 	<i>सान‌<b/>मारीनो</i><par n="दिल्ली__np"/></e>
+		<e lm="स‌ऊदी अर‌ब‌"> 	<i>स‌ऊदी<b/>अर‌ब‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सेनेग‌ाल‌"> 	<i>सेनेग‌ाल‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स‌र्बिया और‌ मोंटेनीग्रो"> 	<i>स‌र्बिया<b/>और‌<b/>मोंटेनीग्रो</i><par n="दिल्ली__np"/></e>
+		<e lm="सेशेल्स‌"> 	<i>सेशेल्स‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सियेरा लियोन‌"> 	<i>सियेरा<b/>लियोन‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिंगापुर‌"> 	<i>सिंगापुर‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="युक्रेन"> 	<i>युक्रेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्लोवाकिया"> 	<i>स्लोवाकिया</i><par n="दिल्ली__np"/></e>
+		<e lm="वलाकिया"> 	<i>वलाकिया</i><par n="दिल्ली__np"/></e>
+		<e lm="मॉल्डोवा"> 	<i>मॉल्डोवा</i><par n="दिल्ली__np"/></e>
+		<e lm="ट्रांसिल्वेनिया"> 	<i>ट्रांसिल्वेनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="स्लोवेनिया"> 	<i>स्लोवेनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="सोलोम‌न‌ द्वीप‌"> 	<i>सोलोम‌न‌<b/>द्वीप‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सोमालिया"> 	<i>सोमालिया</i><par n="दिल्ली__np"/></e>
+		<e lm="द‌क्षिण‌ अफ़्रीका"> 	<i>द‌क्षिण‌<b/>अफ़्रीक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="अफ़्रीका"> 	<i>अफ़्रीक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="स्पेन‌"> 	<i>स्पेन‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्पेन"> 	<i>स्पेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="श्रीलंका"> 	<i>श्रीलंक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="लंका"> 	<i>लंक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="सुदान"> 	<i>सुदान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सूरीनाम‌"> 	<i>सूरीनाम‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्वाज़ीलैंड‌"> 	<i>स्वाज़ीलैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्वीड‌न‌"> 	<i>स्वीड‌न‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="सीरियाई अर‌ब‌ ग‌ण‌राज्य‌"> 	<i>सीरियाई<b/>अर‌ब‌<b/>ग‌ण‌राज्य‌</i><par n="भारत__np"/></e>
-		<e lm="ताईवान‌"> 	<i>ताईवान‌</i><par n="भारत__np"/></e>
-		<e lm="ताजीकिस्तान‌"> 	<i>ताजीकिस्तान‌</i><par n="भारत__np"/></e>
-		<e lm="थाईलैंड‌"> 	<i>थाईलैंड‌</i><par n="भारत__np"/></e>
-		<e lm="तीमोर‌-लेस्त‌"> 	<i>तीमोर‌-लेस्त‌</i><par n="भारत__np"/></e>
-		<e lm="टोगो"> 	<i>टोगो</i><par n="भारत__np"/></e>
-		<e lm="टोक‌लाऊ"> 	<i>टोक‌लाऊ</i><par n="भारत__np"/></e>
-		<e lm="टोंगा"> 	<i>टोंगा</i><par n="भारत__np"/></e>
-		<e lm="ट्रिनिडाड‌ और‌ टोबोगो"> 	<i>ट्रिनिडाड‌<b/>और‌<b/>टोबोगो</i><par n="भारत__np"/></e>
-		<e lm="ट्यूनीशिया"> 	<i>ट्यूनीशिया</i><par n="भारत__np"/></e>
-		<e lm="तुर्की"> 	<i>तुर्की</i><par n="भारत__np"/></e>
-		<e lm="तुर्क‌मेनिस्तान‌"> 	<i>तुर्क‌मेनिस्तान‌</i><par n="भारत__np"/></e>
-		<e lm="तुवालू"> 	<i>तुवालू</i><par n="भारत__np"/></e>
-		<e lm="युगांडा"> 	<i>युगांडा</i><par n="भारत__np"/></e>
-		<e lm="यूक्रेन‌"> 	<i>यूक्रेन‌</i><par n="भारत__np"/></e>
+		<e lm="ताईवान‌"> 	<i>ताईवान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ताजीकिस्तान‌"> 	<i>ताजीकिस्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="थाईलैंड‌"> 	<i>थाईलैंड‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="तीमोर‌-लेस्त‌"> 	<i>तीमोर‌-लेस्त‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="टोगो"> 	<i>टोगो</i><par n="दिल्ली__np"/></e>
+		<e lm="टोक‌लाऊ"> 	<i>टोक‌लाऊ</i><par n="दिल्ली__np"/></e>
+		<e lm="टोंगा"> 	<i>टोंगा</i><par n="दिल्ली__np"/></e>
+		<e lm="ट्रिनिडाड‌ और‌ टोबोगो"> 	<i>ट्रिनिडाड‌<b/>और‌<b/>टोबोगो</i><par n="दिल्ली__np"/></e>
+		<e lm="ट्यूनीशिया"> 	<i>ट्यूनीशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="तुर्की"> 	<i>तुर्की</i><par n="दिल्ली__np"/></e>
+		<e lm="तुर्क‌मेनिस्तान‌"> 	<i>तुर्क‌मेनिस्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="तुवालू"> 	<i>तुवालू</i><par n="दिल्ली__np"/></e>
+		<e lm="युगांडा"> 	<i>युगांडा</i><par n="दिल्ली__np"/></e>
+		<e lm="यूक्रेन‌"> 	<i>यूक्रेन‌</i><par n="कोल्हापूर__np"/></e>
 		<e lm="संयुक्त‌ अर‌ब‌ अमीरात‌"> 	<i>संयुक्त‌<b/>अर‌ब‌<b/>अमीरात‌</i><par n="भारत__np"/></e>
-		<e lm="ब्रिटेन"> 	<i>ब्रिटेन</i><par n="भारत__np"/></e>
-		<e lm="इंगलैंड"> 	<i>इंगलैंड</i><par n="भारत__np"/></e>
-		<e lm="इंग्लैंड"> 	<i>इंग्लैंड</i><par n="भारत__np"/></e>
-		<e lm="संयुक्त‌ राज्य‌ अम‌रीका"> 	<i>संयुक्त‌<b/>राज्य‌<b/>अम‌रीका</i><par n="भारत__np"/></e>
-		<e lm="उरुग्वाय"> 	<i>उरुग्वाय</i><par n="भारत__np"/></e>
-		<e lm="उज़्बेकिस्तान‌"> 	<i>उज़्बेकिस्तान‌</i><par n="भारत__np"/></e>
-		<e lm="वानुआतु"> 	<i>वानुआतु</i><par n="भारत__np"/></e>
+		<e lm="ब्रिटेन"> 	<i>ब्रिटेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इंगलैंड"> 	<i>इंगलैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इंग्लैंड"> 	<i>इंग्लैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="संयुक्त‌ राज्य‌ अम‌रीका"> 	<i>संयुक्त‌<b/>राज्य‌<b/>अम‌रीक</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="उरुग्वाय"> 	<i>उरुग्वाय</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उज़्बेकिस्तान‌"> 	<i>उज़्बेकिस्तान‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="वानुआतु"> 	<i>वानुआतु</i><par n="दिल्ली__np"/></e>
 		<e lm="वैटिक‌न‌ सिटी राज्य‌"> 	<i>वैटिक‌न‌<b/>सिटी<b/>राज्य‌</i><par n="भारत__np"/></e>
-		<e lm="वेनेज़्वेला"> 	<i>वेनेज़्वेला</i><par n="भारत__np"/></e>
-		<e lm="विय‌त‌नाम‌"> 	<i>विय‌त‌नाम‌</i><par n="भारत__np"/></e>
-		<e lm="प‌श्चिमी स‌हारा"> 	<i>प‌श्चिमी<b/>स‌हारा</i><par n="भारत__np"/></e>
-		<e lm="य‌म‌न‌"> 	<i>य‌म‌न‌</i><par n="भारत__np"/></e>
-		<e lm="ज़ाम्बीया"> 	<i>ज़ाम्बीया</i><par n="भारत__np"/></e>
-		<e lm="ज़िम्बाब्वे"> 	<i>ज़िम्बाब्वे</i><par n="भारत__np"/></e>
+		<e lm="वेनेज़्वेला"> 	<i>वेनेज़्वेला</i><par n="दिल्ली__np"/></e>
+		<e lm="विय‌त‌नाम‌"> 	<i>विय‌त‌नाम‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="प‌श्चिमी स‌हारा"> 	<i>प‌श्चिमी<b/>स‌हारा</i><par n="दिल्ली__np"/></e>
+		<e lm="य‌म‌न‌"> 	<i>य‌म‌न‌</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ज़ाम्बीया"> 	<i>ज़ाम्बीया</i><par n="दिल्ली__np"/></e>
+		<e lm="ज़िम्बाब्वे"> 	<i>ज़िम्बाब्वे</i><par n="दिल्ली__np"/></e>
 		<e lm="आंध्र प्रदेश"> 	<i>आंध्र<b/>प्रदेश</i><par n="भारत__np"/></e>
-		<e lm="हैदराबाद"> 	<i>हैदराबाद</i><par n="भारत__np"/></e>
-		<e lm="जाफ़राबाद"> 	<i>जाफ़राबाद</i><par n="भारत__np"/></e>
-		<e lm="अरुणाचल प्रदेश"> 	<i>अरुणाचल<b/>प्रदेश</i><par n="भारत__np"/></e>
-		<e lm="असम"> 	<i>असम</i><par n="भारत__np"/></e>
-		<e lm="दिसपुर"> 	<i>दिसपुर</i><par n="भारत__np"/></e>
-		<e lm="बिहार"> 	<i>बिहार</i><par n="भारत__np"/></e>
-		<e lm="पटना"> 	<i>पटना</i><par n="भारत__np"/></e>
-		<e lm="छत्तीसगढ़"> 	<i>छत्तीसगढ़</i><par n="भारत__np"/></e>
-		<e lm="रायपुर"> 	<i>रायपुर</i><par n="भारत__np"/></e>
-		<e lm="गोआ"> 	<i>गोआ</i><par n="भारत__np"/></e>
-		<e lm="पणजी"> 	<i>पणजी</i><par n="भारत__np"/></e>
-		<e lm="गुजरात"> 	<i>गुजरात</i><par n="भारत__np"/></e>
-		<e lm="गांधीनगर"> 	<i>गांधीनगर</i><par n="भारत__np"/></e>
-		<e lm="हरियाणा"> 	<i>हरियाणा</i><par n="भारत__np"/></e>
-		<e lm="चंडीगढ़"> 	<i>चंडीगढ़</i><par n="भारत__np"/></e>
-		<e lm="हिमाचल प्रदेश"> 	<i>हिमाचल<b/>प्रदेश</i><par n="भारत__np"/></e>
-		<e lm="शिमला"> 	<i>शिमला</i><par n="भारत__np"/></e>
-		<e lm="जम्मू एण्ड कश्मीर"> 	<i>जम्मू<b/>एण्ड<b/>कश्मीर</i><par n="भारत__np"/></e>
-		<e lm="श्रीनगर और जम्मू"> 	<i>श्रीनगर<b/>और<b/>जम्मू</i><par n="भारत__np"/></e>
-		<e lm="कश्मीर"> 	<i>कश्मीर</i><par n="भारत__np"/></e>
-		<e lm="झारखंड"> 	<i>झारखंड</i><par n="भारत__np"/></e>
-		<e lm="रांची"> 	<i>रांची</i><par n="भारत__np"/></e>
+		<e lm="हैदराबाद"> 	<i>हैदराबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जाफ़राबाद"> 	<i>जाफ़राबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अरुणाचल प्रदेश"> 	<i>अरुणाचल<b/>प्रदेश</i><par n="कोल्हापूर__np"/></e>
+		<e lm="असम"> 	<i>असम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="दिसपुर"> 	<i>दिसपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बिहार"> 	<i>बिहार</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पटना"> 	<i>पटना</i><par n="दिल्ली__np"/></e>
+		<e lm="छत्तीसगढ़"> 	<i>छत्तीसगढ़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रायपुर"> 	<i>रायपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गोआ"> 	<i>गोव</i><par n="सातार/ा__np"/></e>
+		<e lm="पणजी"> 	<i>पणजी</i><par n="दिल्ली__np"/></e>
+		<e lm="गुजरात"> 	<i>गुजरात</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गांधीनगर"> 	<i>गांधीनगर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हरियाणा"> 	<i>हरियाणा</i><par n="दिल्ली__np"/></e>
+		<e lm="चंडीगढ़"> 	<i>चंडीगढ़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हिमाचल प्रदेश"> 	<i>हिमाचल<b/>प्रदेश</i><par n="कोल्हापूर__np"/></e>
+		<e lm="शिमला"> 	<i>शिमल</i><par n="सातार/ा__np"/></e>
+		<e lm="जम्मू एण्ड कश्मीर"> 	<i>जम्मू<b/>एण्ड<b/>कश्मीर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="श्रीनगर और जम्मू"> 	<i>श्रीनगर<b/>और<b/>जम्मू</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कश्मीर"> 	<i>कश्मीर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="झारखंड"> 	<i>झारखंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="रांची"> 	<i>रांची</i><par n="दिल्ली__np"/></e>
 		<e lm="कर्नाटक"> 	<i>कर्नाटक</i><par n="भारत__np"/></e>
-		<e lm="बैंगलोर"> 	<i>बैंगलोर</i><par n="भारत__np"/></e>
-		<e lm="केरल"> 	<i>केरल</i><par n="भारत__np"/></e>
-		<e lm="तिरुवनंतपुरम"> 	<i>तिरुवनंतपुरम</i><par n="भारत__np"/></e>
-		<e lm="मध्य प्रदेश"> 	<i>मध्य<b/>प्रदेश</i><par n="भारत__np"/></e>
-		<e lm="उत्तराखण्ड"> 	<i>उत्तराखण्ड</i><par n="भारत__np"/></e>	
-		<e lm="भोपाल"> 	<i>भोपाल</i><par n="भारत__np"/></e>
+		<e lm="बैंगलोर"> 	<i>बैंगलोर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="केरल"> 	<i>केरल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="तिरुवनंतपुरम"> 	<i>तिरुवनंतपुरम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मध्य प्रदेश"> 	<i>मध्य<b/>प्रदेश</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उत्तराखण्ड"> 	<i>उत्तराखण्ड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="भोपाल"> 	<i>भोपाल</i><par n="कोल्हापूर__np"/></e>
 		<e lm="महाराष्ट्र"> 	<i>महाराष्ट्र</i><par n="भारत__np"/></e>
-		<e lm="मुम्बई"> 	<i>मुम्बई</i><par n="भारत__np"/></e>
-		<e lm="मणिपुर"> 	<i>मणिपुर</i><par n="भारत__np"/></e>
-		<e lm="इम्फाल"> 	<i>इम्फाल</i><par n="भारत__np"/></e>
+		<e lm="मुम्बई"> 	<i>मुम्बई</i><par n="दिल्ली__np"/></e>
+		<e lm="मणिपुर"> 	<i>मणिपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इम्फाल"> 	<i>इम्फाल</i><par n="कोल्हापूर__np"/></e>
 		<e lm="मेघालय"> 	<i>मेघालय</i><par n="भारत__np"/></e>
-		<e lm="शिलांग"> 	<i>शिलांग</i><par n="भारत__np"/></e>
-		<e lm="मिज़ोरम"> 	<i>मिज़ोरम</i><par n="भारत__np"/></e>
-		<e lm="नागालैंड"> 	<i>नागालैंड</i><par n="भारत__np"/></e>
-		<e lm="कोहिमा"> 	<i>कोहिमा</i><par n="भारत__np"/></e>
-		<e lm="उड़ीसा"> 	<i>उड़ीसा</i><par n="भारत__np"/></e>
-		<e lm="भुवनेश्वर"> 	<i>भुवनेश्वर</i><par n="भारत__np"/></e>
-		<e lm="पंजाब"> 	<i>पंजाब</i><par n="भारत__np"/></e>
-		<e lm="राजस्थान"> 	<i>राजस्थान</i><par n="भारत__np"/></e>
-		<e lm="जयपुर"> 	<i>जयपुर</i><par n="भारत__np"/></e>
-		<e lm="सिक्किम"> 	<i>सिक्किम</i><par n="भारत__np"/></e>
-		<e lm="गंगटोक"> 	<i>गंगटोक</i><par n="भारत__np"/></e>
-		<e lm="तमिलनाडु"> 	<i>तमिलनाडु</i><par n="भारत__np"/></e>
-		<e lm="चेन्नई"> 	<i>चेन्नई</i><par n="भारत__np"/></e>
-		<e lm="त्रिपुरा"> 	<i>त्रिपुरा</i><par n="भारत__np"/></e>
-		<e lm="अगरतला"> 	<i>अगरतला</i><par n="भारत__np"/></e>
-		<e lm="उत्तरांचल"> 	<i>उत्तरांचल</i><par n="भारत__np"/></e>
-		<e lm="देहरादून"> 	<i>देहरादून</i><par n="भारत__np"/></e>
-		<e lm="उत्तर प्रदेश"> 	<i>उत्तर<b/>प्रदेश</i><par n="भारत__np"/></e>
-		<e lm="लखनऊ"> 	<i>लखनऊ</i><par n="भारत__np"/></e>
-		<e lm="पश्चिम बंगाल"> 	<i>पश्चिम<b/>बंगाल</i><par n="भारत__np"/></e>
-		<e lm="बंगाल"> 	<i>बंगाल</i><par n="भारत__np"/></e>
-		<e lm="कोलकाता"> 	<i>कोलकाता</i><par n="भारत__np"/></e>
-		<e lm="पोर्ट ब्लैर"> 	<i>पोर्ट<b/>ब्लैर</i><par n="भारत__np"/></e>
-		<e lm="सिल्वासा"> 	<i>सिल्वासा</i><par n="भारत__np"/></e>
-		<e lm="दमन और दीव"> 	<i>दमन<b/>और<b/>दीव</i><par n="भारत__np"/></e>
-		<e lm="दमन"> 	<i>दमन</i><par n="भारत__np"/></e>
-		<e lm="दिल्ली"> 	<i>दिल्ली</i><par n="भारत__np"/></e>
-		<e lm="इलाहाबाद"> 	<i>इलाहाबाद</i><par n="भारत__np"/></e>
-		<e lm="आगरा"> 	<i>आगरा</i><par n="भारत__np"/></e>
-		<e lm="अलीगढ़"> 	<i>अलीगढ़</i><par n="भारत__np"/></e>
-		<e lm="भागलपुर"> 	<i>भागलपुर</i><par n="भारत__np"/></e>
-		<e lm="फर्रुखाबाद"> 	<i>फर्रुखाबाद</i><par n="भारत__np"/></e>
-		<e lm="बेगूसराय"> 	<i>बेगूसराय</i><par n="भारत__np"/></e>
-		<e lm="कोइल"> 	<i>कोइल</i><par n="भारत__np"/></e>
-		<e lm="लक्षद्वीप"> 	<i>लक्षद्वीप</i><par n="भारत__np"/></e>
-		<e lm="कवरेटी"> 	<i>कवरेटी</i><par n="भारत__np"/></e>
-		<e lm="पॉन्डीचैरी"> 	<i>पॉन्डीचैरी</i><par n="भारत__np"/></e>
+		<e lm="शिलांग"> 	<i>शिलांग</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मिज़ोरम"> 	<i>मिज़ोरम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नागालैंड"> 	<i>नागालैंड</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोहिमा"> 	<i>कोहिम</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="उड़ीसा"> 	<i>उड़ीसा</i><par n="दिल्ली__np"/></e>
+		<e lm="भुवनेश्वर"> 	<i>भुवनेश्वर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पंजाब"> 	<i>पंजाब</i><par n="कोल्हापूर__np"/></e>
+		<e lm="राजस्थान"> 	<i>राजस्थान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जयपुर"> 	<i>जयपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिक्किम"> 	<i>सिक्किम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गंगटोक"> 	<i>गंगटोक</i><par n="कोल्हापूर__np"/></e>
+		<e lm="तमिलनाडु"> 	<i>तमिलनाडु</i><par n="दिल्ली__np"/></e>
+		<e lm="चेन्नई"> 	<i>चेन्नई</i><par n="दिल्ली__np"/></e>
+		<e lm="त्रिपुरा"> 	<i>त्रिपुरा</i><par n="दिल्ली__np"/></e>
+		<e lm="अगरतला"> 	<i>अगरतला</i><par n="दिल्ली__np"/></e>
+		<e lm="उत्तरांचल"> 	<i>उत्तरांचल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="देहरादून"> 	<i>देहरादून</i><par n="कोल्हापूर__np"/></e>
+		<e lm="उत्तर प्रदेश"> 	<i>उत्तर<b/>प्रदेश</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लखनऊ"> 	<i>लखनऊ</i><par n="दिल्ली__np"/></e>
+		<e lm="पश्चिम बंगाल"> 	<i>पश्चिम<b/>बंगाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बंगाल"> 	<i>बंगाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोलकाता"> 	<i>कलकत्त</i><par n="सातार/ा__np"/></e>
+		<e lm="पोर्ट ब्लैर"> 	<i>पोर्ट<b/>ब्लैर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिल्वासा"> 	<i>सिल्वासा</i><par n="दिल्ली__np"/></e>
+		<e lm="दमन और दीव"> 	<i>दमन<b/>और<b/>दीव</i><par n="कोल्हापूर__np"/></e>
+		<e lm="दमन"> 	<i>दमन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="दिल्ली"> 	<i>दिल्ली</i><par n="दिल्ली__np"/></e>
+		<e lm="इलाहाबाद"> 	<i>इलाहाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="आगरा"> 	<i>आगर</i><par n="सातार/ा__np"/></e>
+		<e lm="अलीगढ़"> 	<i>अलीगढ़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="भागलपुर"> 	<i>भागलपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फर्रुखाबाद"> 	<i>फर्रुखाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बेगूसराय"> 	<i>बेगूसराय</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोइल"> 	<i>कोइल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लक्षद्वीप"> 	<i>लक्षद्वीप</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कवरेटी"> 	<i>कवरेटी</i><par n="दिल्ली__np"/></e>
+		<e lm="पॉन्डीचैरी"> 	<i>पॉन्डीचैरी</i><par n="दिल्ली__np"/></e>
+        <!-- why are these here?
 		<e lm="जानेवारी"> 	<i>जानेवारी</i><par n="भारत__np"/></e>
 		<e lm="फेब्रुवारी"> 	<i>फेब्रुवारी</i><par n="भारत__np"/></e>
 		<e lm="मार्च"> 	<i>मार्च</i><par n="भारत__np"/></e>
@@ -17934,7 +17969,6 @@
 		<e lm="नोव्हेंबर"> 	<i>नोव्हेंबर</i><par n="भारत__np"/></e>
 		<e lm="डिसेंबर"> 	<i>डिसेंबर</i><par n="भारत__np"/></e>
 		<e lm="कबीर"> 	<i>कबीर</i><par n="भारत__np"/></e>
-		<e lm="गंगा"> 	<i>गंगा</i><par n="भारत__np"/></e>
 		<e lm="लो"> 	<i>लो</i><par n="भारत__np"/></e>
 		<e lm="गैलिलियो"> 	<i>गैलिलियो</i><par n="जेम्स__np"/></e>
 		<e lm="राहुल"> 	<i>राहुल</i><par n="जेम्स__np"/></e>
@@ -17943,143 +17977,142 @@
 		<e lm="काजोल"> 	<i>काजोल</i><par n="मैरी__np"/></e>
 		<e lm="कैलिस्टो"> 	<i>कैलिस्टो</i><par n="भारत__np"/></e>
 		<e lm="गेनीमेड"> 	<i>गेनीमेड</i><par n="भारत__np"/></e>
-		<e lm="अरब"> 	<i>अरब</i><par n="भारत__np"/></e>
-		<e lm="सिंध"> 	<i>सिंध</i><par n="भारत__np"/></e>
-		<e lm="सिन्ध"> 	<i>सिन्ध</i><par n="भारत__np"/></e>
-		<e lm="यूरोप"> 	<i>यूरोप</i><par n="भारत__np"/></e>
-		<e lm="इलिनॉय"> 	<i>इलिनॉय</i><par n="भारत__np"/></e>
-		<e lm="हिंद"> 	<i>हिंद</i><par n="भारत__np"/></e>
-		<e lm="मिनेसोटा"> 	<i>मिनेसोटा</i><par n="भारत__np"/></e>
-		<e lm="बलोचिस्तान"> 	<i>बलोचिस्तान</i><par n="भारत__np"/></e>
-		<e lm="इज़राइल"> 	<i>इज़राइल</i><par n="भारत__np"/></e>
-		<e lm="कोलम्बिया"> 	<i>कोलम्बिया</i><par n="भारत__np"/></e>
-		<e lm="इंडियाना"> 	<i>इंडियाना</i><par n="भारत__np"/></e>
-		<e lm="रोम"> 	<i>रोम</i><par n="भारत__np"/></e>
-		<e lm="पेशावर"> 	<i>पेशावर</i><par n="भारत__np"/></e>
-		<e lm="खैबर"> 	<i>खैबर</i><par n="भारत__np"/></e>
-		<e lm="इस्लामाबाद"> 	<i>इस्लामाबाद</i><par n="भारत__np"/></e>
-		<e lm="मिशिगन"> 	<i>मिशिगन</i><par n="भारत__np"/></e>
-		<e lm="बग़दाद"> 	<i>बग़दाद</i><par n="भारत__np"/></e>
-		<e lm="लेबनान"> 	<i>लेबनान</i><par n="भारत__np"/></e>
-		<e lm="यमन"> 	<i>यमन</i><par n="भारत__np"/></e>
-		<e lm="खुरासान"> 	<i>खुरासान</i><par n="भारत__np"/></e>
-		<e lm="मुल्तान"> 	<i>मुल्तान</i><par n="भारत__np"/></e>
-		<e lm="सेन्ट-गरमेन"> 	<i>सेन्ट-गरमेन</i><par n="भारत__np"/></e>
-		<e lm="फैसलाबाद"> 	<i>फैसलाबाद</i><par n="भारत__np"/></e>
-		<e lm="सैंट-आंद्रे"> 	<i>सैंट-आंद्रे</i><par n="भारत__np"/></e>
-		<e lm="दमिश्क"> 	<i>दमिश्क</i><par n="भारत__np"/></e>
-		<e lm="सूडान"> 	<i>सूडान</i><par n="भारत__np"/></e>
-		<e lm="जॉर्जस्"> 	<i>जॉर्जस्</i><par n="भारत__np"/></e>
-		<e lm="माराकेच"> 	<i>माराकेच</i><par n="भारत__np"/></e>
-		<e lm="इंडोनेशिया"> 	<i>इंडोनेशिया</i><par n="भारत__np"/></e>
-		<e lm="कूफ़ा"> 	<i>कूफ़ा</i><par n="भारत__np"/></e>
-		<e lm="क्युबेक"> 	<i>क्युबेक</i><par n="भारत__np"/></e>
+    -->
+        <e lm="गंगा"> 	<i>गंग</i><par n="अयोध्य/ा__np"/></e>
+		<e lm="अरब"> 	<i>अरब</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिंध"> 	<i>सिंध</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिन्ध"> 	<i>सिन्ध</i><par n="कोल्हापूर__np"/></e>
+		<e lm="यूरोप"> 	<i>यूरोप</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इलिनॉय"> 	<i>इलिनॉय</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हिंद"> 	<i>हिंद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मिनेसोटा"> 	<i>मिनेसोटा</i><par n="दिल्ली__np"/></e>
+		<e lm="बलोचिस्तान"> 	<i>बलोचिस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इज़राइल"> 	<i>इज़राइल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोलम्बिया"> 	<i>कोलम्बिया</i><par n="दिल्ली__np"/></e>
+		<e lm="इंडियाना"> 	<i>इंडियाना</i><par n="दिल्ली__np"/></e>
+		<e lm="रोम"> 	<i>रोम</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पेशावर"> 	<i>पेशावर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="खैबर"> 	<i>खैबर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इस्लामाबाद"> 	<i>इस्लामाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मिशिगन"> 	<i>मिशिगन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बग़दाद"> 	<i>बग़दाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लेबनान"> 	<i>लेबनान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="यमन"> 	<i>यमन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="खुरासान"> 	<i>खुरासान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मुल्तान"> 	<i>मुल्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सेन्ट-गरमेन"> 	<i>सेन्ट-गरमेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फैसलाबाद"> 	<i>फैसलाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सैंट-आंद्रे"> 	<i>सैंट-आंद्रे</i><par n="दिल्ली__np"/></e>
+		<e lm="दमिश्क"> 	<i>दमिश्क</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सूडान"> 	<i>सूडान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जॉर्जस्"> 	<i>जॉर्जस्</i><par n="कोल्हापूर__np"/></e>
+		<e lm="माराकेच"> 	<i>माराकेच</i><par n="कोल्हापूर__np"/></e>
+		<e lm="इंडोनेशिया"> 	<i>इंडोनेशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="कूफ़ा"> 	<i>कूफ़ा</i><par n="दिल्ली__np"/></e>
+		<e lm="क्युबेक"> 	<i>क्युबेक</i><par n="कोल्हापूर__np"/></e>
 		<e lm="कर्नाटक"> 	<i>कर्नाटक</i><par n="भारत__np"/></e>
-		<e lm="फ़िलीपीन्स"> 	<i>फ़िलीपीन्स</i><par n="भारत__np"/></e>
-		<e lm="अलबर्टा"> 	<i>अलबर्टा</i><par n="भारत__np"/></e>
-		<e lm="कुस्तुंतुनिया"> 	<i>कुस्तुंतुनिया</i><par n="भारत__np"/></e>
-		<e lm="दिल्ली"> 	<i>दिल्ली</i><par n="भारत__np"/></e>
-		<e lm="इस्तांबुल"> 	<i>इस्तांबुल</i><par n="भारत__np"/></e>
-		<e lm="काहिरा"> 	<i>काहिरा</i><par n="भारत__np"/></e>
-		<e lm="अटलांटिक"> 	<i>अटलांटिक</i><par n="भारत__np"/></e>
-		<e lm="ओण्टारियो"> 	<i>ओण्टारियो</i><par n="भारत__np"/></e>
-		<e lm="जलालाबाद"> 	<i>जलालाबाद</i><par n="भारत__np"/></e>
-		<e lm="मेक्सिको"> 	<i>मेक्सिको</i><par n="भारत__np"/></e>
-		<e lm="नार्वे"> 	<i>नार्वे</i><par n="भारत__np"/></e>
-		<e lm="सैंट-एत्येन"> 	<i>सैंट-एत्येन</i><par n="भारत__np"/></e>
-		<e lm="वाशिंगटन"> 	<i>वाशिंगटन</i><par n="भारत__np"/></e>
-		<e lm="मैसूर"> 	<i>मैसूर</i><par n="भारत__np"/></e>
-		<e lm="बल्तिस्तान"> 	<i>बल्तिस्तान</i><par n="भारत__np"/></e>
-		<e lm="गिलगित"> 	<i>गिलगित</i><par n="भारत__np"/></e>
-		<e lm="आंदालुसिया"> 	<i>आंदालुसिया</i><par n="भारत__np"/></e>
-		<e lm="वर्जीनिया"> 	<i>वर्जीनिया</i><par n="भारत__np"/></e>
-		<e lm="हिजाज़"> 	<i>हिजाज़</i><par n="भारत__np"/></e>
-		<e lm="लीबिया"> 	<i>लीबिया</i><par n="भारत__np"/></e>
+		<e lm="फ़िलीपीन्स"> 	<i>फ़िलीपीन्स</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अलबर्टा"> 	<i>अलबर्टा</i><par n="दिल्ली__np"/></e>
+		<e lm="कुस्तुंतुनिया"> 	<i>कुस्तुंतुनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="इस्तांबुल"> 	<i>इस्तांबुल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="काहिरा"> 	<i>काहिरा</i><par n="दिल्ली__np"/></e>
+		<e lm="अटलांटिक"> 	<i>अटलांटिक</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ओण्टारियो"> 	<i>ओण्टारियो</i><par n="दिल्ली__np"/></e>
+		<e lm="जलालाबाद"> 	<i>जलालाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मेक्सिको"> 	<i>मेक्सिको</i><par n="दिल्ली__np"/></e>
+		<e lm="नार्वे"> 	<i>नार्वे</i><par n="दिल्ली__np"/></e>
+		<e lm="सैंट-एत्येन"> 	<i>सैंट-एत्येन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="वाशिंगटन"> 	<i>वाशिंगटन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मैसूर"> 	<i>मैसूर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बल्तिस्तान"> 	<i>बल्तिस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गिलगित"> 	<i>गिलगित</i><par n="कोल्हापूर__np"/></e>
+		<e lm="आंदालुसिया"> 	<i>आंदालुसिया</i><par n="दिल्ली__np"/></e>
+		<e lm="वर्जीनिया"> 	<i>वर्जीनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="हिजाज़"> 	<i>हिजाज़</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लीबिया"> 	<i>लीबिया</i><par n="दिल्ली__np"/></e>
 		<e lm="झेलम"> 	<i>झेलम</i><par n="भारत__np"/></e>
-		<e lm="कैलिफोर्निया"> 	<i>कैलिफोर्निया</i><par n="भारत__np"/></e>
-		<e lm="मास्को"> 	<i>मास्को</i><par n="भारत__np"/></e>
-		<e lm="सहारनपुर"> 	<i>सहारनपुर</i><par n="भारत__np"/></e>
-		<e lm="विनिपेग"> 	<i>विनिपेग</i><par n="भारत__np"/></e>
-		<e lm="नेपाल"> 	<i>नेपाल</i><par n="भारत__np"/></e>
-		<e lm="एस्टोनिया"> 	<i>एस्टोनिया</i><par n="भारत__np"/></e>
-		<e lm="रियाद"> 	<i>रियाद</i><par n="भारत__np"/></e>
-		<e lm="हर्ज़ेगोविना"> 	<i>हर्ज़ेगोविना</i><par n="भारत__np"/></e>
-		<e lm="यूसुफ़ाबाद"> 	<i>यूसुफ़ाबाद</i><par n="भारत__np"/></e>
-		<e lm="सय्यदाबाद"> 	<i>सय्यदाबाद</i><par n="भारत__np"/></e>
-		<e lm="जहानाबाद"> 	<i>जहानाबाद</i><par n="भारत__np"/></e>
-		<e lm="ऐब्टाबाद"> 	<i>ऐब्टाबाद</i><par n="भारत__np"/></e>
-		<e lm="मानिटोबा"> 	<i>मानिटोबा</i><par n="भारत__np"/></e>
-		<e lm="ग्रेटर लंदन"> 	<i>ग्रेटर<b/>लंदन</i><par n="भारत__np"/></e>
-		<e lm="बुर्किना फासो"> 	<i>बुर्किना<b/>फासो</i><par n="भारत__np"/></e>
+		<e lm="कैलिफोर्निया"> 	<i>कैलिफोर्निया</i><par n="दिल्ली__np"/></e>
+		<e lm="मास्को"> 	<i>मास्को</i><par n="दिल्ली__np"/></e>
+		<e lm="सहारनपुर"> 	<i>सहारनपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="विनिपेग"> 	<i>विनिपेग</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नेपाल"> 	<i>नेपाल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="एस्टोनिया"> 	<i>एस्टोनिया</i><par n="दिल्ली__np"/></e>
+		<e lm="रियाद"> 	<i>रियाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हर्ज़ेगोविना"> 	<i>हर्ज़ेगोविना</i><par n="दिल्ली__np"/></e>
+		<e lm="यूसुफ़ाबाद"> 	<i>यूसुफ़ाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सय्यदाबाद"> 	<i>सय्यदाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="जहानाबाद"> 	<i>जहानाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ऐब्टाबाद"> 	<i>ऐब्टाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मानिटोबा"> 	<i>मानिटोबा</i><par n="दिल्ली__np"/></e>
+		<e lm="ग्रेटर लंदन"> 	<i>ग्रेटर<b/>लंदन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बुर्किना फासो"> 	<i>बुर्किना<b/>फासो</i><par n="दिल्ली__np"/></e>
 		<e lm="प्रशान्त महासागर"> 	<i>प्रशान्त<b/>महासागर</i><par n="भारत__np"/></e>
-		<e lm="इस्फ़हान"> 	<i>इस्फ़हान</i><par n="भारत__np"/></e>
-		<e lm="बर्लिन"> 	<i>बर्लिन</i><par n="भारत__np"/></e>
-		<e lm="देवबंद"> 	<i>देवबंद</i><par n="भारत__np"/></e>
-		<e lm="बसरा"> 	<i>बसरा</i><par n="भारत__np"/></e>
-		<e lm="सेन्ट-लगर"> 	<i>सेन्ट-लगर</i><par n="भारत__np"/></e>
-		<e lm="बहावलपुर"> 	<i>बहावलपुर</i><par n="भारत__np"/></e>
-		<e lm="स्पेन"> 	<i>स्पेन</i><par n="भारत__np"/></e>
-		<e lm="अल्बानिया"> 	<i>अल्बानिया</i><par n="भारत__np"/></e>
-		<e lm="आनातोलिया"> 	<i>आनातोलिया</i><par n="भारत__np"/></e>
-		<e lm="ज़ुल्फ़िकार"> 	<i>ज़ुल्फ़िकार</i><par n="भारत__np"/></e>
-		<e lm="सियालकोट"> 	<i>सियालकोट</i><par n="भारत__np"/></e>
-		<e lm="बम्बई"> 	<i>बम्बई</i><par n="भारत__np"/></e>
-		<e lm="कर्बला"> 	<i>कर्बला</i><par n="भारत__np"/></e>
-		<e lm="ट्यूनिस"> 	<i>ट्यूनिस</i><par n="भारत__np"/></e>
-		<e lm="ओहायो"> 	<i>ओहायो</i><par n="भारत__np"/></e>
-		<e lm="ओमान"> 	<i>ओमान</i><par n="भारत__np"/></e>
-		<e lm="दुबई"> 	<i>दुबई</i><par n="भारत__np"/></e>
-		<e lm="बाबिल"> 	<i>बाबिल</i><par n="भारत__np"/></e>
-		<e lm="हसपानीया"> 	<i>हसपानीया</i><par n="भारत__np"/></e>
-		<e lm="डेनमार्क"> 	<i>डेनमार्क</i><par n="भारत__np"/></e>
-		<e lm="ट्यूनीशिया"> 	<i>ट्यूनीशिया</i><par n="भारत__np"/></e>
-		<e lm="मानसेहरा"> 	<i>मानसेहरा</i><par n="भारत__np"/></e>
-		<e lm="झंग"> 	<i>झंग</i><par n="भारत__np"/></e>
-		<e lm="तेहरान"> 	<i>तेहरान</i><par n="भारत__np"/></e>
-		<e lm="गंगा"> 	<i>गंगा</i><par n="भारत__np"/></e>
-		<e lm="पेरू"> 	<i>पेरू</i><par n="भारत__np"/></e>
-		<e lm="कर्मान"> 	<i>कर्मान</i><par n="भारत__np"/></e>
-		<e lm="मार्सेल"> 	<i>मार्सेल</i><par n="भारत__np"/></e>
-		<e lm="ब्राज़ील"> 	<i>ब्राज़ील</i><par n="भारत__np"/></e>
-		<e lm="गुजराँवाला"> 	<i>गुजराँवाला</i><par n="भारत__np"/></e>
-		<e lm="सरगोढा"> 	<i>सरगोढा</i><par n="भारत__np"/></e>
-		<e lm="जनोव"> 	<i>जनोव</i><par n="भारत__np"/></e>
-		<e lm="टोरण्टो"> 	<i>टोरण्टो</i><par n="भारत__np"/></e>
-		<e lm="स्वात"> 	<i>स्वात</i><par n="भारत__np"/></e>
-		<e lm="अवध"> 	<i>अवध</i><par n="भारत__np"/></e>
-		<e lm="बुख़ारा"> 	<i>बुख़ारा</i><par n="भारत__np"/></e>
-		<e lm="क्यूबा"> 	<i>क्यूबा</i><par n="भारत__np"/></e>
-		<e lm="बंगलौर"> 	<i>बंगलौर</i><par n="भारत__np"/></e>
-		<e lm="कोलकाता"> 	<i>कोलकाता</i><par n="भारत__np"/></e>
-		<e lm="डकोटा"> 	<i>डकोटा</i><par n="भारत__np"/></e>
-		<e lm="अमृतसर"> 	<i>अमृतसर</i><par n="भारत__np"/></e>
-		<e lm="बॉस्निया"> 	<i>बॉस्निया</i><par n="भारत__np"/></e>
-		<e lm="सेन्ट-करोसटोफ़े"> 	<i>सेन्ट-करोसटोफ़े</i><par n="भारत__np"/></e>
-		<e lm="सेन्ट-रमे"> 	<i>सेन्ट-रमे</i><par n="भारत__np"/></e>
-		<e lm="हंगरी"> 	<i>हंगरी</i><par n="भारत__np"/></e>
-		<e lm="सेन्ट-बोनट"> 	<i>सेन्ट-बोनट</i><par n="भारत__np"/></e>
-		<e lm="बर्ग"> 	<i>बर्ग</i><par n="भारत__np"/></e>
-		<e lm="स्वीडन"> 	<i>स्वीडन</i><par n="भारत__np"/></e>
-		<e lm="सादिकाबाद"> 	<i>सादिकाबाद</i><par n="भारत__np"/></e>
-		<e lm="ढाका"> 	<i>ढाका</i><par n="भारत__np"/></e>
-		<e lm="कैलिफ़ोर्निया"> 	<i>कैलिफ़ोर्निया</i><par n="भारत__np"/></e>
-		<e lm="ख़्वारेज़्म"> 	<i>ख़्वारेज़्म</i><par n="भारत__np"/></e>
-		<e lm="वज़ीरिस्तान"> 	<i>वज़ीरिस्तान</i><par n="भारत__np"/></e>
-		<e lm="लुब्लिन"> 	<i>लुब्लिन</i><par n="भारत__np"/></e>
-		<e lm="केर"> 	<i>केर</i><par n="भारत__np"/></e>
-		<e lm="मलेशिया"> 	<i>मलेशिया</i><par n="भारत__np"/></e>
-		<e lm="क्रीमिया"> 	<i>क्रीमिया</i><par n="भारत__np"/></e>
-		<e lm="सीस्तान"> 	<i>सीस्तान</i><par n="भारत__np"/></e>
-		<e lm="नीकोपॉलिस"> 	<i>नीकोपॉलिस</i><par n="भारत__np"/></e>
-		<e lm="यकशारी"> 	<i>यकशारी</i><par n="भारत__np"/></e>
-		<e lm="सहारा"> 	<i>सहारा</i><par n="भारत__np"/></e>
-		<e lm="ग्रेट ब्रिटेन"> 	<i>ग्रेट<b/>ब्रिटेन</i><par n="भारत__np"/></e>
-		<e lm="कोसोवो"> 	<i>कोसोवो</i><par n="भारत__np"/></e>
-		<e lm="मसूरी"> 	<i>मसूरी</i><par n="भारत__np"/></e>
-		<e lm="वियना"> 	<i>वियना</i><par n="भारत__np"/></e>
-		<e lm="मोहाच"> 	<i>मोहाच</i><par n="भारत__np"/></e>
-		<e lm="फ्रांस"> 	<i>फ्रांस</i><par n="भारत__np"/></e>
-		<e lm="सिन्धु घाटी"> 	<i>सिन्धु<b/>घाटी</i><par n="भारत__np"/></e>
+		<e lm="इस्फ़हान"> 	<i>इस्फ़हान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बर्लिन"> 	<i>बर्लिन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="देवबंद"> 	<i>देवबंद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बसरा"> 	<i>बसर</i><par n="सातार/ा__np"/></e>
+		<e lm="सेन्ट-लगर"> 	<i>सेन्ट-लगर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बहावलपुर"> 	<i>बहावलपुर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्पेन"> 	<i>स्पेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अल्बानिया"> 	<i>अल्बानिया</i><par n="दिल्ली__np"/></e>
+		<e lm="आनातोलिया"> 	<i>आनातोलिया</i><par n="दिल्ली__np"/></e>
+		<e lm="ज़ुल्फ़िकार"> 	<i>ज़ुल्फ़िकार</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सियालकोट"> 	<i>सियालकोट</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बम्बई"> 	<i>बम्बई</i><par n="दिल्ली__np"/></e>
+		<e lm="कर्बला"> 	<i>कर्बला</i><par n="दिल्ली__np"/></e>
+		<e lm="ट्यूनिस"> 	<i>ट्यूनिस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ओहायो"> 	<i>ओहायो</i><par n="दिल्ली__np"/></e>
+		<e lm="ओमान"> 	<i>ओमान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="दुबई"> 	<i>दुबई</i><par n="दिल्ली__np"/></e>
+		<e lm="बाबिल"> 	<i>बाबिल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="हसपानीया"> 	<i>हसपानीया</i><par n="दिल्ली__np"/></e>
+		<e lm="डेनमार्क"> 	<i>डेनमार्क</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ट्यूनीशिया"> 	<i>ट्यूनीशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="मानसेहरा"> 	<i>मानसेहर</i><par n="सातार/ा__np"/></e>
+		<e lm="झंग"> 	<i>झंग</i><par n="कोल्हापूर__np"/></e>
+		<e lm="तेहरान"> 	<i>तेहरान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="पेरू"> 	<i>पेरू</i><par n="दिल्ली__np"/></e>
+		<e lm="कर्मान"> 	<i>कर्मान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मार्सेल"> 	<i>मार्सेल</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ब्राज़ील"> 	<i>ब्राज़ील</i><par n="कोल्हापूर__np"/></e>
+		<e lm="गुजराँवाला"> 	<i>गुजराँवाला</i><par n="दिल्ली__np"/></e>
+		<e lm="सरगोढा"> 	<i>सरगोढ</i><par n="सातार/ा__np"/></e>
+		<e lm="जनोव"> 	<i>जनोव</i><par n="कोल्हापूर__np"/></e>
+		<e lm="टोरण्टो"> 	<i>टोरण्टो</i><par n="दिल्ली__np"/></e>
+		<e lm="स्वात"> 	<i>स्वात</i><par n="कोल्हापूर__np"/></e>
+		<e lm="अवध"> 	<i>अवध</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बुख़ारा"> 	<i>बुख़ार</i><par n="सातार/ा__np"/></e>
+		<e lm="क्यूबा"> 	<i>क्यूबा</i><par n="दिल्ली__np"/></e>
+		<e lm="बंगलौर"> 	<i>बंगलौर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="डकोटा"> 	<i>डकोटा</i><par n="दिल्ली__np"/></e>
+		<e lm="अमृतसर"> 	<i>अमृतसर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बॉस्निया"> 	<i>बॉस्निया</i><par n="दिल्ली__np"/></e>
+		<e lm="सेन्ट-करोसटोफ़े"> 	<i>सेन्ट-करोसटोफ़े</i><par n="दिल्ली__np"/></e>
+		<e lm="सेन्ट-रमे"> 	<i>सेन्ट-रमे</i><par n="दिल्ली__np"/></e>
+		<e lm="हंगरी"> 	<i>हंगरी</i><par n="दिल्ली__np"/></e>
+		<e lm="सेन्ट-बोनट"> 	<i>सेन्ट-बोनट</i><par n="कोल्हापूर__np"/></e>
+		<e lm="बर्ग"> 	<i>बर्ग</i><par n="कोल्हापूर__np"/></e>
+		<e lm="स्वीडन"> 	<i>स्वीडन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सादिकाबाद"> 	<i>सादिकाबाद</i><par n="कोल्हापूर__np"/></e>
+		<e lm="ढाका"> 	<i>ढाका</i><par n="दिल्ली__np"/></e>
+		<e lm="कैलिफ़ोर्निया"> 	<i>कैलिफ़ोर्निया</i><par n="दिल्ली__np"/></e>
+		<e lm="ख़्वारेज़्म"> 	<i>ख़्वारेज़्म</i><par n="कोल्हापूर__np"/></e>
+		<e lm="वज़ीरिस्तान"> 	<i>वज़ीरिस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="लुब्लिन"> 	<i>लुब्लिन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="केर"> 	<i>केर</i><par n="कोल्हापूर__np"/></e>
+		<e lm="मलेशिया"> 	<i>मलेशिया</i><par n="दिल्ली__np"/></e>
+		<e lm="क्रीमिया"> 	<i>क्रीमिया</i><par n="दिल्ली__np"/></e>
+		<e lm="सीस्तान"> 	<i>सीस्तान</i><par n="कोल्हापूर__np"/></e>
+		<e lm="नीकोपॉलिस"> 	<i>नीकोपॉलिस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="यकशारी"> 	<i>यकशारी</i><par n="दिल्ली__np"/></e>
+		<e lm="सहारा"> 	<i>सहारा</i><par n="दिल्ली__np"/></e>
+		<e lm="ग्रेट ब्रिटेन"> 	<i>ग्रेट<b/>ब्रिटेन</i><par n="कोल्हापूर__np"/></e>
+		<e lm="कोसोवो"> 	<i>कोसोवो</i><par n="दिल्ली__np"/></e>
+		<e lm="मसूरी"> 	<i>मसूरी</i><par n="दिल्ली__np"/></e>
+		<e lm="वियना"> 	<i>वियना</i><par n="दिल्ली__np"/></e>
+		<e lm="मोहाच"> 	<i>मोहाच</i><par n="कोल्हापूर__np"/></e>
+		<e lm="फ्रांस"> 	<i>फ्रांस</i><par n="कोल्हापूर__np"/></e>
+		<e lm="सिन्धु घाटी"> 	<i>सिन्धु<b/>घाटी</i><par n="दिल्ली__np"/></e>
 
 	</section>
    <section id="final" type="inconditional">
