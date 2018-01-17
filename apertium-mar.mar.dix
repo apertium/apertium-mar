@@ -659,7 +659,7 @@
 		<e><p><l>च्या</l><r>च्या<s n="clit"/><j/></r></p><par n="__sg_case_clit"/></e>
 		<e><p><l></l><r></r></p><par n="__pl_case"/></e>
 		</pardef>
-	
+
 		<pardef n="__standalone_clit">
 			<e><p><l>च्या</l><r>च्या<s n="clit"/></r></p></e>
 		</pardef>
@@ -784,7 +784,7 @@
 			<e>		  <p><l>आपल्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="incl"/><s n="obl"/><j/></r></p><par n="__post_unbound"/></e>
 			<e>		  <p><l>आपल्या</l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="incl"/><s n="obl"/><j/></r></p><par n="__post_bound"/></e>
 		</pardef>
-			
+
 
 
 		<pardef n="/तो__prn">
@@ -807,7 +807,7 @@
 
 			<e>		  <p><l>त्यां</l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 			<e>		  <p><l>त्यां</l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			
+
 			</pardef>
 			<pardef n="/हा__prn">
 
@@ -971,6 +971,7 @@
 			<e>		  <p><l>हे</l><r>हा<s n="det"/><s n="prox"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e r="LR"><p><l>या</l><r>हा<s n="det"/><s n="prox"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e>		  <p><l>ही</l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 
 
 			<e>		  <p><l>ह्या</l><r>हा<s n="det"/><s n="prox"/><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__emph"/></e>
