@@ -3,94 +3,138 @@ SOFT-DELIMITERS = "<,>" ;
 
 SETS
 
-LIST N = n ; 
-LIST Obl = obl ; 
+LIST N = n ;
+LIST Obl = obl ;
 LIST Post = post ;
-LIST Adj = adj;
-LIST Adv = adv;
+LIST Adj = adj ;
+LIST Adv = adv ;
 LIST Stem = stem ;
 LIST Vaux = vaux ;
 LIST Verb = vblex ;
 LIST Vblex = vblex ;
 LIST Vbser = vbser ;
 LIST Det = det ;
-LIST Conj = cnjcoo;
+LIST Conj = cnjcoo ;
 LIST ConjAdv = cnjadv;
 LIST Prn = prn ;
 LIST F = f ;
-LIST M = m;
-LIST Nt = nt;
-LIST MFN = mfn;
-LIST Sg = sg;
-LIST Pl = pl;
- 
+LIST M = m ;
+LIST Nt = nt ;
+LIST MFN = mfn ;
+LIST Sg = sg ;
+LIST Pl = pl ;
+LIST Gen = gen ;
+
 
 SECTION
 
 #Det if succeeded by N or Adj
 SELECT Det IF
-   (0 Det)
-   (0 Prn)
-   (1 N) ;
+    (0 Det)
+    (0 Prn)
+    (1 N) ;
 
 SELECT Det IF
-   (0 Det)
-   (0 Prn)
-   (1 Adj)
-   (2 N) ;
+    (0 Det)
+    (0 Prn)
+    (1 Adj)
+    (2 N) ;
 
 #Otherwise, choose Prn
 SELECT Prn IF
-   (0 Det)
-   (0 Prn) ;
+    (0 Det)
+    (0 Prn) ;
 
 
 # ti - fem sg vs. neuter pl
 SELECT (det f sg) IF
-   (0 (det f sg))
-   (0 (det nt pl))
-   (1 (n f sg)) ;
+    (0 (det f sg))
+    (0 (det nt pl))
+    (1 (n f sg)) ;
 
 SELECT (det f sg) IF
-   (0 (det f sg))
-   (0 (det nt pl))
-   (1 Adj)
-   (2 (n f sg)) ;
+    (0 (det f sg))
+    (0 (det nt pl))
+    (1 Adj)
+    (2 (n f sg)) ;
 
 SELECT (det nt pl) IF
-   (0 (det f sg))
-   (0 (det nt pl))
-   (1 (n nt pl)) ;
+    (0 (det f sg))
+    (0 (det nt pl))
+    (1 (n nt pl)) ;
 
 SELECT (det nt pl) IF
-   (0 (det f sg))
-   (0 (det nt pl))
-   (1 Adj)
-   (2 (n nt pl)) ;
+    (0 (det f sg))
+    (0 (det nt pl))
+    (1 Adj)
+    (2 (n nt pl)) ;
 
+SELECT SUB:1 (f sg) IF
+    (0/1 (f sg))
+    (0/1 (nt pl))
+    (1 (n f sg)) ;
+
+SELECT SUB:1 (f sg) IF
+    (0/1 (f sg))
+    (0/1 (nt pl))
+    (1 Adj)
+    (2 (n f sg)) ;
+
+SELECT SUB:1 (nt pl) IF
+    (0/1 (f sg))
+    (0/1 (nt pl))
+    (1 (n nt pl)) ;
+
+SELECT SUB:1 (nt pl) IF
+    (0/1 (f sg))
+    (0/1 (nt pl))
+    (1 Adj)
+    (2 (n nt pl)) ;
 
 # te - neuter sg vs. masc pl.
 SELECT (det nt sg) IF
-   (0 (det nt sg))
-   (0 (det m pl))
-   (1 (n nt sg)) ;
+    (0 (det nt sg))
+    (0 (det m pl))
+    (1 (n nt sg)) ;
 
 SELECT (det nt sg) IF
-   (0 (det nt sg))
-   (0 (det m pl))
-   (1 Adj)
-   (2 (n nt sg)) ;
+    (0 (det nt sg))
+    (0 (det m pl))
+    (1 Adj)
+    (2 (n nt sg)) ;
 
 SELECT (det m pl) IF
-   (0 (det nt sg))
-   (0 (det m pl))
-   (1 (n m pl)) ;
+    (0 (det nt sg))
+    (0 (det m pl))
+    (1 (n m pl)) ;
 
 SELECT (det m pl) IF
-   (0 (det nt sg))
-   (0 (det m pl))
-   (1 Adj)
-   (2 (n m pl)) ;
+    (0 (det nt sg))
+    (0 (det m pl))
+    (1 Adj)
+    (2 (n m pl)) ;
+
+SELECT SUB:1 (nt sg) IF
+    (0/1 (nt sg))
+    (0/1 (m pl))
+    (1 (n nt sg)) ;
+
+SELECT SUB:1 (nt sg) IF
+    (0/1 (nt sg))
+    (0/1 (m pl))
+    (1 Adj)
+    (2 (n nt sg)) ;
+
+SELECT SUB:1 (m pl) IF
+    (0/1 (nt sg))
+    (0/1 (m pl))
+    (1 (n m pl)) ;
+
+SELECT SUB:1 (m pl) IF
+    (0/1 (nt sg))
+    (0/1 (m pl))
+    (1 Adj)
+    (2 (n m pl)) ;
 
 
 #tya fem nom pl vs obl det
@@ -111,3 +155,47 @@ SELECT (det mfn sg obl) IF
 	(0 (det mfn pl obl))
 	(0 (det mfn sg obl))
 	(1 (n sg obl)) ;
+
+SELECT (det f pl nom) IF
+	(0 (det f pl nom))
+	(0 (det mfn sg obl))
+	(0 (det mfn pl obl))
+    (1 Adj)
+	(2 (n f pl nom)) ;
+
+SELECT (det mfn pl obl) IF
+	(0 (det f pl nom))
+	(0 (det mfn pl obl))
+	(0 (det mfn sg obl))
+    (1 Adj)
+	(2 (n pl obl)) ;
+
+SELECT (det mfn sg obl) IF
+	(0 (det f pl nom))
+	(0 (det mfn pl obl))
+	(0 (det mfn sg obl))
+    (1 Adj)
+	(2 (n sg obl)) ;
+
+# chya genitive fem pl nom vs mfn sp obl
+SELECT SUB:1 (f pl nom) IF
+	(0/1 (f pl nom))
+	(0/1 (mfn sp obl))
+	(1 (n f pl nom)) ;
+
+SELECT SUB:1 (mfn sp obl) IF
+	(0/1 (f pl nom))
+	(0/1 (mfn sp obl))
+	(1 (n obl)) ;
+
+SELECT SUB:1 (f pl nom) IF
+	(0/1 (f pl nom))
+	(0/1 (mfn sp obl))
+    (1 Adj)
+	(2 (n f pl nom)) ;
+
+SELECT SUB:1 (mfn sp obl) IF
+	(0/1 (f pl nom))
+	(0/1 (mfn sp obl))
+    (1 Adj)
+	(2 (n obl)) ;
