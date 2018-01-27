@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="mar-tagger" install="yes">
+  <mode name="mar-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="mar.automorf.bin"/>
@@ -28,7 +28,7 @@
     </pipeline>
   </mode>
 
-  <mode name="mar-disam" install="yes">
+  <mode name="mar-disam-trace" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="mar.automorf.bin"/>
@@ -39,6 +39,5 @@
       </program>
     </pipeline>
   </mode>
-
 
 </modes>
