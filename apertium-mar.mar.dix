@@ -921,8 +921,7 @@
 			<e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e r="LR"><p><l>ं</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e><p><l>ी</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>्या</l><r>ा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>ी</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>्या</l><r>ा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
@@ -954,22 +953,10 @@
 			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 
-			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 		<p><l>रे</l><r>रा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
-		</pardef>
-
-		<pardef n="दुस/रा__adj">
- 			<e> 		<p><l>रा</l><r>रा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>र्</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
+
 			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
@@ -3044,24 +3031,44 @@
 			<e> 		<p><l></l><r><s n="adv"/></r></p><par n="__emph"/></e>
 		</pardef>
 
+        <pardef n="__adv_adj">
+            <!-- used only for tithla, ithla, jithla -->
+ 			<e><p><l>ा</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e><p><l>ी</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e><p><l>े</l><r><s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>ं</l><r><s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>े</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e><p><l>ी</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e><p><l>्या</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e><p><l>ी</l><r><s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
+			<e><p><l>्या</l><r><s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
+		</pardef>
+
 		<pardef n="/येथे__adv">
-			<e> 		<p><l>येथे</l><r>येथे<s n="adv"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>येथील</l><r>येथे<s n="adv"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>येथून</l><r>येथे<s n="adv"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>इथे</l><r>येथे<s n="adv"/></r></p><par n="__emph"/></e>
+            <e> 		<p><l>येथे</l><r>येथे<s n="adv"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>इथे</l><r>येथे<s n="adv"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>येथील</l><r>येथील</r></p><par n="/लाल__adj"/></e>
+            <e r="LR">	<p><l>इथल</l><r>येथील</r></p><par n="__adv_adj"/></e>
+			<e> 		<p><l>येथून</l><r>येथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>इथून</l><r>येथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
 		<pardef n="/तेथे__adv">
 			<e> 		<p><l>तेथे</l><r>तेथे<s n="adv"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>तेथील</l><r>तेथे<s n="adv"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>तेथून</l><r>तेथे<s n="adv"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>तिथे</l><r>तेथे<s n="adv"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>तिथे</l><r>तेथे<s n="adv"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तेथील</l><r>तेथील</r></p><par n="/लाल__adj"/></e>
+            <e r="LR">	<p><l>तिथल</l><r>तेथील</r></p><par n="__adv_adj"/></e>
+			<e> 		<p><l>तेथून</l><r>तेथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>तिथून</l><r>तेथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
 		<pardef n="/जेथे__adv">
-			<e> 		<p><l>जेथे</l><r>जेथे<s n="adv"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>जेथील</l><r>जेथे<s n="adv"/><s n="mfn"/><s n="sp"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>जिथे</l><r>जेथे<s n="adv"/></r></p><par n="__emph"/></e>
+            <e> 		<p><l>जेथे</l><r>जेथे<s n="adv"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>जिथे</l><r>जेथे<s n="adv"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>जेथील</l><r>जेथील</r></p><par n="/लाल__adj"/></e>
+            <e r="LR">	<p><l>जिथल</l><r>जेथील</r></p><par n="__adv_adj"/></e>
+			<e> 		<p><l>जेथून</l><r>जेथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>जिथून</l><r>जेथे<s n="adv"/><s n="abl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
 		<!-- negation bb -->
@@ -16606,7 +16613,6 @@
 		<e lm="तट्टा">                        	<i>तट्ट</i><par n="काळ/ा__adj" /></e>
 		<e lm="तेढा">                         	<i>तेढ</i><par n="काळ/ा__adj" /></e>
 		<e lm="तेवढा">                        	<i>तेवढ</i><par n="काळ/ा__adj" /></e>
-		<e lm="तिथला">                        	<i>तिथल</i><par n="काळ/ा__adj" /></e>
 		<e lm="तिकडचा">                       	<i>तिकडच</i><par n="काळ/ा__adj" /></e>
 		<e lm="तितका">                        	<i>तितक</i><par n="काळ/ा__adj" /></e>
 		<e lm="तोळामासा">                     	<i>तोळामास</i><par n="काळ/ा__adj" /></e>
@@ -16676,7 +16682,7 @@
 		<e lm="तिसरा">                        	<i>तिस</i><par n="ख/रा__adj" /></e>
 		<e lm="तोतरा">                        	<i>तोत</i><par n="ख/रा__adj" /></e>
 		<e lm="दुखरा">                        	<i>दुख</i><par n="ख/रा__adj" /></e>
-		<e lm="दुसरा">                        	<i>दुस</i><par n="दुस/रा__adj" /></e>
+		<e lm="दुसरा">                        	<i>दुस</i><par n="ख/रा__adj" /></e>
 
 		<e lm="थोडासा">                        <i>थोड</i><par n="थोड/ासा__adj" /></e>
 		<e lm="छोटासा">                        <i>छोट</i><par n="थोड/ासा__adj" /></e>

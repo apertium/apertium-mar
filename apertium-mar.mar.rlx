@@ -4,7 +4,7 @@ SUBREADINGS = LTR ;
 
 SETS
 
-LIST N = n ;
+LIST Noun = n ;
 LIST Obl = obl ;
 LIST Post = post ;
 LIST Adj = adj ;
@@ -18,185 +18,180 @@ LIST Det = det ;
 LIST Conj = cnjcoo ;
 LIST ConjAdv = cnjadv;
 LIST Prn = prn ;
-LIST F = f ;
-LIST M = m ;
-LIST Nt = nt ;
-LIST MFN = mfn ;
-LIST Sg = sg ;
-LIST Pl = pl ;
 LIST Gen = gen ;
+
+SET DetPrn = Det OR Prn ;
+SET DetAdjGen = Det OR Adj OR Gen ;
 
 
 SECTION
 
 #Det if succeeded by N or Adj
 SELECT Det IF
-    (0 Det)
-    (0 Prn)
-    (1 N) ;
+    (0 DetPrn)
+    (1 Noun) ;
 
 SELECT Det IF
-    (0 Det)
-    (0 Prn)
+    (0 DetPrn)
     (1 Adj)
-    (2 N) ;
+    (2 Noun) ;
 
 #Otherwise, choose Prn
 SELECT Prn IF
-    (0 Det)
-    (0 Prn) ;
+    (0 DetPrn) ;
 
 
-# ti - fem sg vs. neuter pl
-SELECT (det f sg) IF
-    (0 (det f sg))
-    (0 (det nt pl))
-    (1 (n f sg)) ;
+# 'ti', 'kali', etc.: fem sg vs. neuter pl
 
-SELECT (det f sg) IF
-    (0 (det f sg))
-    (0 (det nt pl))
+LIST Femsg = (f sg) ;
+LIST NounFemsg = (n f sg) ;
+LIST Ntpl = (nt pl) ;
+LIST NounNtpl = (n nt pl) ;
+SET _FemsgNtpl = Femsg OR Ntpl ;
+SET FemsgNtpl = _FemsgNtpl + DetAdjGen ;
+
+SELECT Femsg IF
+    (0 FemsgNtpl)
+    (1 NounFemsg) ;
+
+SELECT Femsg IF
+    (0 FemsgNtpl)
     (1 Adj)
-    (2 (n f sg)) ;
+    (2 NounFemsg) ;
 
-SELECT (det nt pl) IF
-    (0 (det f sg))
-    (0 (det nt pl))
-    (1 (n nt pl)) ;
+SELECT Ntpl IF
+    (0 FemsgNtpl)
+    (1 NounNtpl) ;
 
-SELECT (det nt pl) IF
-    (0 (det f sg))
-    (0 (det nt pl))
+SELECT Ntpl IF
+    (0 FemsgNtpl)
     (1 Adj)
-    (2 (n nt pl)) ;
+    (2 NounNtpl) ;
 
-SELECT SUB:1 (f sg) IF
-    (0/1 (f sg))
-    (0/1 (nt pl))
-    (1 (n f sg)) ;
+SELECT SUB:1 Femsg IF
+    (0/1 FemsgNtpl)
+    (1 NounFemsg) ;
 
-SELECT SUB:1 (f sg) IF
-    (0/1 (f sg))
-    (0/1 (nt pl))
+SELECT SUB:1 Femsg IF
+    (0/1 FemsgNtpl)
     (1 Adj)
-    (2 (n f sg)) ;
+    (2 NounFemsg) ;
 
-SELECT SUB:1 (nt pl) IF
-    (0/1 (f sg))
-    (0/1 (nt pl))
-    (1 (n nt pl)) ;
+SELECT SUB:1 Ntpl IF
+    (0/1 FemsgNtpl)
+    (1 NounNtpl) ;
 
-SELECT SUB:1 (nt pl) IF
-    (0/1 (f sg))
-    (0/1 (nt pl))
+SELECT SUB:1 Ntpl IF
+    (0/1 FemsgNtpl)
     (1 Adj)
-    (2 (n nt pl)) ;
+    (2 NounNtpl) ;
 
-# te - neuter sg vs. masc pl.
-SELECT (det nt sg) IF
-    (0 (det nt sg))
-    (0 (det m pl))
-    (1 (n nt sg)) ;
 
-SELECT (det nt sg) IF
-    (0 (det nt sg))
-    (0 (det m pl))
+# 'te', 'kale', etc.: neuter sg vs. masc pl
+
+LIST Ntsg = (nt sg) ;
+LIST NounNtsg = (n nt sg) ;
+LIST Mpl = (m pl) ;
+LIST NounMpl = (n m pl) ;
+SET _NtsgMpl = Ntsg OR Mpl ;
+SET NtsgMpl = _NtsgMpl + DetAdjGen ;
+
+SELECT Ntsg IF
+    (0 NtsgMpl)
+    (1 NounNtsg) ;
+
+SELECT Ntsg IF
+    (0 NtsgMpl)
     (1 Adj)
-    (2 (n nt sg)) ;
+    (2 NounNtsg) ;
 
-SELECT (det m pl) IF
-    (0 (det nt sg))
-    (0 (det m pl))
-    (1 (n m pl)) ;
+SELECT Mpl IF
+    (0 NtsgMpl)
+    (1 NounMpl) ;
 
-SELECT (det m pl) IF
-    (0 (det nt sg))
-    (0 (det m pl))
+SELECT Mpl IF
+    (0 NtsgMpl)
     (1 Adj)
-    (2 (n m pl)) ;
+    (2 NounMpl) ;
 
-SELECT SUB:1 (nt sg) IF
-    (0/1 (nt sg))
-    (0/1 (m pl))
-    (1 (n nt sg)) ;
+SELECT SUB:1 Ntsg IF
+    (0/1 NtsgMpl)
+    (1 NounNtsg) ;
 
-SELECT SUB:1 (nt sg) IF
-    (0/1 (nt sg))
-    (0/1 (m pl))
+SELECT SUB:1 Ntsg IF
+    (0/1 NtsgMpl)
     (1 Adj)
-    (2 (n nt sg)) ;
+    (2 NounNtsg) ;
 
-SELECT SUB:1 (m pl) IF
-    (0/1 (nt sg))
-    (0/1 (m pl))
-    (1 (n m pl)) ;
+SELECT SUB:1 Mpl IF
+    (0/1 NtsgMpl)
+    (1 NounMpl) ;
 
-SELECT SUB:1 (m pl) IF
-    (0/1 (nt sg))
-    (0/1 (m pl))
+SELECT SUB:1 Mpl IF
+    (0/1 NtsgMpl)
     (1 Adj)
-    (2 (n m pl)) ;
+    (2 NounMpl) ;
 
 
-#tya fem nom pl vs obl det
-SELECT (det f pl nom) IF
-	(0 (det f pl nom))
-	(0 (det mfn sg obl))
-	(0 (det mfn pl obl))
-	(1 (n f pl nom)) ;
+#'tya', 'kalya', etc.: fem nom pl vs. obl
 
-SELECT (det mfn pl obl) IF
-	(0 (det f pl nom))
-	(0 (det mfn pl obl))
-	(0 (det mfn sg obl))
-	(1 (n pl obl)) ;
+LIST FemplNom = (f pl nom) ;
+LIST NounFemplNom = (n f pl nom) ;
+LIST Sgsp = sg sp ;
+SET SgObl = (mfn obl) + Sgsp ;
+LIST NounSgObl = (n sg obl) ;
+LIST Plsp = pl sp ;
+SET PlObl = (mfn obl) + Plsp ;
+LIST NounPlObl = (n pl obl) ;
+LIST Sgplsp = sg pl sp ;
+LIST NounObl = (n obl) ;
+SET MfnObl = (mfn obl) + Sgplsp ;
+SET _FemplnomMfnobl = FemplNom OR MfnObl ;
+SET FemplnomMfnobl = _FemplnomMfnobl + DetAdjGen ;
 
-SELECT (det mfn sg obl) IF
-	(0 (det f pl nom))
-	(0 (det mfn pl obl))
-	(0 (det mfn sg obl))
-	(1 (n sg obl)) ;
+SELECT FemplNom IF
+	(0 FemplnomMfnobl)
+	(1 NounFemplNom) ;
 
-SELECT (det f pl nom) IF
-	(0 (det f pl nom))
-	(0 (det mfn sg obl))
-	(0 (det mfn pl obl))
+SELECT PlObl IF
+	(0 FemplnomMfnobl)
+	(1 NounPlObl) ;
+
+SELECT SgObl IF
+	(0 FemplnomMfnobl)
+	(1 NounSgObl) ;
+
+SELECT FemplNom IF
+	(0 FemplnomMfnobl)
     (1 Adj)
-	(2 (n f pl nom)) ;
+	(2 NounFemplNom) ;
 
-SELECT (det mfn pl obl) IF
-	(0 (det f pl nom))
-	(0 (det mfn pl obl))
-	(0 (det mfn sg obl))
+SELECT PlObl IF
+	(0 FemplnomMfnobl)
     (1 Adj)
-	(2 (n pl obl)) ;
+	(2 NounPlObl) ;
 
-SELECT (det mfn sg obl) IF
-	(0 (det f pl nom))
-	(0 (det mfn pl obl))
-	(0 (det mfn sg obl))
+SELECT SgObl IF
+	(0 FemplnomMfnobl)
     (1 Adj)
-	(2 (n sg obl)) ;
+	(2 NounSgObl) ;
 
 # chya genitive fem pl nom vs mfn sp obl
-SELECT SUB:1 (f pl nom) IF
-	(0/1 (f pl nom))
-	(0/1 (mfn sp obl))
-	(1 (n f pl nom)) ;
 
-SELECT SUB:1 (mfn sp obl) IF
-	(0/1 (f pl nom))
-	(0/1 (mfn sp obl))
-	(1 (n obl)) ;
+SELECT SUB:1 FemplNom IF
+	(0/1 FemplnomMfnobl)
+	(1 NounFemplNom) ;
 
-SELECT SUB:1 (f pl nom) IF
-	(0/1 (f pl nom))
-	(0/1 (mfn sp obl))
+SELECT SUB:1 MfnObl IF
+	(0/1 FemplnomMfnobl)
+	(1 NounObl) ;
+
+SELECT SUB:1 FemplNom IF
+	(0/1 FemplnomMfnobl)
     (1 Adj)
-	(2 (n f pl nom)) ;
+	(2 NounFemplNom) ;
 
-SELECT SUB:1 (mfn sp obl) IF
-	(0/1 (f pl nom))
-	(0/1 (mfn sp obl))
+SELECT SUB:1 MfnObl IF
+	(0/1 FemplnomMfnobl)
     (1 Adj)
-	(2 (n obl)) ;
+    (2 NounObl) ;
