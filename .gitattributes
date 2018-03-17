@@ -29,3 +29,8 @@ seg/mar.1.dix -text
 seg/mar.2.dix -text
 texts/puupankki/puupankki.mar.conllu -text
 texts/story.vislcg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
