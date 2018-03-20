@@ -41,7 +41,7 @@ SELECT Prn IF
     (0 DetPrn) ;
 
 
-# 'ti', 'kali', etc.: fem sg vs. neuter pl
+# 'ti', 'tyachi', 'kali', etc.: fem sg vs. neuter pl
 
 LIST Femsg = (f sg) ;
 LIST NounFemsg = (n f sg) ;
@@ -87,7 +87,7 @@ SELECT SUB:1 Ntpl IF
     (2 NounNtpl) ;
 
 
-# 'te', 'kale', etc.: neuter sg vs. masc pl
+# 'te', 'tyache', 'kale', etc.: neuter sg vs. masc pl
 
 LIST Ntsg = (nt sg) ;
 LIST NounNtsg = (n nt sg) ;
@@ -133,7 +133,7 @@ SELECT SUB:1 Mpl IF
     (2 NounMpl) ;
 
 
-#'tya', 'kalya', etc.: fem nom pl vs. obl
+#'tya', 'tyachya', 'kalya', etc.: fem nom pl vs. obl
 
 LIST FemplNom = (f pl nom) ;
 LIST NounFemplNom = (n f pl nom) ;
@@ -175,8 +175,6 @@ SELECT SgObl IF
 	(0 FemplnomMfnobl)
     (1 Adj)
 	(2 NounSgObl) ;
-
-# chya genitive fem pl nom vs mfn sp obl
 
 SELECT SUB:1 FemplNom IF
 	(0/1 FemplnomMfnobl)

@@ -206,10 +206,13 @@
 			<e> 		<p><l>ए</l><r>ए<s n="inj"/></r></p></e>
 			<e> 		<p><l>ई</l><r>ई<s n="inj"/></r></p></e>
 			<e> 		<p><l>रे</l><r>रे<s n="inj"/></r></p></e>
+            <e> 		<p><l>अरे</l><r>अरे<s n="inj"/></r></p></e>
+            <e> 		<p><l>गं</l><r>गं<s n="inj"/></r></p></e>
+            <e> 		<p><l>अगं</l><r>अगं<s n="inj"/></r></p></e>
 			<e> 		<p><l>ओ</l><r>ओ<s n="inj"/></r></p></e>
 			<e> 		<p><l>आ</l><r>आ<s n="inj"/></r></p></e>
 			<e> 		<p><l>हो</l><r>हो<s n="inj"/></r></p></e>
-			<e r="LR"> 		<p><l>होय</l><r>हो<s n="inj"/></r></p></e>
+			<e r="LR"> 	<p><l>होय</l><r>हो<s n="inj"/></r></p></e>
 			<e> 		<p><l>नाही</l><r>नाही<s n="inj"/></r></p></e>
 			<e> 		<p><l>हो</l><r>हो<s n="inj"/></r></p></e>
 
@@ -220,8 +223,8 @@
 
             <e> 		<p><l>ा</l><r><s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>ी</l><r><s n="gen"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-            <e> 		<p><l>े</l><r><s n="gen"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-            <e r="LR">	<p><l>ं</l><r><s n="gen"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>े</l><r><s n="gen"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e> 		<p><l>ं</l><r><s n="gen"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>े</l><r><s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>्या</l><r><s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>ी</l><r><s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -238,8 +241,8 @@
             <e> 		<p><l>ा</l><r><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>ी</l><r><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>े</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-            <e r="LR">	<p><l>ं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-            <e> 		<p><l>े</l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e> 		<p><l>ं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>े</l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>्या</l><r><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>ी</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
             <e>       	<p><l>्या</l><r><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
@@ -306,10 +309,10 @@
 
 
 		<pardef n="__inf_endings">
-			<e> 		<p><l>े</l><r><s n="ger"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>ं</l><r><s n="ger"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>े</l><r><s n="ger"/><s n="acc"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>ं</l><r><s n="ger"/><s n="acc"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>े</l><r><s n="ger"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ं</l><r><s n="ger"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>े</l><r><s n="ger"/><s n="acc"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ं</l><r><s n="ger"/><s n="acc"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्याला</l><r><s n="ger"/><s n="dat"/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>्याने</l><r><s n="ger"/><s n="inst"/></r></p><par n="__emph"/></e>
@@ -504,8 +507,9 @@
         <pardef n="__sg_case_clit">
             <!-- singular case markers which can take a clit before them-->
 
-            <e> 		<p><l>ने</l><r>ने<s n="erg"/></r></p><par n="__emph"/></e>
+            <e r="LR">	<p><l>ने</l><r>ने<s n="erg"/></r></p><par n="__emph"/></e>
             <e r="LR"> 	<p><l>नी</l><r>ने<s n="erg"/></r></p><par n="__emph"/></e>
+            <e> 		<p><l>नं</l><r>ने<s n="erg"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>हून</l><r>हून<s n="abl"/></r></p><par n="__emph"/></e>
             <e> 		<p><l>त</l><r>त<s n="loc"/></r></p><par n="__emph"/></e>
 
@@ -584,8 +588,8 @@
         	<!-- adjective endings (CHECK) -->
         	<e> 		<p><l>ा</l><r><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>ी</l><r><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-        	<e> 		<p><l>े</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-        	<e r="LR">	<p><l>ं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+        	<e r="LR">	<p><l>े</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+        	<e> 		<p><l>ं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>े</l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>्या</l><r><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>ी</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
@@ -600,8 +604,8 @@
         	<e> 		<p><l>रा</l><r><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>री</l><r><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>रे</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-        	<e r="LR">	<p><l>रं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-        	<e> 		<p><l>रे</l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+        	<e> 		<p><l>रं</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+        	<e r="LR">	<p><l>रे</l><r><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>ऱ्या</l><r><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>री</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>ऱ्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
@@ -919,8 +923,8 @@
 		<pardef n="काळ/ा__adj">
  			<e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e><p><l>ी</l><r>ा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"><p><l>ं</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>े</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e><p><l>ं</l><r>ा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>्या</l><r>ा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e><p><l>ी</l><r>ा<s n="adj"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -930,9 +934,8 @@
 		<pardef n="क/सा__adj">
  			<e> 		<p><l>सा</l><r>सा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>शी</l><r>सा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>शे</l><r>सा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>से</l><r>सा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>सं</l><r>सा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>सं</l><r>सा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 
 			<e> 	<p><l>शी</l><r>सा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e r="LR"> 	<p><l>शे</l><r>सा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -950,8 +953,8 @@
 		<pardef n="ख/रा__adj">
  			<e> 		<p><l>रा</l><r>रा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>री</l><r>रा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>रे</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>रं</l><r>रा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 
 			<e> 		<p><l>रे</l><r>रा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ऱ्या</l><r>रा<s n="adj"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -963,8 +966,8 @@
 		<pardef n="थोड/ासा__adj">
  			<e><p><l>ासा</l><r>ासा<s n="adj"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e><p><l>ीशी</l><r>ासा<s n="adj"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e><p><l>ेसे</l><r>ासा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"><p><l>ंसं</l><r>ासा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>ेसे</l><r>ासा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e><p><l>ंसं</l><r>ासा<s n="adj"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 
 			<e><p><l>ीशी</l><r>ासा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e r="LR"><p><l>ेसे</l><r>ासा<s n="adj"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1102,8 +1105,8 @@
 			<e> 		<p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ं</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>े</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ं</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
@@ -1145,9 +1148,9 @@
 		</pardef>
 
 		<pardef n="भांड/े__n_nt">
-			<e> 		<p><l>े</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>े</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l></l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>ं</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ं</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>्</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
@@ -1330,8 +1333,8 @@
 			<e> 		<p><l>ूस</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>सा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>सा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>से</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>सं</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>से</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>सं</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>सां</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>सां</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
@@ -1356,8 +1359,8 @@
 
 			<e> 		<p><l>तो</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ते</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ते</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR"> 	<p><l>तं</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR"> 	<p><l>ते</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>तं</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>तात</l><r><s n="pres"/><s n="impf"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p><par n="__emph"/></e>
 		</pardef>
 
@@ -1425,8 +1428,8 @@
 
 			<e>			<p><l>लेला</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>लेली</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e>			<p><l>लेले</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>लेलं</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>लेले</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>			<p><l>लेलं</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>लेले</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>लेल्या</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>लेली</l><r><s n="past"/><s n="perf"/><s n="p2"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1454,8 +1457,8 @@
 
 			<e>			<p><l>ायचा</l><r><s n="pred"/><s n="p2"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>ायची</l><r><s n="pred"/><s n="p2"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e>			<p><l>ायचे</l><r><s n="pred"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR">	<p><l>ायचं</l><r><s n="pred"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ायचे</l><r><s n="pred"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>			<p><l>ायचं</l><r><s n="pred"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>ायचे</l><r><s n="pred"/><s n="p2"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>ायच्या</l><r><s n="pred"/><s n="p2"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>			<p><l>ायची</l><r><s n="pred"/><s n="p2"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1479,8 +1482,8 @@
 
 			<e>       	<p><l>ावा</l><r><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ावी</l><r><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e>       	<p><l>ावे</l><r><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
-			<e r="LR">  <p><l>ावं</l><r><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e r="LR">  <p><l>ावे</l><r><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
+			<e>       	<p><l>ावं</l><r><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ावे</l><r><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>ावेत</l><r><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>ाव्या</l><r><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/></r></p><par n="__emph"/></e>
@@ -1498,6 +1501,8 @@
 			<!-- infinitives -->
 
 			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
+
+			<e> 		<p><l>णं</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1550,6 +1555,7 @@
 		<pardef n="प/हा__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>हाणे</l><r>हाणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>हाणं</l><r>हाणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1604,6 +1610,7 @@
 		<pardef n="क/र__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>रणे</l><r>रणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>रणं</l><r>रणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1659,6 +1666,7 @@
 		<pardef n="लिह/ी__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>िणे</l><r>ीणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>िणं</l><r>ीणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1712,6 +1720,7 @@
 		<pardef n="मिळ__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>णे</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>णं</l><r>णे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1764,6 +1773,7 @@
 		<pardef n="/जा__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>जाणे</l><r>जाणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>जाणं</l><r>जाणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1826,6 +1836,7 @@
 		<pardef n="/ये__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>येणे</l><r>येणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>येणं</l><r>येणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -1999,6 +2010,7 @@
 		<pardef n="/दे__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>देणे</l><r>देणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>देणं</l><r>देणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -2061,6 +2073,7 @@
 		<pardef n="/घे__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>घेणे</l><r>घेणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>घेणं</l><r>घेणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -2123,6 +2136,7 @@
 		<pardef n="/म्हण__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>म्हणणे</l><r>म्हणणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>म्हणणं</l><r>म्हणणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -2179,6 +2193,7 @@
 		<pardef n="सांग/__vblex">
 			<!-- infinitives -->
 			<e> 		<p><l>णे</l><r>सांगणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>णं</l><r>सांगणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
@@ -2233,6 +2248,7 @@
 		<pardef n="/असणे__vaux">
 			<!-- infinitives -->
 			<e> 		<p><l>असणे</l><r>असणे<s n="vblex"/><s n="inf"/></r></p></e>
+			<e> 		<p><l>असणं</l><r>असणे<s n="vblex"/><s n="inf"/></r></p></e>
 
 			<!-- gerunds -->
 			<!-- same as infinitive in the nominative -->
