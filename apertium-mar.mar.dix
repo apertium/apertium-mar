@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑॲऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅँॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣंः</alphabet>
+  <alphabet>ऄअआइईउऊऋऌऍऎएऐऑॲऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऻऺऽािीुूृॄॅँॆेैॉॊोौ्ॎॐ॓॔क़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣंः‍</alphabet>
 	<sdefs>
 		<sdef n="n"			c="noun" />
 		<sdef n="vaux"		c="auxiliary verb" />
@@ -497,9 +497,8 @@
 			<e><p><l>मधून</l><r>मधून<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 			<e r="LR"><p><l>मध्ये</l><r>मधे<s n="post"/><s n="adv"/></r></p><par n="__emph"/></e>
 			<e><p><l>मधल</l><r>मधे<s n="post"/><s n="attr"/></r></p><par n="__post_attr_suff"/></e>
-			<e><p><l>मधील</l><r>मधे<s n="post"/><s n="attr"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e><p><l>मधील</l><r>मधे<s n="post"/><s n="attr"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e><p><l>मधील</l><r>मधे<s n="post"/><s n="attr"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e><p><l>मधील</l><r>मधे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p><par n="__emph"/></e>
+            <e><p><l>मधील</l><r>मधे<s n="post"/><s n="attr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p><par n="__emph"/></e>
 
 		</pardef>
 
@@ -595,8 +594,10 @@
         	<e> 		<p><l>ी</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
         	<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+        	<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
         	<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
         	<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+        	<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
         </pardef>
 
         <pardef n="__gpr_gen">
@@ -610,8 +611,10 @@
         	<e> 		<p><l>री</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
         	<e> 		<p><l>ऱ्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
         	<e> 		<p><l>ऱ्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+        	<e> 		<p><l>ऱ्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
         	<e> 		<p><l>ऱ्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
         	<e> 		<p><l>ऱ्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+        	<e> 		<p><l>ऱ्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
         </pardef>
 
 		<pardef n="__big_suff">
@@ -634,8 +637,10 @@
 			<e> 		<p><l>ी</l><r><s n="p3"/><s n="nt"/><s n="pl"/></r></p><par n="__emph"/></e>
 			<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>्या</l><r><s n="mfn"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 			<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>       	<p><l>्यां</l><r><s n="mfn"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
         <pardef n="__prn_accdat">
@@ -1002,24 +1007,28 @@
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
 			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="दिल्ली__np">
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="पुण/े__np">
 			<e><p><l>े</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
 			<e><p><l>्या</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e><p><l>्या</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l>्या</l><r>े<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="सातार/ा__np">
 			<e><p><l>ा</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
 			<e><p><l>्या</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e><p><l>्या</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l>्या</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="कोल्हापूर__np">
@@ -1027,12 +1036,14 @@
 			<e><p><l>ा</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__post_bound_no_clit_special"/></e>
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="अयोध्य/ा__np">
-			<e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
-			<e><p><l>े</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e><p><l>े</l><r><s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e><p><l></l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+			<e><p><l>े</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e><p><l>े</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+            <e><p><l>े</l><r>ा<s n="np"/><s n="top"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 	    <pardef n="टाटा__np">
@@ -1048,9 +1059,11 @@
 		<pardef n="मुल/गा__n_m">
 			<e> 		<p><l>गा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ा</l><r>गा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ं</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ां</l><r>गा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
@@ -1058,18 +1071,22 @@
 			<e> 		<p><l>गी</l><r>गी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r>गी<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ी</l><r>गी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r>गी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ी</l><r>गी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ीं</l><r>गी<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="__clit_pl_case"/></e>
 			<e> 		<p><l>ीं</l><r>गी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ीं</l><r>गी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 
 		</pardef>
 
 		<pardef n="चो/री__n_f">
 			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>री</l><r>री<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>र्या</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>र्यां</l><r>री<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
@@ -1114,9 +1131,11 @@
 		<pardef n="रस्त/ा__n_m">
 			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
@@ -1132,19 +1151,12 @@
 		<pardef n="सुट्ट/ी__n_f">
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
-		</pardef>
-
-		<pardef n="लढा/ई__n_f">
-			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ाया</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ायां</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>ायां</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="भांड/े__n_nt">
@@ -1153,78 +1165,84 @@
 			<e> 		<p><l>ं</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e r="LR">	<p><l>्</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्या</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ी</l><r>े<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्यां</l><r>े<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="विद्य/ा__n_f">
 			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r>े<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r>े<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>े</l><r>े<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>ां</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e> 		<p><l>ां</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ां</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>ां</l><r>ा<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="दुसर/ा__n_m">
 			<e> 		<p><l>ा</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>े</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्या</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="वेळ__n_f">
 			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="न्हाव/ी__n_m">
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="न्हाव/ी__n_f">
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="न्हाव/ी__n_nt">
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
-		</pardef>
-
-		<pardef n="न्हाव/ी__n">
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्या</l><r><s n="n"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l>ी</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-			<e> 		<p><l>्यां</l><r><s n="n"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्या</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="क्रिकेट__n_m">
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 		</pardef>
 
@@ -1232,116 +1250,145 @@
 		<pardef n="सूज__n_f">
 			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="हौस__n_f">
 			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>े</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ेन</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ा</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ां</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="प्रवासी__n_m">
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="भिकार/ी__n_f">
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="भिकार/ी__n_m">
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="गाय__n_f">
 			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
-			<e> 		<p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
+			<e> 		<p><l>ी</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ीं</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="ब/ी__n_nt">
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>िया</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="ब/ी__n_f">
 			<e> 		<p><l>ी</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ि</l><r>ी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>िया</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ियां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="भा/ऊ__n_m">
 			<e> 		<p><l>ऊ</l><r>ऊ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>वा</l><r>ऊ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>वा</l><r>ऊ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>वा</l><r>ऊ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>ऊ</l><r>ऊ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>वां</l><r>ऊ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>वां</l><r>ऊ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>वां</l><r>ऊ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="बा/ई__n_f">
 			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>या</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>यां</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>यां</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>यां</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+            <e r="LR">	<p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
+			<e r="LR">	<p><l>ईं</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR">	<p><l>ईं</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e r="LR">	<p><l>ईं</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="स/सा__n_m">
 			<e> 		<p><l>सा</l><r>सा<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>श्या</l><r>सा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>श्या</l><r>सा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>श्या</l><r>सा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>से</l><r>सा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>श्यां</l><r>सा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>श्यां</l><r>सा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>श्यां</l><r>सा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="माण/ूस__n_m">
 			<e> 		<p><l>ूस</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>सा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>सा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>सा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e r="LR"> 	<p><l>से</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>सं</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>सां</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>सां</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>सां</l><r>ूस<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="पा/ऊस__n_m">
 			<e> 		<p><l>ऊस</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>वसा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e> 		<p><l>वसा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>वसा</l><r>ूस<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 		</pardef>
 
@@ -2528,6 +2575,7 @@
 			<e>		<p><l>एक</l><r>एक<s n="num"/></r></p><par n="__emph"/></e>
 			<e>     <p><l>एका</l><r>एक<s n="num"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e>     <p><l>एका</l><r>एक<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>     <p><l>एका</l><r>एक<s n="num"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e>		<p><l>पहिल</l><r>एक<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>एकपट</l><r>एक<s n="num"/><s n="mult"/></r></p><par n="__emph"/></e>
 
@@ -2535,6 +2583,7 @@
 			<e>		<p><l>दोन</l><r>दोन<s n="num"/></r></p><par n="__emph"/></e>
 			<e>     <p><l>दोघां</l><r>दोन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e>     <p><l>दोघां</l><r>दोन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>     <p><l>दोघां</l><r>दोन<s n="num"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e>     <p><l>दोन्ही</l><r>दोन<s n="num"/><s n="aggr"/></r></p></e>
 			<e>		<p><l>दुसर</l><r>दोन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>दुप्पट</l><r>दोन<s n="num"/><s n="mult"/></r></p><par n="__emph"/></e>
@@ -2543,6 +2592,7 @@
 			<e>		<p><l>तीन</l><r>तीन<s n="num"/></r></p><par n="__emph"/></e>
 			<e>     <p><l>तिघां</l><r>तीन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e>     <p><l>तिघां</l><r>तीन<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>     <p><l>तिघां</l><r>तीन<s n="num"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e>     <p><l>तीन्ही</l><r>तीन<s n="num"/><s n="aggr"/></r></p></e>
 			<e>		<p><l>तिसर</l><r>तीन<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>तिप्पट</l><r>तीन<s n="num"/><s n="mult"/></r></p><par n="__emph"/></e>
@@ -2551,6 +2601,7 @@
 			<e>		<p><l>चार</l><r>चार<s n="num"/></r></p><par n="__emph"/></e>
 			<e>     <p><l>चौघां</l><r>चार<s n="num"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e>     <p><l>चौघां</l><r>चार<s n="num"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e>     <p><l>चौघां</l><r>चार<s n="num"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e>     <p><l>चारही</l><r>चार<s n="num"/><s n="aggr"/></r></p></e>
 			<e>		<p><l>चौथ</l><r>चार<s n="num"/><s n="ord"/><j/></r></p><par n="__gpr_suff"/></e>
 			<e>		<p><l>चौपट</l><r>चार<s n="num"/><s n="mult"/></r></p><par n="__emph"/></e>
@@ -5047,25 +5098,25 @@
 		<e lm="मुख्यमंत्री">                       	<i>मुख्यमंत्र</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="अपराधी">                       	<i>अपराध</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पीकपाणी">                      	<i>पीकपाण</i><par n="न्हाव/ी__n_nt" /></e>
-		<e lm="जायबंदी">                      	<i>जायबंद</i><par n="न्हाव/ी__n" /></e>
-		<e lm="हीनलक्शणी">                    	<i>हीनलक्शण</i><par n="न्हाव/ी__n" /></e>
-		<e lm="मानवतावादी">                   	<i>मानवतावाद</i><par n="न्हाव/ी__n" /></e>
+		<e lm="जायबंदी">                      	<i>जायबंद</i><par n="न्हाव/ी__n_m" /></e>
+		<e lm="हीनलक्शणी">                    	<i>हीनलक्शण</i><par n="न्हाव/ी__n_m" /></e>
+		<e lm="मानवतावादी">                   	<i>मानवतावाद</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="अग्निहोत्री">                  	<i>अग्निहोत्र</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="कुश्ठरोगी">                    	<i>कुश्ठरोग</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="प्राणी">                       	<i>प्राण</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पाणी">                         	<i>पाण</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="न्हावी">                       	<i>न्हाव</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पक्षी">                       		<i>पक्ष</i><par n="न्हाव/ी__n_m" /></e>
-		<e lm="परमार्थी">                     	<i>परमार्थ</i><par n="न्हाव/ी__n" /></e>
-		<e lm="ग्ऋ्हस्थाष्रमी">               	<i>ग्ऋ्हस्थाष्रम</i><par n="न्हाव/ी__n" /></e>
+		<e lm="परमार्थी">                     	<i>परमार्थ</i><par n="न्हाव/ी__n_m" /></e>
+		<e lm="ग्ऋ्हस्थाष्रमी">               	<i>ग्ऋ्हस्थाष्रम</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="फेरतपासणी">                    	<i>फेरतपासण</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="विद्यार्थी">                   	<i>विद्यार्थ</i><par n="न्हाव/ी__n_m" /></e>
-		<e lm="अतिरेकी">                      	<i>अतिरेक</i><par n="न्हाव/ी__n" /></e>
+		<e lm="अतिरेकी">                      	<i>अतिरेक</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पोटपाणी">                      	<i>पोटपाण</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="दही">                          	<i>दह</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="बैरागी">                       	<i>बैराग</i><par n="न्हाव/ी__n_m" /></e>
-		<e lm="साम्राज्यवादी">                	<i>साम्राज्यवाद</i><par n="न्हाव/ी__n" /></e>
-		<e lm="दुर्गुणी">                     	<i>दुर्गुण</i><par n="न्हाव/ी__n" /></e>
+		<e lm="साम्राज्यवादी">                	<i>साम्राज्यवाद</i><par n="न्हाव/ी__n_m" /></e>
+		<e lm="दुर्गुणी">                     	<i>दुर्गुण</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="पानी">                         	<i>पान</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="पथ्यपाणी">                     	<i>पथ्यपाण</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="नीलमणी">                       	<i>नीलमण</i><par n="न्हाव/ी__n_m" /></e>
@@ -5077,7 +5128,7 @@
 		<e lm="दवापाणी">                      	<i>दवापाण</i><par n="न्हाव/ी__n_nt" /></e>
 		<e lm="रोकडीहुंडी">                   	<i>रोकडीहुंड</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="हवापाणी">                      	<i>हवापाण</i><par n="न्हाव/ी__n_nt" /></e>
-		<e lm="अडाणी">                        	<i>अडाण</i><par n="न्हाव/ी__n" /></e>
+		<e lm="अडाणी">                        	<i>अडाण</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="रोगी">                         	<i>रोग</i><par n="न्हाव/ी__n_m" /></e>
 		<e lm="धुणी">                         	<i>धुण</i><par n="न्हाव/ी__n_f" /></e>
 		<e lm="चितकबरा">                      	<i>चितकबर</i><par n="दुसर/ा__n_m" /></e>
@@ -6295,7 +6346,7 @@
 		<e lm="दुभते">                        	<i>दुभत</i><par n="भांड/े__n_nt" /></e>
 		<e lm="दुपटे">                        	<i>दुपट</i><par n="भांड/े__n_nt" /></e>
 		<e lm="दुटे">                         	<i>दुट</i><par n="भांड/े__n_nt" /></e>
-		<e lm="लढाई">                        	<i>लढा</i><par n="लढा/ई__n_f" /></e>
+		<e lm="लढाई">                        	<i>लढा</i><par n="बा/ई__n_f" /></e>
 		<e lm="आहुती">                        	<i>आहुत</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="भट्टी">                        	<i>भट्ट</i><par n="सुट्ट/ी__n_f" /></e>
 		<e lm="फळी">                          	<i>फळ</i><par n="सुट्ट/ी__n_f" /></e>
