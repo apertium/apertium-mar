@@ -1196,10 +1196,16 @@
 			<e> 		<p><l>ऱ्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ऱ्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ऱ्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
+			<e r="LR">	<p><l>र्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR">	<p><l>र्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e r="LR">	<p><l>र्या</l><r>ा<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="__clit_sg_case"/></e>
 			<e> 		<p><l>रे</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p><par n="__emph"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ा<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="वेळ__n_f">
@@ -1286,6 +1292,9 @@
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
 		<pardef n="भिका/री__n_m">
@@ -1297,6 +1306,9 @@
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 			<e> 		<p><l>ऱ्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e r="LR">	<p><l>र्यां</l><r>ी<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="__clit_pl_case"/></e>
 		</pardef>
 
         <pardef n="माळ/ी__n_m">
