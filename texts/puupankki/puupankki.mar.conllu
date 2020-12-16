@@ -119,7 +119,7 @@
 3	पण	पण	_	adv	_	4	advmod	_	_
 4	कुत्रा	कुत्रा	_	n	m|sg|nom	0	root	_	_
 5	आहे	आहे	_	vaux	pres|p3|mfn|sg	4	cop	_	_
-6	का	का	_	adv	interr	5	advmod	_	_
+6	का	का	_	adv	itg	5	advmod	_	_
 7	?	?	_	sent	_	4	punct	_	_
 
 1	नाही	नाही	_	part	_	5	discourse	_	_
@@ -202,7 +202,7 @@
 2	कारण	कारण	_	n	nt|sg|nom	3	dobj	_	_
 3	माहित	माहित	_	adv	_	0	root	_	_
 4	आहे	आहे	_	vaux	pres|p3|mfn|sg	3	cop	_	_
-5	का	का	_	adv	interr	3	advmod	_	_
+5	का	का	_	adv	itg	3	advmod	_	_
 6	?	?	_	sent	_	3	punct	_	_
 
 1	मेरी	मेरी	_	np	ant|f|sg|nom	2	nsubj	_	_
@@ -237,7 +237,7 @@
 
 1	ती	ती	_	prn	p3|f|sg|nom	4	nsubj	_	_
 2	तसं	तसं	_	adv	_	4	advmod	_	_
-3	का	का	_	adv	interr	4	advmod	_	_
+3	का	का	_	adv	itg	4	advmod	_	_
 4	करते	करणे	_	vblex	impf|p3|f|sg	0	root	_	_
 5	?	?	_	sent	_	4	punct	_	_
 
@@ -246,7 +246,7 @@
 3-4	झाडाजवळ	_	_	_	_	_	_	_	_
 3	_	झाड	_	n	nt|sg|obl	6	nmod	_	_
 4	_	जवळ	_	post	adv	3	case	_	_
-5	काय	काय	_	prn	interr|mfn|sp|nom	6	dobj	_	_
+5	काय	काय	_	prn	itg|mfn|sp|nom	6	dobj	_	_
 6	करत	करणे	_	vblex	impf	0	root	_	_
 7	आहे	आहे	_	vaux	pres|p3|mfn|sg	6	cop	_	_
 8	?	?	_	sent	_	6	punct	_	_
@@ -279,7 +279,7 @@
 2	तुला	तू	_	prn	p2|mf|sg|dat	3	nsubj	_	_
 3	माहित	माहित	_	adv	_	0	root	_	_
 4	आहे	आहे	_	vaux	pres|p3|mfn|sg	3	cop	_	_
-5	का	का	_	adv	interr	3	advmod	_	_
+5	का	का	_	adv	itg	3	advmod	_	_
 6	,	,	_	cm	_	3	punct	_	_
 7	तो	तो	_	prn	p3|m|sg|nom	8	nsubj	_	_
 8	कुठे	कुठे	_	adv	_	3	ccomp	_	_
@@ -308,7 +308,7 @@
 6	तुला	तू	_	prn	p2|mf|sg|dat	8	nsubj	_	_
 7	जेम्स	जेम्स	_	np	ant|m|sg|nom	8	dobj	_	_
 8	दिसला	दिसणे	_	vblex	perf|p3|m|sg	0	root	_	_
-9	का	का	_	adv	interr	8	advmod	_	_
+9	का	का	_	adv	itg	8	advmod	_	_
 10	?	?	_	sent	_	8	punct	_	_
 
 1	पण	पण	_	cnjcoo	_	6	cc	_	_
@@ -485,7 +485,7 @@
 1	तो	तो	_	prn	p3|m|sg|nom	2	nsubj	_	_
 2	जेम्स	जेम्स	_	np	ant|m|sg|nom	0	root	_	_
 3	असेल	आहे	_	vaux	fut|p3|mfn|sg	2	cop	_	_
-4	का	का	_	adv	interr	2	advmod	_	_
+4	का	का	_	adv	itg	2	advmod	_	_
 5	?	?	_	sent	_	2	punct	_	_
 
 1-2	तोच	_	_	_	_	_	_	_	_

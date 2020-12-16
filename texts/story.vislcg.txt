@@ -227,7 +227,7 @@
 "<आहे>"
 	"आहे" vaux pres p3 mfn sg @cop #5->4
 "<का>"
-	"का" adv interr @advmod #6->5
+	"का" adv itg @advmod #6->5
 "<?>"
 	"?" sent @punct #7->4
 
@@ -360,7 +360,7 @@
 "<आहे>"
 	"आहे" vaux pres p3 mfn sg @cop #4->3
 "<का>"
-	"का" adv interr @advmod #5->3
+	"का" adv itg @advmod #5->3
 "<?>"
 	"?" sent @punct #6->3
 
@@ -418,7 +418,7 @@
 "<तसं>"
 	"तसं" adv @advmod #2->4
 "<का>"
-	"का" adv interr @advmod #3->4
+	"का" adv itg @advmod #3->4
 "<करते>"
 	"करणे" vblex impf p3 f sg @root #4->0
 "<?>"
@@ -432,7 +432,7 @@
 	"झाड" n nt sg obl @nmod #3->6
 	"जवळ" post adv @case #4->3
 "<काय>"
-	"काय" prn interr mfn sp nom @dobj #5->6
+	"काय" prn itg mfn sp nom @dobj #5->6
 "<करत>"
 	"करणे" vblex impf @root #6->0
 "<आहे>"
@@ -488,7 +488,7 @@
 "<आहे>"
 	"आहे" vaux pres p3 mfn sg @cop #4->3
 "<का>"
-	"का" adv interr @advmod #5->3
+	"का" adv itg @advmod #5->3
 "<,>"
 	"," cm @punct #6->3
 "<तो>"
@@ -538,7 +538,7 @@
 "<दिसला>"
 	"दिसणे" vblex perf p3 m sg @root #8->0
 "<का>"
-	"का" adv interr @advmod #9->8
+	"का" adv itg @advmod #9->8
 "<?>"
 	"?" sent @punct #10->8
 
@@ -871,7 +871,7 @@
 "<असेल>"
 	"आहे" vaux fut p3 mfn sg @cop #3->2
 "<का>"
-	"का" adv interr @advmod #4->2
+	"का" adv itg @advmod #4->2
 "<?>"
 	"?" sent @punct #5->2
 	

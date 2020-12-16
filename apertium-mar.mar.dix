@@ -50,7 +50,7 @@
 		<sdef n="hort"      c="Hortative" />
 		<sdef n="hab"      c="Habitual" />
 		<sdef n="incp"		c="Inceptive" />
-		<sdef n="interr"    c="interrogative" />
+		<sdef n="itg"    c="interrogative" />
 		<sdef n="refl"	 	c="Reflexive" />
 		<sdef n="rel"		c="Relative" />
 		<sdef n="corel"		c="Correlative" />
@@ -808,36 +808,36 @@
 
 		<!-- interrogative (check) -->
 		<pardef n="/कोण__interr">
-			<e>		  <p><l>कोण</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-    		<e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-    		<e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
-            <e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_case_no_clit"/></e>
-            <e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_case_no_clit"/></e>
-            <e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_fem_case_clit"/></e>
-            <e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_fem_case_clit"/></e>
-			<e>		  <p><l>कोणी</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/>ने<s n="erg"/></r></p><par n="__emph"/></e>
-			<e r="LR"><p><l>कुणी</l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/>ने<s n="erg"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कोणा</l><r>कोण<s n="det"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
+			<e>		  <p><l>कोण</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+    		<e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+    		<e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__clit"/></e>
+            <e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_case_no_clit"/></e>
+            <e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_case_no_clit"/></e>
+            <e>		  <p><l>कोणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_fem_case_clit"/></e>
+            <e r="LR"><p><l>कुणा</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__sg_fem_case_clit"/></e>
+			<e>		  <p><l>कोणी</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/>ने<s n="erg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कुणी</l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/>ने<s n="erg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कोणा</l><r>कोण<s n="det"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__default_gen"/></e>
 		</pardef>
 
 		<pardef n="/काय__interr">
-			<e>		  <p><l>काय</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कशानी</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/></r></p><par n="__emph"/></e>
-			<e r="LR"><p><l>कशाने</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="erg"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कशापासून</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="abl"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कश्यात</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p><par n="__emph"/></e>
-			<e>		  <p><l>कश्याच</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__gen_suff"/></e>
+			<e>		  <p><l>काय</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशानी</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="erg"/></r></p><par n="__emph"/></e>
+			<e r="LR"><p><l>कशाने</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="erg"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशाला</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कशापासून</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="abl"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कश्यात</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p><par n="__emph"/></e>
+			<e>		  <p><l>कश्याच</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><j/></r></p><par n="__gen_suff"/></e>
 			<!-- CHECK -->
-			<e>		  <p><l>कसा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
-			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_unbound"/></e>
-			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_bound"/></e>
-			<e>		  <p><l>कसल</l><r>काय<s n="adj"/><s n="interr"/><s n="mfn"/><s n="sp"/></r></p></e>
+			<e>		  <p><l>कसा</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_unbound"/></e>
+			<e>		  <p><l>कशा</l><r>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/><j/></r></p><par n="__post_bound"/></e>
+			<e>		  <p><l>कसल</l><r>काय<s n="adj"/><s n="itg"/><s n="mfn"/><s n="sp"/></r></p></e>
 		</pardef>
 
 		<pardef n="/का__interr">
-			<e> 	  <p><l>का</l><r>का<s n="adv"/><s n="interr"/></r></p></e>
+			<e> 	  <p><l>का</l><r>का<s n="adv"/><s n="itg"/></r></p></e>
 		</pardef>
 
 		<!-- rel/corel -->
