@@ -9,3 +9,16 @@
 /configure
 /install-sh
 /missing
+/*.bin
+/*.hfst
+/*.gz
+/*.zhfst
+/.DS_Store
+/ap_include.am
+/modes
+/*.mode
+/*-*.prob
+/.deps
+/config.in
+/config
+/test/*-output.txt
